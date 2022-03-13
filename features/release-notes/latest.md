@@ -1,0 +1,109 @@
+---
+description: Lexar-mode engage
+---
+
+# 8.4
+
+#### Published Oct 03 2021
+
+WolvenKit 8.4 brings major quality-of-life improvements in a relatively small package. Additions to file I/O, browsing user-generated mods, and new options for editing W2RC files can dramatically streamline some modding workflows.
+
+## Patches
+
+### 8.4.3 (Nov 11 2021)
+
+**Fixes**
+
+* **Tweak Editor**: Array editing
+* **Curve Editor**: Fixes, zoom and editing
+* **Red Resource Editor**: Fixes, array editing
+* **TweakDB**: Fixed arrays and added remaining types
+* Fixed a bug where w2rc buffers would not update on selection changed
+* Fixed dirty filenames for tweak files
+* Fixed theme settings bug which prevented color changes
+* Fixed a bug where the Asset Browser would extract vanilla files while browsing mods
+* Fixed the Asset Browser breadcrumb navigator folder sorting
+
+#### Changes
+
+* Added tweak CLI command
+* Added check for updates button
+* Added async file search within the Asset Browser
+* Support for simultaneous reads from a single archive file by multiple WolvenKit instances
+* Cleaned up Settings
+
+### 8.4.2 (Nov 01 2021)
+
+**Fixes**
+
+* Fixed a bug where parallel unbundling caused a crash
+* Fixed a bug where the app crashed on a pre-release version
+* Fixed a bug with the file editor child item arrow expander
+* Fixed hidden properties in Propertygrids
+* Fixed messagebox layout
+* Fixed compiled packages reading
+* Fixed some TGA texture import issues
+* Fixed miscellaneous asset exports
+
+#### Changes
+
+* The Home and Welcome pages are redesigned for improved efficiency and UX
+* The Ribbon has been reorganized and cleaned up
+* Some file icons have been updated
+* Added support for reading W2RC file buffers (ent/app/mesh)
+* Added progress indicator to the Status Bar
+* Added unbundle game button to the Ribbon
+* Support for group adding within the tweak editor
+* Logging has been improved
+* Faster archive manager loading
+* Support for double faced meshes with the Import/Export tool
+
+### 8.4.1 (Oct 06 2021)
+
+#### Fixes
+
+* Critical bugfix for importing mesh files with the Import/Export tool
+
+## Asset I/O
+
+*   **Support for user-generated mod archives**
+
+    The Asset Browser is now capable of browsing and extracting user-generated mod archives. A new button called **Toggle Mod Asset Browser** has been added to the context Ribbon menu. The Asset Browser can swap between vanilla archives and mod archives on the fly. Mods must be installed to game location for browsing.
+
+
+*   **Support for converting W2RC to and from json**
+
+    RED/W2RC files can now be converted to standard human-readable json files, and vice versa. Right-click any w2rc or json file within the **Project Explorer**, and navigate the **Convert** menu to find conversion options. Functionality not available with the File Editor such as adding or removing chunks and properties is possible with json format. Beware not all file formats are completely stable for conversion! Some elements may not be encoded properly. Use at your own risk!
+
+
+*   **Support for morphtarget I/O**
+
+    The Import/Export tool is now capable of exporting morphtarget files to glTF format. Additionally glTF files can now be imported as **meshes or morphtargets**.
+
+
+* **Support for TGA format texture imports**\
+  ****The Import/Export tool now supports importing TGA format textures directly. When using the TGA format, the compression method is automatically determined by reading the original XBM texture. Additionally TGA supports no-compression storage, meaning any loss in quality can be avoided.
+
+## Development
+
+* Updated the RTTI types to 1.31
+
+## File Editor
+
+* **Added Curve Editor for curvedata within W2RC files**\
+  ****Curve data can now be edited directly with a bespoke curve editor window within the File Editor. A new **Open Curve Editor** button has been added to the value column for any given curveData property.
+
+## Fixes
+
+* **Fully implemented TGA texture imports**\
+  ****TGA texture imports now work as expected (Not fully implemented with WolvenKit 8.3)
+
+## UI/UX
+
+*   **Improved handling handling of json files**\
+    ****RED/W2RC json project files inside the Mod directory will continue to open with the File Editor. "Real" json files within the Raw directory will now be opened externally with the system default application. Material json and converted W2RC json files can be edited without leaving the WolvenKit editor.
+
+
+*   **Refreshed Log improves readability**
+
+    The [**Log view**](../../wolvenkit-app/editor/log.md) has been updated to dramatically improve usability compared to WolvenKIt 8.3. Logs are now displayed completely with word wrapping.

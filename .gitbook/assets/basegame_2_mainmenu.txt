@@ -1,0 +1,390 @@
+base
+    cinematics
+    |   prefabs
+    |           character_creati_072326ea.dds
+    |           character_creati_072326ea.envprobe
+    |           character_creati_6988c6b2.dds
+    |           character_creati_6988c6b2.envprobe
+    |           character_creati_855279d8.dds
+    |           character_creati_855279d8.envprobe
+    |           character_creati_b6f8e580.dds
+    |           character_creati_b6f8e580.envprobe
+    |           character_creati_be051489.dds
+    |           character_creati_be051489.envprobe
+    |           character_creati_c81aae91.dds
+    |           character_creati_c81aae91.envprobe
+    |           
+    fx
+    |   environment
+    |   |   weather
+    |   |       clear_weather
+    |   |       |       raindrops_2x1_blurred.dds
+    |   |       |       raindrops_2x1_blurred.xbm
+    |   |       |       rain_cylinder.mesh
+    |   |       |       rain_cylinder.mesh.0.buffer
+    |   |       |       
+    |   |       toxic_rain
+    |   |               toxic_rain.effect
+    |   |               toxic_rain.effect.0.buffer
+    |   |               toxic_rain.effect.1.buffer
+    |   |               toxic_rain.effect.2.buffer
+    |   |               toxic_rain.effect.3.buffer
+    |   |               toxic_rain.effect.4.buffer
+    |   |               toxic_rain.effect.5.buffer
+    |   |               toxic_rain.particle
+    |   |               toxic_rain.particle.0.buffer
+    |   |               toxic_rain.particle.1.buffer
+    |   |               toxic_rain.particle.2.buffer
+    |   |               toxic_rain.particle.3.buffer
+    |   |               toxic_rain.particle.4.buffer
+    |   |               toxic_rain.particle.5.buffer
+    |   |               
+    |   _textures
+    |       liquids
+    |               rain_normal.dds
+    |               rain_normal.xbm
+    |               
+    gameplay
+    |   gui
+    |       fullscreen
+    |           main_menu
+    |                   gender_selection_female.dtex
+    |                   gender_selection_female.ent
+    |                   gender_selection_female.ent.0.buffer
+    |                   gender_selection_male.dtex
+    |                   gender_selection_male.ent
+    |                   gender_selection_male.ent.0.buffer
+    |                   preview.dtex
+    |                   target_face.ent
+    |                   target_face.ent.0.buffer
+    |                   
+    weather
+    |   24h_basic
+    |           cp_ui_character_custom_v003.env
+    |           
+    worlds
+        04_main_menu
+            sectors
+            |   _generated
+            |       |   all.smartobjects
+            |       |   
+            |       acoustics
+            |       |       -1_-1_-1.acousticdata
+            |       |       -1_-1_-1.acousticdata.0.buffer
+            |       |       -1_-1_-1.acousticdata.1.buffer
+            |       |       -1_-1_-1.acousticdata.2.buffer
+            |       |       -1_-1_-1.acousticdata.3.buffer
+            |       |       -1_-1_-1.acousticdata.4.buffer
+            |       |       -1_-1_0.acousticdata
+            |       |       -1_-1_0.acousticdata.0.buffer
+            |       |       -1_-1_0.acousticdata.1.buffer
+            |       |       -1_-1_0.acousticdata.2.buffer
+            |       |       -1_-1_0.acousticdata.3.buffer
+            |       |       -1_-1_0.acousticdata.4.buffer
+            |       |       -1_-1_0.acousticdata.5.buffer
+            |       |       -1_0_-1.acousticdata
+            |       |       -1_0_-1.acousticdata.0.buffer
+            |       |       -1_0_-1.acousticdata.1.buffer
+            |       |       -1_0_-1.acousticdata.2.buffer
+            |       |       -1_0_-1.acousticdata.3.buffer
+            |       |       -1_0_-1.acousticdata.4.buffer
+            |       |       -1_0_-1.acousticdata.5.buffer
+            |       |       -1_0_-1.acousticdata.6.buffer
+            |       |       -1_0_0.acousticdata
+            |       |       -1_0_0.acousticdata.0.buffer
+            |       |       -1_0_0.acousticdata.1.buffer
+            |       |       -1_0_0.acousticdata.2.buffer
+            |       |       -1_0_0.acousticdata.3.buffer
+            |       |       -1_0_0.acousticdata.4.buffer
+            |       |       -1_0_0.acousticdata.5.buffer
+            |       |       -1_0_0.acousticdata.6.buffer
+            |       |       -1_0_0.acousticdata.7.buffer
+            |       |       -1_0_0.acousticdata.8.buffer
+            |       |       -2_5_-1.acousticdata
+            |       |       -2_5_-1.acousticdata.0.buffer
+            |       |       -2_5_-1.acousticdata.1.buffer
+            |       |       -2_5_-1.acousticdata.10.buffer
+            |       |       -2_5_-1.acousticdata.11.buffer
+            |       |       -2_5_-1.acousticdata.12.buffer
+            |       |       -2_5_-1.acousticdata.13.buffer
+            |       |       -2_5_-1.acousticdata.14.buffer
+            |       |       -2_5_-1.acousticdata.15.buffer
+            |       |       -2_5_-1.acousticdata.16.buffer
+            |       |       -2_5_-1.acousticdata.17.buffer
+            |       |       -2_5_-1.acousticdata.18.buffer
+            |       |       -2_5_-1.acousticdata.19.buffer
+            |       |       -2_5_-1.acousticdata.2.buffer
+            |       |       -2_5_-1.acousticdata.20.buffer
+            |       |       -2_5_-1.acousticdata.21.buffer
+            |       |       -2_5_-1.acousticdata.22.buffer
+            |       |       -2_5_-1.acousticdata.23.buffer
+            |       |       -2_5_-1.acousticdata.24.buffer
+            |       |       -2_5_-1.acousticdata.25.buffer
+            |       |       -2_5_-1.acousticdata.26.buffer
+            |       |       -2_5_-1.acousticdata.3.buffer
+            |       |       -2_5_-1.acousticdata.4.buffer
+            |       |       -2_5_-1.acousticdata.5.buffer
+            |       |       -2_5_-1.acousticdata.6.buffer
+            |       |       -2_5_-1.acousticdata.7.buffer
+            |       |       -2_5_-1.acousticdata.8.buffer
+            |       |       -2_5_-1.acousticdata.9.buffer
+            |       |       -2_5_-2.acousticdata
+            |       |       -2_5_-2.acousticdata.0.buffer
+            |       |       -2_5_-2.acousticdata.1.buffer
+            |       |       -2_5_-2.acousticdata.10.buffer
+            |       |       -2_5_-2.acousticdata.11.buffer
+            |       |       -2_5_-2.acousticdata.12.buffer
+            |       |       -2_5_-2.acousticdata.13.buffer
+            |       |       -2_5_-2.acousticdata.14.buffer
+            |       |       -2_5_-2.acousticdata.2.buffer
+            |       |       -2_5_-2.acousticdata.3.buffer
+            |       |       -2_5_-2.acousticdata.4.buffer
+            |       |       -2_5_-2.acousticdata.5.buffer
+            |       |       -2_5_-2.acousticdata.6.buffer
+            |       |       -2_5_-2.acousticdata.7.buffer
+            |       |       -2_5_-2.acousticdata.8.buffer
+            |       |       -2_5_-2.acousticdata.9.buffer
+            |       |       -2_6_-1.acousticdata
+            |       |       -2_6_-1.acousticdata.0.buffer
+            |       |       -2_6_-1.acousticdata.1.buffer
+            |       |       -2_6_-1.acousticdata.10.buffer
+            |       |       -2_6_-1.acousticdata.11.buffer
+            |       |       -2_6_-1.acousticdata.12.buffer
+            |       |       -2_6_-1.acousticdata.13.buffer
+            |       |       -2_6_-1.acousticdata.14.buffer
+            |       |       -2_6_-1.acousticdata.15.buffer
+            |       |       -2_6_-1.acousticdata.16.buffer
+            |       |       -2_6_-1.acousticdata.17.buffer
+            |       |       -2_6_-1.acousticdata.18.buffer
+            |       |       -2_6_-1.acousticdata.19.buffer
+            |       |       -2_6_-1.acousticdata.2.buffer
+            |       |       -2_6_-1.acousticdata.20.buffer
+            |       |       -2_6_-1.acousticdata.21.buffer
+            |       |       -2_6_-1.acousticdata.22.buffer
+            |       |       -2_6_-1.acousticdata.23.buffer
+            |       |       -2_6_-1.acousticdata.24.buffer
+            |       |       -2_6_-1.acousticdata.25.buffer
+            |       |       -2_6_-1.acousticdata.26.buffer
+            |       |       -2_6_-1.acousticdata.27.buffer
+            |       |       -2_6_-1.acousticdata.28.buffer
+            |       |       -2_6_-1.acousticdata.29.buffer
+            |       |       -2_6_-1.acousticdata.3.buffer
+            |       |       -2_6_-1.acousticdata.30.buffer
+            |       |       -2_6_-1.acousticdata.31.buffer
+            |       |       -2_6_-1.acousticdata.32.buffer
+            |       |       -2_6_-1.acousticdata.4.buffer
+            |       |       -2_6_-1.acousticdata.5.buffer
+            |       |       -2_6_-1.acousticdata.6.buffer
+            |       |       -2_6_-1.acousticdata.7.buffer
+            |       |       -2_6_-1.acousticdata.8.buffer
+            |       |       -2_6_-1.acousticdata.9.buffer
+            |       |       -2_6_-2.acousticdata
+            |       |       -2_6_-2.acousticdata.0.buffer
+            |       |       -2_6_-2.acousticdata.1.buffer
+            |       |       -2_6_-2.acousticdata.10.buffer
+            |       |       -2_6_-2.acousticdata.11.buffer
+            |       |       -2_6_-2.acousticdata.12.buffer
+            |       |       -2_6_-2.acousticdata.13.buffer
+            |       |       -2_6_-2.acousticdata.14.buffer
+            |       |       -2_6_-2.acousticdata.15.buffer
+            |       |       -2_6_-2.acousticdata.16.buffer
+            |       |       -2_6_-2.acousticdata.17.buffer
+            |       |       -2_6_-2.acousticdata.18.buffer
+            |       |       -2_6_-2.acousticdata.19.buffer
+            |       |       -2_6_-2.acousticdata.2.buffer
+            |       |       -2_6_-2.acousticdata.20.buffer
+            |       |       -2_6_-2.acousticdata.21.buffer
+            |       |       -2_6_-2.acousticdata.3.buffer
+            |       |       -2_6_-2.acousticdata.4.buffer
+            |       |       -2_6_-2.acousticdata.5.buffer
+            |       |       -2_6_-2.acousticdata.6.buffer
+            |       |       -2_6_-2.acousticdata.7.buffer
+            |       |       -2_6_-2.acousticdata.8.buffer
+            |       |       -2_6_-2.acousticdata.9.buffer
+            |       |       -3_5_-1.acousticdata
+            |       |       -3_5_-1.acousticdata.0.buffer
+            |       |       -3_5_-1.acousticdata.1.buffer
+            |       |       -3_5_-1.acousticdata.10.buffer
+            |       |       -3_5_-1.acousticdata.11.buffer
+            |       |       -3_5_-1.acousticdata.12.buffer
+            |       |       -3_5_-1.acousticdata.13.buffer
+            |       |       -3_5_-1.acousticdata.14.buffer
+            |       |       -3_5_-1.acousticdata.2.buffer
+            |       |       -3_5_-1.acousticdata.3.buffer
+            |       |       -3_5_-1.acousticdata.4.buffer
+            |       |       -3_5_-1.acousticdata.5.buffer
+            |       |       -3_5_-1.acousticdata.6.buffer
+            |       |       -3_5_-1.acousticdata.7.buffer
+            |       |       -3_5_-1.acousticdata.8.buffer
+            |       |       -3_5_-1.acousticdata.9.buffer
+            |       |       -3_5_-2.acousticdata
+            |       |       -3_5_-2.acousticdata.0.buffer
+            |       |       -3_5_-2.acousticdata.1.buffer
+            |       |       -3_5_-2.acousticdata.2.buffer
+            |       |       -3_5_-2.acousticdata.3.buffer
+            |       |       -3_5_-2.acousticdata.4.buffer
+            |       |       -3_5_-2.acousticdata.5.buffer
+            |       |       -3_5_-2.acousticdata.6.buffer
+            |       |       -3_5_-2.acousticdata.7.buffer
+            |       |       -3_5_-2.acousticdata.8.buffer
+            |       |       -3_6_-1.acousticdata
+            |       |       -3_6_-1.acousticdata.0.buffer
+            |       |       -3_6_-1.acousticdata.1.buffer
+            |       |       -3_6_-1.acousticdata.10.buffer
+            |       |       -3_6_-1.acousticdata.11.buffer
+            |       |       -3_6_-1.acousticdata.12.buffer
+            |       |       -3_6_-1.acousticdata.13.buffer
+            |       |       -3_6_-1.acousticdata.14.buffer
+            |       |       -3_6_-1.acousticdata.15.buffer
+            |       |       -3_6_-1.acousticdata.16.buffer
+            |       |       -3_6_-1.acousticdata.17.buffer
+            |       |       -3_6_-1.acousticdata.18.buffer
+            |       |       -3_6_-1.acousticdata.19.buffer
+            |       |       -3_6_-1.acousticdata.2.buffer
+            |       |       -3_6_-1.acousticdata.20.buffer
+            |       |       -3_6_-1.acousticdata.21.buffer
+            |       |       -3_6_-1.acousticdata.22.buffer
+            |       |       -3_6_-1.acousticdata.23.buffer
+            |       |       -3_6_-1.acousticdata.24.buffer
+            |       |       -3_6_-1.acousticdata.25.buffer
+            |       |       -3_6_-1.acousticdata.3.buffer
+            |       |       -3_6_-1.acousticdata.4.buffer
+            |       |       -3_6_-1.acousticdata.5.buffer
+            |       |       -3_6_-1.acousticdata.6.buffer
+            |       |       -3_6_-1.acousticdata.7.buffer
+            |       |       -3_6_-1.acousticdata.8.buffer
+            |       |       -3_6_-1.acousticdata.9.buffer
+            |       |       -3_6_-2.acousticdata
+            |       |       -3_6_-2.acousticdata.0.buffer
+            |       |       -3_6_-2.acousticdata.1.buffer
+            |       |       -3_6_-2.acousticdata.10.buffer
+            |       |       -3_6_-2.acousticdata.11.buffer
+            |       |       -3_6_-2.acousticdata.12.buffer
+            |       |       -3_6_-2.acousticdata.13.buffer
+            |       |       -3_6_-2.acousticdata.2.buffer
+            |       |       -3_6_-2.acousticdata.3.buffer
+            |       |       -3_6_-2.acousticdata.4.buffer
+            |       |       -3_6_-2.acousticdata.5.buffer
+            |       |       -3_6_-2.acousticdata.6.buffer
+            |       |       -3_6_-2.acousticdata.7.buffer
+            |       |       -3_6_-2.acousticdata.8.buffer
+            |       |       -3_6_-2.acousticdata.9.buffer
+            |       |       0_-1_-1.acousticdata
+            |       |       0_-1_-1.acousticdata.0.buffer
+            |       |       0_-1_-1.acousticdata.1.buffer
+            |       |       0_-1_-1.acousticdata.2.buffer
+            |       |       0_-1_-1.acousticdata.3.buffer
+            |       |       0_-1_-1.acousticdata.4.buffer
+            |       |       0_-1_-1.acousticdata.5.buffer
+            |       |       0_-1_-1.acousticdata.6.buffer
+            |       |       0_-1_0.acousticdata
+            |       |       0_-1_0.acousticdata.0.buffer
+            |       |       0_-1_0.acousticdata.1.buffer
+            |       |       0_-1_0.acousticdata.2.buffer
+            |       |       0_-1_0.acousticdata.3.buffer
+            |       |       0_-1_0.acousticdata.4.buffer
+            |       |       0_-1_0.acousticdata.5.buffer
+            |       |       0_-1_0.acousticdata.6.buffer
+            |       |       0_-1_0.acousticdata.7.buffer
+            |       |       0_-1_0.acousticdata.8.buffer
+            |       |       0_-1_0.acousticdata.9.buffer
+            |       |       0_0_-1.acousticdata
+            |       |       0_0_-1.acousticdata.0.buffer
+            |       |       0_0_-1.acousticdata.1.buffer
+            |       |       0_0_-1.acousticdata.10.buffer
+            |       |       0_0_-1.acousticdata.11.buffer
+            |       |       0_0_-1.acousticdata.2.buffer
+            |       |       0_0_-1.acousticdata.3.buffer
+            |       |       0_0_-1.acousticdata.4.buffer
+            |       |       0_0_-1.acousticdata.5.buffer
+            |       |       0_0_-1.acousticdata.6.buffer
+            |       |       0_0_-1.acousticdata.7.buffer
+            |       |       0_0_-1.acousticdata.8.buffer
+            |       |       0_0_-1.acousticdata.9.buffer
+            |       |       0_0_0.acousticdata
+            |       |       0_0_0.acousticdata.0.buffer
+            |       |       0_0_0.acousticdata.1.buffer
+            |       |       0_0_0.acousticdata.10.buffer
+            |       |       0_0_0.acousticdata.11.buffer
+            |       |       0_0_0.acousticdata.12.buffer
+            |       |       0_0_0.acousticdata.2.buffer
+            |       |       0_0_0.acousticdata.3.buffer
+            |       |       0_0_0.acousticdata.4.buffer
+            |       |       0_0_0.acousticdata.5.buffer
+            |       |       0_0_0.acousticdata.6.buffer
+            |       |       0_0_0.acousticdata.7.buffer
+            |       |       0_0_0.acousticdata.8.buffer
+            |       |       0_0_0.acousticdata.9.buffer
+            |       |       
+            |       collisions
+            |       |       04_main_menu.geometry_cache
+            |       |       04_main_menu.geometry_cache.0.buffer
+            |       |       
+            |       traffic
+            |               all.lane_connections
+            |               all.lane_polygons
+            |               all.lane_spots
+            |               all.spatial_representation
+            |               all.traffic_persistent
+            |               traffic.null_areas
+            |               
+            _compiled
+                    04_main_menu.areas
+                    04_main_menu.devices
+                    04_main_menu.location
+                    04_main_menu.locopaths
+                    04_main_menu.loot
+                    04_main_menu.mappins
+                    04_main_menu.poimappins
+                    04_main_menu.psrep
+                    04_main_menu.streamingquerydata
+                    04_main_menu.streamingworld
+                    04_main_menu_init.devices
+                    always_loaded_0.streamingsector
+                    always_loaded_0.streamingsector.0.buffer
+                    exterior_-1_-1_-1_6.streamingsector
+                    exterior_-1_-1_-1_6.streamingsector.0.buffer
+                    exterior_-1_-1_0_6.streamingsector
+                    exterior_-1_-1_0_6.streamingsector.0.buffer
+                    exterior_-1_0_-1_6.streamingsector
+                    exterior_-1_0_-1_6.streamingsector.0.buffer
+                    exterior_-1_0_0_6.streamingsector
+                    exterior_-1_0_0_6.streamingsector.0.buffer
+                    exterior_-1_1_-1_3.streamingsector
+                    exterior_-1_1_-1_3.streamingsector.0.buffer
+                    exterior_-1_1_-1_3.streamingsector.1.buffer
+                    exterior_-1_2_-1_2.streamingsector
+                    exterior_-1_2_-1_2.streamingsector.0.buffer
+                    exterior_-1_2_-1_2.streamingsector.1.buffer
+                    exterior_-1_2_-1_2.streamingsector.2.buffer
+                    exterior_-1_2_-1_2.streamingsector.3.buffer
+                    exterior_-1_2_-1_2.streamingsector.4.buffer
+                    exterior_-1_3_-1_2.streamingsector
+                    exterior_-1_3_-1_2.streamingsector.0.buffer
+                    exterior_-1_3_-1_2.streamingsector.1.buffer
+                    exterior_-2_2_-1_2.streamingsector
+                    exterior_-2_2_-1_2.streamingsector.0.buffer
+                    exterior_-2_2_-1_2.streamingsector.1.buffer
+                    exterior_0_-1_-1_6.streamingsector
+                    exterior_0_-1_-1_6.streamingsector.0.buffer
+                    exterior_0_-1_0_6.streamingsector
+                    exterior_0_-1_0_6.streamingsector.0.buffer
+                    exterior_0_-1_0_6.streamingsector.1.buffer
+                    exterior_0_0_-1_6.streamingsector
+                    exterior_0_0_-1_6.streamingsector.0.buffer
+                    exterior_0_0_0_6.streamingsector
+                    exterior_0_0_0_6.streamingsector.0.buffer
+                    quest_a0f0cd2476942221.streamingsector
+                    quest_a0f0cd2476942221.streamingsector.0.buffer
+                    quest_a0f0cd2476942221.streamingsector.1.buffer
+                    quest_a0f0cd2476942221.streamingsector.2.buffer
+                    quest_a0f0cd2476942221.streamingsector.3.buffer
+                    quest_a0f0cd2476942221.streamingsector.4.buffer
+                    quest_fc76e8948d75e8d4.streamingsector
+                    quest_fc76e8948d75e8d4.streamingsector.0.buffer
+                    quest_fc76e8948d75e8d4.streamingsector.1.buffer
+                    quest_fc76e8948d75e8d4.streamingsector.2.buffer
+                    quest_fc76e8948d75e8d4.streamingsector.3.buffer
+                    quest_fc76e8948d75e8d4.streamingsector.4.buffer
+                    quest_fc76e8948d75e8d4.streamingsector.5.buffer
+                    

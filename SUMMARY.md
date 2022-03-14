@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Edit this wiki](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/OVHjxIctfql4c2fCdDv9)
-* [Edit and Log in](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/OVHjxIctfql4c2fCdDv9)
+* [Log in and edit](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP\_ozZVx2gRZUPXkd4r/)
 * [Home](README.md)
 
 ## Features

@@ -8,7 +8,7 @@ You will also need: [https://github.com/WopsS/RED4ext](https://github.com/WopsS/
 
 ### **Add a new file to your mod project**
 
-![](../../.gitbook/assets/8.3\_tweakdb\_2.png)
+![](../../.gitbook/assets/8.3\_tweakdb\_2.png) ![For 8.5's new UI](<../../.gitbook/assets/8.5 Tweak file adding part 1.png>)
 
 ### Select .tweak file
 
@@ -34,4 +34,3 @@ Save to update the list to the right.
 The compiled tweak file will be created at `Cyberpunk 2077\r6\tweakdbs`
 
 ![](../../.gitbook/assets/8.3\_tweakdb\_1.png)
-

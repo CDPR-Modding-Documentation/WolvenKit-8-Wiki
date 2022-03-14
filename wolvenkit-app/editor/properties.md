@@ -22,6 +22,10 @@ Mesh files can be previewed by selecting them within the Asset Browser or Projec
 * Hold and drag Right Mouse Button or use Mouse Scroll to zoom
 * Hold and drag Middle Mouse Button to pan
 
+{% hint style="warning" %}
+WolvenKit 8.5 does not have Mesh Previews.
+{% endhint %}
+
 ## Image Preview
 
 ![](<../../.gitbook/assets/8.2\_properties\_image\_preview\_generic (1).png>)

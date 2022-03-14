@@ -16,7 +16,9 @@ The Asset Browser is used to navigate, search and filter Cyberpunk 2077 game fil
 
 ### Navigation
 
-![](../../.gitbook/assets/8.4.3\_AssetBrowser\_generic.png)
+![Default UI for pre-8.5](../../.gitbook/assets/8.4.3\_AssetBrowser\_generic.png)
+
+![UI for 8.5](<../../.gitbook/assets/8.5 Asset Browser.png>)
 
 The left-side breadcrumb navigator can be used to quickly navigate through game directories. Game files are displayed in the right-side panel, in addition to folders. Folders in the file list can also be navigated by double-clicking.
 
@@ -32,6 +34,10 @@ The Asset Browser offers powerful search and filter options. The left-side searc
 
 * **Double-click files** _to add them directly to the_ **Project Explorer**
 * **To select multiple files** hold shift and then left click two separate files. These two files and all files between them will be selected. Right-click any of the highlighted files to open the context menu. Then choose **Add Selected Item(s) to Project.**
+
+{% hint style="info" %}
+You can also add files from mods that is already packed by clicking the box icon in the asset browser (8.5+ only) or clicking on Toggle Mod Asset Browser in the Ribbon when the Asset Browser is focused (pre-8.5)
+{% endhint %}
 
 {% hint style="info" %}
 Files added to the Project Explorer with the Asset Browser will not include external buffer files. Buffers are stored within the main file.

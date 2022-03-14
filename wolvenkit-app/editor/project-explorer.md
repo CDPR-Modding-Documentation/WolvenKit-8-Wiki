@@ -7,6 +7,10 @@ The Project Explorer is similar to any file explorer, however it is fixed to the
 * The **Mod** directory is home to all REDengine [**CR2W**](../../help/glossary.md#cr-2-w) files. These files are automatically included in the archive when packing your mod project.
 * The **Raw** directory is home to your source assets such as meshes and textures. These files will not be included in the packed mod project, however they are extremely valuable to have nearby with our content pipeline.
 
+{% hint style="warning" %}
+Starting with 8.5, the Mod directory is now called **Archive.** Mod projects that was created before 8.4.3 will not work with 8.5!
+{% endhint %}
+
 ![](../../.gitbook/assets/8.4.3\_ProjectExplorer\_generic.png)
 
 {% hint style="info" %}
@@ -26,6 +30,12 @@ Non-CR2W files which are typically stored in the Raw directory can be accessed w
 For any file operation, right-click the file within the Project Explorer and navigate the submenu under the **File** button. Alternatively the context **Ribbon** can be used as well.
 
 ![Context Ribbon for Project Explorer](../../.gitbook/assets/8.2\_ribbon\_pe\_actions.png)
+
+{% hint style="info" %}
+The new UI design in 8.5 does not have project explorer actions in the ribbon as it's directly implemented in the right-click context menu
+{% endhint %}
+
+![](../../.gitbook/assets/image.png)
 
 ### Expanding or collapsing folders
 

@@ -4,6 +4,14 @@ description: What's new?
 
 # Release Notes
 
+## Wolvenkit 8.6&#x20;
+
+Work In Progress
+
+{% content-ref url="8.6-in-development.md" %}
+[8.6-in-development.md](8.6-in-development.md)
+{% endcontent-ref %}
+
 ## WolvenKit 8.5
 
 #### Published Mar 07 2022

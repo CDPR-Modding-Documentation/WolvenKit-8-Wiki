@@ -4,6 +4,10 @@ description: Live archive explorer
 
 # Asset Browser
 
+{% hint style="info" %}
+Starting with 8.5, you will no longer need to open a mod project to load the Asset Browser. You're still required to open a mod project if you want to add anything from it.
+{% endhint %}
+
 ## What is the Asset Browser?
 
 The Asset Browser is used to navigate, search and filter Cyberpunk 2077 game files so you can transfer these to the [**Project Explorer.**](project-explorer.md) The Asset Browser virtually eliminates the need for uncooking the entire game installation, as individual files can be pulled directly from archive files.

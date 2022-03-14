@@ -41,7 +41,7 @@ One of the .mt files is the multilayered.mt, which is used a lot by characters a
 * .multilayered.mt as the base template
 * .mlsetup files to describe the kinds of .mi material assigned to each layer for this instance of the .multilayered.mt
 * .mlmask files which combine internally a set of grayscale textures which describes which layer is used by which part of the mesh
-* .xbm files hold textures
+* .xbm files hold textures. there are different types of textures ranging from alpha and gradient texture files for hair meshes, to diffuse and normal for skin-related meshes.
 
 
 
@@ -184,7 +184,7 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed w
 
 ## Final Thoughts
 
-While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors and Tools work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on Discord!
+While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors and Tools work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the[ Discord server](https://discord.gg/cp77modding)!
 
 
 

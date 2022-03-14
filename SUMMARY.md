@@ -6,6 +6,7 @@
 
 * [Overview](features/overview.md)
 * [Release Notes](features/release-notes/README.md)
+  * [8.6 (In development)](features/release-notes/8.6-in-development.md)
   * [8.5 (Latest Stable)](features/release-notes/8.5.md)
   * [8.4](features/release-notes/latest.md)
   * [8.3](features/release-notes/8.3.md)

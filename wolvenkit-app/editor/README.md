@@ -16,9 +16,9 @@ The Editor is the main mod-editing workspace within WolvenKit. Within the Editor
 
 The docking in WolvenKit is similar to other IDE's such as Visual Studio. WolvenKit editors can be rearranged by docking to specific areas, or used as a standalone floating window.
 
-![](../../.gitbook/assets/8.4.3\_Docking\_generic.png)
+![Default UI for pre-8.5](../../.gitbook/assets/8.4.3\_Docking\_generic.png)
 
-![](<../../.gitbook/assets/8.5 docking.png>)
+![Default UI for 8.5+](<../../.gitbook/assets/8.5 docking.png>)
 
 {% hint style="info" %}
 Try double-clicking an Editor title bar to create a floating window!&#x20;

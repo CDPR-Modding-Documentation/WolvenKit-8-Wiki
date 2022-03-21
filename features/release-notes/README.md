@@ -6,7 +6,7 @@ description: What's new?
 
 ## Wolvenkit 8.6&#x20;
 
-Work In Progress
+**Work In Progress (Nightly's Current version)**&#x20;
 
 {% content-ref url="8.6-in-development.md" %}
 [8.6-in-development.md](8.6-in-development.md)

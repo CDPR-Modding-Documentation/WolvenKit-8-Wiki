@@ -8,8 +8,8 @@ description: What's new?
 
 **Work In Progress (Nightly's Current version)**&#x20;
 
-{% content-ref url="8.6-in-development.md" %}
-[8.6-in-development.md](8.6-in-development.md)
+{% content-ref url="8.6.md" %}
+[8.6.md](8.6.md)
 {% endcontent-ref %}
 
 ## WolvenKit 8.5
@@ -24,17 +24,17 @@ description: What's new?
 
 #### Published Oct 03 2021
 
-{% content-ref url="latest.md" %}
-[latest.md](latest.md)
+{% content-ref url="8.4.md" %}
+[8.4.md](8.4.md)
 {% endcontent-ref %}
 
 ### Patches
 
-#### [**8.4.3 (Nov 11 2021)**](latest.md#8.4.1-oct-06-2021) <a href="#8.4.3-nov-11-2021" id="8.4.3-nov-11-2021"></a>
+#### [**8.4.3 (Nov 11 2021)**](8.4.md#8.4.1-oct-06-2021) <a href="#8.4.3-nov-11-2021" id="8.4.3-nov-11-2021"></a>
 
-#### [**8.4.2 (Nov 01 2021)**](latest.md#8.4.1-oct-06-2021) <a href="#8.4.2-nov-01-2021" id="8.4.2-nov-01-2021"></a>
+#### [**8.4.2 (Nov 01 2021)**](8.4.md#8.4.1-oct-06-2021) <a href="#8.4.2-nov-01-2021" id="8.4.2-nov-01-2021"></a>
 
-#### ****[**8.4.1 (Oct 06 2021)**](latest.md#8.4.1-oct-06-2021)
+#### ****[**8.4.1 (Oct 06 2021)**](8.4.md#8.4.1-oct-06-2021)
 
 ## WolvenKit 8.3
 

@@ -4,10 +4,6 @@ description: Installing WolvenKit
 
 # Install
 
-{% hint style="warning" %}
-This page is being written for WolvenKit 8.5.
-{% endhint %}
-
 ## **WolvenKit** Portable
 
 1.  **Download** [**WolvenKit.zip**](https://github.com/WolvenKit/Wolvenkit/releases/)
@@ -31,6 +27,10 @@ Right click the exe, press properties, compatibility, then make sure `Run this p
 
 ## WolvenKit Installer
 
+{% hint style="warning" %}
+At the time of writing this, there are no Installer versions of WolvenKit 8.5.
+{% endhint %}
+
 1.  **Download** [**WolvenKit\_installer.exe**](https://github.com/WolvenKit/WolvenKit/releases)
 
 
@@ -47,10 +47,6 @@ Right click the exe, press properties, compatibility, then make sure `Run this p
 You can permanently set WolvenKit.exe to launch in administrative mode:
 
 Right click the exe, press properties, compatibility, then make sure `Run this program as administrator` is checked.
-{% endhint %}
-
-{% hint style="warning" %}
-At the time of writing this, there are no Installer versions of WolvenKit 8.5.
 {% endhint %}
 
 ## WolvenKit Console (CLI)

@@ -8,7 +8,30 @@ description: With great power comes great responsibility
 
 **Congratulations on installing WolvenKit!** We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit. Lastly keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md) Now without further adieu...
 
+{% hint style="info" %}
+What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)****
+{% endhint %}
+
 ## Creating a texture replacement mod
+
+### Summary
+
+WolvenKit is a tool for mod developers to interact with REDengine file formats. Generally speaking most mods created with WolvenKit share a similar workflow:
+
+1. Browse and extract game files\
+
+2. Convert game files to common formats that can be modified\
+
+3. Modify the file, often with an external application\
+
+4. Convert the common format file back to game format\
+
+5. Build a mod package including the newly modified files\
+
+
+In the guide below we'll cover these steps in detail to replace an image in Cyberpunk.
+
+## Getting Started with WolvenKit
 
 ### Starting a project
 
@@ -32,7 +55,7 @@ The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse
 
 2.  Navigate to the following path:
 
-    `Archive/base/characters/common/textures/tattoos`
+    `base/characters/common/textures/tattoos`
 
 
 3.  Use the main file list panel inside the Asset Browser to preview individual files. The XBM file extension always represents a texture file within REDengine. WolvenKit is capable of instantly previewing texture and model files. The Properties window responds automatically to selections within the Asset Browser. Feel free to experiment by selecting a few textures.
@@ -118,7 +141,7 @@ While this guide is step-by-step, it's counter-productive for the WolvenKit team
 6. Verify the updated texture by selecting the XBM within the Project Explorer. The new texture should be viewable with the Properties window.&#x20;
 
 {% hint style="warning" %}
-Custom TGA files may appear upside down within the file previewer! There is a known visual issue with WolvenKit 8.4.3. The imported XBM file preview will be correct.
+Custom TGA files may appear upside down within the file previewer! There is a known visual issue with WolvenKit. The imported XBM file preview will be correct.
 {% endhint %}
 
 ### File Editing
@@ -147,7 +170,7 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed w
 
 ## Final Thoughts
 
-While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors and Tools work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the[ Discord server](https://discord.gg/cp77modding)!
+While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the[ Discord server](https://discord.gg/cp77modding)!
 
 
 

@@ -26,4 +26,4 @@ WolvenKit is capable of exporting textures to common formats such as TGA, DDS, P
 
 ## How can I import or export models with WolvenKit?
 
-WolvenKit is capable of exporting models natively to glTF, and other formats such as FBX through conversion. Additionally the glTF format is supported for importing models. Check the [**dedicated Models page**](../wolvenkit-app/editor/import-export/models/) to learn more. Do you need help learning how to use WolvenKit? Try following the guide for [**Creating a Mod**](../getting-started/creating-a-mod.md)!
+WolvenKit is capable of exporting models natively to glTF, and other formats such as FBX through conversion. Additionally the glTF format is supported for importing models. Check the [**dedicated Models page**](../wolvenkit-app/editor/import-export/models.md) to learn more. Do you need help learning how to use WolvenKit? Try following the guide for [**Creating a Mod**](../getting-started/creating-a-mod.md)!

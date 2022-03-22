@@ -39,9 +39,5 @@ GitHub is where you will find updates first, but all sites are updated regularly
 
 ## System Requirements
 
-* 64-bit Windows 10
-* .NET 5.0 (x64) (SDK is recommended)
-
-{% hint style="warning" %}
-Starting with WolvenKit 8.5, .NET 6.0 is the minimum required version.
-{% endhint %}
+* 64-bit Windows 10/11
+* .NET 6.0 (x64)

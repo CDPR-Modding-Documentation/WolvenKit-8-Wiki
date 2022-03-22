@@ -25,7 +25,7 @@ description: With great power comes great responsibility
 
 ### Asset Browser
 
-The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse any archive and add individual files to a local mod project. Any files added from the Asset Browser will be added to the **Mod directory** with their folder structure intact. Files added with the Asset Browser can be viewed, studied, modified, and packed as a modded archive.
+The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse any archive and add individual files to a local mod project. Any files added from the Asset Browser will be added to the **archive directory** with their folder structure intact. Files added with the Asset Browser can be viewed, studied, modified, and packed as a modded archive.
 
 1.  Use the "breadcrumb" style navigator in the left-hand side of the Asset Browser to quickly navigate folders
 
@@ -52,9 +52,9 @@ Mod Projects are the core of WolvenKit functionality. Projects are primarily use
 \
 The [**Project Explorer**](../wolvenkit-app/editor/project-explorer.md) is the central component for each mod project. Project files are separated into two main system directories:\
 ****\
-****The **Mod** directory is for [**W2RC**](../help/glossary.md#cr-2-w) files.\
+****The **archive** directory is for [**W2RC**](../help/glossary.md#cr-2-w) files.\
 \
-The **Raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
+The **raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
 \
 These are core directories for WolvenKit's file operations. These folders are never exposed to the game inside the [**packed mod**](../help/glossary.md#packed).
 
@@ -65,9 +65,9 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 ### Exporting REDengine Files
 
-WolvenKit features a bespoke tool for conversions between [**W2RC**](../help/glossary.md#cr-2-w) and [**Raw**](../help/glossary.md#raw) formats, _creatively_ named [**Import/Export**](../wolvenkit-app/editor/import-export/). The tool can be accessed through the [**View**](../wolvenkit-app/ribbon/view.md#editors) tab of the Ribbon. The Import/Export tool is extremely robust, featuring advanced options and batch functionality.
+WolvenKit features a bespoke tool for conversions between [**W2RC**](../help/glossary.md#cr-2-w) and [**Raw**](../help/glossary.md#raw) formats, _creatively_ named [**Import/Export**](../wolvenkit-app/editor/import-export/). The tool can be accessed through the [**View**](broken-reference) tab of the Ribbon. The Import/Export tool is extremely robust, featuring advanced options and batch functionality.
 
-The **Mod** and **Raw** directories within the **Project Explorer** behave as a mirror to one another; REDengine files are always stored in the Mod directory, and the analogous "generic" format file will be stored in the Raw directory with the same folder structure. Import and export destinations _never_ need to be specified enabling ultra-fast file I/O, with the added benefit of automatically-organized Raw files.
+The **archive** and **raw** directories within the **Project Explorer** behave as a mirror to one another; REDengine files are always stored in the _archive directory_, and the analogous "generic" format file will be stored in the _raw directory_ with the same folder structure. Import and export destinations _never_ need to be specified enabling ultra-fast file I/O, with the added benefit of automatically-organized Raw files.
 
 1.  Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Export** toggle is selected
 
@@ -133,11 +133,11 @@ The core feature of WolvenKit is the [**File Editor**](../wolvenkit-app/editor/f
 
 ### Building
 
-WolvenKit features a one-click mod building solution. The build process packs any **Mod directory** files into archive format and installs to the game automatically.
+WolvenKit features a one-click mod building solution. The build process packs any **archive directory** files into archive format and installs to the game automatically.
 
 WolvenKit only supports **unbundled** files. Files that have been decompressed with Oodle Kraken _will not_ be packed correctly. Buffers must be compressed within the main W2RC file. Files added with the built-in Asset Browser will **always** be the correct format.
 
-1.  From within the General section of the Ribbon, select the [**Pack Project**](../wolvenkit-app/ribbon/general.md#pack-project) button
+1.  From within the General section of the Ribbon, select the [**Pack Project**](broken-reference) button
 
 
 2.  Verify the mod project has been packed and installed by viewing the [**Log**](../wolvenkit-app/editor/log.md) window

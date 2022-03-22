@@ -4,11 +4,11 @@
 
 The Properties Viewer is used to provide extra information about selected files from within the Asset Browser or the Project Explorer. The Properties Viewer can also generate instant previews for REDengine texture and mesh files.
 
+{% hint style="info" %}
+Ensure `Show File Preview` is enabled within Settings if previews are not working.
+{% endhint %}
+
 ## Using the Properties viewer
-
-![(Update)](../../.gitbook/assets/8.2\_ribbon\_show\_file\_preview.png)
-
-Ensure `Show File Preview` is enabled by navigating to the toggle within the [**View category**](../ribbon/view.md) of the Ribbon.
 
 ## Mesh Preview
 

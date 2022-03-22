@@ -6,45 +6,43 @@ All aspects of WolvenKit are created by incredible community members. Many membe
 
 ## Core Developers
 
-_These folks make our modding dreams a reality_
-
-## Traderain (Bence)
+_These individuals turn our dreams into reality_
 
 {% embed url="https://github.com/Traderain" %}
-
 Traderain is the founding member of the WolvenKit project _and co-leader of WolvenKit development in the REDengine 4 era._
-
-## rfuzzo (Moritz)
-
-{% embed url="https://github.com/rfuzzo" %}
-
-Rfuzzo is pillar within the RED Modding community and co-leader of WolvenKit development in the REDengine 4 era.
-
-## Offline
-
-{% embed url="https://github.com/Offline-R503B" %}
-<
 {% endembed %}
 
-Offline helped bring the WolvenKit 8 series into this decade by migrating the UI to WPF framework.
+{% embed url="https://github.com/rfuzzo" %}
+rfuzzo is pillar within the RED Modding community and co-leader of WolvenKit development in the REDengine 4 era.
+{% endembed %}
 
-## HitmanHimself (Abhinav)
+{% embed url="https://github.com/jackhumbert" %}
+
+{% embed url="https://github.com/seberoth" %}
+
+{% embed url="https://github.com/Offline-R503B" %}
+Offline helped bring the WolvenKit 8 series into this decade by migrating the UI to WPF framework.
+{% endembed %}
 
 {% embed url="https://github.com/HitmanHimself" %}
-
 HitmanHimself reverse engineered countless file formats and designed solutions to export, modify, and rebuild Cyberpunk assets.
+{% endembed %}
 
 ## Outstanding contributions
 
 _Community members who've logged countless hours bringing WolvenKit to the next level_
 
-#### PNDR - Digital Artist
+#### PNDR - Artist
 
 * Created dozens upon dozens of vector-based icons for WolvenKit's Asset Browser and Project Explorer
 
-#### HOMESICK - Digital Artist
+#### HOMESICK - Artist
 
 * Created WolvenKit brand images, including the Sammy avatar
+
+#### NEUROLINKED - PROGRAMMING
+
+* Created the MLSETUP BUILDER tool and plugin for WolvenKit
 
 ## Other extraordinary help
 

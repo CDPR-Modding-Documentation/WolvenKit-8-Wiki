@@ -14,7 +14,7 @@ Preparing a material json with WolvenKit is quite simple, export a mesh using th
 
 ![](../../../.gitbook/assets/8.4.3\_ImportExport\_mesh\_advanced.png)
 
-Use the drop down panel for Mesh Export Type, and select the **WithMaterials** option. You will see a material json file created within the Raw directory with the exported glb mesh file. The PNG format is strongly recommended for the texture format.
+Use the drop down panel for Mesh Export Type, and select the **WithMaterials** option. You will see a material json file created within the Raw directory with the exported glb mesh file.
 
 ### Importing Cyberpunk meshes with Blender
 
@@ -26,11 +26,11 @@ Not all Cyberpunk shaders are supported! Programming shaders can be very tedious
 
 ![](../../../.gitbook/assets/BlenderHitmanAddonLocation.png)
 
-{% hint style="warning" %}
-Be sure to select the correct image type when importing meshes!
-{% endhint %}
+![](../../../.gitbook/assets/BlenderHitmanAddonImageType.png)
 
-![Selecting the image type which matches your Material Repository](../../../.gitbook/assets/BlenderHitmanAddonImageType.png)
+{% hint style="warning" %}
+Be sure to select the same Image Extension used during the WithMaterials export! The default extension is PNG.
+{% endhint %}
 
 ### Viewing material meshes with Blender
 

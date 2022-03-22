@@ -6,9 +6,9 @@ Mod Projects are the core of WolvenKit functionality. Projects are primarily use
 \
 The [**Project Explorer**](editor/project-explorer.md) is the central component for each mod project. Project files are separated into two main system directories:\
 ****\
-****The **Mod** directory is for [**W2RC**](../help/glossary.md#cr-2-w) files.\
+****The **archive** directory is for [**W2RC**](../help/glossary.md#cr-2-w) files.\
 \
-The **Raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
+The **raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
 \
 These are core directories for WolvenKit's file operations. These folders are never exposed to the game inside the [**packed mod.**](../help/glossary.md#packed)
 
@@ -50,7 +50,7 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 
 
-From the [**Editor**](editor/) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **Mod directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.
+From the [**Editor**](editor/) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.
 
 {% hint style="warning" %}
 WolvenKit expects **unbundled** files with Oodle compressed internal buffers. Files extracted with WolvenKit Console using **uncook** cannot be packed correctly. All files added with the Asset Browser _will be_ the correct format.

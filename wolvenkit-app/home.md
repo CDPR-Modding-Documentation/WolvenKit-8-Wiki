@@ -6,14 +6,14 @@ description: It's cozy!
 
 ## What's a Home good for?
 
-![](../.gitbook/assets/8.4.3\_Home\_small.png)
+![](<../.gitbook/assets/8.5.3 Home generic.png>)
 
-### Home
+### Welcome
 
-When WolvenKit is launched the **Home** functions as bulletin board to help you pick up where you left off. Recent mod projects are displayed as a scrolling list of cards which can be directly clicked to get started. Other crucial functions for creating or opening projects are displayed front and center making WolvenKit intuitive and efficient.
+When WolvenKit is launched the **Home** functions as bulletin board to help you pick up where you left off. Recent mod projects are displayed as a scrolling list of cards which can be directly clicked to get started. Other crucial functions for creating or opening projects are displayed in the right-hand column.
 
 {% hint style="info" %}
-Both the Sammy (the WolvenKit icon) and the exit icon on the bottom left can be used to navigate to the Editor! (and vice versa)
+The WolvenKit icon can also be used to swap between Home and the Editor!
 {% endhint %}
 
 ### Settings

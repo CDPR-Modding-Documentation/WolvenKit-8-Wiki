@@ -2,46 +2,78 @@
 
 ## What is the Project Explorer?
 
-The Project Explorer is similar to any file explorer, however it is fixed to the base of your mod project. There are two main **WolvenKit system directories** inside the Project Explorer. These directory folders themselves are _not_ part of your mod, and will _not_ be included in the packed mod.&#x20;
+The Project Explorer is primarily a tool for organizing and navigating mod project files. The Project Explorer gives a constant tree view of all mod project files which streamlines the modding workflow significantly. There are four main **WolvenKit directories** inside the Project Explorer.&#x20;
 
-* The **Mod** directory is home to all REDengine [**CR2W**](../../help/glossary.md#cr-2-w) files. These files are automatically included in the archive when packing your mod project.
-* The **Raw** directory is home to your source assets such as meshes and textures. These files will not be included in the packed mod project, however they are extremely valuable to have nearby with our content pipeline.
+* The _**archive** directory_ contains REDengine [**CR2W**](../../help/glossary.md#cr-2-w) files. Files added to the mod project with the [**Asset Browser**](asset-browser.md) will automatically be organized here. Files within the archive directory are packed into the archive when building a mod project.
+* The _**raw** directory_ contains source assets such as models and textures. These files will not be included in the packed mod project, however they are extremely valuable to have nearby with the WolvenKit content pipeline.
+* The _**scripts** directory_ can be used to organize and pack redscript files.
+* The _**tweaks** directory_ can be used to organize and pack tweakdb files.
 
-{% hint style="warning" %}
-Starting with 8.5, the Mod directory is now called **Archive.** Mod projects that was created before 8.4.3 will not work with 8.5!
-{% endhint %}
-
-![](../../.gitbook/assets/8.4.3\_ProjectExplorer\_generic.png)
-
-{% hint style="info" %}
-****[**Click here to learn more about using the Asset Browser to add files to your project**](asset-browser.md)****
-{% endhint %}
+![](<../../.gitbook/assets/8.5.3 ProjectExplorer generic.png>)
 
 ## Using the Project Explorer
 
-### Opening Files
+WolvenKit features a bespoke [**File Editor**](file-editor.md) which is capable of opening and modifying any REDengine file. Double-click any file within the archive directory of the Project Explorer to open the document viewer.\
+\
+Non-REDengine files which are typically stored in the _raw directory_ can be accessed with the Project Explorer as well. Files such as blend, psd, png, and many more can be opened with the preferred system application. For example, double-clicking a .tga file will open the file with the users system preferred image application.
 
-WolvenKit allows us to edit the contents of any [**CR2W**](../../help/glossary.md#cr-2-w) file by double-clicking the file inside the Project Explorer. These files can be added to the Mod directory of your project by using the Asset Browser.
+Any file within the Project Explorer can be moved by dragging and dropping. Additionally files can be copied by holding _Control_ while dragging and dropping.
 
-Non-CR2W files which are typically stored in the Raw directory can be accessed with the Project Explorer as well. Select files such as blend, psd, png, and many more can be opened with your preferred system application. For example, double-clicking a glb (glTF binary) file will result in opening the mesh file with Windows 3D Viewer.
+### Context Menu
 
-### Deleting, Renaming, Copy and Pasting
+Right-click any file within the Project Explorer to explore the Context Menu.
 
-For any file operation, right-click the file within the Project Explorer and navigate the submenu under the **File** button. Alternatively the context **Ribbon** can be used as well.
+![](<../../.gitbook/assets/8.5.3 ProjectExplorer ContextMenu.png>)
 
-![Context Ribbon for Project Explorer](../../.gitbook/assets/8.2\_ribbon\_pe\_actions.png)
+#### Open in MLSetupBuilder
 
-{% hint style="info" %}
-The new UI design in 8.5 does not have project explorer actions in the ribbon as it's directly implemented in the right-click context menu
-{% endhint %}
+Requires MLSetupBuilder plugin for WolvenKit. Install by navigating to the [**View Options**](toolbar.md#view-options) Toolbar panel.
 
-![](../../.gitbook/assets/image.png)
+#### Export to JSON/Import to JSON
 
-### Expanding or collapsing folders
+Writes any REDengine file within the _archive directory_ to human readable JSON format, as a mirrored file within the _raw directory_. JSON files can then be modified and converted back to REDengine format from the context menu by right-clicking the JSON file.
 
-The folders and files in the Project Explorer can be seen as nodes. To collapse/expand all folders or a child, choose an option from the context Ribbon while a folder is selected within the Project Explorer.
+#### Convert to XML
 
-### Locating files with file explorer
+\<info>
 
-To find a project file with your system file explorer, right-click any file within the Project Explorer or use the context Ribbon, then select **Open In file explorer.**
+#### Delete
 
+Moves any project file to the OS/system Recycle Bin.
+
+#### Rename
+
+Opens a dialogue box which allows any project file to be renamed.
+
+#### Copy
+
+Select any project file to be copied.
+
+#### Paste
+
+Pastes copied project file.
+
+#### Copy relative path
+
+Copies the selected file path to OS/system clipboard, trimming off all folders outside the game directory. Extremely useful for modifying paths while using the File Editor.&#x20;
+
+#### Replace with original
+
+Replaces the selected file with the original unmodified version from the game archives. (archive directory only)
+
+#### Open in File Explorer
+
+Find the selected file with the OS/system file explorer.
+
+### Filtering
+
+The Project Explorer can be filtered by directory.
+
+**SOURCE** |  All project directories (default)\
+&#x20;   **archive**  |  Archive directory\
+&#x20;   **raw** |  Raw directory\
+&#x20;  **scripts** |  Script directory\
+&#x20;   **tweaks**  |  Tweaks directory\
+**PACKED**  |  Internal WolvenKit folder for mod deployment. Can be used to install extra files.\
+\
+Additionally the rightmost hamburger-style button can be used to toggle a flat file list without folders.

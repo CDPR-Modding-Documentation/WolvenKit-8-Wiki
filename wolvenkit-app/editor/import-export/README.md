@@ -42,7 +42,7 @@ _\*Only static FBX files are supported for conversion at this time._
 From the main Editor click the Utilities tab of the [**Ribbon**](../../ribbon/). Open the Import/Export tool by clicking the icon within the ribbon. The Import/Export tool can then be accessed similarly to other WolvenKit tools such as the Asset Browser.
 
 {% hint style="warning" %}
-Most imports require an existing REDengine file! For successful imports, ensure that the Mod directory contains a "mirrored" file.\
+Most imports require an existing REDengine file! For successful imports, ensure that the _archive directory_ contains a "mirrored" file.\
 \
 _For example, **both** files below must be present for a successful mesh import:_\
 **Mod\base\characters\main\_npc\judy\g1\_001\_wa\_glove\_\_judy.mesh**\
@@ -57,7 +57,7 @@ _For example, **both** files below must be present for a successful mesh import:
 
 * **Process All** will process all files regardless of selection\
 
-* Processed files will be available inside the Raw directory of the Project Explorer
+* Processed files will be available inside the _raw directory_ of the Project Explorer
 
 ### Advanced Import/Export
 
@@ -75,7 +75,7 @@ _For example, **both** files below must be present for a successful mesh import:
 
 * **Process All** will process all files regardless of selection\
 
-* Processed files will be available inside the Raw directory of the Project Explorer
+* Processed files will be available inside the _raw directory_ of the Project Explorer
 
 ![Advanced mesh export settings with 8.4.3](../../../.gitbook/assets/8.4.3\_ImportExport\_mesh\_advanced.png)
 

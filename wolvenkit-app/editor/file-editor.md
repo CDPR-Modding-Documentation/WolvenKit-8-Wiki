@@ -8,9 +8,7 @@ description: REDengine file editor
 
 The File Editor is a document viewer and manipulator for modifying any REDengine file. WolvenKit is the only RTTI-based editor for RED4.
 
-![UI for pre-8.5](../../.gitbook/assets/8.4.3\_FileEditor\_generic.png)
-
-![UI for 8.5](<../../.gitbook/assets/8.5 file editor.png>)
+![](<../../.gitbook/assets/8.5 file editor.png>)
 
 ## Using the File Editor
 

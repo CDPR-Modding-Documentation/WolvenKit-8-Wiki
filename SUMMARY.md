@@ -35,7 +35,7 @@
   * [File Editor](wolvenkit-app/editor/file-editor.md)
   * [Import/Export](wolvenkit-app/editor/import-export/README.md)
     * [Blender Integration](wolvenkit-app/editor/import-export/blender-integration.md)
-    * [Models](wolvenkit-app/editor/import-export/models.md)
+    * [Models](wolvenkit-app/editor/import-export/models/README.md)
     * [Textures](wolvenkit-app/editor/import-export/textures.md)
   * [Log](wolvenkit-app/editor/log.md)
   * [Project Explorer](wolvenkit-app/editor/project-explorer.md)

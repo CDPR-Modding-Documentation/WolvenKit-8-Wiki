@@ -12,11 +12,15 @@ The **raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
 \
 These are core directories for WolvenKit's file operations. These folders are never exposed to the game inside the [**packed mod.**](../help/glossary.md#packed)
 
+{% hint style="warning" %}
+WolvenKit expects **unbundled** files with Oodle compressed internal buffers. Files extracted with WolvenKit Console using **uncook** cannot be packed correctly. All files added with the Asset Browser _will be_ the correct format.
+{% endhint %}
+
 ## New Project
 
 #### Creating a new WolvenKit mod project
 
-1.  From the [**Ribbon**](ribbon/) or the [**Home**](home.md) page, click the "New Project" button to create a new project.
+1.  From the [**Toolbar**](editor/toolbar.md#new-project) or the [**Home**](home.md) page, click the "New Project" button to create a new project.
 
 
 2.  Name the mod project
@@ -34,7 +38,7 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 #### Opening an existing WolvenKit mod project
 
-1.  From the [**Ribbon**](ribbon/) or the [**Home**](home.md) page, click the "Open Project" button to create a new project.
+1.  From the [**Toolbar**](editor/toolbar.md#open-project) or the [**Home**](home.md) page, click the "Open Project" button to create a new project.
 
 
 2.  Select a .modproj file to open with WolvenKit
@@ -46,12 +50,12 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 ## Pack Project
 
+#### Packing a mod project
+
+From the [**Toolbar**](editor/toolbar.md#pack-project) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
+
+## Pack & Install
+
 #### Packing and installing a mod project
 
-
-
-From the [**Editor**](editor/) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.
-
-{% hint style="warning" %}
-WolvenKit expects **unbundled** files with Oodle compressed internal buffers. Files extracted with WolvenKit Console using **uncook** cannot be packed correctly. All files added with the Asset Browser _will be_ the correct format.
-{% endhint %}
+From the [**Toolbar**](editor/toolbar.md#pack-and-install) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.

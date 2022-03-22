@@ -41,7 +41,7 @@ In the guide below we'll cover these steps in detail to replace an image in Cybe
 2.  Create a new WolvenKit mod project
 
 
-3.  (Optional) Configure the Editor to suit your needs using docking
+3.  Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Within the [**Toolbar**](../wolvenkit-app/editor/toolbar.md), use the [**View Options**](../wolvenkit-app/editor/toolbar.md#view-options) panel to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
 
 
 4. Navigate to the Asset Browser window
@@ -67,7 +67,7 @@ The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse
 5.  Select  `tattoo_casual_d07.xbm` by left-clicking or using the check box. The check boxes are useful for more extensive projects when adding multiple files.
 
 
-6. Add the texture to your project by double-clicking directly on the file or using the **Add Selected Item(s) to Project** button from the [**Ribbon**](../wolvenkit-app/ribbon/)
+6. Add the texture to your project by double-clicking directly on the file
 
 ### Projects
 
@@ -75,20 +75,20 @@ Mod Projects are the core of WolvenKit functionality. Projects are primarily use
 \
 The [**Project Explorer**](../wolvenkit-app/editor/project-explorer.md) is the central component for each mod project. Project files are separated into two main system directories:\
 ****\
-****The **archive** directory is for [**W2RC**](../help/glossary.md#cr-2-w) files.\
+****The **archive** directory is for REDengine/Cyberpunk format files.\
 \
-The **raw** directory is for [**Raw**](../help/glossary.md#raw) source files.\
+The **raw** directory is for non-REDengine/generic format source files.\
 \
 These are core directories for WolvenKit's file operations. These folders are never exposed to the game inside the [**packed mod**](../help/glossary.md#packed).
 
-1.  (Optional) Navigate to the [**Project Explorer**](../wolvenkit-app/editor/project-explorer.md) window to examine the new file added to the Mod directory. The preview functionality of the Properties window also works for local project files. Many REDengine assets and common image files (png, tga, etc.) can be automatically previewed by selecting them within the Project Explorer.
+1.  (Optional) Navigate to the [**Project Explorer**](../wolvenkit-app/editor/project-explorer.md) window to examine the new file added to the archive directory. The preview functionality of the Properties window also works for local project files. Many REDengine assets and common image files (png, tga, etc.) can be automatically previewed by selecting them within the Project Explorer.
 
 
-2. (Optional) Files within the Project Explorer can be managed by right-clicking them directly. Additionally, with a file (or folder) selected, the same options become available from the [**Actions**](../wolvenkit-app/ribbon/actions.md#project-explorer-actions) section of the Ribbon.
+2. (Optional) Files within the Project Explorer have additional options when right-clicked. Directly right-click any file to open the [**Context Menu**](../wolvenkit-app/editor/project-explorer.md#context-menu).
 
 ### Exporting REDengine Files
 
-WolvenKit features a bespoke tool for conversions between [**W2RC**](../help/glossary.md#cr-2-w) and [**Raw**](../help/glossary.md#raw) formats, _creatively_ named [**Import/Export**](../wolvenkit-app/editor/import-export/). The tool can be accessed through the [**View**](broken-reference) tab of the Ribbon. The Import/Export tool is extremely robust, featuring advanced options and batch functionality.
+WolvenKit features a bespoke tool for conversions between REDengine and non-REDengine formats, _creatively_ named [**Import/Export**](../wolvenkit-app/editor/import-export/). The Import/Export tool is extremely robust, featuring advanced options and batch functionality.
 
 The **archive** and **raw** directories within the **Project Explorer** behave as a mirror to one another; REDengine files are always stored in the _archive directory_, and the analogous "generic" format file will be stored in the _raw directory_ with the same folder structure. Import and export destinations _never_ need to be specified enabling ultra-fast file I/O, with the added benefit of automatically-organized Raw files.
 
@@ -132,7 +132,7 @@ While this guide is step-by-step, it's counter-productive for the WolvenKit team
 
 3. Select the `tattoo_casual_d07.tga` file within the Import grid. Double-click the TGA file within the Import grid to access advanced options.\
 
-4.  Within the advanced options, uncheck **Use existing file**. This ensures a successful import while using TGA with WolvenKit 8.4.3. Press **Confirm** to proceed.
+4.  Within the advanced options, check the **isGamma** box. This step is necessary for all _color textures_ (such as d/diffuse) to display as sRGB. Without **isGamma** checked color textures will appear bright and washed out. Press **Confirm** to proceed.
 
 
 5.  Press **Process Selected** to complete the Import operation
@@ -144,23 +144,13 @@ While this guide is step-by-step, it's counter-productive for the WolvenKit team
 Custom TGA files may appear upside down within the file previewer! There is a known visual issue with WolvenKit. The imported XBM file preview will be correct.
 {% endhint %}
 
-### File Editing
-
-The core feature of WolvenKit is the [**File Editor**](../wolvenkit-app/editor/file-editor.md#what-is-the-file-editor). Any REDengine file can be modified and saved with the built in REDengine document viewer.
-
-1. Double-click the `tattoo_casual_d07.xbm` file within the **Project Explorer**.\
-
-2. Within the document view, select **CBitmapTexture.** Then use the panel on the righthand side to expand the **Setup** category.\
-
-3. Within the Setup category press the empty checkbox for the **isGamma** property. The box should now display an X for true. This step is necessary for all **color textures** to display as sRGB. Without **isGamma** checked color textures will appear bright and washed out.
-
 ### Building
 
 WolvenKit features a one-click mod building solution. The build process packs any **archive directory** files into archive format and installs to the game automatically.
 
-WolvenKit only supports **unbundled** files. Files that have been decompressed with Oodle Kraken _will not_ be packed correctly. Buffers must be compressed within the main W2RC file. Files added with the built-in Asset Browser will **always** be the correct format.
+WolvenKit only supports **unbundled** files. Files that have been decompressed using WolvenKit CLI _will not_ be packed correctly. Buffers must be compressed within the main REDengine file. Files added with the built-in Asset Browser will **always** be the correct format.
 
-1.  From within the General section of the Ribbon, select the [**Pack Project**](broken-reference) button
+1.  From within the [**Toolbar**](../wolvenkit-app/editor/toolbar.md), select the [**Pack & Install**](../wolvenkit-app/editor/toolbar.md#pack-and-install) button
 
 
 2.  Verify the mod project has been packed and installed by viewing the [**Log**](../wolvenkit-app/editor/log.md) window

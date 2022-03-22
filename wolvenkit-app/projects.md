@@ -52,10 +52,10 @@ WolvenKit expects **unbundled** files with Oodle compressed internal buffers. Fi
 
 #### Packing a mod project
 
-From the [**Toolbar**](editor/toolbar.md#pack-project) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
+From the [**Toolbar**](editor/toolbar.md#pack-project) click on the [**Pack Project**](editor/toolbar.md#pack-project) button**.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
 
 ## Pack & Install
 
 #### Packing and installing a mod project
 
-From the [**Toolbar**](editor/toolbar.md#pack-and-install) click on the **Pack Project** button within the **Ribbon.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.
+From the [**Toolbar**](editor/toolbar.md#pack-and-install) click on the [**Pack & Install**](editor/toolbar.md#pack-and-install) button**.** The [**Log**](editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](editor/project-explorer.md) will now be packed into archive format. The custom archive is _automatically_ installed to the game installation within the [**Settings**](settings.md) page.

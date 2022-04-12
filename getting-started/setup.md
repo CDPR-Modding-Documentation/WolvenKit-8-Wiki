@@ -10,13 +10,16 @@ When launching WolvenKit for the first time you will be greeted with a welcome f
 
 ![](<../.gitbook/assets/8.5.3 FirstSetup generic.png>)
 
-The **Game Executable  Path** **(.exe)** is the file path or location of the Cyberpunk2077.exe file. This can be set by manually entering a file path, or using the folder icon to browse system files for the preferred Cyberpunk installation. As a reminder, if Cyberpunk is installed within Program Files we recommend running WolvenKit as administrator.
+The **Game Executable Path** **(.exe)** is the file path or location of the Cyberpunk2077.exe file. This can be set by manually entering a file path, or using the folder icon to browse system files for the preferred Cyberpunk installation. As a reminder, if Cyberpunk is installed within Program Files we recommend running WolvenKit as administrator.
 
 {% hint style="info" %}
 Can't find Cyberpunk2077.exe? Try the default locations listed below:\
 \
 **STEAM**\
-`C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64`
+`C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64`\
+``\
+``**`GOG`**\
+`C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077\bin\x64`
 {% endhint %}
 
 The **Depot Path** is a WolvenKit system folder for creating a cache of textures and other Cyberpunk assets. The Depot Path is set by default to `.../AppData/Roaming/REDModding/WolvenKit/MaterialDepot`, however any custom folder can be substituted. A Depot with materials can be in excess of 30 gigabytes, so we recommend a destination with ample free disk space.

@@ -6,7 +6,7 @@ description: What's new?
 
 ## Wolvenkit 8.6&#x20;
 
-**Work In Progress (Nightly's Current version)**&#x20;
+**Published May 24 2022**
 
 {% content-ref url="8.6.md" %}
 [8.6.md](8.6.md)

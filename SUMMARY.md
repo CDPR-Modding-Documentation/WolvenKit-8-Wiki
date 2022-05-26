@@ -8,8 +8,8 @@
 
 * [Overview](features/overview.md)
 * [Release Notes](features/release-notes/README.md)
-  * [8.6 (In development)](features/release-notes/8.6.md)
-  * [8.5 (Latest Stable)](features/release-notes/8.5.md)
+  * [8.6 (Latest Stable)](features/release-notes/8.6.md)
+  * [8.5](features/release-notes/8.5.md)
   * [8.4](features/release-notes/8.4.md)
   * [8.3](features/release-notes/8.3.md)
   * [8.2](features/release-notes/8.2.md)

@@ -33,6 +33,11 @@ _**The argument --pcb is important so as not to return gibberish audio files.**_
 
 It is also recommended to turn down the volume upon playback.
 
+In addition, a combination of these tools can be found at the [Wwise Audio Tools repository](https://github.com/WolvenKit/wwise-audio-tools) which has a command line tool that can be downloaded from the repository or installed through the AUR. It has Linux and Windows support and converts WEM files to OGG without the hassle of the external PCB file or having to run through multiple programs for a clean output.
+
+`./wwtools` converts all WEMs in the current directory to OGG files\
+`./wwtools wem [input.wem] (--info)` will convert the specified WEM to OGG and if the optional info flag is used it will print the information about the file and exit.
+
 Playback through ffmpeg:\
 `ffplay.exe <!AudioFilePath!>.ogg`\
 \

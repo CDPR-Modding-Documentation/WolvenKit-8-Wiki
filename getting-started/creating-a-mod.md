@@ -112,7 +112,7 @@ Cyberpunk textures appear to be upside-down. This is **not a bug** or issue with
 
 ### Editing Textures
 
-While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net), or [Gimp](https://gimp.org) for editing TGA format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
+While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing TGA format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
 
 1.  Import the `tattoo_casual_d07.tga` texture file to an image editing software of your choice
 
@@ -160,7 +160,7 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed u
 
 ## Final Thoughts
 
-While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the[ Discord server](https://discord.gg/cp77modding)!
+While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the [Discord server!](https://discord.com/invite/Epkq79kd96)
 
 
 

@@ -4,6 +4,8 @@ description: With great power comes great responsibility
 
 # Creating a Mod
 
+![](<../.gitbook/assets/Example Mod Sammy Jacket.png>)
+
 ## Before we get started
 
 **Congratulations on installing WolvenKit!** We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit. Lastly keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md) Now without further adieu...
@@ -53,21 +55,16 @@ The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse
 1.  Use the "breadcrumb" style navigator in the left-hand side of the Asset Browser to quickly navigate folders
 
 
-2.  Navigate to the following path:
+2. Navigate to the following path: `base\characters\garment\player_equipment\torso\t2_084_jacket__short_sleeves\textures\`\
 
-    `base/characters/common/textures/tattoos`
-
-
-3.  Use the main file list panel inside the Asset Browser to preview individual files. The XBM file extension always represents a texture file within REDengine. WolvenKit is capable of instantly previewing texture and model files. The Properties window responds automatically to selections within the Asset Browser. Feel free to experiment by selecting a few textures.
+3.  Use the main file list panel inside the Asset Browser to preview individual files. The XBM file extension always represents a texture file within REDengine. WolvenKit is capable of instantly previewing textures and models. The [**Properties**](../wolvenkit-app/editor/properties.md) window responds automatically to selections within the Asset Browser. Feel free to experiment by selecting a few textures.
 
 
-4.  For this guide we'll be using `tattoo_casual_d07.xbm`, but feel free to choose another if you're feeling adventurous. To verify this texture mod in game, you will need a game save with Judy available in-person. Beware depending on the texture you choose, you may experience some difficulty when it comes time to verify that the final modded archive works successfully.
+4. Select `t2_084_pwa_jacket__short_sleeves_decal_d01.xbm`by left-clicking the file within the Asset Browser list.\
+   \
+   Feel free to choose another if you're feeling adventurous. Beware depending on the texture you choose, you may experience some difficulty when it comes time to verify that the final modded archive works successfully.\
 
-
-5.  Select  `tattoo_casual_d07.xbm` by left-clicking or using the check box. The check boxes are useful for more extensive projects when adding multiple files.
-
-
-6. Add the texture to your project by double-clicking directly on the file
+5. Add the texture to your project by double-clicking directly on the file
 
 ### Projects
 
@@ -95,7 +92,7 @@ The **archive** and **raw** directories within the **Project Explorer** behave a
 1.  Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Export** toggle is selected
 
 
-2.  Double-click the `tattoo_casual_d07.xbm` file within the Export grid to view advanced options. Any asset within the Import/Export grid can be doubled clicked to adjust advanced I/O options for each file format.
+2.  Double-click the `t2_084_pma_jacket__short_sleeves_decal_d01.xbm` file within the Export grid to view advanced options. Any asset within the Import/Export grid can be doubled clicked to adjust advanced I/O options for each file format.
 
 
 3.  Inspect the **XBM Export Type** drop down menu, in this case we want to export the texture as a **TGA**
@@ -114,13 +111,19 @@ Cyberpunk textures appear to be upside-down. This is **not a bug** or issue with
 
 While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing TGA format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
 
-1.  Import the `tattoo_casual_d07.tga` texture file to an image editing software of your choice
+1.  Import the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` texture file to an image editing software of your choice
 
 
 2.  Make a _distinct and recognizable_ change to the image
 
 
-3. Export the `tattoo_casual_d07.tga` texture file as a **TGA**, overwriting the original TGA file
+3. Export the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` texture file as a **TGA**, overwriting the original TGA file
+
+{% hint style="info" %}
+Not feeling creative? Feel free to use the the WolvenKit icon replacer below.
+{% endhint %}
+
+{% file src="../.gitbook/assets/t2_084_pma_jacket__short_sleeves_decal_d01.tga" %}
 
 ### Importing REDengine Files
 
@@ -130,7 +133,7 @@ While this guide is step-by-step, it's counter-productive for the WolvenKit team
 2.  Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Import** toggle is selected
 
 
-3. Select the `tattoo_casual_d07.tga` file within the Import grid. Double-click the TGA file within the Import grid to access advanced options.\
+3. Select the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` file within the Import grid. Double-click the TGA file within the Import grid to access advanced options.\
 
 4.  Within the advanced options, check the **isGamma** box. This step is necessary for all _color textures_ (such as d/diffuse) to display as sRGB. Without **isGamma** checked color textures will appear bright and washed out. Press **Confirm** to proceed.
 
@@ -157,6 +160,20 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed u
 
 
 3. Congratulations! Launch Cyberpunk and check out your first mod with WolvenKit!
+
+### Testing In Game
+
+To verify this texture mod in game, equip the outer torso item `Replica of Johnny's Samurai jacket`.  The jacket can be obtained through normal gameplay during the main questline. Alternatively, the jacket can be added to the player inventory by using the [**Cyber Engine Tweaks**](https://wiki.redmodding.org/cyber-engine-tweaks/console/how-do-i#give-myself-money-or-items) console.
+
+{% hint style="info" %}
+The following command can be used to obtain Johnny's Jacket:\
+\
+`Game.AddToInventory("Items.SQ031_SamuraiJacket",1)`\
+\
+Copy and paste the command into the Cyber Engine Tweaks console using CTRL+C to copy, then CTRL+V to paste.
+{% endhint %}
+
+![](<../.gitbook/assets/Example Mod Sammy Jacket Inventory.png>)
 
 ## Final Thoughts
 

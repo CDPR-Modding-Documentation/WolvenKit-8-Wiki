@@ -38,7 +38,7 @@ Bone parents are not required for successful mesh imports
 
 Choose a rig file from the panel on the left side, then use the opposing left/right arrows to add or remove a rig. The selected rig will be added to the right panel. Only one rig can be used, so adding more than one rig will result in the 1st rig in the list being selected.
 
-![Navigating the rig menu](../../../../.gitbook/assets/8.2\_withrig\_mega\_tutorial.png)
+<img src="../../../../.gitbook/assets/8.2_withrig_mega_tutorial.png" alt="Navigating the rig menu" data-size="original">
 
 #### Choosing rigs correctly
 

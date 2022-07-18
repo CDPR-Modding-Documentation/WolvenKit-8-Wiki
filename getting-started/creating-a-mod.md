@@ -60,7 +60,7 @@ The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse
 3.  Use the main file list panel inside the Asset Browser to preview individual files. The XBM file extension always represents a texture file within REDengine. WolvenKit is capable of instantly previewing textures and models. The [**Properties**](../wolvenkit-app/editor/properties.md) window responds automatically to selections within the Asset Browser. Feel free to experiment by selecting a few textures.
 
 
-4. Select `t2_084_pwa_jacket__short_sleeves_decal_d01.xbm`by left-clicking the file within the Asset Browser list.\
+4. Select `t2_084_pma_jacket__short_sleeves_decal_d01.xbm`by left-clicking the file within the Asset Browser list.\
    \
    Feel free to choose another if you're feeling adventurous. Beware depending on the texture you choose, you may experience some difficulty when it comes time to verify that the final modded archive works successfully.\
 

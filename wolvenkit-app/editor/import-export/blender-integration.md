@@ -8,6 +8,14 @@ _For the latest information about the HitmanHimself's add-on please visit the Gi
 
 {% embed url="https://github.com/HitmanHimself/cp77research/releases" %}
 
+{% hint style="warning" %}
+Using WolvenKit 8.7+? The plugin has been forked and updated to work with the latest development builds by dragonzkiller.\
+\
+_For the latest releases compatible with WolvenKit nighty builds visit the GitHub page linked below._
+{% endhint %}
+
+{% embed url="https://github.com/dragonzkiller/cp77research" %}
+
 ### How do I use the Blender integration features?
 
 Preparing a material json with WolvenKit is quite simple, export a mesh using the following setting:

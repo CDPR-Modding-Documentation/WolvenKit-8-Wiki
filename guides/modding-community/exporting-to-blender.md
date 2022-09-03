@@ -6,7 +6,20 @@ description: >-
 
 # Exporting to Blender
 
-This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WKit and plugin, and Blender 3.2.
+## Exporting to Blender
+
+**Created by @Simarilius** \
+**Published September 03 2022**
+
+This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.2.
+
+### Requirements
+
+* [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit)****
+* [**Blender 3.2**](https://www.blender.org/)****
+* [**Cyberpunk add-on for Blender 1.0.8**](https://github.com/dragonzkiller/cp77research)****
+
+## Guide
 
 First step is to locate the ent file for the character you want, I'm gonna use Jackie for the example. To start I've created a new project for him,&#x20;
 

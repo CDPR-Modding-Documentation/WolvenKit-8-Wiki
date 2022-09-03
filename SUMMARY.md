@@ -56,7 +56,8 @@
 ## Guides
 
 * [Official](guides/official.md)
-* [Modding Community](guides/modding-community.md)
+* [Modding Community](guides/modding-community/README.md)
+  * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
 
 ## Developers
 

@@ -39,7 +39,7 @@ _\*Only static FBX files are supported for conversion at this time._
 
 ## Using the Import/Export tool
 
-From the main Editor click the Utilities tab of the [**Ribbon**](../../ribbon/). Open the Import/Export tool by clicking the icon within the ribbon. The Import/Export tool can then be accessed similarly to other WolvenKit tools such as the Asset Browser.
+The **Import/Export** tool can be accessed from the [**View Options**](../toolbar.md#view-options) menu within the [**Toolbar**](../toolbar.md). Visibility of the tool can be toggled within the drop-down menu, similar to other WolvenKit tools such as the Asset Browser.
 
 {% hint style="warning" %}
 Most imports require an existing REDengine file! For successful imports, ensure that the _archive directory_ contains a "mirrored" file.\

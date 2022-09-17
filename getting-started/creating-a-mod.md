@@ -168,7 +168,7 @@ To verify this texture mod in game, equip the outer torso item `Replica of Johnn
 {% hint style="info" %}
 The following command can be used to obtain Johnny's Jacket:\
 \
-`Game.AddToInventory("Items.SQ031_SamuraiJacket",1)`\
+`Game.AddToInventory("Items.SQ031_Samurai_Jacket",1)`\
 \
 Copy and paste the command into the Cyber Engine Tweaks console using CTRL+C to copy, then CTRL+V to paste.
 {% endhint %}

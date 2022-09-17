@@ -69,7 +69,7 @@ for mesh in meshes:
 
 You should get something like the image below, with a character just about visible behind the massive bone handles. Drag select the bones and hit h to hide them, and your character model should appear. Note at this point if you've exported several appearances all the meshes will be visible together, you'll need to do some organisation into collections to get the outfits seperated.
 
-If it doesnt import, you can go through the folders inside your project and individually import the glb files. They should import with materials wherever they are a type supported by the plugin, which unfortunately isnt all yet. You will probably need to change the alpha blend settings on things like tattoos, as they show up as big chunks of black.&#x20;
+If it doesnt import, you can go through the folders inside your project and individually import the glb files. They should import with materials wherever they are a type supported by the plugin, which unfortunately isnt all yet. You may need to change the alpha blend settings on things like tattoos, as they show up as big chunks of black.&#x20;
 
 
 
@@ -77,8 +77,12 @@ If it doesnt import, you can go through the folders inside your project and indi
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Process is basically the same for guns and vehicles etc, track down the mesh file, add to project, export with materials.
+After a bit of organisation and a switch to the cycles renderer you should get something like this.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 If you get lots of bits that are a bright magenta type colour then the shaders are too complex for Eevee to render, and you need to switch to cycles. Example of Eevee vs Cycles below (note her dress is still wrong as the shader for the hex pattern on her dress isn't fully supported)
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Process is basically the same for guns and vehicles etc, track down the mesh files, add to project, export with materials.

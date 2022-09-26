@@ -1,20 +1,14 @@
 # Blender Integration
 
+{% embed url="https://user-images.githubusercontent.com/65016231/130711162-301926fa-c7a0-4e08-b7c7-414bfa558205.png" %}
+
 ## How does it work?
 
-WolvenKit is able to generate a bespoke **material json** file when exporting mesh files using the **WithMaterials** argument. The material json file writes the REDengine shader values and paths to a plaintext json file which can be used in conjunction with HitmanHimself's Blender add-on. The add-on has been tested with Blender version 2.92, 2.93, and 3.0 successfully.
+WolvenKit is able to generate a bespoke **material json** file when exporting mesh files using the **WithMaterials** argument. The material json file writes the REDengine shader values and paths to a plaintext json file which can be used in conjunction with the Cyberpunk Blender add-on.
 
-_For the latest information about the HitmanHimself's add-on please visit the GitHub page directly._
+_For the latest info about the Cyberpunk Blender add-on please visit the GitHub page directly._
 
-{% embed url="https://github.com/HitmanHimself/cp77research/releases" %}
-
-{% hint style="warning" %}
-Using WolvenKit 8.7+? The plugin has been forked and updated to work with the latest development builds by dragonzkiller.\
-\
-_For the latest releases compatible with WolvenKit nighty builds visit the GitHub page linked below._
-{% endhint %}
-
-{% embed url="https://github.com/dragonzkiller/cp77research" %}
+{% embed url="https://github.com/WolvenKit/Cyberpunk-Blender-add-on" %}
 
 ### How do I use the Blender integration features?
 
@@ -26,7 +20,7 @@ Use the drop down panel for Mesh Export Type, and select the **WithMaterials** o
 
 ### Importing Cyberpunk meshes with Blender
 
-After installing and enabling HitmanHimself's Blender add-on, simply navigate to **File** tab, navigate to **Import** then select **Cyberpunk GLTF**.
+After installing and enabling the Cyberpunk Blender add-on, simply navigate to **File** tab, navigate to **Import** then select **Cyberpunk GLTF**.
 
 {% hint style="warning" %}
 Not all Cyberpunk shaders are supported! Programming shaders can be very tedious. If you're interested in contributing a new shader please consider reaching out on Discord!

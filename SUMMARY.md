@@ -1,13 +1,13 @@
 # Table of contents
 
-* [Edit this wiki](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/OVHjxIctfql4c2fCdDv9)
-* [Log in and edit](https://app.gitbook.com)
+* [SIgn-up to edit this Wiki](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/OVHjxIctfql4c2fCdDv9)
 * [Home](README.md)
 
 ## Features
 
 * [Overview](features/overview.md)
 * [Release Notes](features/release-notes/README.md)
+  * [8.7 (In development)](features/release-notes/8.7.md)
   * [8.6 (Latest Stable)](features/release-notes/8.6.md)
   * [8.5](features/release-notes/8.5.md)
   * [8.4](features/release-notes/8.4.md)

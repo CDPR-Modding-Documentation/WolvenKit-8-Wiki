@@ -4,13 +4,29 @@ description: What's new?
 
 # Release Notes
 
-## Wolvenkit 8.6&#x20;
+## WolvenKit 8.7
+
+#### IN DEVELOPMENT: Publish Date TBD
+
+{% content-ref url="8.7.md" %}
+[8.7.md](8.7.md)
+{% endcontent-ref %}
+
+{% hint style="info" %}
+Supports Cyberpunk 2077 game version 1.6
+{% endhint %}
+
+## WolvenKit 8.6&#x20;
 
 **Published May 24 2022**
 
 {% content-ref url="8.6.md" %}
 [8.6.md](8.6.md)
 {% endcontent-ref %}
+
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}
 
 ## WolvenKit 8.5
 
@@ -19,6 +35,10 @@ description: What's new?
 {% content-ref url="8.5.md" %}
 [8.5.md](8.5.md)
 {% endcontent-ref %}
+
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}
 
 ## WolvenKit 8.4
 
@@ -36,6 +56,10 @@ description: What's new?
 
 #### ****[**8.4.1 (Oct 06 2021)**](8.4.md#8.4.1-oct-06-2021)
 
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}
+
 ## WolvenKit 8.3
 
 #### Published Sept 05 2021
@@ -47,6 +71,10 @@ description: What's new?
 ### Patches
 
 ****[**8.3.2 (Sept 05 2021)**](8.3.md#8.3.2-sept-05-2021)****
+
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}
 
 ## WolvenKit 8.2
 
@@ -62,6 +90,10 @@ description: What's new?
 
 #### [8.2.1 (Jun 29 2021)](8.2.md#8-2-1-jun-29-2021)
 
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}
+
 ## WolvenKit 0.8.0.1
 
 #### Published Apr 06 2021
@@ -69,3 +101,7 @@ description: What's new?
 {% content-ref url="0.8.0.1.md" %}
 [0.8.0.1.md](0.8.0.1.md)
 {% endcontent-ref %}
+
+{% hint style="warning" %}
+Does **NOT** support latest Cyberpunk 2077 game version
+{% endhint %}

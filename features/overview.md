@@ -18,7 +18,7 @@ WolvenKit is an open-source community developed application. The source code for
 
 ## File Editor
 
-WolvenKit is built around our RTTI-based file editor. Any REDengine file can be inspected, edited, and saved with the File Editor. RED files can also be converted to human-readable json and back for ease-of-use.
+WolvenKit is built around our RTTI-based file editor. Any REDengine file can be inspected, edited, and saved with the File Editor. The File Editor is also capable of reading and writing in-place buffer data. Game files can also be converted to human-readable json and back for ease-of-use.
 
 ## Projects
 

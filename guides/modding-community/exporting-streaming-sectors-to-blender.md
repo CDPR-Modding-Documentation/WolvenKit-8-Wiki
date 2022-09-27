@@ -53,6 +53,31 @@ import json
 import glob
 import os
 import bpy
+
+# Print iterations progress
+def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+    Thanks Greenstick:    
+    https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print(f'\r{prefix} |{bar}| {percent}% {suffix}', end = printEnd)
+    # Print New Line on Complete
+    if iteration == total: 
+        print()
+
 path = 'F:\\CPmod\\coyote\\source\\raw\\base'
 
 C = bpy.context
@@ -63,23 +88,28 @@ coll_scene.children.link(Masters)
 # Set target collection to a known collection 
 coll_target = coll_scene.children.get("MasterInstances")
 
-
 meshes =  glob.glob(path+"\**\*.glb", recursive = True)
+total=len(meshes)
+print(total)
+i=0
+printProgressBar(i, total, prefix = 'Progress:', suffix = 'Complete', length = 50)
 for mesh in meshes:
     try:
        bpy.ops.io_scene_gltf.cp77(filepath=mesh)
        objs = C.selected_objects
-       
-       
        move_coll= coll_scene.children.get( objs[0].users_collection[0].name )
        coll_target.children.link(move_coll) 
        coll_scene.children.unlink(move_coll)
-
     except:
         print("Failed on ",mesh)
+    i=i+1
+    printProgressBar(i, total, prefix = 'Progress:', suffix = 'Complete', length = 50)
+    
 ```
 
-Set the path variable to the project raw folder, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances. This step may take a few minutes as loading the meshes with materials isnt the fastest process. After this add a second script to the file, and paste the script below in it.
+Set the path variable to the project raw folder. In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that arent (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector DONT delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;
+
+After this add a second script to the file, and paste the script below in it.
 
 ```python
 import json
@@ -303,7 +333,9 @@ print('Finished')
 
 The path variable needs to point to the raw folder of the project that you extracted your meshes and streamingsector to. The path2 variable points to the worldNodeData.json you created above.
 
-Run the script and it should instance the meshes, and position them all. I'm doing it via instances as if you just pull meshes in for each item the script takes 6+hrs to pull in Coyote Cojo. This may be a problem for modding in terms of getting it back into CP, so I do have a version that can pull meshes in and I've put a switch that lets you turn on or off the material import, as the time difference is huge, just meshes takes 30 secs or so, with materials is at an several hours. Open to discussions on this on the Discord, and happy to provide the other version if people want it.
+Run the script and it should instance the meshes, and position them all. I'm doing it via instances as if you just pull meshes in for each item the script takes 6+hrs to pull in Coyote Cojo. This may be a problem for modding in terms of getting it back into Cyberpunk, so I do have a version that can pull meshes in and I've put a switch that lets you turn on or off the material import, as the time difference is huge, just meshes takes 30 secs or so, with materials is at an several hours. That version is in the code block at the bottom of this tutorial.
+
+The meshes are scaled and positioned based on the map co-ords, so come in kinda small and off in a weird place. Hide the MeshInstances Collector, then do A to select all and . on the keypad to frame selected and you should hopefully see it.
 
 As you can see in the script there are several node types in the sector file not being processed currently, and these included decals and decoration meshes that add the detail to the scene, but the bones of it are there with the above script. Will try and get these extras added soon. The code is not by any stretch of the imagination optimised, but it mostly works.
 

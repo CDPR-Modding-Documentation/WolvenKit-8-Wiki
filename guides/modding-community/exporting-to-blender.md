@@ -45,7 +45,7 @@ You may need to go through the app file afterwards to check all the meshes got f
 
 
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The mesh files should now be visible in the project explorer, occasionally I find they arent showing up but closing and reopening the project makes them appear.&#x20;
 

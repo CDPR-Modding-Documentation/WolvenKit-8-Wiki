@@ -58,7 +58,8 @@
 * [Official](guides/official.md)
 * [Modding Community](guides/modding-community/README.md)
   * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
-  * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender.md)
+  * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
+    * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
 
 ## Developers
 

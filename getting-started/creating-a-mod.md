@@ -120,6 +120,8 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed u
 
 ### Testing In Game
 
+To test any REDmod in game, you need to select "Enable mods" from the REDlauncher after installing the REDmod DLC.
+
 To verify this texture mod in game, equip the outer torso item `Replica of Johnny's Samurai jacket`. The jacket can be obtained through normal gameplay during the main questline. Alternatively, the jacket can be added to the player inventory by using the [**Cyber Engine Tweaks**](https://wiki.redmodding.org/cyber-engine-tweaks/console/how-do-i#give-myself-money-or-items) console.
 
 {% hint style="info" %}

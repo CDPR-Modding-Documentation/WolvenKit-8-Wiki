@@ -87,6 +87,7 @@ import json
 import glob
 import os
 import bpy
+from pathlib import Path
 
 # Print iterations progress
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
@@ -116,8 +117,11 @@ path = 'F:\\CPmod\\coyote\\source\\raw\\base'
 
 C = bpy.context
 coll_scene = C.scene.collection
-Masters=bpy.data.collections.new("MasterInstances")
-coll_scene.children.link(Masters)
+if 'MasterInstances' in  coll_scene.children.keys():
+    Masters=bpy.data.collections['MasterInstances']
+else:
+    Masters=bpy.data.collections.new("MasterInstances")
+    coll_scene.children.link(Masters)
 
 # Set target collection to a known collection 
 coll_target = coll_scene.children.get("MasterInstances")
@@ -127,18 +131,22 @@ total=len(meshes)
 print(total)
 i=0
 printProgressBar(i, total, prefix = 'Progress:', suffix = 'Complete', length = 50)
-for mesh in meshes:
-    try:
-       bpy.ops.io_scene_gltf.cp77(filepath=mesh)
-       objs = C.selected_objects
-       move_coll= coll_scene.children.get( objs[0].users_collection[0].name )
-       coll_target.children.link(move_coll) 
-       coll_scene.children.unlink(move_coll)
-    except:
-        print("Failed on ",mesh)
-    i=i+1
-    printProgressBar(i, total, prefix = 'Progress:', suffix = 'Complete', length = 50)
-    
+for m,mesh in enumerate(meshes):
+    if Path(mesh).stem not in Masters.children.keys():
+        try:
+           bpy.ops.io_scene_gltf.cp77(filepath=mesh)
+           objs = C.selected_objects
+           move_coll= coll_scene.children.get( objs[0].users_collection[0].name )
+           coll_target.children.link(move_coll) 
+           coll_scene.children.unlink(move_coll)
+        except:
+            print("Failed on ",mesh)
+        i=i+1
+        printProgressBar(i, total, prefix = 'Progress:', suffix = 'Complete', length = 50)
+        #Uncomment the lines below to save the blend file every 100 imports
+        #if (m % 100==0):
+        #    bpy.ops.wm.save_mainfile()
+            
 ```
 
 Set the path variable to the project raw folder. In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that arent (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector, but DONT delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;

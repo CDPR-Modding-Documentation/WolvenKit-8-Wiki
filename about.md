@@ -1,4 +1,4 @@
-# Acknowledgements
+# About
 
 ## WolvenKit is made possible by the community
 
@@ -32,27 +32,29 @@ HitmanHimself reverse engineered countless file formats and designed solutions t
 
 _Community members who've logged countless hours bringing WolvenKit to the next level_
 
-#### PNDR - Artist
+#### PNDR - Art & Graphic Design
 
 * Created dozens upon dozens of vector-based icons for WolvenKit's Asset Browser and Project Explorer
 
-#### HOMESICK - Artist
+#### HOMESICK - Art & Graphic Design
 
 * Created WolvenKit brand images, including the Sammy avatar
 
-#### NEUROLINKED - PROGRAMMING
-
-* Created the MLSETUP BUILDER tool and plugin for WolvenKit
-
 ## Other extraordinary help
 
-_Community members or organizations that empower REDengine modding_
+_Community members or organizations that empower REDengine modding with WolvenKit_
 
 #### AB4D - 3D Graphics for .Net
 
-__[_https://www.ab4d.com/_](https://www.ab4d.com/)__
+__[_https://www.ab4d.com_](https://www.ab4d.com/)__
 
-WolvenKit's real-time mesh preview system is powered by AB4D.
+WolvenKit's real-time mesh preview system was powered by AB4D. (Deprecated in v8.6)
+
+#### NEUROLINKED
+
+[https://github.com/Neurolinked](https://github.com/Neurolinked)
+
+Neurolinked created MLSB (mlsetup-builder), a software for working with and creating complex multilayered Cyberpunk assets.
 
 #### TURK645
 
@@ -60,8 +62,10 @@ WolvenKit's real-time mesh preview system is powered by AB4D.
 
 The basis for converting Cyberpunk multilayered materials into Python script for Blender was Turk's incredible Blender add-on for shader automation. Their research and development helped make the Cyberpunk Blender add-on possible.
 
-## Legacy
+## Legacy WolvenKit
 
 _Paying tribute to legacy community members that helped make WolvenKit what it is today..._&#x20;
 
 #### Maxime Chambonnet (Maxzor/Elcorazon)
+
+[https://github.com/Maxzor](https://github.com/Maxzor)

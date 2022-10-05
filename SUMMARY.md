@@ -76,4 +76,4 @@
 
 ***
 
-* [Acknowledgements](acknowledgements.md)
+* [About](about.md)

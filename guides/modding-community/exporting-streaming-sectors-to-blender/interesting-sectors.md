@@ -1,4 +1,3 @@
-
 ---
 description: A list of sectors for some interesting locations to save you hunting for them
 ---

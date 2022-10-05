@@ -1,3 +1,4 @@
+
 ---
 description: A list of sectors for some interesting locations to save you hunting for them
 ---
@@ -15,4 +16,4 @@ description: A list of sectors for some interesting locations to save you huntin
 | exterior\_-7\_6\_0\_1.streamingsector exterior\_-7\_7\_0\_1.streamingsector                                                                                                                                                                                                                                                                                                                                                                              | Turbo's Diner, Japantown, Westbrook \[exterior] (location of the party after their first gig in Edgerunners)                                                         |
 | exterior\_-8\_-14\_0\_1.streamingsector                                                                                                                                                                                                                                                                                                                                                                                                                  | Strip mall                                                                                                                                                           |
 | interior\_-23\_15\_0\_1.streamingsector interior\_-23\_16\_0\_1.streamingsector                                                                                                                                                                                                                                                                                                                                                                          | Afterlife                                                                                                                                                            |
-
+|exterior\_-21\_18\_1\_0.streamingsector interior_-11_9_0_2.streamingsector interior_-21_18_1_1.streamingsector | Secret Ending Mansion

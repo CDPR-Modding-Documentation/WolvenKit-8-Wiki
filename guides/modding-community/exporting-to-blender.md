@@ -85,7 +85,7 @@ If it doesnt import, you can go through the folders inside your project and indi
 
 After a bit of organization and a switch to the cycles renderer you should get something like this.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you get lots of bits that are a bright magenta type colour then the shaders are too complex for Eevee to render, and you need to switch to cycles. Example of Eevee vs Cycles below (note her dress is still wrong as the shader for the hex pattern on her dress isn't fully supported)
 

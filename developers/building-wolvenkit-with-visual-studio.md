@@ -8,9 +8,9 @@
 
 [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
-## **Required files**
+### Check out the source code with Git
 
-1. All the required files are either NuGet packages, which will automatically be downloaded on pressing `Build.`
+![](<../.gitbook/assets/image (8).png>)
 
 ## **Build and Run**
 

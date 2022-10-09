@@ -52,7 +52,7 @@ From those co-ordinates we can calculate the sector files for interior/exterior 
 
 At the level 0 files the whole building isn't covered by 1 sector, so you end up needing 4, conversely the exterior level 2 is several city blocks. In the end to totally define the bar you need the following as far as I can tell
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (2).png>)
 
 In some locations bit are defined inside quest sectors that have bunch of bits to do with triggering the story bits that occur there, half vs apartment seems to be tucked away inside several of those. Their something todo with the nodeRefs inside the main sector files, but I'm still trying to work out how to work out one from the other.
 
@@ -66,7 +66,7 @@ You can preview the sectors in wolvenkit to confirm their what you're after.
 
 Once you've found the location you want to export, add the sectors to your project, then right click and export to JSON.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Now right click the sector in the Asset Browser and do Find Used Files&#x20;
 
@@ -382,9 +382,9 @@ As you can see in the script there are several node types in the sector file not
 
 It doesn't bring in things that are entities, so the ceiling fans & burrito machines for instance, but the meshes for those aren't linked from the scene itself, so adding that level of understanding may be a push. May look at adding named empties at the locations and doing another script that can pull meshes in later.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Just the Meshes
 

@@ -10,7 +10,7 @@
 
 ### Check out the source code with Git
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 ## **Build and Run**
 

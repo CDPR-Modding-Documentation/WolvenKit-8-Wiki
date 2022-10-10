@@ -14,15 +14,15 @@ This is very much a work in progress, and only gets Streaming Sectors out and in
 #### This guide uses the following versions:
 
 * Cyberpunk 2077 game version 1.6
-* WolvenKit-8.7.0-nightly.2022-09-17
+* WolvenKit-8.7.0-nightly.2022-10-26 or newer
 * Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.0.8
+* Cyberpunk add-on for Blender 1.0.9
 
 ### Requirements
 
-* [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit)****
+* [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit) **(use the latest)**
 * [**Blender 3.3**](https://www.blender.org/)****
-* [**Cyberpunk add-on for Blender 1.0.8**](https://github.com/dragonzkiller/cp77research)****
+* [**Cyberpunk add-on for Blender 1.0.9**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
 
 ## Background on Streaming Sectors
 
@@ -52,7 +52,7 @@ From those co-ordinates we can calculate the sector files for interior/exterior 
 
 At the level 0 files the whole building isn't covered by 1 sector, so you end up needing 4, conversely the exterior level 2 is several city blocks. In the end to totally define the bar you need the following as far as I can tell
 
-![](<../../../.gitbook/assets/image (2) (2).png>)
+![](<../../../.gitbook/assets/image (2).png>)
 
 In some locations bit are defined inside quest sectors that have bunch of bits to do with triggering the story bits that occur there, half vs apartment seems to be tucked away inside several of those. Their something todo with the nodeRefs inside the main sector files, but I'm still trying to work out how to work out one from the other.
 
@@ -64,9 +64,9 @@ You can preview the sectors in wolvenkit to confirm their what you're after.
 
 ## Exporting Streaming Sectors to Blender
 
-Once you've found the location you want to export, add the sectors to your project, then right click and export to JSON.
+Once you've found the location you want to export, add the sectors to your project, then right click and export to JSON. You can right click the folder in the project explorer to export all sectors inside to JSON.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Now right click the sector in the Asset Browser and do Find Used Files&#x20;
 
@@ -382,9 +382,9 @@ As you can see in the script there are several node types in the sector file not
 
 It doesn't bring in things that are entities, so the ceiling fans & burrito machines for instance, but the meshes for those aren't linked from the scene itself, so adding that level of understanding may be a push. May look at adding named empties at the locations and doing another script that can pull meshes in later.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Just the Meshes
 
@@ -649,7 +649,7 @@ Once you run it it will pull all the models in and position them, their liable t
 * ~~use duplicates rather than importing every instance (its horrifically inefficient) - not sure if this would break the possibility of going back into CP though~~.
 * Import only the materials for the appearance called up in the sector file?
 * See if I can work out where lights are defined, lighting would be nice.
-* Test it on somewhere other than just the El Coyote Cojo
-* make a list of interesting sectors so you don't have to hunt
+* ~~Test it on somewhere other than just the El Coyote Cojo~~
+* ~~make a list of interesting sectors so you don't have to hunt~~
 
 I don't really have a clue where to start on the getting changes back in side of things, so if someone wants to dig into that feel free. I know dragonzkiller was working on both the in/out bits of the process, sods law says doing this will mean he publishes something tomorrow.

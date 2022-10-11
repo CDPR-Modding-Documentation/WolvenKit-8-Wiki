@@ -4,13 +4,13 @@ description: Downloading the WolvenKit application
 
 # Download
 
-The recommended download is the WolvenKit Nightly installer
+The recommended download is the WolvenKit Nighty
 
 <table>
   <tr align="left">
     <th>Source Code</th>
-    <th>Installer</th>
-    <th>Checks</th>
+    <th>Application</th>
+    <th>Check</th>
   </tr>
   <tr>
     <td>
@@ -51,19 +51,19 @@ The recommended download is the WolvenKit Nightly installer
 * 64-bit Windows 10/11
 * .NET 6.0 (x64)
 
-### WolvenKit Installer
+### WolvenKit Application
 
-The main WolvenKit application in a Microsoft installer package.<br />
+The main WolvenKit application in a portable ZIP file.<br />
 <a href="https://wiki.redmodding.org/wolvenkit/wolvenkit-app/home">User guides</a>
 
 ### WolvenKit Console
 
-The standalone command-line based community modkit that replaced CP77 Tools.<br />
+The standalone command-line based community modkit for Cyberpunk (Originally CP77 Tools).<br />
 <a href="https://wiki.redmodding.org/wolvenkit/wolvenkit-cli/wolvenkit-console">User guides</a>
 
 ### Source Code
 
-Only useful for developers, the source code is a snapshot used to compile the WolvenKit installer and WolvenKit console.
+A snapshot of the code used to compile this specific WolvenKit release. Only useful for developers.
 
 {% hint style="info" %}
 GitHub is where you will find updates first, but all sites are updated regularly

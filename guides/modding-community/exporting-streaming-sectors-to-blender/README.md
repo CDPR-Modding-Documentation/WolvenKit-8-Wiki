@@ -14,15 +14,15 @@ This is very much a work in progress, and only gets Streaming Sectors out and in
 #### This guide uses the following versions:
 
 * Cyberpunk 2077 game version 1.6
-* WolvenKit-8.7.0-nightly.2022-09-17
+* WolvenKit-8.7.0-nightly.2022-10-26 or newer
 * Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.0.8
+* Cyberpunk add-on for Blender 1.0.9
 
 ### Requirements
 
-* [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit)****
+* [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit) **(use the latest)**
 * [**Blender 3.3**](https://www.blender.org/)****
-* [**Cyberpunk add-on for Blender 1.0.8**](https://github.com/dragonzkiller/cp77research)****
+* [**Cyberpunk add-on for Blender 1.0.9**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
 
 ## Background on Streaming Sectors
 
@@ -64,7 +64,7 @@ You can preview the sectors in wolvenkit to confirm their what you're after.
 
 ## Exporting Streaming Sectors to Blender
 
-Once you've found the location you want to export, add the sectors to your project, then right click and export to JSON.
+Once you've found the location you want to export, add the sectors to your project, then right click and export to JSON. You can right click the folder in the project explorer to export all sectors inside to JSON.
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -649,7 +649,7 @@ Once you run it it will pull all the models in and position them, their liable t
 * ~~use duplicates rather than importing every instance (its horrifically inefficient) - not sure if this would break the possibility of going back into CP though~~.
 * Import only the materials for the appearance called up in the sector file?
 * See if I can work out where lights are defined, lighting would be nice.
-* Test it on somewhere other than just the El Coyote Cojo
-* make a list of interesting sectors so you don't have to hunt
+* ~~Test it on somewhere other than just the El Coyote Cojo~~
+* ~~make a list of interesting sectors so you don't have to hunt~~
 
 I don't really have a clue where to start on the getting changes back in side of things, so if someone wants to dig into that feel free. I know dragonzkiller was working on both the in/out bits of the process, sods law says doing this will mean he publishes something tomorrow.

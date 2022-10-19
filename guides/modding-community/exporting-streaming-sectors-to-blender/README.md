@@ -42,7 +42,7 @@ For every location there can be multiple levels of LOD sectors overlapping, with
 
 Filenames are   `sectortype_X_Y_Z.streamingsector`  in the AMM co-ords. If you preview a sector in wkit the axes are shown rotated so Z=-Y and Y=Z.
 
-From those co-ordinates we can calculate the sector files for interior/exterior sectors.
+From those co-ordinates we can calculate the sector files for interior/exterior sectors by dividing by the grid size for the LOD and rounding. (ie 1200/32=38 etc)
 
 | LOD | Interior   | Exterior   |
 | --- | ---------- | ---------- |

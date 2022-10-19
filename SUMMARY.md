@@ -27,22 +27,22 @@
 ## WolvenKit App
 
 * [Home](wolvenkit-app/home.md)
-* [Settings](wolvenkit-app/settings.md)
-* [Projects](wolvenkit-app/projects.md)
+* [Menu](wolvenkit-app/menu.md)
 * [Editor](wolvenkit-app/editor/README.md)
-  * [Toolbar](wolvenkit-app/editor/toolbar.md)
+  * [Project Explorer](wolvenkit-app/editor/project-explorer.md)
   * [Asset Browser](wolvenkit-app/editor/asset-browser.md)
+  * [Properties](wolvenkit-app/editor/properties.md)
   * [File Editor](wolvenkit-app/editor/file-editor.md)
+  * [Log](wolvenkit-app/editor/log.md)
   * [Import/Export](wolvenkit-app/editor/import-export/README.md)
     * [Blender Integration](wolvenkit-app/editor/import-export/blender-integration.md)
     * [Models](wolvenkit-app/editor/import-export/models/README.md)
     * [Textures](wolvenkit-app/editor/import-export/textures.md)
-  * [Log](wolvenkit-app/editor/log.md)
-  * [Project Explorer](wolvenkit-app/editor/project-explorer.md)
-  * [Properties](wolvenkit-app/editor/properties.md)
-  * [TweakDB](wolvenkit-app/editor/tweakdb.md)
-* [Ribbon (Deprecated)](wolvenkit-app/ribbon/README.md)
-  * [Actions](wolvenkit-app/ribbon/actions.md)
+  * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
+  * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)
+* [Tools](wolvenkit-app/tools.md)
+* [Projects](wolvenkit-app/projects.md)
+* [Settings](wolvenkit-app/settings.md)
 
 ## WolvenKit CLI
 
@@ -58,20 +58,15 @@
 * [Official](guides/official.md)
 * [Modding Community](guides/modding-community/README.md)
   * [World Editing](guides/modding-community/world-editing.md)
-  * [Exporting to Blender](guides/modding-community/exporting-to-blender/README.md)
+  * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
   * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
     * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
 
-## Developers
-
-* [Building WolvenKit with Visual Studio](developers/building-wolvenkit-with-visual-studio.md)
-* [Contributing](developers/contributing.md)
-* [Submitting a Pull Request](developers/submitting-a-pull-request.md)
-
 ## Help
 
 * [Bug Reports](help/bug-reports.md)
+* [Contributing](help/contributing.md)
 * [Community](help/community.md)
 * [FAQ](help/faq.md)
 * [Glossary](help/glossary.md)

@@ -4,35 +4,39 @@
 
 WolvenKit is capable of exporting Cyberpunk mesh files _natively_ to glTF format. We can export static, skinned, and fully rigged models. Mesh files are exported into distinct submeshes, each representing a different material.
 
-LOD meshes are filtered from exports by default. To export with LOD submeshes, uncheck the `LOD Filter` option within the **Default Export Settings** panel. This is particularly desirable for decal meshes to prevent clipping with the main mesh and vice versa.
-
 Morph targets are automatically included inside the glTF file. You can find the morphs as shapekeys within Blender or blendshapes with Maya.
 
 ![](../../../../.gitbook/assets/ImportExportTool\_default\_settings.png)
 
+### Default Export Settings
+
+#### LOD Filter
+
+If selected extra LOD models will be removed from the export
+
+#### Is Binary
+
+If selected mesh exports will be in binary from as **GLB** rather than **glTF** format. (Recommended)
+
 ### Export types
 
-### <mark style="color:red;">Default</mark>
+#### <mark style="color:red;">Default</mark>
 
 The default export is versatile enough for most use cases. Any mesh, static or skinned can be exported and imported with this setting. For skinned meshes the bone parenting hierarchy will not be included, however this does not matter for importing meshes. Meshes will be divided into submeshes by material.
 
-### <mark style="color:red;">WithMaterials</mark>
+#### <mark style="color:red;">WithMaterials</mark>
 
 Using the `WithMaterials` export option allows us to edit materials by generating a helper Material.json file. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../blender-integration.md).
 
-{% hint style="info" %}
-[Learn more about REDengine materials on our dedicated REDengine 4 wiki page](https://wiki.cybermods.net/redengine4-research/assets/shaders/materials)
-{% endhint %}
-
-### <mark style="color:red;">WithRig</mark>
-
-Using the `WithRig` export option allows us to export skinned meshes with parented bones. By default exported meshes are correctly skinned, but the skeleton contains no parenting information. Bone-parented rigs are especially useful for posing/animating using a 3d software.
-
-Mesh files themselves do not contain the bone parents, so it's required to select a **rig** file to accompany each mesh export. To select a rig, navigate to the `WithRig Settings` section, and press the **`...`** (Collections) button. This opens the collections menu where you will select your rig file.
+#### <mark style="color:red;">WithRig</mark>
 
 {% hint style="info" %}
 Bone parents are not required for successful mesh imports
 {% endhint %}
+
+Using the `WithRig` export option allows us to export skinned meshes with parented bones. By default exported meshes are correctly skinned, but the skeleton contains no parenting information. Bone-parented rigs are especially useful for posing/animating using a 3d software.
+
+Mesh files themselves do not contain the bone parents, so it's required to select a **rig** file to accompany each mesh export. To select a rig, navigate to the `WithRig Settings` section, and press the **`...`** (Collections) button. This opens the collections menu where you will select your rig file.
 
 #### WithRig usage
 
@@ -49,7 +53,7 @@ e.g. Johnny Silverhand is a man with average body proportion so his body uses th
 \
 If the wrong/incompatible rig is used, an error will be displayed within the [**Log**](../../log.md)**.**
 
-### <mark style="color:red;">MultiMesh</mark>
+#### <mark style="color:red;">MultiMesh</mark>
 
 The `MultiMesh` export option is similar in functionality to [**WithRig**](./#withrig)**,** with the addition of support for multiple rigs and meshes. **** This option was implemented because some meshes use more than one rig.\
 \
@@ -146,15 +150,17 @@ For a detailed breakdown of each material, use the [**WithMaterials**](./#withma
 
 ## Material JSON I/O
 
-WolvenKit supports importing and exporting REDengine material information in the form of a bespoke **material json** file. In lieu of a full-blown file editor to tweak materials directly, we support adjusting materials through the material json. When exporting meshes the application presents an option for `WithMaterials` which generates the material json. [**Read more about that process here**](./#withmaterials).
+WolvenKit supports importing and exporting REDengine material information in the form of a bespoke **material json** file.  [**Learn more above**](./#withmaterials)
 
-A bespoke json file will be generated from the material dependency stack and exported alongside the raw mesh file. The entire daisy chain of materials is analyzed and written to file top-down, meaning all properties are written as they appear in game.\
-\
-The material json file can be edited with any text-based editor. Any changes saved to the json file will be written to the mesh file upon each import.\
-\
-The material json file is necessary for previewing meshes with [Hitman's Blender add-on](../blender-integration.md#how-does-it-work). The REDengine data written to json is interpreted by Python script to setup _somewhat_ accurate representations of REDengine shaders.\
-\
-The mechanism for generating material json files is baked deeply into the WolvenKit pipeline.&#x20;
+The material json file is necessary for previewing meshes with the [**Cyberpunk Blender add-on**](../blender-integration.md). The REDengine data written to json is interpreted by Python script to setup _somewhat_ accurate representations of REDengine shaders.
+
+{% hint style="info" %}
+Just looking to edit materials? WolvenKit can directly edit materials within **.mesh** or **.mi** files using the File Editor.
+{% endhint %}
+
+### Technical Details
+
+A bespoke json file will be generated from the material dependency stack and exported alongside the raw mesh file. The entire daisy chain of materials is analyzed and written to file top-down, meaning all properties are written as they appear in game. The material json file can be edited with any text-based editor. Any changes saved to the json file will be written to the mesh file upon each import.
 
 * We rely on the [**Depot**](../../../settings.md#depot-path) (a local file cache) which contains all material dependencies for any given mesh.\
 

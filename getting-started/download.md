@@ -8,22 +8,18 @@ WolvenKit is available from the following locations:
 
 {% embed url="https://github.com/WolvenKit/WolvenKit/releases" %}
 
-| Package                                                                       | Latest Release                                                                                                                                                                              | Checks                                                                                                         |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [WolvenKit Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/WolvenKit/WolvenKit-nightly-releases)](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest) | ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/WolvenKit/WolvenKit/WolvenKit-Nightly) |
-| [WolvenKit](https://github.com/WolvenKit/WolvenKit/)                          | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/WolvenKit/WolvenKit)](https://github.com/WolvenKit/WolvenKit/releases/latest)                                   | ![GitHub branch checks state](https://img.shields.io/github/workflow/status/WolvenKit/WolvenKit/check-only)    |
-
-The latest GitHub WolvenKit release will be marked on the left column with green text. Expand the **Assets** tab to view available downloads for any given WolvenKit release.
-
 {% embed url="https://www.nexusmods.com/cyberpunk2077/mods/2201" %}
+
+GitHub is the best way to stay up-to-date with WolvenKit. We offer the latest stable release and Nightly developer preview builds.
+
+| Package                                                                               | Latest Release                                                                                                                                                                              | Checks                                                                                                         |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [WolvenKit](https://github.com/WolvenKit/WolvenKit/releases)                          | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/WolvenKit/WolvenKit)](https://github.com/WolvenKit/WolvenKit/releases/latest)                                   | ![GitHub branch checks state](https://img.shields.io/github/workflow/status/WolvenKit/WolvenKit/check-only)    |
+| [WolvenKit Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/WolvenKit/WolvenKit-nightly-releases)](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest) | ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/WolvenKit/WolvenKit/WolvenKit-Nightly) |
 
 ### WolvenKit
 
 The main WolvenKit application in a portable zip file (Recommended)
-
-### WolvenKit Installer
-
-The main WolvenKit application in a Microsoft installer package
 
 ### WolvenKit Console
 
@@ -41,3 +37,9 @@ GitHub is where you will find updates first, but all sites are updated regularly
 
 * 64-bit Windows 10/11
 * .NET 6.0 (x64)
+
+## See also
+
+{% content-ref url="installation.md" %}
+[installation.md](installation.md)
+{% endcontent-ref %}

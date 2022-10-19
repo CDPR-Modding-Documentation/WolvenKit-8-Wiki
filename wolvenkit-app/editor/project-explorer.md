@@ -27,15 +27,11 @@ Right-click any file within the Project Explorer to explore the Context Menu.
 
 #### Open in MLSetupBuilder
 
-Requires MLSetupBuilder plugin for WolvenKit. Install by navigating to the [**View Options**](toolbar.md#view-options) Toolbar panel.
+Requires MLSetupBuilder plugin for WolvenKit. Install by navigating to the [**View Options**](broken-reference) Toolbar panel.
 
 #### Export to JSON/Import to JSON
 
 Writes any REDengine file within the _archive directory_ to human readable JSON format, as a mirrored file within the _raw directory_. JSON files can then be modified and converted back to REDengine format from the context menu by right-clicking the JSON file.
-
-#### Convert to XML
-
-\<info>
 
 #### Delete
 

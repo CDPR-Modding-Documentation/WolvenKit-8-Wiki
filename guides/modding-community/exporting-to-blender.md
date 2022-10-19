@@ -29,11 +29,11 @@ This guide aims to walk you through finding and exporting a character to blender
 
 First step is to locate the ent file for the character you want, I'm gonna use Jackie for the example. To start I've created a new project for him,&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 A search for jackie in the asset browser returns plenty of files, if you sort by type and find the ent files in the list jackie\_welles.ent looks like a pretty good starting place. Right click then Open without adding to project and you can preview to confirm its him.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Expanding the appearances bit of the entity template, he has 15 appearances which all appear to be defined in jackie\_welles.app. For this next step you need to have the Wolvenkit resources plugin installed (View Options > plugins to install). The app should also be in the search results for jackie, simply right click it, then do find used files. Sort by type again and find the cookedapp files. Theres several which cover the different appearances, for each one you want to include in your export do the following:&#x20;
 
@@ -45,13 +45,13 @@ You may need to go through the app file afterwards to check all the meshes got f
 
 
 
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The mesh files should now be visible in the project explorer, occasionally I find they arent showing up but closing and reopening the project makes them appear.&#x20;
 
 Go to the import/export panel, where all the mesh files in the project should be listed. Double click one then the export options opens, select WithMaterials as the export type, click LOD filter on, and make sure the texture type is set to png. Select Apply to all files of the same extension then confirm.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now hit process all on the import/export tab and a bunch of glb and json files should be exported. After its done a files have been exported notification should pop up in the top corner of wkit. Now you should be able to fire up Blender and get importing.
 
@@ -79,16 +79,16 @@ If it doesnt import, you can go through the folders inside your project and indi
 
 
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 After a bit of organization and a switch to the cycles renderer you should get something like this.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you get lots of bits that are a bright magenta type colour then the shaders are too complex for Eevee to render, and you need to switch to cycles. Example of Eevee vs Cycles below (note her dress is still wrong as the shader for the hex pattern on her dress isn't fully supported)
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Process is basically the same for guns and vehicles etc, track down the mesh files, add to project, export with materials.

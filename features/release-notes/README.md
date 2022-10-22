@@ -6,7 +6,7 @@ description: What's new?
 
 ## WolvenKit 8.7
 
-#### IN DEVELOPMENT: Publish Date TBD
+#### Published October 22 2022
 
 {% content-ref url="8.7.md" %}
 [8.7.md](8.7.md)
@@ -30,7 +30,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ## WolvenKit 8.5
 
-#### Published Mar 07 2022
+#### Published March 07 2022
 
 {% content-ref url="8.5.md" %}
 [8.5.md](8.5.md)
@@ -42,7 +42,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ## WolvenKit 8.4
 
-#### Published Oct 03 2021
+#### Published October 03 2021
 
 {% content-ref url="8.4.md" %}
 [8.4.md](8.4.md)
@@ -62,7 +62,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ## WolvenKit 8.3
 
-#### Published Sept 05 2021
+#### Published September 05 2021
 
 {% content-ref url="8.3.md" %}
 [8.3.md](8.3.md)
@@ -78,7 +78,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ## WolvenKit 8.2
 
-#### Published Jun 28 2021
+#### Published June 28 2021
 
 {% content-ref url="8.2.md" %}
 [8.2.md](8.2.md)
@@ -96,7 +96,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ## WolvenKit 0.8.0.1
 
-#### Published Apr 06 2021
+#### Published April 06 2021
 
 {% content-ref url="0.8.0.1.md" %}
 [0.8.0.1.md](0.8.0.1.md)

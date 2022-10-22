@@ -149,7 +149,7 @@ for m,mesh in enumerate(meshes):
             
 ```
 
-Set the path variable to the project raw folder. In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that arent (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector, but DONT delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;
+Set the path variable to the project raw folder (Note: python requires double slashes \\\ in path names or you'll get errors). In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that aren't (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector, but DON'T delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;
 
 After this add a second script to the file, and paste the script below in it.
 
@@ -384,7 +384,7 @@ It doesn't bring in things that are entities, so the ceiling fans & burrito mach
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM_coyote_w_text.png" alt=""><figcaption></figcaption></figure>
 
 ## Just the Meshes
 

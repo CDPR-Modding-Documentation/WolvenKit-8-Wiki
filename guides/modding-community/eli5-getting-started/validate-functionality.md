@@ -6,7 +6,7 @@ description: >-
 
 # Validate Functionality
 
-### Section Brief
+## Section Brief
 
 This section is about validating the modding tools and potentially building your first mod.
 
@@ -45,13 +45,13 @@ Some of the steps below are unnecessary, but you need to learn how the ENT and A
 These steps get confusing. Remember that we’re using the entity file **tshirt\_08\_old\_02\_w.ent** to find the material layer file **t1\_080\_\_leather\_croc.mlsetup**
 {% endhint %}
 
-### Steps
+## Steps
 
 1.  To make sure you do not have any mod conflicts, please uninstall all Cyberpunk mods except for Material and Texture Override. This can normally be done by disabling the mods in Vortex or whatever mod managing application you use for your normal gameplay.
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S01.png" alt=""><figcaption></figcaption></figure>
 2. Launch Cyberpunk 2077 and either load an existing woman character, or start a new one if you have to. If you start a new game, then you'll have to play up to the scav hunt with Jackie before you can swap your clothes.
-3. Once you reach a point in the game when you can change your clothes, run the Redscript command “Game.AddToInventory("Items.TShirt\_08\_old\_02",1)”. This will load Judy’s Tank in your torso inventory.
+3. Once you reach a point in the game when you can change your clothes, run the Cyber Engine Tweaks (CET) command “Game.AddToInventory("Items.TShirt\_08\_old\_02",1)”. This will load Judy’s Tank in your torso inventory.
 4.  Wear the shirt, take a screenshot, save the game, and then exit the game. This screenshot will be your reference to compare against when you have made the edit.
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S04.png" alt=""><figcaption></figcaption></figure>
@@ -184,12 +184,14 @@ These steps get confusing. Remember that we’re using the entity file **tshirt\
 43. An asterisk will appear at the end of the File Viewer’s filename to show that unsaved changes were made to that file. Click on Save button to commit the changes. Now that this mlsetup only contains the layer you edited, there is a lower risk of it accidently affecting other mods that may alter different layers on this same asset.
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S43.png" alt=""><figcaption></figcaption></figure>
-44. Click on the button Pack as REDmod to create the archive file that is our shiny new mod and look for the success notification on the bottom right.
+44. Notice the button Pack as REDmod. This button packs your asset files into an archive file, generates the required info.json, puts them into the necessary folder structure to install the mod into your game. This package can be viewed on the PACKED tab. Feel free to click the button Pack as REDmod to see what it does, it will not harm the mod, or else you can skip this step and just look at the screenshot below to see what it does.
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S44.png" alt=""><figcaption></figcaption></figure>
-45. Click on the button Install as REDmod to deploy the archive file to the Cyberpunk game folder, which also adds it to the WolvenKit Mod Manager.
+45. Click the button **Install as REDmod**. This button will pack your mod just like **Pack as REDmod** did, and then it will also install the mod into your game folder. Let me repeat myself but with different words,
+    * Pack as REDmod generates the archive file,
+    *   Install as REDmod also generates the archive file and then install it to your gaming folder.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S45.png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S45.png" alt=""><figcaption></figcaption></figure>
 46. Your new mod will be listed in the Cyberpunk 2077 REDmod folder
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S46.png" alt=""><figcaption></figcaption></figure>

@@ -8,7 +8,7 @@ description: Download and extract the WolvenKit application and WolvenKit.CLI co
 
 There are two releases of WolvenKit with different release schedules and change management policies. You only need one of the releases, stable or nightly, don't bother downloading both.
 
-1. **Stable Release** has an as-needed release schedule based on Cyberpunk 2077 patch changes, WolvenKit bug fixes, updated WolvenKit functionality, and the realities of being a fan-made application by unpaid developers. Change management policies are an ass-is rollup from the latest Nightly release.
+1. **Stable Release** has an as-needed release schedule based on Cyberpunk 2077 patch changes, WolvenKit bug fixes, updated WolvenKit functionality, and the realities of being a fan-made application by unpaid developers. Change management policies are an as-is rollup from the latest Nightly release.
 2. **Nightly Release** has a release schedule of every night at 12:00 AM UTC and contains the last 24-hours of GitHub pull requests submitted by the WolvenKit developer community. Change management policies are a review and approval by the maintainer of the GitHub repository to merge the branch coding changes into the project.
 
 {% hint style="warning" %}
@@ -25,7 +25,7 @@ Delete previous release, download the new release, then extract and run it.
 
 WolvenKit is not technically installed, you extract the downloaded file into a folder and it runs as a [portable application](https://en.wikipedia.org/wiki/Portable\_application). When you update the application, you will want to delete all the files from the previous version and extract the new version in the previous version's place.
 
-### Steps:
+## Steps:
 
 1.  Delete all the files in C:\Cyberpunk2077\WolvenKit.CLI from the previous release so that any cached and orphaned files do not corrupt the updated release.
 

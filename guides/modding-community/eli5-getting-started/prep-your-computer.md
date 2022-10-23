@@ -7,11 +7,11 @@ description: >-
 
 # Prep your computer
 
-### Section Brief
+## Section Brief
 
 Prepare your computer with Windows configuration, basic software requirements, and creates a centralized modding location that will match what you will see in the ELI5 guide screenshots.
 
-### Steps
+## Steps
 
 1. Enable _Windows long path names_ and then reboot your computer. Here is a quick link if you want to do your own research [Google search](https://www.google.com/search?q=enable+Windows+long+path+names). For everyone else:
    *   **Step 1**: Run PowerShell as an administrator

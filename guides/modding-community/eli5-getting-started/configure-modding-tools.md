@@ -4,7 +4,7 @@ description: Set relative locations of modding tools inside the applications
 
 # Configure modding tools
 
-### Section Brief
+## Section Brief
 
 Configure the WolvenKit (wkit) application and MlSetupBuilder (mlsb), and make sure the Asset Browser loads the game's assets.
 
@@ -12,7 +12,7 @@ Configure the WolvenKit (wkit) application and MlSetupBuilder (mlsb), and make s
 If you do not use the folder structure I recommended in [Prep your computer](prep-your-computer.md#steps), then use whatever path WolvenKit automatically fills in for you. Also be aware that your experience will not match my screenshots.
 {% endhint %}
 
-### Steps
+## Steps
 
 1. Run the WolvenKit.exe application and the First Setup window will appear. Click on the folder icons to the right of each field:
    * _Game Executable Path_ -- Location of the game executable Cyberpunk2077.exe
@@ -21,7 +21,7 @@ If you do not use the folder structure I recommended in [Prep your computer](pre
 
        <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S01.png" alt=""><figcaption></figcaption></figure>
 2. Close WolvenKit and then restart it because as of 10/12/2022 there is a bug associated with a first time launch of WolvenKit that is fixed by restarting the application.
-3.  In WolvenKit, click on HOME then Plugins and click on Install/Update for every Plugin on the list, except for REDmod because it is installed through Steam or GOG. If you have not installed REDmod then please do step 6 - 7 on [Prep your computer](prep-your-computer.md#steps).
+3.  In WolvenKit, click on HOME then Plugins and click on Install/Update for every Plugin on the list, except for REDmod because it is installed through Steam or GOG. If you have not installed REDmod then please do step 6 - 7 on [Prep your computer](configure-modding-tools.md#steps).
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
 4.  For MlSetupBuilder click on Open to configure it for your Depot and WolvenKit.CLI

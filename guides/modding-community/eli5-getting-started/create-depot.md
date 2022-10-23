@@ -6,7 +6,7 @@ description: >-
 
 # Create Depot
 
-### Section Brief
+## Section Brief
 
 There are three methods of creating and maintaining a depot.
 
@@ -14,7 +14,7 @@ There are three methods of creating and maintaining a depot.
 2. ****[**Partial Depot**](create-depot.md#steps-partial-depot) is mostly uncooked and unbundled, and it's only missing the GLB files. Unless you are needing that specific file type, this depot has everything you will need. The biggest benefit is that nearly everything is ready to use and that means very likely little to no pauses in your development. The biggest detractor is that it requires 120GiB of disk space.
 3. ****[**Full Depot**](create-depot.md#steps-full-depot) is every asset available to us. The biggest benefit is that everything is ready to use and that means no pauses in your development. The biggest detractor is that it requires 160GiB of disk space.
 
-### Steps: Adhoc Depot
+## Steps: Adhoc Depot
 
 {% hint style="info" %}
 Uncooking can be done in the Import/Export tool, but you will need to use WolvenKit.CLI for the unbundling anyway, so you might as well get used to the console commands.
@@ -45,7 +45,7 @@ Uncooking can be done in the Import/Export tool, but you will need to use Wolven
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S06.png" alt=""><figcaption></figcaption></figure>
 
-### Steps: Partial Depot
+## Steps: Partial Depot
 
 {% hint style="info" %}
 Some of the unbundle files are already accessible in the WolvenKit Asset Browser. You may want to search for the files you want in Asset Browser before unbundling the game.
@@ -67,7 +67,7 @@ Some of the unbundle files are already accessible in the WolvenKit Asset Browser
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S05.png" alt=""><figcaption></figcaption></figure>
 
-### Steps: Full Depot
+## Steps: Full Depot
 
 {% hint style="warning" %}
 When the unbundling and uncooking reaches 99% complete, press CTRL+C to cancel the program because without limiters it wll get stuck and never reach 100%&#x20;

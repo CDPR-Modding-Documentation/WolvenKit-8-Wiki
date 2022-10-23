@@ -4,6 +4,10 @@ description: Selected guides from community members
 
 # Modding Community
 
+{% content-ref url="eli5-getting-started/" %}
+[eli5-getting-started](eli5-getting-started/)
+{% endcontent-ref %}
+
 {% content-ref url="world-editing.md" %}
 [world-editing.md](world-editing.md)
 {% endcontent-ref %}

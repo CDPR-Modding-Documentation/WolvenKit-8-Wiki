@@ -57,6 +57,12 @@
 
 * [Official](guides/official.md)
 * [Modding Community](guides/modding-community/README.md)
+  * [ELI5: Getting Started](guides/modding-community/eli5-getting-started/README.md)
+    * [Prep your computer](guides/modding-community/eli5-getting-started/prep-your-computer.md)
+    * [Download WolvenKit](guides/modding-community/eli5-getting-started/download-wolvenkit.md)
+    * [Configure modding tools](guides/modding-community/eli5-getting-started/configure-modding-tools.md)
+    * [Create Depot](guides/modding-community/eli5-getting-started/create-depot.md)
+    * [Validate Functionality](guides/modding-community/eli5-getting-started/validate-functionality.md)
   * [World Editing](guides/modding-community/world-editing.md)
   * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)

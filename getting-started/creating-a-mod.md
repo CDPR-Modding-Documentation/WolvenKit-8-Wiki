@@ -11,8 +11,10 @@ description: With great power comes great responsibility
 **Congratulations on installing WolvenKit!** We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit. Lastly keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md) Now without further adieu...
 
 {% hint style="info" %}
-What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)
+Prefer visual guides? Check out the video demonstration of this guide below ↓
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=agqu_w88bZs" %}
 
 ## Creating a texture replacement mod
 
@@ -27,6 +29,10 @@ WolvenKit is a tool for mod developers to interact with REDengine file formats. 
 5. Build a mod package including the newly modified files
 
 In the guide below we'll cover these steps in detail to replace an image in Cyberpunk.
+
+{% hint style="info" %}
+What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)
+{% endhint %}
 
 ## Getting Started with WolvenKit
 

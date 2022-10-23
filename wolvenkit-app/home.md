@@ -6,7 +6,7 @@ description: It's cozy!
 
 ## What's a Home good for?
 
-![](<../.gitbook/assets/8.5.3 Home generic.png>)
+![](<../.gitbook/assets/WK 8.7 Home Generic.png>)
 
 ## Welcome
 

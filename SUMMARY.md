@@ -35,14 +35,15 @@
   * [File Editor](wolvenkit-app/editor/file-editor.md)
   * [Log](wolvenkit-app/editor/log.md)
   * [Import/Export](wolvenkit-app/editor/import-export/README.md)
-    * [Blender Integration](wolvenkit-app/editor/import-export/blender-integration.md)
     * [Models](wolvenkit-app/editor/import-export/models/README.md)
     * [Textures](wolvenkit-app/editor/import-export/textures.md)
   * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
   * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)
 * [Tools](wolvenkit-app/tools.md)
-* [Projects](wolvenkit-app/projects.md)
 * [Settings](wolvenkit-app/settings.md)
+* [Usage](wolvenkit-app/usage/README.md)
+  * [Blender Integration](wolvenkit-app/usage/blender-integration.md)
+  * [WolvenKit Projects](wolvenkit-app/usage/wolvenkit-projects.md)
 
 ## WolvenKit CLI
 

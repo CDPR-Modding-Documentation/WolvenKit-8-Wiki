@@ -34,6 +34,6 @@ WolvenKit features a robust build pipeline for handling REDengine assets. Game f
 
 ## Other
 
-#### [Blender Integration](../wolvenkit-app/editor/import-export/blender-integration.md)
+#### [Blender Integration](../wolvenkit-app/usage/blender-integration.md)
 
 WolvenKit supports Blender for one-click imports of fully shaded Cyberpunk meshes using the Multilayered.mt supershader.

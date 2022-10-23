@@ -6,11 +6,16 @@ description: >-
 
 # World Editing
 
-## Introduction
+## Summary
 
-#### **Created by Krat0es**
+**Created by @Krat0es**\
+**Published October 10 2022**
 
 This guide aims to teach you moving and deleting objects from the world.
+
+### Requirements
+
+* [**WolvenKit 8.7**](https://github.com/WolvenKit/WolvenKit)****
 
 ## Finding the required sector
 

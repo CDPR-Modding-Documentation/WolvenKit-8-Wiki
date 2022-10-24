@@ -8,8 +8,8 @@ description: Selected guides from community members
 [eli5-getting-started](eli5-getting-started/)
 {% endcontent-ref %}
 
-{% content-ref url="world-editing.md" %}
-[world-editing.md](world-editing.md)
+{% content-ref url="world-editing/" %}
+[world-editing](world-editing/)
 {% endcontent-ref %}
 
 {% content-ref url="exporting-to-blender.md" %}

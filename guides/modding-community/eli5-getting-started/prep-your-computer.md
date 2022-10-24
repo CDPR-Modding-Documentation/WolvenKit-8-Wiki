@@ -57,7 +57,7 @@ Prepare your computer with Windows configuration, basic software requirements, a
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S02.png" alt=""><figcaption><p>NET download page</p></figcaption></figure>
 3. Install [Blender](https://www.blender.org/download/) for 3D modeling of assets.
 4. Install [GIMP](https://www.gimp.org/downloads/) or your preferred image editor for PNG and DDS images.
-5.  Install [Notepad++](https://notepad-plus-plus.org/downloads/) and then enable its JSON Viewer plugin. JSON Viewer is used to correctly format JSON syntax, such as when a file has been collapsed onto a single line.... for job security reasons :tada:
+5.  Install [Notepad++](https://notepad-plus-plus.org/downloads/) and then enable its JSON Viewer plugin. Notepad++ JSON Viewer is used to correctly format JSON syntax, such as when a file has been collapsed onto a single line.... for job security reasons :tada: Alternatively, you can install Visual Studio for its VCode JSON Viewer extension, but Visual Studio is a full featured coding solution and only needed by application developers.
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S05.png" alt=""><figcaption><p>Notepad++ Plugin Admin</p></figcaption></figure>
 6. Install the free REDmod DLC from [Steam](https://store.steampowered.com/app/2060310/Cyberpunk\_2077\_REDmod/) or [GOG](https://www.gog.com/game/cyberpunk\_2077\_redmod) to your Cyberpunk 2077 game.

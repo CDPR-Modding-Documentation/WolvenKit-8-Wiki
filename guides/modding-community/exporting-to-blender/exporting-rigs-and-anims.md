@@ -15,7 +15,7 @@ This guide aims to walk you through adding the rig and some anims to the  charac
 
 * Cyberpunk 2077 game version 1.6
 * Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.0.9
+* Cyberpunk add-on for Blender 1.0.9rc1 (release has a bug)
 * WolvenKit 8.7 nightly&#x20;
 
 ### Requirements

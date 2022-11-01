@@ -16,13 +16,13 @@ This is very much a work in progress, and only gets Streaming Sectors out and in
 * Cyberpunk 2077 game version 1.6
 * WolvenKit-8.7.0-nightly.2022-10-26 or newer
 * Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.0.9
+* Cyberpunk add-on for Blender 1.0.9rc1 (release has a bug)
 
 ### Requirements
 
 * [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit) **(use the latest)**
 * [**Blender 3.3**](https://www.blender.org/)****
-* [**Cyberpunk add-on for Blender 1.0.9**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
+* [**Cyberpunk add-on for Blender 1.0.9 rc1**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases/tag/1.0.9-rc1) (release has a bug)
 
 ## Background on Streaming Sectors
 

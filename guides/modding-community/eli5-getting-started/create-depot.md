@@ -91,3 +91,8 @@ When the unbundling and uncooking reaches 99% complete, press CTRL+C to cancel t
     `WolvenKit.CLI uncook -p "C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\archive\pc\content" -o "C:\Cyberpunk2077Mod\Depot" --uext dds`
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S05.png" alt=""><figcaption></figcaption></figure>
+6.  Run the following command to delete all the failed uncook attempts. This commend will delete all the buffer files without prompting you and will recursively search in all subfolders for more buffer files that need to be deleted.
+
+    `del /s /q C:\Cyberpunk2077Mod\Depo*.buffer`
+
+    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S06.png" alt=""><figcaption></figcaption></figure>

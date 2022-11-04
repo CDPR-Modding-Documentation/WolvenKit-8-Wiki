@@ -95,9 +95,9 @@ Create a new file by using WolvenKit's toolbar button.
 
 ![](https://i.imgur.com/3vno9yE.png)
 
-1) Select "TweakXL" on the left. This file will later go into `gamedir\archive\mods`.  
+1) Select "ArchiveXL" on the left. This file will later go into `gamedir\archive\mods`.  
    Call it `yourModName.archive.xl`, so that it'll be directly below `yourmodname.archive`.  
-2) Select "ArchiveXL" on the left. This file will later go into `r6\tweaks`.   
+2) Select "TweakXL" on the left. This file will later go into `r6\tweaks`.   
    Call it `yourModName.yaml`.  
 
 ⚠WolvenKit versions older than November 2022 can't edit the `archive.xl` file. You'll have to use a text editor such as Notepad++.   

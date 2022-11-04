@@ -12,6 +12,10 @@ description: Selected guides from community members
 [world-editing](world-editing/)
 {% endcontent-ref %}
 
+{% content-ref url="adding-items-to-cyberpunk-tweakxl/" %}
+[adding-items-to-cyberpunk-tweakxl](adding-items-to-cyberpunk-tweakxl/)
+{% endcontent-ref %}
+
 {% content-ref url="exporting-to-blender.md" %}
 [exporting-to-blender.md](exporting-to-blender.md)
 {% endcontent-ref %}

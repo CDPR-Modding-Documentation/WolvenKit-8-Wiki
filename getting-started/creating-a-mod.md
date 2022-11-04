@@ -11,8 +11,10 @@ description: With great power comes great responsibility
 **Congratulations on installing WolvenKit!** We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit. Lastly keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md) Now without further adieu...
 
 {% hint style="info" %}
-What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)
+Prefer visual guides? Check out the video demonstration of this guide below ↓
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=agqu_w88bZs" %}
 
 ## Creating a texture replacement mod
 
@@ -28,13 +30,17 @@ WolvenKit is a tool for mod developers to interact with REDengine file formats. 
 
 In the guide below we'll cover these steps in detail to replace an image in Cyberpunk.
 
+{% hint style="info" %}
+What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)
+{% endhint %}
+
 ## Getting Started with WolvenKit
 
 ### Starting a project
 
 1. Ensure WolvenKit is properly configured by following the [**Setup**](setup.md) procedure
 2. Create a new WolvenKit mod project
-3. Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Within the [**Toolbar**](../wolvenkit-app/editor/toolbar.md), use the [**View Options**](../wolvenkit-app/editor/toolbar.md#view-options) panel to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
+3. Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Use the [**View**](../wolvenkit-app/menu.md#view) **** menu to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
 4. Navigate to the Asset Browser window
 
 ### Asset Browser
@@ -73,40 +79,31 @@ The **archive** and **raw** directories within the **Project Explorer** behave a
 
 1. Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Export** toggle is selected
 2. Double-click the `t2_084_pma_jacket__short_sleeves_decal_d01.xbm` file within the Export grid to view advanced options. Any asset within the Import/Export grid can be doubled clicked to adjust advanced I/O options for each file format.
-3. Inspect the **XBM Export Type** drop down menu, in this case we want to export the texture as a **TGA**
+3. Inspect the **XBM Export Type** drop down menu, in this case we want to export the texture as a **PNG**
 4. Press the **Confirm** button to proceed. For batch exports, using the checkbox for **Apply to all files of the same extension** will ensure that any XBM _currently_ within the Import/Export grid will inherit the same advanced options.
-5. Press **Process Selected** to complete the export operation. A new TGA image will now be available within the **Project Explorer Raw directory**.
-
-{% hint style="info" %}
-Cyberpunk textures appear to be upside-down. This is **not a bug** or issue with WolvenKit, nearly all textures are inverted. The Import/Export tool is capable of inverting processed textures during Import and Export.
-{% endhint %}
+5. Press **Process Selected** to complete the export operation. A new PNG image will now be available within the **Project Explorer Raw directory**.
 
 ### Editing Textures
 
-While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing TGA format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
+While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing PNG format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
 
-1. Import the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` texture file to an image editing software of your choice
+1. Import the `t2_084_pma_jacket__short_sleeves_decal_d01.png` texture file to an image editing software of your choice
 2. Make a _distinct and recognizable_ change to the image
-3. Export the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` texture file as a **TGA**, overwriting the original TGA file
+3. Export the `t2_084_pma_jacket__short_sleeves_decal_d01.png` texture file as a **PNG**, overwriting the original PNG file
 
 {% hint style="info" %}
 Not feeling creative? Feel free to use the the WolvenKit icon replacer below.
 {% endhint %}
 
-{% file src="../.gitbook/assets/t2_084_pma_jacket__short_sleeves_decal_d01.tga" %}
+{% file src="../.gitbook/assets/t2_084_pma_jacket__short_sleeves_decal_d01.png" %}
 
 ### Importing REDengine Files
 
 1. Return to the WolvenKit Editor
 2. Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Import** toggle is selected
-3. Select the `t2_084_pma_jacket__short_sleeves_decal_d01.tga` file within the Import grid. Double-click the TGA file within the Import grid to access advanced options.
-4. Within the advanced options, check the **isGamma** box. This step is necessary for all _color textures_ (such as d/diffuse) to display as sRGB. Without **isGamma** checked color textures will appear bright and washed out. Press **Confirm** to proceed.
-5. Press **Process Selected** to complete the Import operation
-6. Verify the updated texture by selecting the XBM within the Project Explorer. The new texture should be viewable with the Properties window.
-
-{% hint style="warning" %}
-Custom TGA files may appear upside down within the file previewer! There is a known visual issue with WolvenKit. The imported XBM file preview will be correct.
-{% endhint %}
+3. Select the `t2_084_pma_jacket__short_sleeves_decal_d01.png` file within the Import grid. Click the `Load Settings` button towards the top of the Import/Export tool. This sets the compression type and other various options to match the original XBM.
+4. Press **Process Selected** to complete the Import operation
+5. Verify the updated texture by selecting the XBM within the Project Explorer. The new texture should be viewable with the Properties window.
 
 ### Building
 
@@ -114,13 +111,11 @@ WolvenKit features a one-click mod building solution. The build process packs an
 
 WolvenKit only supports **unbundled** files. Files that have been decompressed using WolvenKit CLI _will not_ be packed correctly. Buffers must be compressed within the main REDengine file. Files added with the built-in Asset Browser will **always** be the correct format.
 
-1. From within the [**Toolbar**](../wolvenkit-app/editor/toolbar.md), select the [**Pack & Install**](../wolvenkit-app/editor/toolbar.md#pack-and-install) button
+1. From within the **Menu**, select the [**Install**](../wolvenkit-app/menu.md#install) button
 2. Verify the mod project has been packed and installed by viewing the [**Log**](../wolvenkit-app/editor/log.md) window
 3. Congratulations! Launch Cyberpunk and check out your first mod with WolvenKit!
 
 ### Testing In Game
-
-To test any REDmod in game, you need to select "Enable mods" from the REDlauncher after installing the REDmod DLC.
 
 To verify this texture mod in game, equip the outer torso item `Replica of Johnny's Samurai jacket`. The jacket can be obtained through normal gameplay during the main questline. Alternatively, the jacket can be added to the player inventory by using the [**Cyber Engine Tweaks**](https://wiki.redmodding.org/cyber-engine-tweaks/console/how-do-i#give-myself-money-or-items) console.
 

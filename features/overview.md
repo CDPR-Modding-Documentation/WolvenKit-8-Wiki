@@ -4,7 +4,7 @@ description: WolvenKit is powerful
 
 # Overview
 
-{% embed url="https://www.youtube.com/watch?v=WfEi3QwhTIs" %}
+{% embed url="https://www.youtube.com/watch?v=0VnMpfD4bQI" %}
 
 ## Asset I/O
 
@@ -14,7 +14,7 @@ Base game and user-generated archives can be browsed on the fly, making game dum
 
 ## Development
 
-WolvenKit is an open-source community developed application. The source code for WolvenKit and other projects can be found on our [GitHub page.](https://github.com/WolvenKit/) WolvenKit is primarily written in C# and the GUI uses WPF framework. Anyone can download the source code and build on their own with Visual Studio, see the developer page [Building WolvenKit with Visual Studio](../developers/building-wolvenkit-with-visual-studio.md) for more information. If you're a developer who is interested in getting involved, please consider visiting our Discord server to get access to our developer channels.
+WolvenKit is an open-source community developed application. The source code for WolvenKit and other projects can be found on our [GitHub page.](https://github.com/WolvenKit/) WolvenKit is primarily written in C# and the GUI uses WPF framework. Anyone can download the source code and build on their own with Visual Studio. If you're a developer who is interested in getting involved, please check out the [**Contributing**](../help/contributing.md) page!
 
 ## File Editor
 
@@ -26,7 +26,7 @@ WolvenKit can host virtually all of your required project files inside the Proje
 
 ## UI/UX
 
-WolvenKit is created with the intention of being an all-purpose mod editor. The application interface is designed to help modders keep their sanity by having every tool at their disposal from the main editor. The application is built with a modern, sleek, and themeable interface to suit your preferences.
+WolvenKit is created with the intention of being an all-purpose mod editor. The application interface is designed to help modders keep their sanity by having every tool at their disposal from the main editor. The application is built with a configurable interface to suit your preferences.
 
 ## Workflows
 
@@ -34,6 +34,6 @@ WolvenKit features a robust build pipeline for handling REDengine assets. Game f
 
 ## Other
 
-#### [Blender Integration](../wolvenkit-app/editor/import-export/blender-integration.md)
+#### [Blender Integration](../wolvenkit-app/usage/blender-integration.md)
 
 WolvenKit supports Blender for one-click imports of fully shaded Cyberpunk meshes using the Multilayered.mt supershader.

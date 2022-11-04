@@ -4,6 +4,7 @@ description: Help us log bugs with the WolvenKit application
 
 # Bug Reports
 
-WolvenKit features an Bug Report tool within the application for sending feedback directly to developers. From the main editor Ribbon, use the [**Options**](broken-reference) tab to find the Bug Report button.&#x20;
+## Where can I submit feedback or bugs?
 
-Alternatively the [WolvenKit GitHub](https://github.com/WolvenKit/WolvenKit) page can be used to submit an issue.
+* Reach out on [**Discord**](community.md)! We have a dedicated channel for WolvenKit issues.
+* Check out the [WolvenKit GitHub](https://github.com/WolvenKit/WolvenKit) page to view, track, and submit new issues.

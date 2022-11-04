@@ -2,7 +2,7 @@
 
 ## What is the Import/Export tool?
 
-The Import/Export tool is an all-purpose method for exporting and importing REDengine files. Game files such as models and textures can be exported from REDengine formats such as XBM and MESH into generic assets such as TGA and glTF. As the name of the tool suggests, these files can be edited externally and imported back into REDengine format and packed as a mod.
+The Import/Export tool is an all-purpose method for exporting and importing REDengine files. Game files such as models and textures can be exported from REDengine formats such as XBM and MESH into generic assets such as PNG and glTF. As the name of the tool suggests, these files can be edited externally and imported back into REDengine format and packed as a mod.
 
 ![](../../../.gitbook/assets/8.4.3\_ImportExport\_generic\_example.png)
 
@@ -13,19 +13,22 @@ The following formats are supported by WolvenKit for imports and exports
 * [x] **mesh  ↔  glb/glTF**\
   Rigged and static 3d models can be converted to and from REDengine. Our I/O supports simple non-targeted skinned meshes for extreme efficiency. Advanced methods support multi-mesh, multi-rig, and material embedded meshes. Meshes with embedded morph targets are automatically included as shapekeys. WolvenKit can also export to virtually any 3d format (non-natively) through the built-in renderer Ab3d. You can read more [about Ab3d here.](https://www.ab4d.com/DXEngine.aspx)\
 
-* [x] **xbm  ↔  tga, dds**\
-  Textures can be converted to and from REDengine. While various formats including PNG and JPG are supported for exports, only TGA and DDS can be imported directly.\
+* [x] **xbm  ↔  png, tga, dds, jpg, bmp, tiff**\
+  Textures can be converted to and from REDengine.\
 
-* [x] **mlmask** ↔ **png, dds**\
+* [x] **mlmask** ↔ **png, tga, dds, jpg, bmp, tiff**\
   REDengine mlmask files can be exported as an array of textures. These texture arrays can be encoded as a new mlmask with a bespoke masklist helper file.\
-  ****
+
+* [x] **wem ↔ wav, mp3**\
+  ****Audio files can be converted to and from REDengine. Use the Sound Modding Tool to import new audio.\
+
 * [x] **bk2 ↔ avi**\
   Video files can be converted to and from REDengine. (Currently implemented with Project Explorer instead of the Import/Export tool)\
 
-* [x] **morphtarget ↔ glb/glTF (unstable)**\
+* [x] **morphtarget ↔ glb/glTF (experimental)**\
   ****REDengine morphtargets can be exported to glTF format. The morphs can be viewed as shapekeys/blendshapes with a 3d package. glTF files can be used to recreate morphtarget files, however only one morph is preserved.\
 
-* [x] **anims** → **glb/glTF (unstable)**\
+* [x] **anims** → **glb/glTF (experimental)**\
   ****Animation files can be exported to glTF format. However this feature is highly experimental. New anims files cannot be imported at this time.\
 
 
@@ -39,7 +42,7 @@ _\*Only static FBX files are supported for conversion at this time._
 
 ## Using the Import/Export tool
 
-The **Import/Export** tool can be accessed from the [**View Options**](../toolbar.md#view-options) menu within the [**Toolbar**](../toolbar.md). Visibility of the tool can be toggled within the drop-down menu, similar to other WolvenKit tools such as the Asset Browser.
+The **Import/Export** tool can be accessed from the [**View**](../../menu.md#view) category with the Menu. Visibility of the tool can be toggled within the drop-down menu, similar to other WolvenKit tools such as the Asset Browser.
 
 {% hint style="warning" %}
 Most imports require an existing REDengine file! For successful imports, ensure that the _archive directory_ contains a "mirrored" file.\

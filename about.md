@@ -40,6 +40,12 @@ _Community members who've logged countless hours bringing WolvenKit to the next 
 
 * Created WolvenKit brand images, including the Sammy avatar
 
+## All code contributors
+
+_Check out the 50+ contributors to the WolvenKit source code_
+
+{% embed url="https://github.com/WolvenKit/WolvenKit/graphs/contributors" %}
+
 ## Other extraordinary help
 
 _Community members or organizations that empower REDengine modding with WolvenKit_
@@ -61,11 +67,3 @@ Neurolinked created MLSB (mlsetup-builder), a software for working with and crea
 [https://github.com/Turk645](https://github.com/Turk645)
 
 The basis for converting Cyberpunk multilayered materials into Python script for Blender was Turk's incredible Blender add-on for shader automation. Their research and development helped make the Cyberpunk Blender add-on possible.
-
-## Legacy WolvenKit
-
-_Paying tribute to legacy community members that helped make WolvenKit what it is today..._&#x20;
-
-#### Maxime Chambonnet (Maxzor/Elcorazon)
-
-[https://github.com/Maxzor](https://github.com/Maxzor)

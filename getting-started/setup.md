@@ -30,4 +30,4 @@ Be sure to set the Game Executable Path! Functionality is extremely diminished i
 
 ## Using WolvenKit
 
-Creating a new mod project is necessary to begin using most WolvenKit features. A new project can be created from the [**Home**](../wolvenkit-app/home.md#welcome) page or the [**Toolbar**](../wolvenkit-app/editor/toolbar.md#new-project). If you're new to WolvenKit, we strongly recommend reading the next wiki section, [**Creating a Mod**](creating-a-mod.md).
+Creating a new mod project is necessary to begin using most WolvenKit features. A new project can be created from the [**Home**](../wolvenkit-app/home.md#welcome) page or the [**Toolbar**](broken-reference). If you're new to WolvenKit, we strongly recommend reading the next wiki section, [**Creating a Mod**](creating-a-mod.md).

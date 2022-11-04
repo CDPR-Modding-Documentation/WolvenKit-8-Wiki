@@ -6,7 +6,7 @@ description: The main mod-editor interface of WolvenKit
 
 ## What is the Editor?
 
-The Editor is the main mod-editing workspace within WolvenKit. Within the Editor is the [**Toolbar**](toolbar.md) and the docking window for modding tools such as the [**Asset Browser**](asset-browser.md) and [**Project Explorer**](project-explorer.md).
+The Editor is the main mod-editing workspace within WolvenKit. Within the Editor is the docking window for modding tools such as the [**Asset Browser**](asset-browser.md) and [**Project Explorer**](project-explorer.md).
 
 ![](<../../.gitbook/assets/8.5 Interface .png>)
 

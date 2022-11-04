@@ -16,13 +16,13 @@ This is very much a work in progress, and only gets Streaming Sectors out and in
 * Cyberpunk 2077 game version 1.6
 * WolvenKit-8.7.0-nightly.2022-10-26 or newer
 * Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.0.9
+* Cyberpunk add-on for Blender 1.0.9rc1 (release has a bug)
 
 ### Requirements
 
 * [**WolvenKit nightly release version 8.7**](https://github.com/WolvenKit/WolvenKit) **(use the latest)**
 * [**Blender 3.3**](https://www.blender.org/)****
-* [**Cyberpunk add-on for Blender 1.0.9**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
+* [**Cyberpunk add-on for Blender 1.0.9 rc1**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases/tag/1.0.9-rc1) (release has a bug)
 
 ## Background on Streaming Sectors
 
@@ -42,7 +42,7 @@ For every location there can be multiple levels of LOD sectors overlapping, with
 
 Filenames are   `sectortype_X_Y_Z.streamingsector`  in the AMM co-ords. If you preview a sector in wkit the axes are shown rotated so Z=-Y and Y=Z.
 
-From those co-ordinates we can calculate the sector files for interior/exterior sectors.
+From those co-ordinates we can calculate the sector files for interior/exterior sectors by dividing by the grid size for the LOD and rounding. (ie 1200/32=38 etc)
 
 | LOD | Interior   | Exterior   |
 | --- | ---------- | ---------- |
@@ -149,7 +149,7 @@ for m,mesh in enumerate(meshes):
             
 ```
 
-Set the path variable to the project raw folder. In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that arent (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector, but DONT delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;
+Set the path variable to the project raw folder (Note: python requires double slashes \\\ in path names or you'll get errors). In the Window menu, select toggle system console so its visible, then run it. That will pull all the glbs in your project into the Blender file, including materials. These will be put in a Collection called MasterInstances, if there are any that aren't (I get some random unnamed meshes, not worked out why yet) I tend to tidy them into another collector, but DON'T delete them. This step may take a while as loading the meshes with materials isn't the fastest process, the system console should show its progress, and if you need to kill it select the console and hold down Ctrl+C till it stops.&#x20;
 
 After this add a second script to the file, and paste the script below in it.
 
@@ -384,7 +384,7 @@ It doesn't bring in things that are entities, so the ceiling fans & burrito mach
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM_coyote_w_text.png" alt=""><figcaption></figcaption></figure>
 
 ## Just the Meshes
 

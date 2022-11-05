@@ -12,10 +12,6 @@ description: Selected guides from community members
 [world-editing](world-editing/)
 {% endcontent-ref %}
 
-{% content-ref url="../../wolvenkit-app/editor/tweak-browser.md" %}
-[tweak-browser.md](../../wolvenkit-app/editor/tweak-browser.md)
-{% endcontent-ref %}
-
 {% content-ref url="exporting-to-blender.md" %}
 [exporting-to-blender.md](exporting-to-blender.md)
 {% endcontent-ref %}
@@ -29,5 +25,5 @@ description: Selected guides from community members
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Do you have a guide you'd like to submit for the Wiki? Please visit us on our [**Discord!**](../../help/community.md)\*\*\*\*
+Do you have a guide you'd like to submit for the Wiki? Please visit us on our [**Discord!**](../../help/community.md)
 {% endhint %}

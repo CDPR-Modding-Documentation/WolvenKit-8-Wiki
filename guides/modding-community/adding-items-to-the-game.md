@@ -6,11 +6,10 @@ description: Add your own spawnable gear (TweakXL and ArchiveXL)
 
 ### Summary <a href="#summary" id="summary"></a>
 
-**Created by @manavortex**&#x20;
-
+**Created by @manavortex**\
 **Published November 04 2022**
 
-This guide will walk you through adding your own items to Cyberpunk2077.
+This guide will walk you through adding your own items to Cyberpunk 2077.
 
 **Assumed skill level:** You should be able to find your way around WolvenKit, but I aim to keep this as noob-friendly as possible.
 
@@ -18,8 +17,8 @@ This guide will walk you through adding your own items to Cyberpunk2077.
 
 * Cyberpunk 2077 game version 1.6
 * [WolvenKit](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases) 8.7.1-nightly.2022-11-04
-* [TweakXl](https://www.nexusmods.com/cyberpunk2077/mods/4197) 1.0.7
-* [ArchiveXl](https://www.nexusmods.com/cyberpunk2077/mods/4198) 1.1.5
+* [TweakXL](https://www.nexusmods.com/cyberpunk2077/mods/4197) 1.0.7
+* [ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/4198) 1.1.5
 * [Red4ext](https://www.nexusmods.com/cyberpunk2077/mods/2380) 1.8.0
 
 The guide was created after reading [this one](https://drive.google.com/file/d/1aQjb8MpimB9LDNl7y1iTXH13MUvMrKsH/view) and being left with a bunch of question marks. To get a deeper understanding, refer to the initial guide and follow the linked resources or consult ArchiveXL's [documentation](https://github.com/psiberx/cp2077-archive-xl).
@@ -27,9 +26,7 @@ The guide was created after reading [this one](https://drive.google.com/file/d/1
 ⚠This tutorial has been created with the bleeding-edge WolvenKit Nightly. I recommend that you grab at least [2022-11-02](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/tag/8.7.1-nightly.2022-11-02), unless yours is more recent — it has no breaking bugs, and all files will get copied reliably.\
 If you're using an older version of WolvenKit, the folder structure for ArchiveXL items will not match the one assumed below, and maybe not all files get copied to "packed".
 
-### Adding items to Cyberpunk
-
-
+## Adding items to Cyberpunk
 
 ### Get the files, create the structure
 

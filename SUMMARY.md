@@ -70,6 +70,7 @@
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
   * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
     * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
+  * [Adding items to the game ](guides/modding-community/adding-items-to-the-game.md)
 
 ## Help
 

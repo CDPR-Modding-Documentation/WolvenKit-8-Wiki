@@ -95,7 +95,7 @@ These steps get confusing. Just remember that we’re using the entity file **ts
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S13 (1).png" alt=""><figcaption></figcaption></figure>
 14. In **Project Explorer**, hover your mouse cursor over the mesh file and click on the blue button to open the file in **File Editor**. Expand the arrays **localMaterialBuffer** > **Materials** > **leather\_croc CMaterialInstance** > **values** > **0** and **1**. \[**0**] contains the **MLSETUP** file which you'll import into MlSetupBuilder to change Judy's Tank from green to orange. \[**1**] contains the **MLMASK** file which you'll use with **Export/Import Tool** to generate the **DDS** files that you'll need to view the 3D model in MlSetupBuilder. Click on the yellow buttons for the **MLSETUP** file and the **MLMASK** file to add them to your project.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S14.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S14 (1).png" alt=""><figcaption></figcaption></figure>
 15. Right click the **mlsetup** file and convert it to JSON
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Validate_S15.png" alt=""><figcaption></figcaption></figure>

@@ -74,9 +74,9 @@ Prepare your computer with Windows configuration, basic software requirements, a
        <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S08-01.png" alt=""><figcaption><p>Nexus download page</p></figcaption></figure>
    *   Extract the file into Cyberpunk's REDmod folder located at ".\Cyberpunk 2077\mods\Material and Texture Override". Below are screenshots for the default locations for Steam versus GOG
 
-       <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S08-02.png" alt=""><figcaption><p>Steam install</p></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S08-03.png" alt=""><figcaption><p>Steam install</p></figcaption></figure>
 
-       <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S08-03.png" alt=""><figcaption><p>GOG Install</p></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Prep_S08-02.png" alt=""><figcaption><p>GOG Install</p></figcaption></figure>
 9. Create the below folder structure, it will be the centralized location for modding tools, assets, project folders, guides, shortcuts, and the depot.
    * [ ] Asset Depot -- C:\Cyberpunk2077Mod\Depot\\
    * [ ] Guides and misc notes -- C:\Cyberpunk2077Mod\Guides\\

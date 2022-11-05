@@ -24,7 +24,7 @@ Mesh files can be previewed by selecting them within the Asset Browser or Projec
 
 ## Image Preview
 
-![](<../../.gitbook/assets/8.2\_properties\_image\_preview\_generic (1).png>)
+![](../../.gitbook/assets/8.2\_properties\_image\_preview\_generic.png)
 
 Image files can be previewed by selecting them within the Asset Browser or Project Explorer. The image previewer is capable cropping, flipping, and markup. While the markups will not get saved to original file, they can be exported by using the save button.
 

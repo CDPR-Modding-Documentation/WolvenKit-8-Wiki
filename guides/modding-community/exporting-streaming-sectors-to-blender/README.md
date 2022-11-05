@@ -7,7 +7,7 @@ description: Exporting locations to Blender
 ## Summary
 
 **Created by @Simarilius** \
-**Updated September 27 2022**
+**Updated 4 November 2022**
 
 This is very much a work in progress, and only gets Streaming Sectors out and into Blender so far. Based on some posts by @123321 in the Discord _#mapeditor_ channel back in May, so all credit to him for working it out in the first place.
 
@@ -41,6 +41,8 @@ For every location there can be multiple levels of LOD sectors overlapping, with
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Filenames are   `sectortype_X_Y_Z.streamingsector`  in the AMM co-ords. If you preview a sector in wkit the axes are shown rotated so Z=-Y and Y=Z.
+
+I've left the detail of the process below for record, but if you just want a list of sectors I've created a python script to find the ones that a set of co-ordinates are in. You can find it [HERE](https://mybinder.org/v2/gh/Simarilius-uk/sectorStuff/5b8a8f5536002ec2d33c16103f79c53b6b93bd8e?urlpath=lab%2Ftree%2FAllBlocks.ipynb). Simply enter the co-ordinates in the player\_loc dict in block 3 then run all blocks. You'll be given 2 lists containing of all the interior and exterior sectors which contain the co-ords within their bounding boxes. The list also shows the distance from the centre of the sectors to the co-ords given.
 
 From those co-ordinates we can calculate the sector files for interior/exterior sectors by dividing by the grid size for the LOD and rounding. (ie 1200/32=38 etc)
 

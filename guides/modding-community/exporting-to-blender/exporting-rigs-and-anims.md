@@ -44,7 +44,7 @@ So now we have the 2 rigs we need we need to rexport a couple of the parts, you 
 
 Select the body (`t0_001_mb_body__jackie_welles.mesh` in Jackies case) and double click the export Task to get at his options. Select WithRig as the mesh export type, then click the ... button on the far right in the Select Rig row down in the WithRig settings bit. In the panel that pops up you can type the name in the empty row below File Name at the top of the left column to filter it down, `man_big` was enough to let me select the `man_big_deformations.rig` that I need, then click the right pointing arrow on the divider to put it in the Selected Files column. Confirm back out of that and then confirm again at the top. Do the same process for your head mesh object to select the head rig. Now select just those two and process selected.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-10-14 at 18.55.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM WithRig Export Settings.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/SIM Rig Selection.png" alt=""><figcaption></figcaption></figure>
 
@@ -149,7 +149,7 @@ Select your BodyArmature, go to the animation workspace, and in the dope sheet a
 
 Anyway, cheers Chooms, hope this has been helpful, have fun!
 
-<figure><img src="../../../.gitbook/assets/SIM_Jackie_Cheers_0001-0298_AdobeExpress (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM_Jackie_Cheers_0001-0298_AdobeExpress (2).gif" alt=""><figcaption></figcaption></figure>
 
 Note:
 

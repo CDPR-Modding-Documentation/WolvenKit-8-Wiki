@@ -24,6 +24,10 @@ description: Selected guides from community members
 [exporting-streaming-sectors-to-blender](exporting-streaming-sectors-to-blender/)
 {% endcontent-ref %}
 
+{% content-ref url="adding-items-to-the-game.md" %}
+[adding-items-to-the-game.md](adding-items-to-the-game.md)
+{% endcontent-ref %}
+
 {% hint style="info" %}
 Do you have a guide you'd like to submit for the Wiki? Please visit us on our [**Discord!**](../../help/community.md)\*\*\*\*
 {% endhint %}

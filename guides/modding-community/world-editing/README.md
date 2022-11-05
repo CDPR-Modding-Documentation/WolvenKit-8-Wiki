@@ -31,7 +31,7 @@ This guide aims to teach you moving and deleting objects from the world.
 * After finding the object you want to move or delete go back to the **WorldStreamingSector** tab then click on **nodeData** then find the object in the list `(You can memorize where the node is from the sector preview menu)` (edited)
 *   after finding the object node in the list click on it to expand the node there you will find **Postion, Orientation and scale**
 
-    <figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1972).png" alt=""><figcaption><p>nise</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1972) (1).png" alt=""><figcaption><p>nise</p></figcaption></figure>
 * from there you may change the object coordinates `(remember to save after making any changes)`
 *   you may right click the node then delete it like you see in this image `(this will delete the object from the world)`\
 

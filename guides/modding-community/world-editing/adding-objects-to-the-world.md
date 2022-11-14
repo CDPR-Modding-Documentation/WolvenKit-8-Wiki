@@ -14,7 +14,7 @@ This guide aims to teach you adding objects to the world.
 ### Requirements
 
 * ****[**WolvenKit 8.7.1**](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/tag/8.7.1-nightly.2022-10-24)****
-* [**Object Spawner**](https://www.nexusmods.com/cyberpunk2077/mods/2833)****
+* [**Object Spawner**](https://www.nexusmods.com/cyberpunk2077/mods/2833) **(enable export in the settings tab)**
 
 ## Adding objects to the world
 

@@ -954,6 +954,10 @@ If yes: the appearance is resolved, but can't be displayed - ignore the yaml
 
 If the hint above doesn't solve it, proceed to troubleshoot in the same way as "My mesh has the wrong appearance!" above.
 
+### My item appears, but then disappears when I put something else on!
+
+This is possibly a symptom of a _bad_ root `*.ent` file. Make sure you clone the right `*.ent` file for your base.&#x20;
+
 ### I can't find anything, kill me now
 
 Time to restore your files one by one to the last working backup and restart from there.\

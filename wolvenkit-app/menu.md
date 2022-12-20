@@ -82,7 +82,7 @@ Pack complete mod using REDmod format, install to game directory, and launch gam
 
 #### Hot Reload
 
-Pack archives and instantly install to game directory while Cyberpunk 2077 is running for testing (Requires Red Hot Tools plugin by @psiberx)
+Pack archives and instantly install to game directory while Cyberpunk 2077 is running for testing (Requires [Red Hot Tools plugin](https://github.com/psiberx/cp2077-red-hot-tools) by @psiberx).
 
 #### Launch Profiles
 

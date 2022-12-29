@@ -19,9 +19,9 @@ If you have any questions or want to chat with developers, please reach out on o
 
 ## Building WolvenKit with Visual Studio
 
-### **Install .NET 6**
+### **Install .NET 7**
 
-[https://dotnet.microsoft.com/download/dotnet/6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+[https://dotnet.microsoft.com/en-us/download/dotnet/7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 ### **Install the latest Visual Studio release**
 

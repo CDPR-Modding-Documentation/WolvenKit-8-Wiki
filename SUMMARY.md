@@ -57,7 +57,9 @@
 ## Guides
 
 * [Official](guides/official.md)
-* [Modding Community](guides/modding-community/README.md)
+* [Modding Wiki: Guides](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/items)
+* [Community Guide Collection](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/community-guides)
+* [Modding with WolvenKit](guides/modding-community/README.md)
   * [ELI5: Getting Started](guides/modding-community/eli5-getting-started/README.md)
     * [Prep your computer](guides/modding-community/eli5-getting-started/prep-your-computer.md)
     * [Download WolvenKit](guides/modding-community/eli5-getting-started/download-wolvenkit.md)
@@ -70,7 +72,6 @@
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
   * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
     * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
-  * [Adding items to the game ](guides/modding-community/adding-items-to-the-game.md)
 
 ## Help
 

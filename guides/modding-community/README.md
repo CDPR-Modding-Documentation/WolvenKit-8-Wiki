@@ -2,7 +2,7 @@
 description: Selected guides from community members
 ---
 
-# Modding Community
+# Modding with WolvenKit
 
 {% content-ref url="eli5-getting-started/" %}
 [eli5-getting-started](eli5-getting-started/)
@@ -20,8 +20,8 @@ description: Selected guides from community members
 [exporting-streaming-sectors-to-blender](exporting-streaming-sectors-to-blender/)
 {% endcontent-ref %}
 
-{% content-ref url="adding-items-to-the-game.md" %}
-[adding-items-to-the-game.md](adding-items-to-the-game.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}

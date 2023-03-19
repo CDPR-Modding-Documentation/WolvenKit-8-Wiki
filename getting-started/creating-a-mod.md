@@ -6,9 +6,21 @@ description: With great power comes great responsibility
 
 ![](<../.gitbook/assets/Example Mod Sammy Jacket.png>)
 
+## Purpose of the guide
+
+**Congratulations on installing WolvenKit!** It's time to get your hands dirty…
+
+We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit.&#x20;
+
+{% hint style="info" %}
+**Did you know?** Modding guides and know-how are collected in the dedicated [**Cyberpunk 2077 Modding Wiki**](https://wiki.redmodding.org/cyberpunk-2077-modding/)**.**
+{% endhint %}
+
 ## Before we get started
 
-**Congratulations on installing WolvenKit!** We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit. Lastly keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md) Now without further adieu...
+Keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md)&#x20;
+
+Now without further ado...
 
 {% hint style="info" %}
 Prefer visual guides? Check out the video demonstration of this guide below ↓
@@ -20,7 +32,7 @@ Prefer visual guides? Check out the video demonstration of this guide below ↓
 
 ### Summary
 
-WolvenKit is a tool for mod developers to interact with REDengine file formats. Generally speaking most mods created with WolvenKit share a similar workflow:
+WolvenKit is a tool for mod developers to interact with REDengine file formats. Generally speaking, most mods created with WolvenKit share a similar workflow:
 
 1. Browse and extract game files
 2. Convert game files to common formats that can be modified

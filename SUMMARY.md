@@ -45,6 +45,7 @@
 * [Usage](wolvenkit-app/usage/README.md)
   * [Blender Integration](wolvenkit-app/usage/blender-integration.md)
   * [WolvenKit Projects](wolvenkit-app/usage/wolvenkit-projects.md)
+  * [Scripting with wscript](wolvenkit-app/usage/scripting-with-wscript.md)
 
 ## WolvenKit CLI
 

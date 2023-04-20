@@ -17,8 +17,8 @@ Can't find Cyberpunk2077.exe? Try the default locations listed below:\
 \
 **STEAM**\
 `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64`\
-``\
-``**`GOG`**\
+\
+**`GOG`**\
 `C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077\bin\x64`
 {% endhint %}
 

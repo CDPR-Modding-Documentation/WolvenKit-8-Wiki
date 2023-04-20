@@ -131,12 +131,12 @@ Resets [**Editor**](editor/) document layout. This can be especially helpful if 
 #### Depot Generator
 
 Tool for extracting game files in batch\
-[**Read more**](tools.md#depot-generator)****
+[**Read more**](tools.md#depot-generator)
 
 #### Sound Modding Tool
 
 Tool for modding sound files\
-[**Read more**](tools.md#sound-modding-tool)****
+[**Read more**](tools.md#sound-modding-tool)
 
 ## Game
 

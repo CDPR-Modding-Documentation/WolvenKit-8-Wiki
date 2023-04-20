@@ -54,7 +54,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 #### [**8.4.2 (Nov 01 2021)**](8.4.md#8.4.1-oct-06-2021) <a href="#8.4.2-nov-01-2021" id="8.4.2-nov-01-2021"></a>
 
-#### ****[**8.4.1 (Oct 06 2021)**](8.4.md#8.4.1-oct-06-2021)
+#### [**8.4.1 (Oct 06 2021)**](8.4.md#8.4.1-oct-06-2021)
 
 {% hint style="warning" %}
 Does **NOT** support latest Cyberpunk 2077 game version
@@ -70,7 +70,7 @@ Does **NOT** support latest Cyberpunk 2077 game version
 
 ### Patches
 
-****[**8.3.2 (Sept 05 2021)**](8.3.md#8.3.2-sept-05-2021)****
+[**8.3.2 (Sept 05 2021)**](8.3.md#8.3.2-sept-05-2021)
 
 {% hint style="warning" %}
 Does **NOT** support latest Cyberpunk 2077 game version

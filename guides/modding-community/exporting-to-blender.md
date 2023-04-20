@@ -8,7 +8,7 @@ description: >-
 
 ## Summary
 
-**Created by** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://localhost:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")****\
+**Created by** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://localhost:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
 **Published September 03 2022 (updated January 13 2023)**
 
 This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.2.
@@ -23,7 +23,7 @@ This guide aims to walk you through finding and exporting a character to blender
 
 * [**WolvenKit nightly release version 8.8.1**](https://github.com/WolvenKit/WolvenKit)
 * [**Blender 3.1**](https://www.blender.org/) **or newer**
-* ****[**Cyberpunk add-on for Blender 1.1.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases/tag/1.1.0)****
+* [**Cyberpunk add-on for Blender 1.1.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases/tag/1.1.0)
 
 ## Exporting to Blender
 
@@ -42,10 +42,6 @@ Expanding the appearances bit of the entity template, he has 15 appearances whic
 * Select all and right click, add selected to project
 
 You may need to go through the app file afterwards to check all the meshes got found, it sometimes seems to miss some.
-
-
-
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The mesh files should now be visible in the project explorer, occasionally I find they arent showing up but closing and reopening the project makes them appear.
 

@@ -16,11 +16,11 @@ Our current development focus is REDengine 4 with Cyberpunk 2077.
 
 After [installing Wolvenkit](https://github.com/WolvenKit/Wolvenkit/releases), you can…
 
-* … dive right in and start [**creating a mod**](getting-started/creating-a-mod.md)****
+* … dive right in and start [**creating a mod**](getting-started/creating-a-mod.md)
 * … read more about the software on the [**Overview**](features/overview.md) page
 * … check out what's new in our [**Release Notes**](features/release-notes/)
 * … learn about support for The Witcher 3 on the [**REDengine 3**](https://wiki.redmodding.org/redengine3-research/) or [**Legacy WolvenKit**](https://wiki.redmodding.org/legacy-wolvenkit/) wikis
-* … find modding guides and know-how on the dedicated [**Cyberpunk 2077 Modding Wiki**](https://wiki.redmodding.org/cyberpunk-2077-modding/)****
+* … find modding guides and know-how on the dedicated [**Cyberpunk 2077 Modding Wiki**](https://wiki.redmodding.org/cyberpunk-2077-modding/)
 
 … or join us on [Discord](https://discord.gg/redmodding).
 

@@ -1,10 +1,10 @@
 # Import/Export
 
-## What is the Import/Export tool?
+## What are the Import Export tools?
 
-The Import/Export tool is an all-purpose method for exporting and importing REDengine files. Game files such as models and textures can be exported from REDengine formats such as XBM and MESH into generic assets such as PNG and glTF. As the name of the tool suggests, these files can be edited externally and imported back into REDengine format and packed as a mod.
+The Import/Export tools are all-purpose methods for exporting and importing REDengine files. Game files such as models and textures can be exported from REDengine formats such as XBM and MESH into generic assets such as PNG and glTF. As the name of the tools suggest, these files can be edited externally and imported back into REDengine format and packed as a mod.
 
-![](../../../.gitbook/assets/8.4.3\_ImportExport\_generic\_example.png)
+<figure><img src="../../../.gitbook/assets/updated_export_tool.png" alt=""><figcaption></figcaption></figure>
 
 ## Supported I/O Formats
 
@@ -20,29 +20,23 @@ The following formats are supported by WolvenKit for imports and exports
   REDengine mlmask files can be exported as an array of textures. These texture arrays can be encoded as a new mlmask with a bespoke masklist helper file.\
 
 * [x] **wem ↔ wav, mp3**\
-  ****Audio files can be converted to and from REDengine. Use the Sound Modding Tool to import new audio.\
+  Audio files can be converted to and from REDengine. Use the Sound Modding Tool to import new audio.\
 
 * [x] **bk2 ↔ avi**\
   Video files can be converted to and from REDengine. (Currently implemented with Project Explorer instead of the Import/Export tool)\
 
 * [x] **morphtarget ↔ glb/glTF (experimental)**\
-  ****REDengine morphtargets can be exported to glTF format. The morphs can be viewed as shapekeys/blendshapes with a 3d package. glTF files can be used to recreate morphtarget files, however only one morph is preserved.\
+  REDengine morphtargets can be exported to glTF format. The morphs can be viewed as shapekeys/blendshapes with a 3d package. glTF files can be used to recreate morphtarget files, however only one morph is preserved.\
 
 * [x] **anims** → **glb/glTF (experimental)**\
-  ****Animation files can be exported to glTF format. However this feature is highly experimental. New anims files cannot be imported at this time.\
+  Animation files can be exported to glTF format. However this feature is highly experimental. New anims files cannot be imported at this time.\
 
 
-### Conversions
 
-The following non-REDengine formats are supported by WolvenKit using the converter
 
-**glTF  ↔  FBX \***\
-****Models can be converted from glTF to FBX, and vice versa.\
-_\*Only static FBX files are supported for conversion at this time._
+## Using the Import/Export tools
 
-## Using the Import/Export tool
-
-The **Import/Export** tool can be accessed from the [**View**](../../menu.md#view) category with the Menu. Visibility of the tool can be toggled within the drop-down menu, similar to other WolvenKit tools such as the Asset Browser.
+The **Import/Export** tools can be accessed from the [**Tools**](../../tools.md) category with the Menu.&#x20;
 
 {% hint style="warning" %}
 Most imports require an existing REDengine file! For successful imports, ensure that the _archive directory_ contains a "mirrored" file.\
@@ -54,11 +48,11 @@ _For example, **both** files below must be present for a successful mesh import:
 
 ### Simple Import/Export
 
-* Choose the import or export view by selecting the circular icon\
+* Open the Import tool from the Tools menu.\
 
 * Select the files you want to import or export by checking the box icon in the left column, then click **Process Selected** to perform the export operation\
 
-* **Process All** will process all files regardless of selection\
+* **Process All** will process all files regardless of selection or visibility filters.\
 
 * Processed files will be available inside the _raw directory_ of the Project Explorer
 
@@ -66,27 +60,22 @@ _For example, **both** files below must be present for a successful mesh import:
 
 * Choose the import or export view by selecting the circular icon\
 
-* Double-click any file within the Import/Export grid to view advanced options\
+* Click any file within the Import/Export grid to view advanced options in the panel on the right\
 
 * (Optional) Check the subpages for Import/Export to learn more about these options by reading the respective wiki pages for each file\
 
-* (Optional) Check `Apply to all files of the same Extension` to temporarily adjust advanced options for all files of the same type. This can be useful for batch exports\
-
 * Click **Confirm** to save advanced options\
 
-* Select the files you want to import or export by checking the box icon in the left column, then click **Process Selected** to perform the export operation\
+* Select the files you want to import or export by checking the box icon in the left column, then click **Process Selected** to perform the operation\
 
-* **Process All** will process all files regardless of selection\
+* **Process All** will process all files regardless of selection and visibility filters\
 
 * Processed files will be available inside the _raw directory_ of the Project Explorer
 
-![Advanced mesh export settings with 8.4.3](../../../.gitbook/assets/8.4.3\_ImportExport\_mesh\_advanced.png)
+Import/Export Templates
 
-#### Import/Export Templates
+Within the Import/Export grids files can be used as a template. For example, advanced options can be used to set XBM export type to PNG.
 
-Within the Import/Export grid files can be "locked" as a template. For example, advanced options can be used to set XBM export type to PNG.
-
-1. Select a file and press the **Lock icon**
+1. Select a file and press the **Copy Settings**
 2. Select other files of the same extension within the grid
-3. Choose **Selected in Grid**, or **All in Grid**
-4. Press **Copy Settings** to to apply the advanced options
+3. Press Paste **Settings** to to apply the advanced options

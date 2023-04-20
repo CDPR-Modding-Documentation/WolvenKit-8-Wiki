@@ -12,23 +12,23 @@ _For the latest info about the Cyberpunk Blender add-on please visit the GitHub 
 
 ### How do I use the Blender integration features?
 
-Preparing a material json with WolvenKit is quite simple, export a mesh using the following setting:
+Preparing a material json with WolvenKit is simple, when exporting a mesh just check the Export Materials checkbox:
 
-![](../../../.gitbook/assets/8.4.3\_ImportExport\_mesh\_advanced.png)
+<figure><img src="../../.gitbook/assets/meshexportoptions.png" alt=""><figcaption></figcaption></figure>
 
-Use the drop down panel for Mesh Export Type, and select the **WithMaterials** option. You will see a material json file created within the Raw directory with the exported glb mesh file.
+Material export now works will all export modes. You will see a material json file created within the Raw directory with the exported glb mesh file.
 
 ### Importing Cyberpunk meshes with Blender
 
-After installing and enabling the Cyberpunk Blender add-on, simply navigate to **File** tab, navigate to **Import** then select **Cyberpunk GLTF**.
+After installing and enabling the Cyberpunk Blender add-on, simply navigate to **File** tab, navigate to **Import** then select **Cyberpunk GLTF**. Entity and Streaming sector import are also available in the latest plugin, see the plugin page for details.
 
 {% hint style="warning" %}
 Not all Cyberpunk shaders are supported! Programming shaders can be very tedious. If you're interested in contributing a new shader please consider reaching out on Discord!
 {% endhint %}
 
-![](../../../.gitbook/assets/BlenderHitmanAddonLocation.png)
+<figure><img src="../../.gitbook/assets/SSector_Import_1.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../.gitbook/assets/BlenderHitmanAddonImageType.png)
+![](../../.gitbook/assets/BlenderHitmanAddonImageType.png)
 
 {% hint style="warning" %}
 Be sure to select the same Image Extension used during the WithMaterials export! The default extension is PNG.

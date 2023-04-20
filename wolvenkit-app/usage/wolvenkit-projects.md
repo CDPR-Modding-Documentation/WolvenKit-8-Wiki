@@ -17,8 +17,8 @@ To access most WolvenKit features, it's necessary to create a Project first. Pro
 
 4.  Click **Finish**
 
-    ****
-5. WolvenKit will now open the new project and proceed to the [**Editor**](../editor/)****
+
+5. WolvenKit will now open the new project and proceed to the [**Editor**](../editor/)
 
 ### Opening an existing WolvenKit mod project
 
@@ -28,7 +28,7 @@ To access most WolvenKit features, it's necessary to create a Project first. Pro
 2.  Select a .modproj file to open with WolvenKit
 
 
-3. WolvenKit will now open the project and proceed to the [**Editor**](../editor/)****
+3. WolvenKit will now open the project and proceed to the [**Editor**](../editor/)
 
 ### Building a mod project
 

@@ -52,7 +52,7 @@ _Community members or organizations that empower REDengine modding with WolvenKi
 
 #### AB4D - 3D Graphics for .Net
 
-__[_https://www.ab4d.com_](https://www.ab4d.com/)__
+[_https://www.ab4d.com_](https://www.ab4d.com/)
 
 WolvenKit's real-time mesh preview system was powered by AB4D. (Deprecated in v8.6)
 

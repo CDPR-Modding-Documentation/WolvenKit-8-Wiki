@@ -8,7 +8,7 @@ description: WolvenKit is powerful
 
 ## Asset I/O
 
-WolvenKit includes an all-purpose import and export tool for converting assets to game files and vice versa. Our tooling is bespoke allowing for native conversions with extensive options to suit your needs. See the list of [**supported formats here.**](../wolvenkit-app/editor/import-export/#supported-formats) ****&#x20;
+WolvenKit includes an all-purpose import and export tool for converting assets to game files and vice versa. Our tooling is bespoke allowing for native conversions with extensive options to suit your needs. See the list of [**supported formats here.**](../wolvenkit-app/editor/import-export/#supported-formats)&#x20;
 
 Base game and user-generated archives can be browsed on the fly, making game dumps obsolete. Our Asset Browser also features instant preview for assets such as meshes and textures.
 

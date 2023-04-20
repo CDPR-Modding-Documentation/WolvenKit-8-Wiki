@@ -18,15 +18,15 @@ If selected extra LOD models will be removed from the export
 
 If selected mesh exports will be in binary from as **GLB** rather than **glTF** format. (Recommended)
 
+Export Materials
+
+If selected a helper Material.json file is generated to allow materials to be edited with exported models. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../../../usage/blender-integration.md).
+
 ### Export types
 
-#### <mark style="color:red;">Default</mark>
+#### <mark style="color:red;">MeshOnly</mark>
 
 The default export is versatile enough for most use cases. Any mesh, static or skinned can be exported and imported with this setting. For skinned meshes the bone parenting hierarchy will not be included, however this does not matter for importing meshes. Meshes will be divided into submeshes by material.
-
-#### <mark style="color:red;">WithMaterials</mark>
-
-Using the `WithMaterials` export option allows us to edit materials by generating a helper Material.json file. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../../../usage/blender-integration.md).
 
 #### <mark style="color:red;">WithRig</mark>
 
@@ -36,7 +36,7 @@ Bone parents are not required for successful mesh imports
 
 Using the `WithRig` export option allows us to export skinned meshes with parented bones. By default exported meshes are correctly skinned, but the skeleton contains no parenting information. Bone-parented rigs are especially useful for posing/animating using a 3d software.
 
-Mesh files themselves do not contain the bone parents, so it's required to select a **rig** file to accompany each mesh export. To select a rig, navigate to the `WithRig Settings` section, and press the **`...`** (Collections) button. This opens the collections menu where you will select your rig file.
+Mesh files themselves do not contain the bone parents, so it's required to select a **rig** file to accompany each mesh export. To select a rig, in the `WithRig Settings` section of the right panel press the **`...`** (Collections) button. This opens the collections menu where you will select your rig file.
 
 #### WithRig usage
 
@@ -55,7 +55,7 @@ If the wrong/incompatible rig is used, an error will be displayed within the [**
 
 #### <mark style="color:red;">MultiMesh</mark>
 
-The `MultiMesh` export option is similar in functionality to [**WithRig**](./#withrig)**,** with the addition of support for multiple rigs and meshes. **** This option was implemented because some meshes use more than one rig.\
+The `MultiMesh` export option is similar in functionality to [**WithRig**](./#withrig)**,** with the addition of support for multiple rigs and meshes. This option was implemented because some meshes use more than one rig.\
 \
 e.g. Judy's mesh **l1\_001\_wa\_pants\_\_judy** uses the following rigs:`base\characters\base_entities\woman_base\deformations_rigs\woman_base_deformations.rig` \
 `base\characters\main_npc\judy\l1_001_wa_pants__judy_dangle_skeleton.rig`\
@@ -65,10 +65,6 @@ Where the dangle rig is used in addition to the base rig to animate Judy's belt.
 #### MultiMesh usage
 
 Navigate to the `MultiMesh Settings` and configure the export options for additional meshes and rigs. The functionality is identical to [**WithRig**](./#withrig-usage), so the same instructions should be followed.
-
-{% hint style="warning" %}
-Remember to add the same mesh that you selected in import/export also in the **mesh collection**
-{% endhint %}
 
 ![](../../../../.gitbook/assets/8.2\_multimesh\_megatut.png)
 
@@ -83,7 +79,7 @@ WolvenKit is able to import custom mesh files. The Import/Export tool expects me
   e.g. submesh01, submesh\_02, submesh\_03, etc.
 * Include **tangent space** on export
 * Submeshes should not exceed more than **65535** triangles
-* Using Blender? [**Check out our recommend settings below**](./#blender-gltf-settings)****
+* Using Blender? [**Check out our recommend settings below**](./#blender-gltf-settings)
 
 ### Import Settings
 
@@ -104,14 +100,14 @@ Select the desired destination format. (mesh/morphtarget)
 Rebuild the existing mesh file. (Required)
 
 {% hint style="info" %}
-Having trouble modifying a mesh file? Keep in mind WolvenKit always uses an existing mesh file for each import. Once a mesh file is corrupted, all subsequent imports will be corrupted as well. [**Try replacing the source mesh with the original!**](../../project-explorer.md#replace-with-original)****
+Having trouble modifying a mesh file? Keep in mind WolvenKit always uses an existing mesh file for each import. Once a mesh file is corrupted, all subsequent imports will be corrupted as well. [**Try replacing the source mesh with the original!**](../../project-explorer.md#replace-with-original)
 {% endhint %}
 
 ## Blender glTF Settings
 
 ### Import
 
-Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../../../usage/blender-integration.md) **** The Cyberpunk add-on is not required for modifying meshes.
+Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../../../usage/blender-integration.md) The Cyberpunk add-on is not required for modifying meshes.
 
 ### **Export**
 
@@ -122,7 +118,7 @@ The following settings are _recommended_ for using Blender with WolvenKit. Unlis
     * [x] Apply Modifiers
     * [x] Tangents
 
-    &#x20;<mark style="color:blue;">****</mark>**  Materials:** No Export
+    &#x20;** Materials:** No Export
 * Shape Keys
   * [x] Shape Key Tangents
 

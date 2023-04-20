@@ -16,7 +16,7 @@ This guide is intended for the beginning modder, who is still learning, and want
 
 ### Requirements
 
-* [**WolvenKit 8.7**](https://github.com/WolvenKit/WolvenKit)****
+* [**WolvenKit 8.7**](https://github.com/WolvenKit/WolvenKit)
 
 {% hint style="danger" %}
 If any of the steps in this guide fail then STOP immediately and ask for help on Discord. It’s important to have a dependable start, else when you start modding you won’t know if the problem is the tool or your mod. Some recommendations in this guide do not match the mod author’s intent, such as the location of the asset depot. As of 10/12/2022 none of these recommendations broke or reduced the functionality of the modding tools.

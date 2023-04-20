@@ -26,7 +26,7 @@ Download and update various plugins and extensions for Cyberpunk 2077 modding
 
 ## Settings
 
-Settings can be accessed from the Home sidebar. Learn more about [**WolvenKit Settings here.**](home.md#settings)****
+Settings can be accessed from the Home sidebar. Learn more about [**WolvenKit Settings here.**](home.md#settings)
 
 ## Web Content
 

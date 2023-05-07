@@ -17,26 +17,47 @@ This guide aims to teach you moving and deleting objects from the world.
 
 * [**WolvenKit 8.7**](https://github.com/WolvenKit/WolvenKit)
 
-## Finding the required sector
+{% hint style="info" %}
+This guide assumes that you already know which sector file to edit. If you need to find it first, check [here](../exporting-streaming-sectors-to-blender/interesting-sectors.md#finding-a-specific-sector).&#x20;
+{% endhint %}
 
-* first of all you will need your in-game player coordinates you can use `print(GetPlayer():GetWorldPosition())` in the CET console to get them.
-* after that search for `streaming block` in the asset browser and open the block then click on `sector preview`
-* use the player cords to find the area you are looking for
+1. Add your sector file to the Wolvenkit project
+2. Open it
+3. Click on `Sector Preview` again
+4. Click into the preview to highlight an object. \
+   _This will print the object's node name and -index to the log._
+5. In the list on the right, find the object that you want to delete.\
+   _You can toggle the red checkmark(s) to show/hide objects in the preview_
 
-<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1970).png" alt=""><figcaption><p>veri nise</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1974) (1).png" alt=""><figcaption><p>amazing</p></figcaption></figure>
 
-*   After finding the sector you need add it to your project then open it then click on `sector preview` again, from the menu on the right find the object you want to move or delete, click on the small red box to confirm if its the right object or not **(you will see it disappear when you do that)**&#x20;
+5. Go back to the **WorldStreamingSector** tab&#x20;
+6. Click on expand nodeData to find the object in the list. It is easiest to go by index, which should have been printed to the log when you selected the object in step 4.
+7. Expand the node and find `Position`, `Orientation` and `Scale`:
 
-    <figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1974) (1).png" alt=""><figcaption><p>amazing</p></figcaption></figure>
-* After finding the object you want to move or delete go back to the **WorldStreamingSector** tab then click on **nodeData** then find the object in the list `(You can memorize where the node is from the sector preview menu)` (edited)
-*   after finding the object node in the list click on it to expand the node there you will find **Postion, Orientation and scale**
+<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1972) (1).png" alt=""><figcaption><p>nise</p></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1972) (1).png" alt=""><figcaption><p>nise</p></figcaption></figure>
-* from there you may change the object coordinates `(remember to save after making any changes)`
-*   you may right click the node then delete it like you see in this image `(this will delete the object from the world)`\
+You can now
 
+* change the object's coordinates or scale
+* delete the object from the world by right-clicking the node and deleting it (see screenshot `deletus`)
 
-    <figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1973).png" alt=""><figcaption><p><code>deletus</code></p></figcaption></figure>
+{% hint style="info" %}
+Remember to save the file after making changes!
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1973).png" alt=""><figcaption><p><code>deletus</code></p></figcaption></figure>
+
+## Troubleshooting
+
+### My deleted object is low-resolution now!
+
+That means that it has a proxy mesh, which you **also** need to delete.&#x20;
+
+1. Search the game for your sector file's name without the last digit\
+   Example: \
+   You're editing `interior_-23_15_0_1`\
+   You're searching `interior_-23_15_0_`
 
 **`Note:`** when you delete a object and you see a low res mesh in its place in the game that means the object has a proxy assigned you will have to find the sector the proxy is in and delete the proxy mesh. `(you may do that following the same steps)`
 

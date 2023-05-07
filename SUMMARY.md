@@ -73,6 +73,7 @@
   * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
   * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
+    * [Finding a specific sector](guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md)
     * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
 
 ## Help

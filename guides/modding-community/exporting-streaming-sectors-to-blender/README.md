@@ -7,70 +7,22 @@ description: Exporting locations to Blender
 ## Summary
 
 **Created by @Simarilius** \
-**Updated 19 March 2023**
+**Updated 19 March 2023 \~** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")\
+**Updated 7 May 2023 \~** [manavortex](http://localhost:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
-So the Export script has got good enough/fast enough that its been incorporated into the latest Blender addon the following guide has been updated to reflect this.
+The original exporter was based on some posts by **@123321** in the Discord _#mapeditor_ channel back in May, so all credit to him for working it out in the first place.
 
-&#x20;Original exporter was based on some posts by @123321 in the Discord _#mapeditor_ channel back in May, so all credit to him for working it out in the first place.
+### Versions and requirements
 
-#### This guide uses the following versions:
+This guide was initially written with game version 1.6 of Cyberpunk 2077.
 
-* Cyberpunk 2077 game version 1.6
-* WolvenKit-8.8.1 or newer
-* Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.2.0
-
-### Requirements
-
-* [**WolvenKit release version 8.8.1**](https://github.com/WolvenKit/WolvenKit) **(or the latest nightly)**
+* [**Wolvenkit**](https://github.com/WolvenKit/WolvenKit) **>= 8.8.1 or the latest** [**Nightly**](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases)
 * [**Blender 3.3**](https://www.blender.org/) **or newer**
 * [**Cyberpunk add-on for Blender 1.2.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases)
 
-
-
-## Background on Streaming Sectors
-
-So Streaming Sectors are the files that define the world to the Cyberpunk Engine, and contain the data to point to all the models and entities that populate it. There are several types of Streaming Sector, including ones to define navigation, sound collision bodies and illumination, but the ones we're dealing with here are primarily the interior and exterior ones.
-
-The world is broken up into a grid, with several sizes of squares available (bit like graph paper with major and minor grid lines). The size of the grid in use is dependent on the Level of Detail (LOD) of the sector file your looking at, which is the last digit of the filename. Chunk sizes are as below.
-
-| LOD | Interior | Exterior |
-| --- | -------- | -------- |
-| 0   | 32       | 64       |
-| 1   | 64       | 128      |
-| 2   | 128      | 256?     |
-
-For every location there can be multiple levels of LOD sectors overlapping, with progressively more detail defined as you go down the levels, so for instance Lizzies bar, is located at approximately -1200, 1562, 22 as you can see from the screenshot below of interrogating the bouncers position with AMM.&#x20;
-
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-Filenames are   `sectortype_X_Y_Z.streamingsector`  in the AMM co-ords. If you preview a sector in wkit the axes are shown rotated so Z=-Y and Y=Z.
-
-I've left the detail of the process below for record, but if you just want a list of sectors I've created a python script to find the ones that a set of co-ordinates are in. You can find it [HERE](https://mybinder.org/v2/gh/Simarilius-uk/sectorStuff/5b8a8f5536002ec2d33c16103f79c53b6b93bd8e?urlpath=lab%2Ftree%2FAllBlocks.ipynb). Simply enter the co-ordinates in the player\_loc dict in block 3 then run all blocks. You'll be given 2 lists containing of all the interior and exterior sectors which contain the co-ords within their bounding boxes. The list also shows the distance from the centre of the sectors to the co-ords given.
-
-From those co-ordinates we can calculate the sector files for interior/exterior sectors by dividing by the grid size for the LOD and rounding. (ie 1200/32=38 etc)
-
-| LOD | Interior   | Exterior   |
-| --- | ---------- | ---------- |
-| 0   | -38\_49\_0 | -19\_24\_0 |
-| 1   | -19\_24\_0 | -9\_12\_0  |
-| 2   | -9\_12\_0  | -5\_6\_0   |
-
-At the level 0 files the whole building isn't covered by 1 sector, so you end up needing 4, conversely the exterior level 2 is several city blocks. In the end to totally define the bar you need the following as far as I can tell
-
-![](<../../../.gitbook/assets/image (2).png>)
-
-In some locations bit are defined inside quest sectors that have bunch of bits to do with triggering the story bits that occur there, half vs apartment seems to be tucked away inside several of those. Their something todo with the nodeRefs inside the main sector files, but I'm still trying to work out how to work out one from the other.
-
-An easy way to locate sectors from inside wkit is if theres anything unique in the location, if you find the mesh then use 'Find files using this' to track back to the streaming sector. So for instance to find El Coyote has the sign which is findable with a search for coyote as el\_coyote\_cojo\_bar\_signage\_a.mesh _._ From that you can do used by to find interior\_-20\_-16\_0\_1.streamingsector. Thats the Level 1 LOD sector though, which just has the big stuff, you also need the LOD 0 ones, which are done on a chunk size half the size, so the numbers in the filename double. For El Coyote these are interior\_-39\_-31\_0\_0.streamingsector, interior\_-39\_-32\_0\_0.streamingsector, interior\_-40\_-31\_0\_0.streamingsector & interior\_-40\_-32\_0\_0.streamingsector.
-
-The other approach is to go in game and use CET and AMM to interrogate an entity at the location and use the director tools to get its world co-ords. So el coyote is at approx x,y,z of -1260,-996,12. Dividing those by 64 and rounding (not sure how they decide that) gets us -20 -16 0 for the filename above.&#x20;
-
-You can preview the sectors in wolvenkit to confirm their what you're after.
-
 ## Exporting Streaming Sectors to Blender
 
-Once you've found the location you want to export, we can use a script to add all the files we need. Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
+Once you've [found the location you want to export](finding-a-specific-sector.md#finding-a-specific-sector), we can use a script to add all the files we need. Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
 
 ```javascript
 // Exports file and all referenced files (recursively)
@@ -180,23 +132,41 @@ This will add all the sector files and the files needed to export them to your p
 
 ## Importing to Blender
 
-Open Blender, (3.3 or higher should work) then do File>Import>Cyberpunk Streaming Sector.
+1. Open Blender, then select `File` -> `Import` -> `Cyberpunk Streaming Sector`.
 
 <figure><img src="../../../.gitbook/assets/SSector_Import_1.png" alt=""><figcaption></figcaption></figure>
 
-Select the cpmodproj file in the root of your project directory, it will use this to get the file path and find all the sector jsons in the project. Import may take a few minutes.
+2. Select the `.cdmodproj` file in the root of your Wolvenkit project directory.
+3. Wait - import may take a few minutes.
+4. As the meshes will be scaled and positioned according to the map coordinates, they're probably off-screen. Since they are selected, you can hit `.` on the numpad (`/` on German keyboard), moving the camera to selection.
 
-The meshes are scaled and positioned based on the map co-ords, so come in kinda small and off in a weird place. The meshes should be selected after import so if you hit . on the keypad to frame selected you should see it.
+{% hint style="info" %}
+The script will find all streamingsector .json files under the `raw` directory and import them. If you are editing multiple streaming sectors but want to import only one at a time, remove or rename the json files under `raw`.
+{% endhint %}
 
-There are still some node types in the sector file not being processed currently, or not fully instanced. These include decals (which just get an empty with details of what the decal is) and lights which I havent got round to. The import code is a constant work in progress so hopefully I'll get to them soon.&#x20;
+(TODO May 07: Is this working by now?) \
+There are still some node types in the sector file not being processed currently, or not fully instanced. These include **decals** (which just get an empty with details of what the decal is) and lights which I haven't gotten round to.&#x20;
 
-Export code is underway, and early version can be found in my github [here](https://github.com/Simarilius-uk/CP2077\_BlenderScripts/blob/main/export\_to\_JSONs.py). It has some instructions at the top of the script but feel free to come chat in the Discord for more info.
+<figure><img src="../../../.gitbook/assets/El_Coyote_latest.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo</em></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/El_Coyote_latest.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/El_Coyote_latest_shaded.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo, generated materials!</em></p></figcaption></figure>
 
-##
+## Importing back into Cyberpunk
 
-<figure><img src="../../../.gitbook/assets/El_Coyote_latest_shaded.png" alt=""><figcaption></figcaption></figure>
+1. Download this script ([raw link](https://raw.githubusercontent.com/Simarilius-uk/CP2077\_BlenderScripts/main/export\_to\_JSONs.py)) from [Sim's github](https://github.com/Simarilius-uk/CP2077\_BlenderScripts/blob/main/export\_to\_JSONs.py)&#x20;
+2. Switch to Blender's scripting perspective and paste the code there
+3. Adjust line 30 and change the path assigned to 'project' to the path of your cyberpunk project. Make sure to double the backslashes.\
+   Example: \
+   before:  `project = 'F:\\CPmod\\meshdecal_parralax'`\
+   after:     `project = 'D:\\Cyberpunk_Modding\\world_editing\\myproject'`
+4. In your Wolvenkit project's root folder, create the folder `output`
+5. Run the script by clicking the ▷ button\
+   _If the script throws errors and you can't resolve them on your own or with the help of ChatGPT, find us on_ [_Discord_](https://discord.gg/redmodding)_!_
+6. Via Windows Explorer, copy the json file from the `output` directory in your Wolvenkit project over the file with the same name in the `raw` directory.
+7. In Wolvenkit, right-click on the file you just copied and select "Import from json"
+8. You're done!
 
-####
+
+
+
 

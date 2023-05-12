@@ -10,7 +10,7 @@ description: If you want to find a specific .streamingsector, here's how
 
 1. Start Cyberpunk and go to the location you're interested in
 2. In the CET console, type `print(GetPlayer():GetWorldPosition())` and copy the coordinates
-3. In Wolvenkit, open the file `base\worlds\03_night_city_compiled\default\blocks\all.streamingblock`
+3. In Wolvenkit, open the file `base\worlds\03_night_city\_compiled\default\blocks\all.streamingblock`
 4. Switch to the second tab "All Sector Preview"
 5. In the panel to the right, enter the coordinates that you copied from the game in step 2
 6. Click "Search for Coordinate"

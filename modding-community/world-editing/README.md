@@ -18,7 +18,7 @@ This guide aims to teach you moving and deleting objects from the world.
 * [**WolvenKit 8.7**](https://github.com/WolvenKit/WolvenKit)
 
 {% hint style="info" %}
-This guide assumes that you already know which sector file to edit. If you need to find it first, check [here](../exporting-streaming-sectors-to-blender/interesting-sectors.md#finding-a-specific-sector).&#x20;
+This guide assumes that you already know which sector file to edit. If you need to find it first, check [here](interesting-sectors.md#finding-a-specific-sector).&#x20;
 {% endhint %}
 
 1. Add your sector file to the Wolvenkit project
@@ -29,13 +29,13 @@ This guide assumes that you already know which sector file to edit. If you need 
 5. In the list on the right, find the object that you want to delete.\
    _You can toggle the red checkmark(s) to show/hide objects in the preview_
 
-<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1974) (1).png" alt=""><figcaption><p>amazing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/‏‏لقطة الشاشة (1974) (1).png" alt=""><figcaption><p>amazing</p></figcaption></figure>
 
 5. Go back to the **WorldStreamingSector** tab&#x20;
 6. Click on expand nodeData to find the object in the list. It is easiest to go by index, which should have been printed to the log when you selected the object in step 4.
 7. Expand the node and find `Position`, `Orientation` and `Scale`:
 
-<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1972) (1).png" alt=""><figcaption><p>nise</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/‏‏لقطة الشاشة (1972) (1).png" alt=""><figcaption><p>nise</p></figcaption></figure>
 
 You can now
 
@@ -46,7 +46,7 @@ You can now
 Remember to save the file after making changes!
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/‏‏لقطة الشاشة (1973).png" alt=""><figcaption><p><code>deletus</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/‏‏لقطة الشاشة (1973).png" alt=""><figcaption><p><code>deletus</code></p></figcaption></figure>
 
 ## Troubleshooting
 

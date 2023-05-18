@@ -46,6 +46,9 @@
   * [Blender Integration](wolvenkit-app/usage/blender-integration.md)
   * [WolvenKit Projects](wolvenkit-app/usage/wolvenkit-projects.md)
   * [Scripting with wscript](wolvenkit-app/usage/scripting-with-wscript.md)
+  * [Import/Export](wolvenkit-app/usage/import-export/README.md)
+    * [Export settings](wolvenkit-app/usage/import-export/export-settings.md)
+    * [Import Settings](wolvenkit-app/usage/import-export/import-settings.md)
 
 ## WolvenKit CLI
 
@@ -61,20 +64,23 @@
 * [Official](guides/official.md)
 * [Modding Wiki: Guides](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/items)
 * [Community Guide Collection](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/community-guides)
-* [Modding with WolvenKit](guides/modding-community/README.md)
-  * [ELI5: Getting Started](guides/modding-community/eli5-getting-started/README.md)
-    * [Prep your computer](guides/modding-community/eli5-getting-started/prep-your-computer.md)
-    * [Download WolvenKit](guides/modding-community/eli5-getting-started/download-wolvenkit.md)
-    * [Configure modding tools](guides/modding-community/eli5-getting-started/configure-modding-tools.md)
-    * [Create Depot](guides/modding-community/eli5-getting-started/create-depot.md)
-    * [Validate Functionality](guides/modding-community/eli5-getting-started/validate-functionality.md)
-  * [World Editing](guides/modding-community/world-editing/README.md)
-    * [Adding Objects to the world](guides/modding-community/world-editing/adding-objects-to-the-world.md)
-  * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
-    * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
-  * [Exporting Streaming Sectors to Blender](guides/modding-community/exporting-streaming-sectors-to-blender/README.md)
-    * [Finding a specific sector](guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md)
-    * [Interesting Sectors](guides/modding-community/exporting-streaming-sectors-to-blender/interesting-sectors.md)
+
+***
+
+* [Modding with WolvenKit](modding-community/README.md)
+  * [ELI5: Getting Started](modding-community/eli5-getting-started/README.md)
+    * [Prep your computer](modding-community/eli5-getting-started/prep-your-computer.md)
+    * [Download WolvenKit](modding-community/eli5-getting-started/download-wolvenkit.md)
+    * [Configure modding tools](modding-community/eli5-getting-started/configure-modding-tools.md)
+    * [Create Depot](modding-community/eli5-getting-started/create-depot.md)
+    * [Validate Functionality](modding-community/eli5-getting-started/validate-functionality.md)
+  * [World Editing](modding-community/world-editing/README.md)
+    * [Interesting Sectors](modding-community/world-editing/interesting-sectors.md)
+    * [Finding a specific sector](modding-community/world-editing/finding-a-specific-sector.md)
+    * [Adding Objects to the world](modding-community/world-editing/adding-objects-to-the-world.md)
+    * [Editing locations in Blender](modding-community/world-editing/exporting-streaming-sectors-to-blender.md)
+  * [Exporting to Blender](modding-community/exporting-to-blender/README.md)
+    * [Exporting Rigs & Anims](modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
 
 ## Help
 

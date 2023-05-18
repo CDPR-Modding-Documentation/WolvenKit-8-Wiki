@@ -2,7 +2,7 @@
 description: Exporting locations to Blender
 ---
 
-# Exporting Streaming Sectors to Blender
+# Editing locations in Blender
 
 ## Summary
 
@@ -22,7 +22,9 @@ This guide was initially written with game version 1.6 of Cyberpunk 2077.
 
 ## Exporting Streaming Sectors to Blender
 
-Once you've [found the location you want to export](finding-a-specific-sector.md#finding-a-specific-sector), we can use a script to add all the files we need. Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
+To export a location, you need to know its files — you can either [pick them from our list](interesting-sectors.md) or [go and find them](finding-a-specific-sector.md) (and add them to the list, please).
+
+Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
 
 ```javascript
 // Exports file and all referenced files (recursively)
@@ -134,7 +136,7 @@ This will add all the sector files and the files needed to export them to your p
 
 1. Open Blender, then select `File` -> `Import` -> `Cyberpunk Streaming Sector`.
 
-<figure><img src="../../../.gitbook/assets/SSector_Import_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SSector_Import_1.png" alt=""><figcaption></figcaption></figure>
 
 2. Select the `.cdmodproj` file in the root of your Wolvenkit project directory.
 3. Wait - import may take a few minutes.
@@ -147,9 +149,9 @@ The script will find all streamingsector .json files under the `raw` directory a
 (TODO May 07: Is this working by now?) \
 There are still some node types in the sector file not being processed currently, or not fully instanced. These include **decals** (which just get an empty with details of what the decal is) and lights which I haven't gotten round to.&#x20;
 
-<figure><img src="../../../.gitbook/assets/El_Coyote_latest.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/El_Coyote_latest.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo</em></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/El_Coyote_latest_shaded.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo, generated materials!</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/El_Coyote_latest_shaded.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo, generated materials!</em></p></figcaption></figure>
 
 ## Importing back into Cyberpunk
 

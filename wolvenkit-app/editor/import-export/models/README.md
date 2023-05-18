@@ -6,7 +6,11 @@ WolvenKit is capable of exporting Cyberpunk mesh files _natively_ to glTF format
 
 Morph targets are automatically included inside the glTF file. You can find the morphs as shapekeys within Blender or blendshapes with Maya.
 
-![](../../../../.gitbook/assets/ImportExportTool\_default\_settings.png)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/ImportExportTool_default_settings.png" alt="">
+
+</div>
 
 ### Default Export Settings
 

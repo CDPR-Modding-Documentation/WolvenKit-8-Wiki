@@ -5,7 +5,7 @@ description: A list of interesting locations and their sector files
 # Interesting Sectors
 
 {% hint style="success" %}
-If the place you're looking for isn't yet on the list, check [here](finding-a-specific-sector.md) for instructions on how to find it. Please consider **signing up and adding it** or find us on [Discord](https://discord.gg/redmodding) to leave your findings in the `#world-editing` channel.
+If the place you're looking for isn't yet on the list, check [here](../../guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md) for instructions on how to find it. Please consider **signing up and adding it** or find us on [Discord](https://discord.gg/redmodding) to leave your findings in the `#world-editing` channel.
 {% endhint %}
 
 {% hint style="info" %}

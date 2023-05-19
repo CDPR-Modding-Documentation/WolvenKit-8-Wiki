@@ -68,19 +68,19 @@
 ***
 
 * [Modding with WolvenKit](modding-community/README.md)
-  * [ELI5: Getting Started](modding-community/eli5-getting-started/README.md)
-    * [Prep your computer](modding-community/eli5-getting-started/prep-your-computer.md)
-    * [Download WolvenKit](modding-community/eli5-getting-started/download-wolvenkit.md)
-    * [Configure modding tools](modding-community/eli5-getting-started/configure-modding-tools.md)
-    * [Create Depot](modding-community/eli5-getting-started/create-depot.md)
-    * [Validate Functionality](modding-community/eli5-getting-started/validate-functionality.md)
-  * [World Editing](modding-community/world-editing/README.md)
+  * [ELI5: Getting Started](guides/modding-community/eli5-getting-started/README.md)
+    * [Prep your computer](guides/modding-community/eli5-getting-started/prep-your-computer.md)
+    * [Download WolvenKit](guides/modding-community/eli5-getting-started/download-wolvenkit.md)
+    * [Configure modding tools](guides/modding-community/eli5-getting-started/configure-modding-tools.md)
+    * [Create Depot](guides/modding-community/eli5-getting-started/create-depot.md)
+    * [Validate Functionality](guides/modding-community/eli5-getting-started/validate-functionality.md)
+  * [World Editing](guides/modding-community/world-editing/README.md)
     * [Interesting Sectors](modding-community/world-editing/interesting-sectors.md)
-    * [Finding a specific sector](modding-community/world-editing/finding-a-specific-sector.md)
-    * [Adding Objects to the world](modding-community/world-editing/adding-objects-to-the-world.md)
+    * [Finding a specific sector](guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md)
+    * [Adding Objects to the world](guides/modding-community/world-editing/adding-objects-to-the-world.md)
     * [Editing locations in Blender](modding-community/world-editing/exporting-streaming-sectors-to-blender.md)
-  * [Exporting to Blender](modding-community/exporting-to-blender/README.md)
-    * [Exporting Rigs & Anims](modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
+  * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
+    * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
 
 ## Help
 

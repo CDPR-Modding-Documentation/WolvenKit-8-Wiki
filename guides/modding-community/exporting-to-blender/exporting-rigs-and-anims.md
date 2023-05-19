@@ -45,7 +45,7 @@ You can look it up in the body's entity file. Find it by file name, or right-cli
 
 Open up the .ent file and check the `components` array for an `entAnimatedComponent` (usually named`deformations`), which lists the rig:
 
-<figure><img src="../../.gitbook/assets/SIM Jackie main rig.png" alt=""><figcaption><p>look for the property "rig"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM Jackie main rig.png" alt=""><figcaption><p>look for the property "rig"</p></figcaption></figure>
 
 {% hint style="success" %}
 You will need this for both the head mesh and the body mesh export.
@@ -77,14 +77,14 @@ In the first step of the guide, you should have exported them as withMaterials. 
 
 In the Export Tool, select the body mesh and adjust its export options. (In Wolvenkit < 8.8, double-click it).
 
-<figure><img src="../../.gitbook/assets/rig_exports_select_rigs.png" alt=""><figcaption><p>Wolvenkit > 8.8</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rig_exports_select_rigs.png" alt=""><figcaption><p>Wolvenkit > 8.8</p></figcaption></figure>
 
 1. Filter by name: type into the empty row at the top of "Available". (<= Wolvenkit 8.8.1: It will only search from the start of the name)
 2. Select the rig by name (the same one as in the .ent file)
 3. Move it into the "Available" list
 4. Apply
 
-<figure><img src="../../.gitbook/assets/rig_exports_select_rigs_2.png" alt=""><figcaption><p>As of WKit 8.8.1, the filter will only search from the start</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rig_exports_select_rigs_2.png" alt=""><figcaption><p>As of WKit 8.8.1, the filter will only search from the start</p></figcaption></figure>
 
 #### The head mesh
 
@@ -102,7 +102,7 @@ If the WithRig has worked you should notice that rather than the mass of unorgan
 
 
 
-![](<../../.gitbook/assets/SIM Bone display.png>)
+![](<../../../.gitbook/assets/SIM Bone display.png>)
 
 {% hint style="info" %}
 Most characters bring in full bodies; however, Jackie is not one of them. CDPR modelled only his chest and hands, since the rest of his body was never planned to be visible.
@@ -120,13 +120,13 @@ You can do this either by script or by hand. This guide assumes you will select 
 4. Select the `BodyArmature` in the 3d viewport
 5. Run the script
 
-&#x20;![](<../../.gitbook/assets/SIM Renamed Armatures.png>)
+&#x20;![](<../../../.gitbook/assets/SIM Renamed Armatures.png>)
 
 The rigs should merge; the head meshes should be without an armature parent now.&#x20;
 
 Hopefully it looks something like below, with all the bones selecting at once, and just the one green dude in the outliner named BodyArmature.
 
-<figure><img src="../../.gitbook/assets/SIM Merged Armatures.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM Merged Armatures.png" alt=""><figcaption></figcaption></figure>
 
 ### Parenting the other meshes to the armature
 
@@ -141,13 +141,13 @@ For each submesh item, repeat the following steps:
 
 This should snap the item to the body and it will follow with correct weights when animated.
 
-![](<../../.gitbook/assets/SIM armature modifier.png>)
+![](<../../../.gitbook/assets/SIM armature modifier.png>)
 
 ## Animations
 
 To find animations compatible with the character you just exported, open up their `.ent` file and expand the `resolvedDependencies`:
 
-<figure><img src="../../.gitbook/assets/animations_jackie_dependencies.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/animations_jackie_dependencies.png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, search for `.anim` in the asset browser
 
@@ -172,13 +172,13 @@ Now let's apply it:
 5. Click the "play" button
 6.
 
-    <figure><img src="../../.gitbook/assets/animations_select_anim.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/animations_select_anim.png" alt=""><figcaption></figcaption></figure>
 
 You can keep importing more anim files and the list just grows.&#x20;
 
 Anyway, cheers Chooms, hope this has been helpful, have fun!
 
-<figure><img src="../../.gitbook/assets/SIM_Jackie_Cheers_0001-0298_AdobeExpress (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SIM_Jackie_Cheers_0001-0298_AdobeExpress (2).gif" alt=""><figcaption></figcaption></figure>
 
 Note:
 

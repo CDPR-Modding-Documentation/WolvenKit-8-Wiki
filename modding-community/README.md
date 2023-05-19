@@ -5,16 +5,16 @@ coverY: 0
 
 # Modding with WolvenKit
 
-{% content-ref url="eli5-getting-started/" %}
-[eli5-getting-started](eli5-getting-started/)
+{% content-ref url="../guides/modding-community/eli5-getting-started/" %}
+[eli5-getting-started](../guides/modding-community/eli5-getting-started/)
 {% endcontent-ref %}
 
-{% content-ref url="world-editing/" %}
-[world-editing](world-editing/)
+{% content-ref url="../guides/modding-community/world-editing/" %}
+[world-editing](../guides/modding-community/world-editing/)
 {% endcontent-ref %}
 
-{% content-ref url="exporting-to-blender/" %}
-[exporting-to-blender](exporting-to-blender/)
+{% content-ref url="../guides/modding-community/exporting-to-blender.md" %}
+[exporting-to-blender.md](../guides/modding-community/exporting-to-blender.md)
 {% endcontent-ref %}
 
 {% content-ref url="world-editing/exporting-streaming-sectors-to-blender.md" %}

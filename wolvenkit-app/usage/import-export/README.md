@@ -20,12 +20,7 @@ You browse the file structure via Wolvenkit's **Project Explorer**. Here's how i
 
 Your Wolvenkit project will have several folders inside of `source`. As of 8.9.1, these are:
 
-| Folder name  | Explanation                                                                                                                                                                                                                |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| archive      | Part of your mod: Files in this folder will become part of your .archive file                                                                                                                                              |
-| customSounds | A directory for custom sound files                                                                                                                                                                                         |
-| raw          | <p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.</p> |
-| resources    | Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.                                                                                      |
+<table><thead><tr><th width="197">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>archive</td><td>Part of your mod: Files in this folder will become part of your .archive file</td></tr><tr><td>customSounds</td><td>A directory for custom sound files</td></tr><tr><td>raw</td><td><p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.</p></td></tr><tr><td>resources</td><td>Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.</td></tr></tbody></table>
 
 ## Exporting
 
@@ -55,14 +50,7 @@ The **Export Tool** lets you export any files in your project's `archive` direct
 
 <figure><img src="../../../.gitbook/assets/export_tool.png" alt=""><figcaption><p>This is your export tool. For detailed documentation of the different export settings, check the corresponding <a href="export-settings.md">subpage</a>.</p></figcaption></figure>
 
-| UI element      | Explanation                                                                                                                                                                  |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Export Selected | Exports anything you checked in the left-hand list                                                                                                                           |
-| Export All      | <p>Exports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</p>                                    |
-| Refresh         | Refreshes the file list on the left                                                                                                                                          |
-| Reset Settings  | Restores the Export Settings to default                                                                                                                                      |
-| Copy Settings   | Copies the Export Settings of your currently selected file (`h0_000_pwa_c__basehead.mesh` in the screenshot above) so that you can paste them to other files.                |
-| Paste Settings  | <p>Pastes the Export Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p> |
+<table><thead><tr><th width="225">UI element</th><th>Explanation</th></tr></thead><tbody><tr><td>Export Selected</td><td>Exports anything you checked in the left-hand list</td></tr><tr><td>Export All</td><td>Exports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</td></tr><tr><td>Refresh</td><td>Refreshes the file list on the left</td></tr><tr><td>Reset Settings</td><td>Restores the Export Settings to default</td></tr><tr><td>Copy Settings</td><td>Copies the Export Settings of your currently selected file (<code>h0_000_pwa_c__basehead.mesh</code> in the screenshot above) so that you can paste them to other files.</td></tr><tr><td>Paste Settings</td><td><p>Pastes the Export Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p></td></tr></tbody></table>
 
 ## Importing
 
@@ -94,13 +82,6 @@ Importing will overwrite already-existing files in `raw` without a prompt. If yo
 For detailed documentation of the different import settings, check the corresponding [subpage](import-settings.md).
 {% endhint %}
 
-| UI element      | Explanation                                                                                                                                                                  |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Import Selected | Imports anything you checked in the left-hand list                                                                                                                           |
-| Import All      | <p>Imports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</p>                                    |
-| Refresh         | Refreshes the file list on the left                                                                                                                                          |
-| Reset Settings  | Restores the Import Settings to default                                                                                                                                      |
-| Copy Settings   | Copies the Import Settings of your currently selected file (`h0_000_pwa_c__basehead.glb` in the screenshot above) so that you can paste them to other files.                 |
-| Paste Settings  | <p>Pastes the Import Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p> |
+<table><thead><tr><th width="225">UI element</th><th>Explanation</th></tr></thead><tbody><tr><td>Import Selected</td><td>Imports anything you checked in the left-hand list</td></tr><tr><td>Import All</td><td>Imports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</td></tr><tr><td>Refresh</td><td>Refreshes the file list on the left</td></tr><tr><td>Reset Settings</td><td>Restores the Import Settings to default</td></tr><tr><td>Copy Settings</td><td>Copies the Import Settings of your currently selected file (<code>h0_000_pwa_c__basehead.glb</code> in the screenshot above) so that you can paste them to other files.</td></tr><tr><td>Paste Settings</td><td><p>Pastes the Import Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p></td></tr></tbody></table>
 
 [^1]: Path inside the game files, e.g. `tutorial\my_first_mod\meshes\my.mesh`

@@ -81,6 +81,7 @@
     * [Editing locations in Blender](modding-community/world-editing/exporting-streaming-sectors-to-blender.md)
   * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
+    * [Exporting Vehicles](modding-community/exporting-to-blender/exporting-vehicles.md)
 
 ## Help
 

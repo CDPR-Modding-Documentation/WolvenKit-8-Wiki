@@ -18,7 +18,7 @@ You can use your browser's search function (`Ctrl+F`) and search for e.g. `Edger
 
 ### NPC Homes
 
-<table><thead><tr><th width="320">Description</th><th>Sector files</th></tr></thead><tbody><tr><td><p>Northside, <a href="https://cyberpunk.fandom.com/wiki/Gig:_Scrolls_before_Swine">Scrolls Before Swine</a>: Aaron's Apartment<br><em>Edgerunners: Rebecca and Pilar's Apartment</em></p><p>(<em>thanks vinventive on Discord!</em>)</p></td><td>exterior_-10_41_0_0<br>interior_-10_41_0_1<br>interior_-19_82_1_0<br>interior_-20_81_1_0<br>interior_-20_82_1_0</td></tr></tbody></table>
+<table><thead><tr><th width="320">Description</th><th>Sector files</th></tr></thead><tbody><tr><td>Judys Apartment</td><td>interior_-15_28_0_1.streamingsector interior_-15_29_0_1.streamingsector interior_-28_57_1_0.streamingsector interior_-28_58_1_0.streamingsector interior_-29_57_1_0.streamingsector interior_-29_58_1_0.streamingsector</td></tr><tr><td><p>Northside, <a href="https://cyberpunk.fandom.com/wiki/Gig:_Scrolls_before_Swine">Scrolls Before Swine</a>: Aaron's Apartment<br><em>Edgerunners: Rebecca and Pilar's Apartment</em></p><p>(<em>thanks vinventive on Discord!</em>)</p></td><td>exterior_-10_41_0_0<br>interior_-10_41_0_1<br>interior_-19_82_1_0<br>interior_-20_81_1_0<br>interior_-20_82_1_0</td></tr></tbody></table>
 
 ### Bars
 

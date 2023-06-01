@@ -8,7 +8,8 @@ description: Exporting locations to Blender
 
 **Created by @Simarilius** \
 **Updated 19 March 2023 \~** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")\
-**Updated 7 May 2023 \~** [manavortex](http://localhost:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
+**Updated 7 May 2023 \~** [manavortex](http://localhost:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
+**Script updated 1 May 2023 \~** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")
 
 The original exporter was based on some posts by **@123321** in the Discord _#mapeditor_ channel back in May, so all credit to him for working it out in the first place.
 
@@ -27,16 +28,34 @@ To export a location, you need to know its files — you can either [pick them f
 Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
 
 ```javascript
-// Exports file and all referenced files (recursively)
+// Sector export script
+// Exports streamingsector files and all referenced files (recursively)
 import * as Logger from 'Logger.wscript';
 
-//list of sector files (paths need double slashes) - REPLACE WITH YOUR SECTORS 
-var sectors=['base\\worlds\\03_night_city\\_compiled\\default\\interior_-20_-16_0_1.streamingsector',
-'base\\worlds\\03_night_city\\_compiled\\default\\interior_-39_-31_0_0.streamingsector',
-'base\\worlds\\03_night_city\\_compiled\\default\\interior_-39_-32_0_0.streamingsector',
-'base\\worlds\\03_night_city\\_compiled\\default\\interior_-40_-31_0_0.streamingsector',
-'base\\worlds\\03_night_city\\_compiled\\default\\interior_-40_-32_0_0.streamingsector'
-]
+// You can add sectors to the list, or add them to the project 
+// list of sector files (paths need double slashes) you can leave empty if in project
+// can use just filenames if their in the _compiled\default folder
+var sectors=[]
+
+const sectorPathInFiles = 'base\\worlds\\03_night_city\\_compiled\\default';
+for (var i=0; i < sectors.length; i += 1) {
+	let sectorPath = sectors[i];
+	if (!sectorPath.includes("\\")) {
+		sectorPath = `${sectorPathInFiles}\\${sectorPath}`;		
+	}
+	if (!sectorPath.endsWith('.streamingsector')) {
+		sectorPath = `${sectorPath}.streamingsector`;
+	}
+	sectors[i] = sectorPath;
+}
+
+for (var filename of wkit.GetProjectFiles('archive')) {
+        //Logger.Info(filename)
+        var ext=filename.split('.').pop();
+        if (ext === "streamingsector") {
+            sectors.push(filename)
+        }
+    }
 
 // sets of files that are parsed for processing
 const parsedFiles = new Set()
@@ -123,10 +142,12 @@ function ParseFile(fileName) {
         jsonSet.add(fileName)
     }
     // now check if there are referenced files and parse them
-    var json = JSON.parse(wkit.GameFileToJson(file))
-    for (let path of GetPaths(json["Data"]["RootChunk"])) {
-        ParseFile(path)
-    }
+    if (file.Extension === ".app" || file.Extension === ".ent" || file.Extension === ".mesh" || file.Extension === ".streamingsector" ){
+	    var json = JSON.parse(wkit.GameFileToJson(file))
+	    for (let path of GetPaths(json["Data"]["RootChunk"])) {
+	        ParseFile(path)
+	    }
+	}
 }
 ```
 
@@ -146,7 +167,7 @@ This will add all the sector files and the files needed to export them to your p
 The script will find all streamingsector .json files under the `raw` directory and import them. If you are editing multiple streaming sectors but want to import only one at a time, remove or rename the json files under `raw`.
 {% endhint %}
 
-(TODO May 07: Is this working by now?) \
+TODO: \
 There are still some node types in the sector file not being processed currently, or not fully instanced. These include **decals** (which just get an empty with details of what the decal is) and lights which I haven't gotten round to.&#x20;
 
 <figure><img src="../../.gitbook/assets/El_Coyote_latest.png" alt=""><figcaption><p>Export of <em>El Coyote Cojo</em></p></figcaption></figure>

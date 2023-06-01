@@ -46,7 +46,7 @@ You might want to consider using a unique mesh rather than a standard cup or bot
 
 ### Method 3: Via script
 
-Go [here](https://mybinder.org/v2/gh/Simarilius-uk/sectorStuff/5b8a8f5536002ec2d33c16103f79c53b6b93bd8e?urlpath=lab%2Ftree%2FAllBlocks.ipynb) and either use the script in your webbrowser or download the script locally to run it with Python.&#x20;
+Go [here](https://colab.research.google.com/github/Simarilius-uk/sectorStuff/blob/main/AllBlocks\_colab\_w\_streamingblock.ipynb) and either use the script in your webbrowser (recommended) or download the script locally to run it with Python.&#x20;
 
 #### When running from browser:
 
@@ -71,4 +71,6 @@ You'll find the coordinates in line 31. Change them to the coordinates that you 
 ```
 
 Now, run the script via Python. It'll give you a list of interior/exterior sector files together with the distance from your coordinates.
+
+The blocks at the bottom can be used to generate a streamingblock json file for just the results, which can be imported to wolvenkit to preview them as per Method 1. if running the script locally you will need to download the sectors.streamingblock file from the github and edit the templatepath variable to point at it.
 

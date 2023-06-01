@@ -27,7 +27,7 @@ To export a location, you need to know its files — you can either [pick them f
 
 Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it.&#x20;
 
-You can either add the streaming sectors to your project and run it, or add the sectors to the sectors list with your sector names, then run it (they need to be inside quotes and comma seperated if you do this).&#x20;
+You can either add the streaming sectors to your project and run it, or add the sectors to the sectors list inside the square bracket, then run it (they need to be inside quotes and comma seperated if you do this).&#x20;
 
 ```javascript
 // Sector export script

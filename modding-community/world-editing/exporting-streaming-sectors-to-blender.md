@@ -25,7 +25,9 @@ This guide was initially written with game version 1.6 of Cyberpunk 2077.
 
 To export a location, you need to know its files — you can either [pick them from our list](interesting-sectors.md) or [go and find them](../../guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md) (and add them to the list, please).
 
-Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it. Replace the sectors in the sectors list with your sector names, then run it.&#x20;
+Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it.&#x20;
+
+You can either add the streaming sectors to your project and run it, or add the sectors to the sectors list with your sector names, then run it (they need to be inside quotes and comma seperated if you do this).&#x20;
 
 ```javascript
 // Sector export script

@@ -244,7 +244,15 @@ Once the ent, app and rig files are json'd and the rest exported to glb, simply 
 
 The vehicle should be imported, with the meshes aligned to the bones and with ChildOf constraints applied to the bones that their meant to be bound to so that the doors etc work if you play the anims. Anims can be found in the dope sheet>action editor, then use the drop down list with the rig selected.
 
-Have noticed some bits are still coming in slightly misaligned, but haven't worked out why yet. Steering wheels seem to be a common one, applying a copy rotation constraint to them aimed at the armature seems to fix them.&#x20;
+Have noticed some bits are still coming in slightly misaligned, but haven't worked out why yet. Steering wheels seem to be a common one, applying a copy rotation constraint to them aimed at the armature seems to fix them. The following code will apply one to everything selected, you may need to change the target object name.
+
+```
+import bpy
+objs=bpy.context.selected_objects
+for obj in objs:
+    co=obj.constraints.new(type='COPY_ROTATION')
+    co.target=bpy.data.objects['Armature']
+```
 
 I've built shaders for most of the materials that I've encountered in my testing. Exception is the dashboards, their driven by inkwidgets not normal materials, so aren't implemented, if you want them then dig in the interior\_ui component in the applicable appearance, then open the inkwidget and in the preview use the export to images button to export a bitmap. Import that as the basecolor on the material on the dash.
 

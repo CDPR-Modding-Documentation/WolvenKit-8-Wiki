@@ -35,27 +35,34 @@ Once you've added the ent to your project you can either do the right click used
 
 ```javascript
 // Entity export script FOR VEHICLES dont use if you dont need all the anims and rig.
-// By Simarilius & DZK
+// @author Simarilius & DZK
+// @version 1.0
 // Exports ent files and all referenced files (recursively)
 import * as Logger from 'Logger.wscript';
 
 // Rather than a manual list does it for all ents in the project. 
 
 var ents=[]
-for (var filename of wkit.GetProjectFiles('archive')) {
-        //Logger.Info(filename)
-        var ext=filename.split('.').pop();
-        if (ext === "ent") {
-            ents.push(filename)
-        }
-    }
-   
+
 // sets of files that are parsed for processing
 const parsedFiles = new Set()
 const projectSet = new Set()
 const exportSet = new Set()
 const jsonSet = new Set()
 const rigs = new Map()
+
+for (var filename of wkit.GetProjectFiles('archive')) {
+        //Logger.Info(filename)
+        var ext=filename.split('.').pop();
+        if (ext === "ent") {
+            ents.push(filename)
+        }
+        if (ext === "anims") {
+            exportSet.add(filename)
+        }
+    }
+   
+
 
 // Set these to true if you want proxys/shadow meshes
 var include_proxys=false
@@ -112,6 +119,9 @@ for (const fileName of projectSet) {
         if (file.Extension === ".rig") {
             path = wkit.ChangeExtension(file.Name, ".rig.json")
         }
+        if (file.Extension === ".mesh") {
+            path = wkit.ChangeExtension(file.Name, ".mesh.json")
+        }
         if (path.length > 0) {
             var json = wkit.GameFileToJson(file)
             wkit.SaveToRaw(path, json)
@@ -144,7 +154,7 @@ function ParseFile(fileName) {
     }
     parsedFiles.add(fileName)
 	var ext=fileName.split('.').pop();
-	if (ext==='mesh' || ext==='app' || ext==='ent'){
+	if (ext==='mesh' || ext==='app' || ext==='ent' || ext==='anims'){
     // try to get the file
     var file = wkit.GetFileFromBase(fileName)
     if (file === null) {
@@ -167,7 +177,7 @@ function ParseFile(fileName) {
         projectSet.add(fileName)
         jsonSet.add(fileName)
     }
-    if (file.Extension === ".anim") {
+    if (file.Extension === ".anims") {
         projectSet.add(fileName)
         exportSet.add(fileName)
     }
@@ -177,7 +187,7 @@ function ParseFile(fileName) {
     }
 
     // now check if there are referenced files and parse them
-    if (file.Extension === ".app" || file.Extension === ".ent" || file.Extension === ".mesh" ){
+    if (file.Extension === ".app" || file.Extension === ".ent" || file.Extension === ".mesh" || file.Extension === ".anims"){
 	    var json = JSON.parse(wkit.GameFileToJson(file))
 	    for (let path of GetPaths(json["Data"]["RootChunk"])) {
 	        ParseFile(path)
@@ -237,6 +247,8 @@ function get_filename(str) {
     return str.split('\\').pop().split('/').pop();
 }
 ```
+
+Check your project tree to see that it found an anims file, sometimes it doesnt, (for instance the arch) if thats the case go dig in \base\animations\vehicle to find the one for your vehicle, add it to the project and export to glb using the export tool. (running the script again should also export it)
 
 Once the ent, app and rig files are json'd and the rest exported to glb, simply use the Cyberpunk Entity import option and select the entity json file. To get a specific appearance you need to enter it in the text entry in the blender open dialog, otherwise you get the default. it's the appearanceName from inside the appearance entry in the appearances list in the entity file that you need to put in there.
 

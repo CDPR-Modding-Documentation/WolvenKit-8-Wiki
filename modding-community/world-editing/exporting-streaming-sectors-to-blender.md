@@ -7,11 +7,13 @@ description: Exporting locations to Blender
 ## Summary
 
 **Created by @Simarilius** \
-**Updated 19 March 2023 \~** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")\
-**Updated 7 May 2023 \~** [manavortex](http://localhost:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
-**Script updated 1 June 2023 \~** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")
+**Updated 19 March 2023 \~** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")\
+**Updated 7 May 2023 \~** [manavortex](http://127.0.0.1:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
+**Script updated 1 June 2023 \~** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention")
 
 The original exporter was based on some posts by **@123321** in the Discord _#mapeditor_ channel back in May, so all credit to him for working it out in the first place.
+
+Theres a video which outlines this process [Here](https://youtu.be/JVCbPr67mgw).
 
 ### Versions and requirements
 

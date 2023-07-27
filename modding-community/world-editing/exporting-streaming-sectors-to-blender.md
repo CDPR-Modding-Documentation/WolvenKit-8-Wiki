@@ -27,135 +27,37 @@ This guide was initially written with game version 1.6 of Cyberpunk 2077.
 
 To export a location, you need to know its files — you can either [pick them from our list](interesting-sectors.md) or [go and find them](../../guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md) (and add them to the list, please).
 
-Open the script manager by going Tools>Script Manager and add a script. Paste the script below into it.&#x20;
+Open the script manager by going Tools > Script Manager and open Export\_Sector.wscript (included in Wolvenkit >= 8.9.1). If you're on an older version of Wolvenkit, you should either update or install the latest [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases).
 
-You can either add the streaming sectors to your project and run it, or add the sectors to the sectors list inside the square bracket, then run it (they need to be inside quotes and comma seperated if you do this).&#x20;
+You have two options to export streaming sectors now:&#x20;
+
+#### Run the script
+
+This will export all .streamingsector files inside your project.
+
+#### Adjust the script
+
+You can filter your present sectors by adjusting the list at the top of the file:
 
 ```javascript
-// Sector export script
-// Exports streamingsector files and all referenced files (recursively)
-import * as Logger from 'Logger.wscript';
-
 // You can add sectors to the list, or add them to the project 
 // list of sector files (paths need double slashes) you can leave empty if in project
 // can use just filenames if their in the _compiled\default folder
-var sectors=[]
-
-const sectorPathInFiles = 'base\\worlds\\03_night_city\\_compiled\\default';
-for (var i=0; i < sectors.length; i += 1) {
-	let sectorPath = sectors[i];
-	if (!sectorPath.includes("\\")) {
-		sectorPath = `${sectorPathInFiles}\\${sectorPath}`;		
-	}
-	if (!sectorPath.endsWith('.streamingsector')) {
-		sectorPath = `${sectorPath}.streamingsector`;
-	}
-	sectors[i] = sectorPath;
-}
-
-for (var filename of wkit.GetProjectFiles('archive')) {
-        //Logger.Info(filename)
-        var ext=filename.split('.').pop();
-        if (ext === "streamingsector") {
-            sectors.push(filename)
-        }
-    }
-
-// sets of files that are parsed for processing
-const parsedFiles = new Set()
-const projectSet = new Set()
-const exportSet = new Set()
-const jsonSet = new Set()
-
-// loop over every sector in `sectors`
-for (var sect in sectors) {
-    Logger.Info(sectors[sect])
-    ParseFile(sectors[sect])
-}
-
-// save all our files to the project and export JSONs
-for (const fileName of projectSet) {
-    var file = wkit.GetFileFromBase(fileName)
-    wkit.SaveToProject(fileName, file)
-
-    if (jsonSet.has(fileName)) {
-        var path = ""
-        if (file.Extension === ".ent") {
-            path = wkit.ChangeExtension(file.Name, ".ent.json")
-        }
-        if (file.Extension === ".streamingsector") {
-            path = wkit.ChangeExtension(file.Name, ".streamingsector.json")
-        }
-        if (file.Extension === ".app") {
-            path = wkit.ChangeExtension(file.Name, ".app.json")
-        }
-        if (path.length > 0) {
-            var json = wkit.GameFileToJson(file)
-            wkit.SaveToRaw(path, json)
-        }
-    }
-}
-
-// export all of our files with the default export settings
-wkit.ExportFiles([...exportSet])
-
-
-// begin helper functions
-function* GetPaths(jsonData) {
-    for (let [key, value] of Object.entries(jsonData || {})) {
-        if (key === "DepotPath" && value != null && value != 0) {
-            yield value;
-        }
-
-        if (typeof value === "object") {
-            yield* GetPaths(value)
-        }
-    }
-}
-
-// Parse a CR2W file
-function ParseFile(fileName) {
-    // check if we've already worked with this file and that it's actually a string
-    if (parsedFiles.has(fileName) || typeof fileName !== "string") {
-        return
-    }
-    parsedFiles.add(fileName)
-
-    // try to get the file
-    var file = wkit.GetFileFromBase(fileName)
-    if (file === null) {
-        Logger.Error(fileName + " could not be found")
-        return
-    }
-    
-    // handle the file types we want
-    if (file.Extension === ".mesh") {
-        projectSet.add(fileName)
-        exportSet.add(fileName)
-    }
-    if (file.Extension === ".ent") {
-        projectSet.add(fileName)
-        jsonSet.add(fileName)
-    }
-    if (file.Extension === ".app") {
-        projectSet.add(fileName)
-        jsonSet.add(fileName)
-    }
-    if (file.Extension === ".streamingsector") {
-        projectSet.add(fileName)
-        jsonSet.add(fileName)
-    }
-    // now check if there are referenced files and parse them
-    if (file.Extension === ".app" || file.Extension === ".ent" || file.Extension === ".mesh" || file.Extension === ".streamingsector" ){
-	    var json = JSON.parse(wkit.GameFileToJson(file))
-	    for (let path of GetPaths(json["Data"]["RootChunk"])) {
-	        ParseFile(path)
-	    }
-	}
-}
+var sectors=[
+    "interior_-48-31_2_0.streamingsector",
+    "interior_-24-16_1_1.streamingsector",
+]
 ```
 
-This will add all the sector files and the files needed to export them to your project, and exported the files to json/glb as appropriate with the default export settings. May take a few minutes to run, just wait for the Stop to grey out and Run to become available again.
+This will add all the sector files and the files needed to export them to your project, and exported the files to json/glb.
+
+{% hint style="success" %}
+Depending on your computer and the sectors you're exporting, the script may take a few minutes. Just wait until the Stop button becomes inactive again and the Run button turns green.
+{% endhint %}
+
+{% hint style="info" %}
+You might see a bunch of error messages about files that couldn't be found in the Wolvenkit log. Those usually only affect materials, your mesh should still show up in Blender, it will just be blank,
+{% endhint %}
 
 ## Importing to Blender
 

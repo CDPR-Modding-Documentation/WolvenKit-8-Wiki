@@ -5,8 +5,8 @@ coverY: 0
 
 # Modding with WolvenKit
 
-{% content-ref url="../guides/modding-community/eli5-getting-started/" %}
-[eli5-getting-started](../guides/modding-community/eli5-getting-started/)
+{% content-ref url="../getting-started/eli5-getting-started/" %}
+[eli5-getting-started](../getting-started/eli5-getting-started/)
 {% endcontent-ref %}
 
 {% content-ref url="../guides/modding-community/world-editing/" %}

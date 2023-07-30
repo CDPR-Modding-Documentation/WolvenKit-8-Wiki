@@ -18,10 +18,13 @@
 
 ## Getting Started
 
-* [Download](getting-started/download.md)
-* [Install](getting-started/installation.md)
+* [Download, Install and Setup](getting-started/download.md)
 * [Uninstall](getting-started/uninstall.md)
-* [Setup](getting-started/setup.md)
+* [Full install walkthrough (ELI5)](getting-started/eli5-getting-started/README.md)
+  * [ELI5: Full Prep for Mod Development](getting-started/eli5-getting-started/prep-your-computer.md)
+  * [ELI5: Configure modding tools](getting-started/eli5-getting-started/configure-modding-tools.md)
+  * [ELI5: Create Depot](getting-started/eli5-getting-started/create-depot.md)
+  * [ELI5: Validate Functionality](getting-started/eli5-getting-started/validate-functionality.md)
 * [Creating a Mod](getting-started/creating-a-mod.md)
 
 ## WolvenKit App
@@ -68,12 +71,6 @@
 ***
 
 * [Modding with WolvenKit](modding-community/README.md)
-  * [ELI5: Getting Started](guides/modding-community/eli5-getting-started/README.md)
-    * [Prep your computer](guides/modding-community/eli5-getting-started/prep-your-computer.md)
-    * [Download WolvenKit](guides/modding-community/eli5-getting-started/download-wolvenkit.md)
-    * [Configure modding tools](guides/modding-community/eli5-getting-started/configure-modding-tools.md)
-    * [Create Depot](guides/modding-community/eli5-getting-started/create-depot.md)
-    * [Validate Functionality](guides/modding-community/eli5-getting-started/validate-functionality.md)
   * [World Editing](guides/modding-community/world-editing/README.md)
     * [Interesting Sectors](modding-community/world-editing/interesting-sectors.md)
     * [Finding a specific sector](guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md)

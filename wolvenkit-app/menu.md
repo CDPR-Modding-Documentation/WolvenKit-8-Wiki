@@ -171,7 +171,7 @@ Opens external-link to the Cyberpunk Blender Add-on GitHub page\
 
 #### Setting Up WolvenKit
 
-Opens an external-link to the [**Setup**](../getting-started/setup.md) page
+Opens an external-link to the [**Setup**](broken-reference) page
 
 #### Creating a Mod
 

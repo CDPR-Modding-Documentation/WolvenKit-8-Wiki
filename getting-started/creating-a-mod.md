@@ -50,7 +50,7 @@ What can WolvenKit do? Check out the [**Overview**](../features/overview.md) pag
 
 ### Starting a project
 
-1. Ensure WolvenKit is properly configured by following the [**Setup**](setup.md) procedure
+1. Ensure WolvenKit is properly configured by following the [**Setup**](broken-reference) procedure
 2. Create a new WolvenKit mod project
 3. Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Use the [**View**](../wolvenkit-app/menu.md#view) menu to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
 4. Navigate to the Asset Browser window

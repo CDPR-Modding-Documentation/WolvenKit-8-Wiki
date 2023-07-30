@@ -8,7 +8,7 @@ description: >-
 
 ## Summary
 
-**Created by** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://localhost:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
+**Created by** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://127.0.0.1:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
 **Published September 03 2022 (updated January 13 2023)**
 
 This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.2.

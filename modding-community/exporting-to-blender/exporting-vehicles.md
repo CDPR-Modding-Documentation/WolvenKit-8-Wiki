@@ -6,7 +6,7 @@ description: Step-by-step guide for exporting vehicles to Blender
 
 ## Summary
 
-**Created by** [Simarilius](http://localhost:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") \
+**Created by** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") \
 **Published May 2023**&#x20;
 
 This guide aims to walk you through finding and exporting a vehicle to blender.&#x20;

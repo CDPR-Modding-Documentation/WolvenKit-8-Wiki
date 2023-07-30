@@ -1,8 +1,24 @@
+---
+description: Wolvenkit's settings and what they mean
+---
+
 # Settings
 
-![](<../.gitbook/assets/8.5.3 Settings generic.png>)
+## TL;DR
 
-## Cyberpunk 2077
+You **must** make sure that your Game Executable Path is set. Wolvenkit will not work otherwise.
+
+<table><thead><tr><th width="281">Setting</th><th>value</th></tr></thead><tbody><tr><td>Game Executable Path (.exe)</td><td><p>Path to the game's executable file on your hard drive, e.g. </p><p><code>C:\Games\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe</code></p></td></tr><tr><td>Depot Path</td><td><p>Defaults to <code>C:\Users\yourusername\AppData\Roaming\REDModding\WolvenKit\Depot</code></p><p><br>A folder where Wolvenkit can store all its clutter. <br><strong>NOT</strong> your game directory.</p></td></tr></tbody></table>
+
+## Settings: Overview
+
+For a textual explanation of the seettings, see [the next section](settings.md#settings-explained)
+
+<figure><img src="../.gitbook/assets/8.9.0 settings generic.png" alt=""><figcaption><p>Example settings window for 8.9.0</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/8.9.1 settings generic.png" alt=""><figcaption><p>Example settings window for 8.9.1</p></figcaption></figure>
+
+## Settings explained
 
 ### Show File Preview
 
@@ -10,13 +26,24 @@ Enables interactive Quick Previews within the Properties panel. Toggle off for i
 
 ### **Game Executable (.exe) Path**
 
-The **Game Executable (.exe) Path** is the location of the Cyberpunk2077.exe file. The .exe can be located by finding the Cyberpunk installation and navigating to the `Cyberpunk 2077\bin\x64\` folder. The path can be set by manually entering a file path, or using the folder icon to browse system files for the preferred Cyberpunk directory. As a reminder, if Cyberpunk is installed within Program Files we recommend running WolvenKit as administrator.
+The **Game Executable (.exe) Path** is the location of the Cyberpunk2077.exe file. The .exe can be located by finding the Cyberpunk installation and navigating to the `Cyberpunk 2077\bin\x64\` folder. The path can be set by manually entering a file path, or using the folder icon to browse system files for the preferred Cyberpunk directory.&#x20;
+
+{% hint style="info" %}
+If Cyberpunk is installed within Program Files we recommend running WolvenKit as administrator.
+{% endhint %}
 
 ### Depot Path
 
-The **Depot Path** is a WolvenKit system folder for caching game assets. WolvenKit can optionally unbundle all Cyberpunk archives to this directory. Additionally this folder is used as a cache for mesh exports with materials. WolvenKit builds a repository of visual assets within the Depot for usage with external applications such as Blender. Learn more about the [**Material exports here**](usage/blender-integration.md)**.**\
-\
-The Depot Path is set by default to `.../User/AppData/Roaming/REDModding/WolvenKit/MaterialDepot`, however any custom folder can be substituted. The Depot can be in excess of 30 gigabytes with materials, so we recommend a destination with ample free disk space.&#x20;
+The **Depot Path** is a WolvenKit system folder for caching game assets.  It serves as a cache for mesh exports with materials. WolvenKit builds a repository of visual assets within the Depot for usage with external applications such as MLSetupBuilder or Blender.&#x20;
+
+By default, it is set to `C:\Users\yourusername\AppData\Roaming\REDModding\WolvenKit\Depot`, but you can pick any location. It does not need to be on an SSD, although Wolvenkit might load faster if it is.
+
+{% hint style="warning" %}
+Depending on how many game assets you extract, the Depot can grow to more than 30 gigabytes.
+{% endhint %}
+
+Learn more about the [**Material exports here**](usage/blender-integration.md)**.**\
+
 
 ## File Editor
 

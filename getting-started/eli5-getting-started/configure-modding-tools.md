@@ -2,7 +2,7 @@
 description: Set relative locations of modding tools inside the applications
 ---
 
-# Configure modding tools
+# ELI5: Configure modding tools
 
 ## Section Brief
 
@@ -12,33 +12,63 @@ Configure the WolvenKit (wkit) application and MlSetupBuilder (mlsb), and make s
 If you do not use the folder structure I recommended in [Prep your computer](prep-your-computer.md#steps), then use whatever path WolvenKit automatically fills in for you. Also be aware that your experience will not match my screenshots.
 {% endhint %}
 
-## Steps
+## Configuring Wolvenkit
 
-1. Run the WolvenKit.exe application and the First Setup window will appear. Click on the folder icons to the right of each field:
-   * _Game Executable Path_ -- Location of the game executable Cyberpunk2077.exe
-   * _Depot Path_ -- C:\Cyberpunk2077Mod\Depot\\
-   *   Click the Finish button
+If your Wolvenkit is already configured (because you have followed the installation guide), then you can skip ahead to the next section about installing plugins.
 
-       <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S01.png" alt=""><figcaption></figcaption></figure>
+
+
+Run the WolvenKit.exe application and the First Setup window will appear. Click on the folder icons to the right of each field:
+
+* _Game Executable Path_ -- Location of the game executable Cyberpunk2077.exe
+* _Depot Path_ -- C:\Cyberpunk2077Mod\Depot\\
+*   Click the Finish button
+
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S01.png" alt=""><figcaption></figcaption></figure>
+
+Configuration
+
+
+
+1.
 2. Close WolvenKit and then restart it because as of 10/12/2022 there is a bug associated with a first time launch of WolvenKit that is fixed by restarting the application.
-3.  In WolvenKit, click on HOME then Plugins and click on Install/Update for every Plugin on the list, except for REDmod because it is installed through Steam or GOG. If you have not installed REDmod then please do step 6 - 7 on [Prep your computer](configure-modding-tools.md#steps).
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
-4.  For MlSetupBuilder click on Open to configure it for your Depot and WolvenKit.CLI
+## Installing Plugins
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S04.png" alt=""><figcaption></figcaption></figure>
-5.  Close the developer tools, throw some coffee at Neurolinked#4973, and then click off the Welcome popup to get into the building tool.
+1. In Wolvenkit, click on HOME
+2. Click on Plugins
+3. REDMod should already be installed. If it isn't, please follow the instructions [here](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
+4. For every other plugin, click Install or Update.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S05.png" alt=""><figcaption></figcaption></figure>
-6.  Click on File and then Preferences. Set the uncook folder to C:\Cyberpunk2077Mod\Depot and set the WolvenKit-CLI executable to C:\Cyberpunk2077Mod\WolvenKit.CLI\WolvenKit.CLI.exe. Click on Save Preferences and then Exit.
+<figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S06.png" alt=""><figcaption></figcaption></figure>
-7.  Back in WolvenKit, on the bottom left click on Continue to Editor
+5. Now that all plugins are installed, configure [MLSetupBuilder](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder) (but read the blue box first).
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S07.png" alt=""><figcaption></figcaption></figure>
-8.  On the bottom left click on Asset Browser and then click Load Asset Browser.
+{% hint style="info" %}
+If you have been following the setup instructions, then the paths you need are:&#x20;
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S08.png" alt=""><figcaption></figcaption></figure>
-9.  After several seconds a success notification will appear and the asset folder structure will appear on the left. This means WolvenKit was able to access the Cyberpunk archive and extract the game assets.
+* uncook folder: `C:\Cyberpunk2077Mod\Depot`&#x20;
+* WolvenKit-CLI executable: `C:\Cyberpunk2077Mod\WolvenKit.CLI\WolvenKit.CLI.exe`&#x20;
+{% endhint %}
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Config_S09.png" alt=""><figcaption></figcaption></figure>
+## Testing
+
+Let's make sure that your game path is configured correctly and that Wolvenkit can access the files:
+
+1.  Click on Continue to Editor
+
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S07.png" alt=""><figcaption></figcaption></figure>
+2. Open the Asset Browser
+
+<figure><img src="../../.gitbook/assets/eli5_GetStart_Config_S08.png" alt=""><figcaption></figcaption></figure>
+
+3. After several seconds, a success notification will appear and the asset folder structure will appear on the left. This means WolvenKit was able to access the Cyberpunk archive and extract the game assets.
+
+<figure><img src="../../.gitbook/assets/eli5_GetStart_Config_S09 (1).png" alt=""><figcaption></figcaption></figure>
+
+Congratulations - everything is working! Now it's time to [create a depot](create-depot.md).
+
+{% hint style="info" %}
+Please note that before you can do anything with files, you need to create a Wolvenkit project.
+{% endhint %}
+

@@ -14,31 +14,16 @@ If you do not use the folder structure I recommended in [Prep your computer](pre
 
 ## Configuring Wolvenkit
 
-If your Wolvenkit is already configured (because you have followed the installation guide), then you can skip ahead to the next section about installing plugins.
+If your Wolvenkit is already configured (because you have followed the [installation guide](../download.md#first-launch-tl-dr)), then you don't need to do anything here.
 
-
-
-Run the WolvenKit.exe application and the First Setup window will appear. Click on the folder icons to the right of each field:
-
-* _Game Executable Path_ -- Location of the game executable Cyberpunk2077.exe
-* _Depot Path_ -- C:\Cyberpunk2077Mod\Depot\\
-*   Click the Finish button
-
-    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S01.png" alt=""><figcaption></figcaption></figure>
-
-Configuration
-
-
-
-1.
-2. Close WolvenKit and then restart it because as of 10/12/2022 there is a bug associated with a first time launch of WolvenKit that is fixed by restarting the application.
+Otherwise, please od that now or use the [settings page](../../wolvenkit-app/settings.md) to configure `Game Executable Path` and (optionally) `Depot Path`.
 
 ## Installing Plugins
 
-1. In Wolvenkit, click on HOME
-2. Click on Plugins
+1. In Wolvenkit, click on [HOME](../../wolvenkit-app/home.md)
+2. Click on [Plugins](../../wolvenkit-app/home.md#plugins)
 3. REDMod should already be installed. If it isn't, please follow the instructions [here](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
-4. For every other plugin, click Install or Update.
+4. For every other plugin, click `Install` or `Update`.
 
 <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
 

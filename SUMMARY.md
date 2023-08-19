@@ -44,6 +44,7 @@
   * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
   * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)
 * [Tools](wolvenkit-app/tools.md)
+* [File Validation](wolvenkit-app/file-validation.md)
 * [Settings](wolvenkit-app/settings.md)
 * [Usage](wolvenkit-app/usage/README.md)
   * [Blender Integration](wolvenkit-app/usage/blender-integration.md)

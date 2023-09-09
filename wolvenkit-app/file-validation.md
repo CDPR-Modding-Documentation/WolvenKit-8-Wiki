@@ -56,6 +56,15 @@ The flag `Enabled` in line 4 will enable/disable file validation globally.&#x20;
 
 Each entry in the list has an individual `Enabled` flag that lets you turn off validation for this particular type of file.
 
+#### DisableAutofix
+
+File validation can automatically correct certain errors for you. There are certain advanced use cases where you'd want to turn this off — if you don't know about them, then you'll probably want this.
+
+Right now, this is set to `false` by default and affects the following toggles:
+
+* [Workspot.fixIndexOrder](file-validation.md#fixindexorder)
+* [Workspot.autoReopenFile](file-validation.md#autoreopenfile)
+
 #### validateRecursively
 
 This is the reason behind the micro freeze each time you save a file. If it is enabled, then Wolvenkit will also look at included files — for example, if you save an .app file, it will collect all included meshes (via components or via root entity) and warn you about missing appearances.
@@ -161,7 +170,11 @@ Mostly for use with [this tutorial](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc
 
 #### fixIndexOrder
 
-Convenience: Will automatically set indices of defined animations for you. Unfortunately, you need to close and re-open the file for the changes to be loaded into Wolvenkit's editor, but this is extremely convenient otherwise.
+Convenience: Will automatically set indices of defined animations for you. There are advanced use cases where you might not want this. If you don't know what they are, you might want to turn on [#autoreopenfile](file-validation.md#autoreopenfile "mention") in addition to this.
+
+#### autoReopenFile
+
+More convenience: Automatically close and re-open the file after using `fixIndexOrder` (instead of bothering you about it). Default is `false`.
 
 #### showUnusedAnimsInFiles
 

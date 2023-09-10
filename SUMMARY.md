@@ -47,6 +47,7 @@
 * [File Validation](wolvenkit-app/file-validation.md)
 * [Settings](wolvenkit-app/settings.md)
 * [Usage](wolvenkit-app/usage/README.md)
+  * [Finding files in Wolvenkit](wolvenkit-app/usage/finding-files-in-wolvenkit.md)
   * [Blender Integration](wolvenkit-app/usage/blender-integration.md)
   * [WolvenKit Projects](wolvenkit-app/usage/wolvenkit-projects.md)
   * [Scripting with wscript](wolvenkit-app/usage/scripting-with-wscript.md)

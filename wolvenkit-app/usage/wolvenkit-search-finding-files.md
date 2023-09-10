@@ -2,7 +2,7 @@
 description: These aren't the files you're looking for… yet.
 ---
 
-# Finding files in Wolvenkit
+# Wolvenkit Search: Finding files
 
 You can use the search bar at the top of the asset browser to search the game files:
 
@@ -102,6 +102,10 @@ You can search for multiple terms by using the `|` operator:&#x20;
 ```
 player_base_bodies\player_female_average > .mesh|.xbm
 ```
+
+{% hint style="danger" %}
+This does **not** like spaces. `word1|word2` will work, `word1 | word2` will not.
+{% endhint %}
 
 ### Not
 

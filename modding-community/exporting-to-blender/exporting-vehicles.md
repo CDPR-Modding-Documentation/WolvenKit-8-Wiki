@@ -11,17 +11,11 @@ description: Step-by-step guide for exporting vehicles to Blender
 
 This guide aims to walk you through finding and exporting a vehicle to blender.&#x20;
 
-#### This guide uses the following versions:
-
-* Cyberpunk 2077 game version 1.61
-* Blender 3.3 stable
-* Cyberpunk add-on for Blender 1.3.0 (development build as of 26 May 2023 or newer)
-
 ### Requirements
 
-* [**WolvenKit 8.9**](https://github.com/WolvenKit/WolvenKit) **or newer**
-* [**Blender 3.3**](https://www.blender.org/) **or newer (hasnt been tested on older)**
-* [**Cyberpunk add-on for Blender 1.3.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases) **or newer**
+* [**Wolvenkit 8.9.1**](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases) **or newer**
+* [**Blender 3.6**](https://www.blender.org/download/releases/3-6/) **or newer (hasnt been tested on older)**
+* [**Cyberpunk add-on for Blender 1.4.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on) **or newer**
 
 Vehicles have different challenges from the characters, but the [Blender Addon](https://github.com/WolvenKit/Cyberpunk-Blender-add-on) is fully up to the task, as long as you give it the right info.&#x20;
 

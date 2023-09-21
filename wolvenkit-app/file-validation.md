@@ -8,6 +8,12 @@ description: What is Wolvenkit File Validation? How do I use it?
 
 File validation was added in Wolvenkit 8.9.1. When you save a file, it will try to validate the internal structure and — based on your settings — dependent files.
 
+{% hint style="danger" %}
+This feature has an **impact on performance** — every time you save, there will be a short lag while the file validation does its thing. If you can't live with that, find below how to [turn it off](file-validation.md#configuring-file-validation).
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/file_validation_in_mesh.png" alt=""><figcaption><p>The log will yell at you if your files have issues now</p></figcaption></figure>
+
 ## I don't want it, how do I get rid of it?
 
 You just need to open `hook_settings.wscript` and change line 4 from `Enabled: true` to `Enabled: false`.&#x20;

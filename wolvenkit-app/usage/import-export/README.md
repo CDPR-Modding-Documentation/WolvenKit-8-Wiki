@@ -4,84 +4,74 @@ description: Wolvenkit Import and Export explained
 
 # Import/Export
 
-## UI location: Tools
+## Section Brief
 
-As of Wolvenkit 8.9.0, you can find both the import and the export tool in the menu "Tools":&#x20;
+This section contains **general information** and **workflow documentation** about importing and exporting files with Wolvenkit.
 
-<figure><img src="../../../.gitbook/assets/import_export_tool_GUI.png" alt=""><figcaption></figcaption></figure>
+## UI/Workflow documentation
+
+### Export
+
+[tools-import-export](../../tools/tools-import-export/ "mention") -> [#export-tool](../../tools/tools-import-export/#export-tool "mention")
+
+[import-export-as-json.md](import-export-as-json.md "mention") -> [#export-as-json](import-export-as-json.md#export-as-json "mention")
+
+### Import
+
+[tools-import-export](../../tools/tools-import-export/ "mention") -> [#import-tool](../../tools/tools-import-export/#import-tool "mention")
+
+[import-export-as-json.md](import-export-as-json.md "mention") ->[#import-as-json](import-export-as-json.md#import-as-json "mention")
+
+
 
 ## File Structure
 
-{% hint style="success" %}
-You browse the file structure via Wolvenkit's **Project Explorer**. Here's how it looks:
+{% hint style="info" %}
+Moving or renaming files usually breaks the import. Read on to find out why.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/import_export_project_view_explained.png" alt=""><figcaption><p>Annotated example. For more information about the files, see below.</p></figcaption></figure>
+When exporting a resource, Wolvenkit puts the exported file into your project's `raw` folder. The relative paths (starting under `archive`/`raw`) are the same, as will the file name (without extensions).&#x20;
 
-Your Wolvenkit project will have several folders inside of `source`. As of 8.9.1, these are:
+#### These files are connected:
 
-<table><thead><tr><th width="197">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>archive</td><td>Part of your mod: Files in this folder will become part of your .archive file</td></tr><tr><td>customSounds</td><td>A directory for custom sound files</td></tr><tr><td>raw</td><td><p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.</p></td></tr><tr><td>resources</td><td>Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.</td></tr></tbody></table>
+```
+source/archive/base/path/your_file.mesh
+source/raw/base/path/your_file.glb
+```
+
+You can import `your_file.glb` via **Import Tool**.
+
+#### These files are **not** connected:
+
+```
+source/archive/base/path/your_file.mesh
+source/raw/base/path/your_file_mesh_export.glb
+```
+
+You can **not** import `your_file_mesh_export.glb` via **Import Tool**, because Wolvenkit won't know where to put it.
 
 ## Exporting
 
-Wolvenkit knows to ways of exporting files: [to JSON](./#export-as-json), or via the [Export Tool](./#export-tool).
+Wolvenkit knows to ways of exporting files: [to JSON](import-export-as-json.md#export-as-json), or via the [Export Tool](../../tools/tools-import-export/#export-tool).
 
 Exported files will be created in your project's **raw** folder. The [relative path](#user-content-fn-1)[^1] will be the same.
 
-### Export as JSON
-
-This option is **in the right-click menu**:
-
-<figure><img src="../../../.gitbook/assets/export_convert_to_json.png" alt=""><figcaption></figcaption></figure>
-
-Converting files to JSON is not only the easiest way to [quickly change paths in projects](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/everything-else/moving-and-renaming-in-existing-projects), but also a perquisite for several modding workflows.
-
-### Export Tool
-
-{% hint style="info" %}
-For detailed documentation of the different export settings, check the corresponding [subpage](export-settings.md).
-{% endhint %}
-
-{% hint style="danger" %}
-Exporting will overwrite already-existing files in `raw` without a prompt.
-{% endhint %}
-
-The **Export Tool** lets you export any files in your project's `archive` directory:
-
-<figure><img src="../../../.gitbook/assets/export_tool.png" alt=""><figcaption><p>This is your export tool. For detailed documentation of the different export settings, check the corresponding <a href="export-settings.md">subpage</a>.</p></figcaption></figure>
-
-<table><thead><tr><th width="225">UI element</th><th>Explanation</th></tr></thead><tbody><tr><td>Export Selected</td><td>Exports anything you checked in the left-hand list</td></tr><tr><td>Export All</td><td>Exports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</td></tr><tr><td>Refresh</td><td>Refreshes the file list on the left</td></tr><tr><td>Reset Settings</td><td>Restores the Export Settings to default</td></tr><tr><td>Copy Settings</td><td>Copies the Export Settings of your currently selected file (<code>h0_000_pwa_c__basehead.mesh</code> in the screenshot above) so that you can paste them to other files.</td></tr><tr><td>Paste Settings</td><td><p>Pastes the Export Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p></td></tr></tbody></table>
-
 ## Importing
 
-{% hint style="warning" %}
-You can only import files that are in your project's **raw** folder.
-{% endhint %}
+Unless importing [from JSON](./#import-from-json), Wolvenkit can't **create files**.&#x20;
 
-Wolvenkit knows to ways of importing files: [from JSON](./#import-from-json), or via the [Import Tool](./#import-tool).
+When using the [Import Tool](./#import-tool), we can only import into already existing containers (see [#file-structure](./#file-structure "mention") for more information)
+
+The easiest way to do that is:&#x20;
+
+1. export an existing file
+2. overwrite the new file in `raw` with your changes
+3. import the file
+
+
 
 ### Import from JSON
 
 This option is **in the right-click menu.**
-
-{% hint style="info" %}
-JSON import will be available for any file in your `raw` folder with the extension `.json`. **However**, if the file hasn't been created via "`Convert to JSON`", the import will fail.&#x20;
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/import_convert_from_json.png" alt=""><figcaption></figcaption></figure>
-
-### Import Tool
-
-{% hint style="warning" %}
-Importing will overwrite already-existing files in `raw` without a prompt. If you mess up a game file, you can always select the "`replace with original`" option from the right-click menu.
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/import_tool.png" alt=""><figcaption><p>This is your import tool. For detailed documentation of the different export settings, check the corresponding <a href="import-settings.md">subpage</a>.</p></figcaption></figure>
-
-{% hint style="info" %}
-For detailed documentation of the different import settings, check the corresponding [subpage](import-settings.md).
-{% endhint %}
-
-<table><thead><tr><th width="225">UI element</th><th>Explanation</th></tr></thead><tbody><tr><td>Import Selected</td><td>Imports anything you checked in the left-hand list</td></tr><tr><td>Import All</td><td>Imports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</td></tr><tr><td>Refresh</td><td>Refreshes the file list on the left</td></tr><tr><td>Reset Settings</td><td>Restores the Import Settings to default</td></tr><tr><td>Copy Settings</td><td>Copies the Import Settings of your currently selected file (<code>h0_000_pwa_c__basehead.glb</code> in the screenshot above) so that you can paste them to other files.</td></tr><tr><td>Paste Settings</td><td><p>Pastes the Import Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p></td></tr></tbody></table>
 
 [^1]: Path inside the game files, e.g. `tutorial\my_first_mod\meshes\my.mesh`

@@ -8,13 +8,13 @@ description: WolvenKit is powerful
 
 ## Asset I/O
 
-WolvenKit includes an all-purpose import and export tool for converting assets to game files and vice versa. Our tooling is bespoke allowing for native conversions with extensive options to suit your needs. See the list of [**supported formats here.**](../wolvenkit-app/editor/import-export/#supported-formats)&#x20;
+WolvenKit includes an all-purpose import and export tool for converting assets to game files and vice versa. Our tooling is bespoke allowing for native conversions with extensive options to suit your needs (check [import-export](../wolvenkit-app/usage/import-export/ "mention") or find the list of [i-o-formats-for-export-import.md](../wolvenkit-app/usage/import-export/i-o-formats-for-export-import.md "mention")).
 
 Base game and user-generated archives can be browsed on the fly, making game dumps obsolete. Our Asset Browser also features instant preview for assets such as meshes and textures.
 
 ## Development
 
-WolvenKit is an open-source community developed application. The source code for WolvenKit and other projects can be found on our [GitHub page.](https://github.com/WolvenKit/) WolvenKit is primarily written in C# and the GUI uses WPF framework. Anyone can download the source code and build on their own with Visual Studio. If you're a developer who is interested in getting involved, please check out the [**Contributing**](../help/contributing.md) page!
+WolvenKit is an open-source community developed application. The source code for WolvenKit and other projects can be found on our [GitHub page.](https://github.com/WolvenKit/) WolvenKit is primarily written in C# and the GUI uses WPF framework. Anyone can download the source code and build on their own with Visual Studio. If you're a developer who is interested in getting involved, please check out [contributing.md](../help/contributing.md "mention")!
 
 ## File Editor
 
@@ -34,6 +34,10 @@ WolvenKit features a robust build pipeline for handling REDengine assets. Game f
 
 ## Other
 
-#### [Blender Integration](../wolvenkit-app/usage/blender-integration.md)
+### [blender-integration.md](../wolvenkit-app/usage/blender-integration.md "mention")
 
-WolvenKit supports Blender for one-click imports of fully shaded Cyberpunk meshes using the Multilayered.mt supershader.
+WolvenKit supports Blender for one-click imports of fully shaded Cyberpunk meshes using the Multilayered.mt supershader. Find the workflows here:&#x20;
+
+&#x20;[exporting-rigs-and-anims.md](../guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md "mention")
+
+&#x20;[exporting-vehicles.md](../modding-community/exporting-to-blender/exporting-vehicles.md "mention")

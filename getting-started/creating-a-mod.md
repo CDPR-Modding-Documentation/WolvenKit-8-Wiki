@@ -12,15 +12,19 @@ description: With great power comes great responsibility
 
 We're going to create an example project to help get you up to speed with WolvenKit's features and workflows. We'll walk through creating a basic mod step-by-step, while explaining how to get the best out of WolvenKit.&#x20;
 
-{% hint style="info" %}
-**Did you know?** Modding guides and know-how are collected in the dedicated [**Cyberpunk 2077 Modding Wiki**](https://wiki.redmodding.org/cyberpunk-2077-modding/)**.**
-{% endhint %}
-
 ## Before we get started
 
 Keep in mind that understanding and modding Cyberpunk 2077 can be _very challenging_. If you're feeling stuck, please consider reaching out to fellow modders and the development team on our [**Discord server.**](../help/community.md)&#x20;
 
 Now without further ado...
+
+{% hint style="info" %}
+For a more detailed guide, check [validate-functionality.md](eli5-getting-started/validate-functionality.md "mention").
+{% endhint %}
+
+{% hint style="success" %}
+**Did you know?** Modding guides and know-how are collected in the dedicated [**Cyberpunk 2077 Modding Wiki**](https://wiki.redmodding.org/cyberpunk-2077-modding/)**.**
+{% endhint %}
 
 {% hint style="info" %}
 Prefer visual guides? Check out the video demonstration of this guide below ↓
@@ -52,7 +56,7 @@ What can WolvenKit do? Check out the [**Overview**](../features/overview.md) pag
 
 1. Ensure WolvenKit is properly configured by following the [**Setup**](broken-reference) procedure
 2. Create a new WolvenKit mod project
-3. Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Use the [**View**](../wolvenkit-app/menu.md#view) menu to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
+3. Configure the Editor using [**docking**](../wolvenkit-app/editor/#docking). Use the [**View**](../wolvenkit-app/menu/#view) menu to ensure that the Asset Browser, Project Explorer, Import/Export, Properties, and Log windows are visible.
 4. Navigate to the Asset Browser window
 
 ### Asset Browser
@@ -69,7 +73,7 @@ The Asset Browser is the most fundamental WolvenKit tool. It allows us to browse
 
 ### Projects
 
-Mod Projects are the core of WolvenKit functionality. Projects are primarily used to separate and organize source and game files into distinct self-contained mods. Each project can be thought of as the source code for any given mod.\
+[wolvenkit-projects.md](../wolvenkit-app/usage/wolvenkit-projects.md "mention") are the core of WolvenKit functionality. Projects are primarily used to separate and organize source and game files into distinct self-contained mods. Each project can be thought of as the source code for any given mod.\
 \
 The [**Project Explorer**](../wolvenkit-app/editor/project-explorer.md) is the central component for each mod project. Project files are separated into two main system directories:
 
@@ -85,11 +89,11 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 ### Exporting REDengine Files
 
-WolvenKit features a bespoke tool for conversions between REDengine and non-REDengine formats, _creatively_ named [**Import/Export**](../wolvenkit-app/editor/import-export/). The Import/Export tool is extremely robust, featuring advanced options and batch functionality.
+WolvenKit features a bespoke tool for conversions between REDengine and non-REDengine formats. The (_creatively_ named) [Import/Export tools](../wolvenkit-app/tools/tools-import-export/) are extremely robust, featuring advanced options and batch functionality.
 
 The **archive** and **raw** directories within the **Project Explorer** behave as a mirror to one another; REDengine files are always stored in the _archive directory_, and the analogous "generic" format file will be stored in the _raw directory_ with the same folder structure. Import and export destinations _never_ need to be specified enabling ultra-fast file I/O, with the added benefit of automatically-organized Raw files.
 
-1. Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Export** toggle is selected
+1. Open the [#export-tool](../wolvenkit-app/tools/tools-import-export/#export-tool "mention")
 2. Double-click the `t2_084_pma_jacket__short_sleeves_decal_d01.xbm` file within the Export grid to view advanced options. Any asset within the Import/Export grid can be doubled clicked to adjust advanced I/O options for each file format.
 3. Inspect the **XBM Export Type** drop down menu, in this case we want to export the texture as a **PNG**
 4. Press the **Confirm** button to proceed. For batch exports, using the checkbox for **Apply to all files of the same extension** will ensure that any XBM _currently_ within the Import/Export grid will inherit the same advanced options.
@@ -97,7 +101,9 @@ The **archive** and **raw** directories within the **Project Explorer** behave a
 
 ### Editing Textures
 
-While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. We can recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing PNG format textures. If you're not familiar with image editing software, we recommend learning how to use creative software from experts in those fields. YouTube is an excellent resource for learning the basics of most applications.
+While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. For that reason, you can find more information on editing texture files on [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [Importing and exporting textures](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting).
+
+We recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing PNG format textures. If you don't know how to use that, hit up Google or check Youtube, as it would completely blow up this guide!
 
 1. Import the `t2_084_pma_jacket__short_sleeves_decal_d01.png` texture file to an image editing software of your choice
 2. Make a _distinct and recognizable_ change to the image
@@ -112,7 +118,7 @@ Not feeling creative? Feel free to use the the WolvenKit icon replacer below.
 ### Importing REDengine Files
 
 1. Return to the WolvenKit Editor
-2. Navigate to the [**Import/Export**](../wolvenkit-app/editor/import-export/) window, then ensure the **Import** toggle is selected
+2. Open the [#import-tool](../wolvenkit-app/tools/tools-import-export/#import-tool "mention")
 3. Select the `t2_084_pma_jacket__short_sleeves_decal_d01.png` file within the Import grid. Click the `Load Settings` button towards the top of the Import/Export tool. This sets the compression type and other various options to match the original XBM.
 4. Press **Process Selected** to complete the Import operation
 5. Verify the updated texture by selecting the XBM within the Project Explorer. The new texture should be viewable with the Properties window.
@@ -123,7 +129,7 @@ WolvenKit features a one-click mod building solution. The build process packs an
 
 WolvenKit only supports **unbundled** files. Files that have been decompressed using WolvenKit CLI _will not_ be packed correctly. Buffers must be compressed within the main REDengine file. Files added with the built-in Asset Browser will **always** be the correct format.
 
-1. From within the **Menu**, select the [**Install**](../wolvenkit-app/menu.md#install) button
+1. From within the **Menu**, select the [#install](../wolvenkit-app/menu/toolbar.md#install "mention") button
 2. Verify the mod project has been packed and installed by viewing the [**Log**](../wolvenkit-app/editor/log.md) window
 3. Congratulations! Launch Cyberpunk and check out your first mod with WolvenKit!
 

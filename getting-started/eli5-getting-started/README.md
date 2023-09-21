@@ -66,8 +66,8 @@ Let's configure and set up Wolvenkit and all its plugins:
 
 Then, we unbundle those game assets that we need…
 
-{% content-ref url="create-depot.md" %}
-[create-depot.md](create-depot.md)
+{% content-ref url="../../wolvenkit-app/usage/create-depot.md" %}
+[create-depot.md](../../wolvenkit-app/usage/create-depot.md)
 {% endcontent-ref %}
 
 ### Now we're goin' in.&#x20;

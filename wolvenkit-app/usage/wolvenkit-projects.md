@@ -1,38 +1,55 @@
+---
+description: What's a project, how do I get one, and what does it do?
+---
+
 # WolvenKit Projects
 
 ## What is a WolvenKit project?
 
 To access most WolvenKit features, it's necessary to create a Project first. Projects are primarily used to separate and organize source and game files into distinct directories. Each project can be thought of as the source code for any given mod.
 
-### Creating a new WolvenKit mod project
+## Create a new WolvenKit mod project
 
-1.  From the [**Menu**](../menu.md#new-project) or the [**Home**](../home.md) page, click the "New Project" button
+You have two means of creating one:&#x20;
 
+* From the [menu](../menu/ "mention"): [#file](../menu/#file "mention") -> [#new-project](../menu/#new-project "mention")
+* From Wolvenkit's [Home](../home.md) view via the Create New Project button
 
-2.  Name the mod project
+You will see something like this:
 
+<figure><img src="../../.gitbook/assets/wolvenkit_new_project.png" alt=""><figcaption></figcaption></figure>
 
-3.  Select a destination for the .modproj
+<table><thead><tr><th width="180">Field</th><th>explanation</th></tr></thead><tbody><tr><td>Project name</td><td>The name of your mod. This should be unique, as this will be used to generate your mod's structure, and it would be awkward to overwrite someone else's mod. <br><br>Although special characters are supported, it's a good habit to avoid them.</td></tr><tr><td>Creation location</td><td>The location where you keep your Wolvenkit projects. A subfolder with the project name will be created automatically. <br><br>Do <strong>not</strong> put this in your game directory!</td></tr><tr><td>Author name</td><td>Optional — What it looks like - who made this?</td></tr><tr><td>Email</td><td>Optional — can people send you mails about your mod? </td></tr><tr><td>Version</td><td>Optional — if you want to maintain versioning yourself</td></tr></tbody></table>
 
+Click **Finish.** WolvenKit will now open the new project and proceed to the [**Editor**](../editor/)**.**
 
-4.  Click **Finish**
+## Opening an existing WolvenKit mod project
 
-
-5. WolvenKit will now open the new project and proceed to the [**Editor**](../editor/)
-
-### Opening an existing WolvenKit mod project
-
-1.  From the [**Menu**](../menu.md#new-project) or the [**Home**](../home.md) page, click the "Open Project" button
-
-
-2.  Select a .modproj file to open with WolvenKit
-
-
+1. From the [**Menu**](../menu/#new-project) or the [**Home**](../home.md) page, click the "Open Project" button
+2. Select a .modproj file to open with WolvenKit
 3. WolvenKit will now open the project and proceed to the [**Editor**](../editor/)
 
-### Building a mod project
+## File structure explained
 
-From the [**Menu**](../menu.md#new-project) click on the [**Pack Project**](../menu.md#pack-project) button**.** The [**Log**](../editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](../editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
+Your Wolvenkit project will have several folders inside of `source`.&#x20;
+
+As of 8.9.1, these are:
+
+<table><thead><tr><th width="238">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>source</td><td><p>This is where your mod's <strong>unbundled</strong> files are. </p><ul><li>Game resources under <code>archive</code></li><li>control files in <code>resources</code></li><li>exported files that you're modifying in <code>raw</code> </li></ul></td></tr><tr><td>packed</td><td>Contains both the control files and the bundled archive files inside their folder hierarchy. You can copy this directly to your game directory (or have Wolvenkit do it for you via Install).<br><br>This folder will be deleted and re-created every time you install or pack your mod. </td></tr></tbody></table>
+
+### Subdirectories in source
+
+The folder source contains the following subdirectories:
+
+<table><thead><tr><th width="238">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>archive</td><td>Part of your mod: Files in this folder will become part of your .archive file</td></tr><tr><td>customSounds</td><td>A directory for custom sound files</td></tr><tr><td>raw</td><td><p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.<br><br>You can keep .blend and texture files here.</p></td></tr><tr><td>resources</td><td>Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.</td></tr></tbody></table>
+
+## Building a mod project
+
+{% hint style="info" %}
+For full documentation of the [toolbar.md](../menu/toolbar.md "mention")and the [menu](../menu/ "mention"), see the corresponding wiki pages.
+{% endhint %}
+
+From the [**Menu**](../menu/#new-project) click on the [**Pack Project**](../menu/#pack-project) button**.** The [**Log**](../editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](../editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
 
 ## See also
 

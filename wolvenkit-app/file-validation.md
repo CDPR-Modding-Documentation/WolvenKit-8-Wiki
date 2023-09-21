@@ -30,7 +30,9 @@ Please attach a minimal version of your project's source folder (we only need `a
 
 ## Configuring File Validation
 
-There is no fancy UI for the configuration right now (sorry for that), but you can fine-tune file validation by changing the settings in`hook_settings.wscript`. This is how you open it:
+There is no fancy UI for the configuration right now (sorry for that), but you can fine-tune file validation via [Script Manager](tools/script-manager.md).&#x20;
+
+You need to change the settings in`hook_settings.wscript`. This is how you open it:
 
 <figure><img src="../.gitbook/assets/file_validation_open_settings.png" alt=""><figcaption></figcaption></figure>
 

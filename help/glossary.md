@@ -39,11 +39,11 @@ An official CDPR command-line tool for modding The Witcher 3. Legacy WolvenKit m
 
 ### masklist
 
-The masklist file is a custom .txt document used as a helper file to generate new mlmasks using the [**Import/Export**](../wolvenkit-app/editor/import-export/) tool.
+The masklist file is a custom .txt document used as a helper file to generate new mlmasks using [tools-import-export](../wolvenkit-app/tools/tools-import-export/ "mention").
 
 ### Material json
 
-Material json files are used by the [**Import/Export**](../wolvenkit-app/editor/import-export/) tool during for the mesh I/O process. The json will be named after the mesh file then suffixed with `.Material.json`\
+Material json files are used by [tools-import-export](../wolvenkit-app/tools/tools-import-export/ "mention") during for the mesh I/O process. The json will be named after the mesh file then suffixed with `.Material.json`\
 i.e. judy\_01.Material.json
 
 ## Game Files

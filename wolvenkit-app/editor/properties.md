@@ -29,7 +29,7 @@ Mesh files can be previewed by selecting them within the Asset Browser or Projec
 Image files can be previewed by selecting them within the Asset Browser or Project Explorer. The image previewer is capable cropping, flipping, and markup. While the markups will not get saved to original file, they can be exported by using the save button.
 
 {% hint style="warning" %}
-Do not use the Image Preview tool for creating mods. Refer to the [**Import/Export**](import-export/textures.md#exporting-textures) tool for fully exporting textures.
+Do not use the Image Preview tool for creating mods. Refer to the [**Import/Export**](../usage/import-export/textures.md#exporting-textures) tool for fully exporting textures.
 {% endhint %}
 
 ## Audio Preview

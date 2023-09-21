@@ -1,4 +1,9 @@
-# Models
+# Import/Export: Models
+
+{% hint style="info" %}
+For a step-by-step workflow and troubleshooting, see \
+[Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [Exporting and importing meshes](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/3d-modelling/exporting-and-importing-meshes "mention")&#x20;
+{% endhint %}
 
 ## Exporting mesh files
 
@@ -8,7 +13,7 @@ Morph targets are automatically included inside the glTF file. You can find the 
 
 <div align="left">
 
-<img src="../../../../.gitbook/assets/ImportExportTool_default_settings.png" alt="">
+<img src="../../../.gitbook/assets/ImportExportTool_default_settings.png" alt="">
 
 </div>
 
@@ -24,7 +29,7 @@ If selected mesh exports will be in binary from as **GLB** rather than **glTF** 
 
 Export Materials
 
-If selected a helper Material.json file is generated to allow materials to be edited with exported models. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../../../usage/blender-integration.md).
+If selected a helper Material.json file is generated to allow materials to be edited with exported models. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../blender-integration.md).
 
 ### Export types
 
@@ -46,7 +51,7 @@ Mesh files themselves do not contain the bone parents, so it's required to selec
 
 Choose a rig file from the panel on the left side, then use the opposing left/right arrows to add or remove a rig. The selected rig will be added to the right panel. Only one rig can be used, so adding more than one rig will result in the 1st rig in the list being selected.
 
-<img src="../../../../.gitbook/assets/8.2_withrig_mega_tutorial.png" alt="Navigating the rig menu" data-size="original">
+<img src="../../../.gitbook/assets/8.2_withrig_mega_tutorial.png" alt="Navigating the rig menu" data-size="original">
 
 #### Choosing rigs correctly
 
@@ -55,11 +60,11 @@ Generally for NPC heads, weapons, or vehicle meshes you can find the associated 
 e.g. Johnny Silverhand is a man with average body proportion so his body uses the following rig:\
 `base\characters\base_entities\man_base\deformations_rigs\man_base_deformations.rig` \
 \
-If the wrong/incompatible rig is used, an error will be displayed within the [**Log**](../../log.md)**.**
+If the wrong/incompatible rig is used, an error will be displayed within the [**Log**](../../editor/log.md)**.**
 
 #### <mark style="color:red;">MultiMesh</mark>
 
-The `MultiMesh` export option is similar in functionality to [**WithRig**](./#withrig)**,** with the addition of support for multiple rigs and meshes. This option was implemented because some meshes use more than one rig.\
+The `MultiMesh` export option is similar in functionality to [**WithRig**](models.md#withrig)**,** with the addition of support for multiple rigs and meshes. This option was implemented because some meshes use more than one rig.\
 \
 e.g. Judy's mesh **l1\_001\_wa\_pants\_\_judy** uses the following rigs:`base\characters\base_entities\woman_base\deformations_rigs\woman_base_deformations.rig` \
 `base\characters\main_npc\judy\l1_001_wa_pants__judy_dangle_skeleton.rig`\
@@ -68,9 +73,9 @@ Where the dangle rig is used in addition to the base rig to animate Judy's belt.
 
 #### MultiMesh usage
 
-Navigate to the `MultiMesh Settings` and configure the export options for additional meshes and rigs. The functionality is identical to [**WithRig**](./#withrig-usage), so the same instructions should be followed.
+Navigate to the `MultiMesh Settings` and configure the export options for additional meshes and rigs. The functionality is identical to [**WithRig**](models.md#withrig-usage), so the same instructions should be followed.
 
-![](../../../../.gitbook/assets/8.2\_multimesh\_megatut.png)
+![](../../../.gitbook/assets/8.2\_multimesh\_megatut.png)
 
 ## Importing mesh files
 
@@ -83,7 +88,7 @@ WolvenKit is able to import custom mesh files. The Import/Export tool expects me
   e.g. submesh01, submesh\_02, submesh\_03, etc.
 * Include **tangent space** on export
 * Submeshes should not exceed more than **65535** triangles
-* Using Blender? [**Check out our recommend settings below**](./#blender-gltf-settings)
+* Using Blender? [**Check out our recommend settings below**](models.md#blender-gltf-settings)
 
 ### Import Settings
 
@@ -104,14 +109,14 @@ Select the desired destination format. (mesh/morphtarget)
 Rebuild the existing mesh file. (Required)
 
 {% hint style="info" %}
-Having trouble modifying a mesh file? Keep in mind WolvenKit always uses an existing mesh file for each import. Once a mesh file is corrupted, all subsequent imports will be corrupted as well. [**Try replacing the source mesh with the original!**](../../project-explorer.md#replace-with-original)
+Having trouble modifying a mesh file? Keep in mind WolvenKit always uses an existing mesh file for each import. Once a mesh file is corrupted, all subsequent imports will be corrupted as well. [**Try replacing the source mesh with the original!**](../../editor/project-explorer.md#replace-with-original)
 {% endhint %}
 
 ## Blender glTF Settings
 
 ### Import
 
-Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../../../usage/blender-integration.md) The Cyberpunk add-on is not required for modifying meshes.
+Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../blender-integration.md) The Cyberpunk add-on is not required for modifying meshes.
 
 ### **Export**
 
@@ -140,19 +145,19 @@ It's important to remember the submesh name is determined by the **Data Block** 
 
 It's possible to reference the material structure of the original mesh file using WolvenKit to see how each submesh is mapped to a distinct material.
 
-![Example of material list inside a mesh file](../../../../.gitbook/assets/ImportExportTool\_materials\_example.png)
+![Example of material list inside a mesh file](../../../.gitbook/assets/ImportExportTool\_materials\_example.png)
 
 In the example above, you can see the material list which repeats after reaching `glass1` meaning this is the final submesh. We now know this mesh has 12 distinct submeshes (0-11). It also contains four LOD's because each material list is repeated for a total of four lists.
 
 {% hint style="info" %}
-For a detailed breakdown of each material, use the [**WithMaterials**](./#withmaterials) option for mesh exports.
+For a detailed breakdown of each material, use the [**WithMaterials**](models.md#withmaterials) option for mesh exports.
 {% endhint %}
 
 ## Material JSON I/O
 
-WolvenKit supports importing and exporting REDengine material information in the form of a bespoke **material json** file.  [**Learn more above**](./#withmaterials)
+WolvenKit supports importing and exporting REDengine material information in the form of a bespoke **material json** file.  [**Learn more above**](models.md#withmaterials)
 
-The material json file is necessary for previewing meshes with the [**Cyberpunk Blender add-on**](../../../usage/blender-integration.md). The REDengine data written to json is interpreted by Python script to setup _somewhat_ accurate representations of REDengine shaders.
+The material json file is necessary for previewing meshes with the [**Cyberpunk Blender add-on**](../blender-integration.md). The REDengine data written to json is interpreted by Python script to setup _somewhat_ accurate representations of REDengine shaders.
 
 {% hint style="info" %}
 Just looking to edit materials? WolvenKit can directly edit materials within **.mesh** or **.mi** files using the File Editor.
@@ -162,13 +167,13 @@ Just looking to edit materials? WolvenKit can directly edit materials within **.
 
 A bespoke json file will be generated from the material dependency stack and exported alongside the raw mesh file. The entire daisy chain of materials is analyzed and written to file top-down, meaning all properties are written as they appear in game. The material json file can be edited with any text-based editor. Any changes saved to the json file will be written to the mesh file upon each import.
 
-* We rely on the [**Depot**](../../../settings.md#depot-path) (a local file cache) which contains all material dependencies for any given mesh.\
+* We rely on the [**Depot**](../../settings.md#depot-path) (a local file cache) which contains all material dependencies for any given mesh.\
 
 * For each `WithMaterials` mesh export, the material dependencies are analyzed and missing resources are dumped to the Depot.\
 
 * The material json is generated by looking at the complete daisy chain of materials. Meaning every single dependency is reviewed and the top-most properties that REDengine sees are written to the material json file.\
 
-* The REDengine values written into the material json file can be interpreted by the Blender Cyberpunk glTF importer to automatically set up shaders within Blender Cycles. [**Read more about Blender integration here**](../../../usage/blender-integration.md#importing-cyberpunk-meshes-with-blender).
+* The REDengine values written into the material json file can be interpreted by the Blender Cyberpunk glTF importer to automatically set up shaders within Blender Cycles. [**Read more about Blender integration here**](../blender-integration.md#importing-cyberpunk-meshes-with-blender).
 
 ## MorphTargets
 
@@ -178,4 +183,4 @@ Morphtarget I/O is highly experimental, some assets are not handled correctly
 
 WolvenKit can export **morphtarget** files from the game to glTF format, these morphtargets files are used to morph a base mesh that exists in the game. For example, the character that you create in the game with different types of nose, eyes, and mouth is formed using the shape keys that exists in the morphtarget files. **You can use Import/Export Tool to export them to glb/glTF,** any morph texture(s) existing in file will also export along in dds format.
 
-![](../../../../.gitbook/assets/Blender\_morph\_target\_comparison.png)
+![](../../../.gitbook/assets/Blender\_morph\_target\_comparison.png)

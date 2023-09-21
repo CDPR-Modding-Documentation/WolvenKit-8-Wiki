@@ -4,9 +4,11 @@ description: >-
   for modding the game
 ---
 
-# Create Depot
+# The Wolvenkit Depot
 
 ## Section Brief
+
+Formerly part of the ELI5 guide, this has been moved to the general section.
 
 There are three methods of creating and maintaining a depot:
 
@@ -34,13 +36,13 @@ If you understand how the asset files relate to each other, then an Adhoc Depot 
 
 1.  Add the asset to your project which also adds the asset to the Import/Export Tool.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S01.png" alt=""><figcaption></figcaption></figure>
 2.  Open the Import/Export Tool, right click on asset, and click on Show Settings. Most of the time the default settings will provide you the output you're needing, but for DDS files from MLMASK and if you need the rig files, then you'll need to get into the settings to make those alterations.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S02.png" alt=""><figcaption></figcaption></figure>
 3.  Once you have the settings to what you need, either select the files you want to export and click the Process Selected button, or click the Process All for everything on the list.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S03.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Adhoc_S03.png" alt=""><figcaption></figcaption></figure>
 
 ## Steps: Partial Depot
 
@@ -50,19 +52,19 @@ Some of the unbundle files are already accessible in the WolvenKit Asset Browser
 
 1.  Launch WolvenKit application and click on Tools then Depot Generator.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S01.png" alt=""><figcaption></figcaption></figure>
 2.  Click into the field next to Depot Path and select the folder C:\Cyberpunk2077Mod\Depot
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S02.png" alt=""><figcaption></figcaption></figure>
 3.  For masks, select DDS and then click the Generate Materials button. While the program is running, the button will deactivate and once the program is complete File Explorer will automatically open at the location of your Depot.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S03.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S03.png" alt=""><figcaption></figcaption></figure>
 4.  For normal maps, select PNG and then click the Generate Materials button. While the program is running, the button will deactivate and once the program is complete File Explorer will automatically open at the location of your Depot.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S04.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S04.png" alt=""><figcaption></figcaption></figure>
 5.  For the following list of files, click on the Unbundle Game button: radient, w2mi, matlib, remt, sp, hp, fp, mi, mt, mlsetup, mltemplate, and texarray.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S05.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S05.png" alt=""><figcaption></figcaption></figure>
 
 ## Steps: Full Depot
 
@@ -72,27 +74,27 @@ When the unbundling and uncooking reaches 99% complete, press CTRL+C to cancel t
 
 1.  Run CMD.EXE
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S01.png" alt=""><figcaption></figcaption></figure>
 2.  Change directory to WolvenKit.CLI
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S02.png" alt=""><figcaption></figcaption></figure>
 3.  Run the following command to unbundle all assets. You can ignore any red failures and purple warning message. Just wait for 99% and press Ctrl+C
 
     `WolvenKit.CLI unbundle -p "C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\archive\pc\content" -o "C:\Cyberpunk2077Mod\Depot"`
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S03.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S03.png" alt=""><figcaption></figcaption></figure>
 4.  Run the following command to uncook all normal map assets. You can ignore any red failures and purple warning message. Just wait for 99% and press Ctrl+C
 
     `WolvenKit.CLI uncook -p "C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\archive\pc\content" -o "C:\Cyberpunk2077Mod\Depot" --uext png`
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S04.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S04.png" alt=""><figcaption></figcaption></figure>
 5.  Run the following command to uncook all mask assets. You can ignore any red failures and purple warning message. Just wait for 99% and press Ctrl+C
 
     `WolvenKit.CLI uncook -p "C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\archive\pc\content" -o "C:\Cyberpunk2077Mod\Depot" --uext dds`
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S05.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S05.png" alt=""><figcaption></figcaption></figure>
 6.  Run the following command to delete all the failed uncook attempts. This commend will delete all the buffer files without prompting you and will recursively search in all subfolders for more buffer files that need to be deleted.
 
     `del /s /q C:\Cyberpunk2077Mod\Depo*.buffer`
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Full_S06.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Depot_Full_S06.png" alt=""><figcaption></figcaption></figure>

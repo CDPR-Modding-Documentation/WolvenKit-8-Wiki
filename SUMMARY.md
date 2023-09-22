@@ -43,7 +43,7 @@
   * [Script Manager](wolvenkit-app/tools/script-manager.md)
   * [Tools: Import/Export](wolvenkit-app/tools/tools-import-export/README.md)
     * [Export settings](wolvenkit-app/tools/tools-import-export/export-settings.md)
-    * [Import Settings](wolvenkit-app/tools/tools-import-export/import-settings.md)
+    * [Import Settings](wolvenkit-app/usage/import-export/import-settings.md)
 * [File Validation](wolvenkit-app/file-validation.md)
 * [Settings](wolvenkit-app/settings.md)
 * [Usage](wolvenkit-app/usage/README.md)

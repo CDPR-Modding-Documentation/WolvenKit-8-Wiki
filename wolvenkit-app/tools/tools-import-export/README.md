@@ -30,10 +30,10 @@ Importing will overwrite files in `archive` without a prompt. Do a backup from t
 If you mess up a file beyond repair, you can  restore it to default by selecting the "`replace with original`" option from the right-click menu.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/import_tool.png" alt=""><figcaption><p>This is your import tool. For detailed documentation of the different export settings, check the corresponding <a href="import-settings.md">subpage</a>.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/import_tool.png" alt=""><figcaption><p>This is your import tool. For detailed documentation of the different export settings, check the corresponding <a href="../../usage/import-export/import-settings.md">subpage</a>.</p></figcaption></figure>
 
 {% hint style="info" %}
-For detailed documentation of the different import settings, check the [corresponding subpage](import-settings.md).
+For detailed documentation of the different import settings, check the [corresponding subpage](../../usage/import-export/import-settings.md).
 {% endhint %}
 
 <table><thead><tr><th width="225">UI element</th><th>Explanation</th></tr></thead><tbody><tr><td>Import Selected</td><td>Imports anything you checked in the left-hand list</td></tr><tr><td>Import All</td><td>Imports all files in your project.<br><br>⚠ This button will always export everything, <strong>regardless of your filter</strong>.</td></tr><tr><td>Refresh</td><td>Refreshes the file list on the left</td></tr><tr><td>Reset Settings</td><td>Restores the Import Settings to default</td></tr><tr><td>Copy Settings</td><td>Copies the Import Settings of your currently selected file (<code>h0_000_pwa_c__basehead.glb</code> in the screenshot above) so that you can paste them to other files.</td></tr><tr><td>Paste Settings</td><td><p>Pastes the Import Settings from the previous step to the currently active file. </p><p><em>This will not work if you copy/paste between incompatible file types.</em></p></td></tr></tbody></table>

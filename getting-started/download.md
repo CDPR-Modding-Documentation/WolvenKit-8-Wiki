@@ -14,18 +14,18 @@ description: Downloading the WolvenKit application
 This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
 
 {% hint style="info" %}
-There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [perquisites](download.md#perquisites). :)&#x20;
+There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](download.md#perquisites). :)&#x20;
 {% endhint %}
 
 ### TL;DR
 
-1. Install REDMod and .NET from the [Perquisites](download.md#perquisites) section below
+1. Install REDMod and .NET from the [Prerequisites](download.md#perquisites) section below
 2. Download Wolvenkit-X.X.X.zip from github ([stable](https://github.com/WolvenKit/Wolvenkit/releases) | [nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/))
 3. Extract it to a folder of your choice
 4. Run it and do the [initial configuration](download.md#first-launch-tl-dr)
 5. Optional: Proceed to the guide how to [set up the modding tools](eli5-getting-started/configure-modding-tools.md)
 
-## Perquisites
+## Prerequisites
 
 For detailed instructions on installing other software that you might need for mod development, see the section&#x20;
 

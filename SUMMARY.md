@@ -62,9 +62,8 @@
 ## WolvenKit CLI
 
 * [WolvenKit Console](wolvenkit-cli/wolvenkit-console.md)
-* [Command List](wolvenkit-cli/command-list.md)
-* [Usage](wolvenkit-cli/usage/README.md)
-  * [Archives & Structure](wolvenkit-cli/usage/archives-and-structure.md)
+* [Wolvenkit.CLI: Command List](wolvenkit-cli/command-list.md)
+* [Wolvenkit.CLI: Usage](wolvenkit-cli/usage/README.md)
   * [Textures (CLI)](wolvenkit-cli/usage/textures-cli.md)
   * [Video and audio files (CLI)](wolvenkit-cli/usage/video-and-audio-files-cli.md)
 

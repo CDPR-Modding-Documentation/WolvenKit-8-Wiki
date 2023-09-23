@@ -42,17 +42,23 @@ Same as the menu entry [#build](./#build "mention") -> [#install-as-redmod](./#i
 
 ## Pack Mod
 
-
+Same as the menu entry [#build](./#build "mention") -> [#pack-project](./#pack-project "mention")
 
 ## Install Mod
 
-
+Same as the menu entry [#build](./#build "mention") -> [#install](./#install "mention")
 
 ## Install
 
+Same as the menu entry [#build](./#build "mention") -> [#install](./#install "mention")
 
+### Install and launch
+
+Like Install, but launches the game afterwards.&#x20;
+
+<figure><img src="../../.gitbook/assets/wolvenkit_install_and_launch.png" alt=""><figcaption><p>Find it in your toolbar</p></figcaption></figure>
 
 ## Hot Reload
 
-
+Same as the menu entry [#build](./#build "mention") -> [#hot-reload](./#hot-reload "mention")
 

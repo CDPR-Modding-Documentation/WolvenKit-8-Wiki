@@ -7,7 +7,7 @@
 
 * Display help for a specific command: `archive -h`
 
-##
+
 
 ## Using WolvenKit Console globally
 

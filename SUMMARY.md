@@ -25,6 +25,7 @@
   * [ELI5: Configure modding tools](getting-started/eli5-getting-started/configure-modding-tools.md)
   * [ELI5: Validate Functionality](getting-started/eli5-getting-started/validate-functionality.md)
 * [Creating a Mod](getting-started/creating-a-mod.md)
+* [Troubleshooting](getting-started/troubleshooting.md)
 
 ## WolvenKit App
 

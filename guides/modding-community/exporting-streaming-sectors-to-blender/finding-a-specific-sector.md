@@ -46,7 +46,7 @@ You might want to consider using a unique mesh rather than a standard cup or bot
 
 ### Method 3: Via script
 
-Go [here for PL](https://github.com/Simarilius-uk/sectorStuff/blob/main/AllBlocks\_colab\_w\_streamingblock\_PL.ipynb) ([old link](https://colab.research.google.com/github/Simarilius-uk/sectorStuff/blob/main/AllBlocks\_colab\_w\_streamingblock.ipynb)) and either use the script in your webbrowser (recommended) or download the script locally to run it with Python.&#x20;
+Go [here for PL](https://colab.research.google.com/github/Simarilius-uk/sectorStuff/blob/main/AllBlocks\_colab\_w\_streamingblock\_PL.ipynb) ([old link](https://colab.research.google.com/github/Simarilius-uk/sectorStuff/blob/main/AllBlocks\_colab\_w\_streamingblock.ipynb)) and either use the script in your webbrowser (recommended) or download the script locally to run it with Python.&#x20;
 
 #### When running from browser:
 

@@ -83,7 +83,7 @@
     * [Finding a specific sector](guides/modding-community/exporting-streaming-sectors-to-blender/finding-a-specific-sector.md)
     * [Adding Objects to the world](guides/modding-community/world-editing/adding-objects-to-the-world.md)
     * [Editing locations in Blender](modding-community/world-editing/exporting-streaming-sectors-to-blender.md)
-  * [Exporting to Blender](guides/modding-community/exporting-to-blender.md)
+  * [Exporting Characters to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
     * [Exporting Vehicles](modding-community/exporting-to-blender/exporting-vehicles.md)
 

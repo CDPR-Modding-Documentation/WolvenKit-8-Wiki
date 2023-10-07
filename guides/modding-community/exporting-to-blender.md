@@ -4,26 +4,26 @@ description: >-
   print, etc.)
 ---
 
-# Exporting to Blender
+# Exporting Characters to Blender
 
 ## Summary
 
 **Created by** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://127.0.0.1:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
-**Published September 03 2022 (updated January 13 2023)**
+**Published September 03 2022 (last updated Oct 2023)**
 
-This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.2.
+This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.6.
 
 #### This guide uses the following versions:
 
 * Cyberpunk 2077 game version 1.61
-* Blender 3.2 stable
-* Cyberpunk add-on for Blender 1.1.0
+* Blender 3.6 stable
+* Cyberpunk add-on for Blender 1.4.0
 
 ### Requirements
 
 * [**WolvenKit nightly release version 8.8.1**](https://github.com/WolvenKit/WolvenKit)
-* [**Blender 3.1**](https://www.blender.org/) **or newer**
-* [**Cyberpunk add-on for Blender 1.1.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases/tag/1.1.0)
+* [**Blender 3.6**](https://www.blender.org/) **or newer**
+* [**Cyberpunk add-on for Blender 1.4.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases) **or newer**
 
 ## Exporting to Blender
 
@@ -35,7 +35,17 @@ A search for jackie in the asset browser returns plenty of files, if you sort by
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Expanding the appearances bit of the entity template, he has 15 appearances which all appear to be defined in jackie\_welles.app. For this next step you need to have the Wolvenkit resources plugin installed (View Options > plugins to install). The app should also be in the search results for jackie, simply right click it, then do find used files. Sort by type again and find the cookedapp files. Theres several which cover the different appearances, for each one you want to include in your export do the following:&#x20;
+{% hint style="info" %}
+You can find a list of the entity files for a lot of the main characters over on the Cyberpunk 2077 Modding wiki [Here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/people)
+{% endhint %}
+
+Add the ent file to the project, then do Tools>Scripts and Run the Export\_Ent script. That will add all the files used by the entity to the project, export the meshes to glb and json the ent and app files.
+
+<details>
+
+<summary>If you want to know what the script is doing, the manual way of doing it is shown here, but you shouldnt need to know this.</summary>
+
+If you open the Entity file then expand the appearances bit of the entity template, he has 15 appearances which all appear to be defined in jackie\_welles.app. For this next step you need to have the Wolvenkit resources plugin installed (View Options > plugins to install). The app should also be in the search results for jackie, simply right click it, then do find used files. Sort by type again and find the cookedapp files. Theres several which cover the different appearances, for each one you want to include in your export do the following:&#x20;
 
 * Right click, do Find used files&#x20;
 * Sort by type, find the mesh files&#x20;
@@ -47,44 +57,32 @@ The mesh files should now be visible in the project explorer, occasionally I fin
 
 Open the Export Tool, and verify your meshes are listed. Double click one then the export options opens, and verify WithMaterials as the export type and LOD Filter is on. Set the texture type to png if it is not. Select Apply to all files of the same extension then confirm.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<img src="../../.gitbook/assets/image (7) (1).png" alt="" data-size="original">
 
-Now select Export All (or Export Selected) on the menu bar and a bunch of glb and json files should be exported. After its done a files have been exported notification should pop up to notify you of the success. Now you should be able to fire up Blender and get importing.
+Now select Export All (or Export Selected) on the menu bar and a bunch of glb and json files should be exported. After its done a files have been exported notification should pop up to notify you of the success.&#x20;
 
-Open blender, delete the default cube and go to a scripting tab, and run the following, with the path set to your project directory.
+</details>
 
-```python
-import json
-import glob
-import os
-import bpy
-path = '<<YOUR PROJECT DIRECTORY>>\\source\\raw\\base'
+### Get a specific appearance
 
-meshes =  glob.glob(path+"\**\*.glb", recursive = True)
+If you're fine with the default appearance, you can go to the next section and import your project into Blender.
 
-for mesh in meshes:
-    try:
-       bpy.ops.io_scene_gltf.cp77(filepath=mesh)
-    except:
-        print("Failed on ",mesh)
-```
+Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-You should get something like the image below. If you see massive bone handles, drag select the bones and press h to hide them, and your character model should appear. Note at this point if you've exported several appearances all the meshes will be visible together, you'll need to do some organization into collections to get the outfits separated.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
-If it doesn't import, you can go through the folders inside your project and individually import the glb files with the Cyberpunk GLB plugin. They should import with materials wherever they are a type supported by the plugin, which unfortunately isn't all yet. You may need to change the alpha blend settings on things like tattoos, as they may show up as big chunks of black.&#x20;
+### Importing to Blender
 
+Open blender, go file>import then select Cyberpunk Entity (.json)
 
+Navigate to the json of the character that the script created, will be in the source\raw folders inside your project, for Jackie its source\raw\base\characters\entities\main\_npc\jackie\_welles.ent.json
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-
-After a bit of organization and a switch to the Cycles renderer you should get something like this.
+{% hint style="info" %}
+Phantom Liberty files are in ep1 not base, and some of the main npcs have files in both, be careful not to get confused!
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-If you get lots of bits that are a bright magenta type color then the shaders are too complex for Eevee to render, and you need to switch to Cycles. Example of Eevee vs Cycles below. Please note her dress was from an older version of the shader and this issue has been mostly resolved.
+If you get any stuff thats Solid black in cycles is probably getting SVM errors, which you can solve by cutting off some of the normals in the multilayer. (we're working on a proper fix) Eevee works fairly well these days, shaders just take a while to compile.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-
-Process is basically the same for guns and vehicles etc, track down the mesh files, add to project, export with materials.
+Process is basically the same for guns etc, track down the ent files, add to project, run the script and import. For vehicles its a bit more involved, theres a guide for that [here](https://wiki.redmodding.org/wolvenkit/modding-community/exporting-to-blender/exporting-vehicles).

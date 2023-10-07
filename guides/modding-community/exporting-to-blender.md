@@ -15,13 +15,13 @@ This guide aims to walk you through finding and exporting a character to blender
 
 #### This guide uses the following versions:
 
-* Cyberpunk 2077 game version 1.61
+* Cyberpunk 2077 game version 2.01&#x20;
 * Blender 3.6 stable
 * Cyberpunk add-on for Blender 1.4.0
 
 ### Requirements
 
-* [**WolvenKit nightly release version 8.8.1**](https://github.com/WolvenKit/WolvenKit)
+* [**WolvenKit latest nightly release version**](https://github.com/WolvenKit/WolvenKit-nightly-releases)
 * [**Blender 3.6**](https://www.blender.org/) **or newer**
 * [**Cyberpunk add-on for Blender 1.4.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases) **or newer**
 

@@ -12,6 +12,14 @@ For game issues, check [Troubleshooting](http://127.0.0.1:5000/s/4gzcGtLrr90pVjA
 For issues with **modding workflows**, refer to the corresponding section of the guides or use the search function of [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention").
 {% endhint %}
 
+{% hint style="success" %}
+If you've run into a problem that isn't on this list, please **reach out**!
+
+* If you have solved the problem already, feel free to [edit the wiki](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/H70HZBOeUulIpkQnBLK7)!
+
+Otherwise, you can either find us on [Discord](https://discord.gg/redmodding) (`#wolvenkit-support`), or, if you know that it's a technical issue, [file an issue on github](https://github.com/WolvenKit/Wolvenkit/issues) or open a thread on Discord's `#wkit-bugs-and-requests` channel.
+{% endhint %}
+
 ## Basic Troubleshooting steps
 
 ### .NET

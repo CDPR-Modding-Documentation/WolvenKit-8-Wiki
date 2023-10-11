@@ -8,6 +8,10 @@ description: WolvenKit - The ultimate mod editor for REDengine games
 
 ## What is WolvenKit?
 
+{% hint style="info" %}
+This wiki – and Wolvenkit – are community-driven open source projects! If you want to contribute, you can start [editing the wiki](https://app.gitbook.com/invite/-MP5ijqI11FeeX7c8-N8/H70HZBOeUulIpkQnBLK7), contribute to the [source code](https://github.com/WolvenKit/Wolvenkit), or find us on [Discord](https://discord.gg/redmodding)!
+{% endhint %}
+
 WolvenKit is an open-source modding tool for **Cyberpunk 2077** and **The Witcher 3: Wild Hunt**. Our vision is to develop a standalone software which can read and write all REDengine file formats, simplify and accelerate modding workflows, and help you create great mods for great games.&#x20;
 
 Our current development focus is REDengine 4 with Cyberpunk 2077.

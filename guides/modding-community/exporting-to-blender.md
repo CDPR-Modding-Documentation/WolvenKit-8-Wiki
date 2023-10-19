@@ -29,11 +29,11 @@ This guide aims to walk you through finding and exporting a character to blender
 
 First step is to locate the ent file for the character you want, I'm gonna use Jackie for the example. To start I've created a new project for him,&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 A search for jackie in the asset browser returns plenty of files, if you sort by type and find the ent files in the list jackie\_welles.ent looks like a pretty good starting place. Right click then Open without adding to project and you can preview to confirm its him.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You can find a list of the entity files for a lot of the main characters over on the Cyberpunk 2077 Modding wiki [Here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/people)
@@ -69,7 +69,7 @@ If you're fine with the default appearance, you can go to the next section and i
 
 Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
 ### Importing to Blender
 

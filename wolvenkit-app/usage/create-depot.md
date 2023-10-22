@@ -1,7 +1,5 @@
 ---
-description: >-
-  Prebuild the asset depot, it is a collection of image and binary files used
-  for modding the game
+description: The depot is a collection of image and binary files used for modding the game
 ---
 
 # The Wolvenkit Depot
@@ -10,15 +8,19 @@ description: >-
 
 Formerly part of the ELI5 guide, this has been moved to the general section.
 
+The depot is where wolvenkit stores accessible copies of basegame assets that are needed for editing/viewing project assets. With the current version of wolvenkit, you DO NOT need to do anything other than specify a folder for it. Everything else happens seamlessly in the background as and when needed. The only reason to generate a depot now is for using MLSB. If your not doing that, just skip this.
+
+
+
 There are three methods of creating and maintaining a depot:
 
 {% hint style="danger" %}
 I recommend that you skip this section for now and do the Validate Functionality steps first. Based on what you learn there, make the decision which kind of Depot you want.
 {% endhint %}
 
-1. [**Adhoc Depot**](create-depot.md#steps-adhoc-depot) is the manual process of creating the asset files as you need them. The general idea is that almost all the files you need are already accessible to WolvenKit. The biggest benefit is the minimal disk space usage. The biggest detractor is that it places breaks in your development while you locate, uncook, and unbundle the assets you need.
-2. [**Partial Depot**](create-depot.md#steps-partial-depot) is mostly uncooked and unbundled, and it's only missing the GLB files. Unless you are needing that specific file type, this depot has everything you will need. The biggest benefit is that nearly everything is ready to use and that means very likely little to no pauses in your development. The biggest detractor is that it requires 120GiB of disk space.
-3. [**Full Depot**](create-depot.md#steps-full-depot) is every asset available to us. The biggest benefit is that everything is ready to use and that means no pauses in your development. The biggest detractor is that it requires 160GiB of disk space.
+1. [**Adhoc Depot**](create-depot.md#steps-adhoc-depot) is the manual process of creating the asset files as you need them. The general idea is that almost all the files you need are already accessible to WolvenKit. The biggest benefit is the minimal disk space usage.&#x20;
+2. [**Partial Depot**](create-depot.md#steps-partial-depot) is mostly uncooked and unbundled, and it's only missing the GLB files. Unless you are needing that specific file type, this depot has everything you will need.  The biggest detractor is that it requires 120GiB of disk space. It will let you access the microblends and masks in MLSB, but wont have meshes available.
+3. [**Full Depot**](create-depot.md#steps-full-depot) is every asset available to us. The biggest benefit is that everything is ready to use and MLSB can work with the assets. The biggest detractor is that it requires 160GiB of disk space.
 
 ## Steps: Adhoc Depot
 

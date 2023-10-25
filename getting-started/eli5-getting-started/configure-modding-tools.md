@@ -51,7 +51,7 @@ Let's make sure that your game path is configured correctly and that Wolvenkit c
 
 <figure><img src="../../.gitbook/assets/eli5_GetStart_Config_S09 (1).png" alt=""><figcaption></figcaption></figure>
 
-Congratulations - everything is working! Now it's time to [create a depot](../../wolvenkit-app/usage/create-depot.md).
+Congratulations - everything is working! Now it's time to [create a depot](../../wolvenkit-app/usage/create-depot/).
 
 {% hint style="info" %}
 Please note that before you can do anything with files, you need to create a Wolvenkit project.

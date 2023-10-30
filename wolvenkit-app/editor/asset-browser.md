@@ -16,9 +16,11 @@ The Asset Browser is used to navigate, search and filter Cyberpunk 2077 game fil
 
 The left-side breadcrumb navigator can be used to quickly navigate through game directories. Game files are displayed in the right-side panel, in addition to folders. Folders in the file list can also be navigated by double-clicking.
 
-{% hint style="info" %}
-You can also browse files from installed mods by clicking the box icon in the Asset Browser!
-{% endhint %}
+### Mod Browser
+
+You can switch the Asset Browser to Mod Browsing mode via button. The [search](asset-browser.md#search) will no longer consider base game files and search in your loaded .archives instead.
+
+<figure><img src="../../.gitbook/assets/asset_browser_mod_browser (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Search
 

@@ -42,8 +42,15 @@ By default, it is set to `C:\Users\yourusername\AppData\Roaming\REDModding\Wolve
 Depending on how many game assets you extract, the Depot can grow to more than 30 gigabytes.
 {% endhint %}
 
-Learn more about the [**Material exports here**](usage/blender-integration.md)**.**\
+Learn more about the [**Material exports here**](usage/blender-integration.md)**.**
 
+### Analyze Mods
+
+Uncheck the box to disable validation of installed `.archive` files. This will improve performance when switching to the [Mod Browser](editor/asset-browser.md#mod-browser), but you won't receive warnings about corrupt archives anymore.
+
+### Additional Mod Directory
+
+A directory for .archive mods outside of your game directory, for example for resources that you want to load for multiple projects. Mods inside this folder will show up in the [Mod Browser](editor/asset-browser.md#mod-browser) **after** your installed mods.
 
 ## File Editor
 

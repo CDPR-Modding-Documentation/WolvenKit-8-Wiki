@@ -40,3 +40,5 @@ An example file (as of PL) can look like this:
 }
 
 ```
+
+The supported arguments can be found in the Wolvenkit repository for both [Import](https://github.com/WolvenKit/WolvenKit/blob/main/WolvenKit.Common/Model/Arguments/ImportArgs.cs) and [Export](https://github.com/WolvenKit/WolvenKit/blob/main/WolvenKit.Common/Model/Arguments/ExportArgs.cs).

@@ -1,0 +1,1 @@
+This list was moved to the yellow wiki and given a boring name. You can find it [here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/places/reference-world-sectors)

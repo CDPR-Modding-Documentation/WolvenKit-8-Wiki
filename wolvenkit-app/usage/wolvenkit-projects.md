@@ -43,6 +43,16 @@ The folder source contains the following subdirectories:
 
 <table><thead><tr><th width="238">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>archive</td><td>Part of your mod: Files in this folder will become part of your .archive file</td></tr><tr><td>customSounds</td><td>A directory for custom sound files</td></tr><tr><td>raw</td><td><p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.<br><br>You can keep .blend and texture files here.</p></td></tr><tr><td>resources</td><td>Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.</td></tr></tbody></table>
 
+## Project naming and mod load order
+
+If your mod contains an `.archive` file, then it will have the same name as your Wolvenkit project. Since `.archive` files will be loaded in alphabetical order (ASCII):
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>mod "aaa_mymod.archive" will load before the mod "AAA_mymod.archive"</p></figcaption></figure>
+
+If you are creating a **compatibility mod** (something that modifies the files of another installed mod), then yours needs to load **first**.
+
+For example, if you want to do a custom recolour of the mod [`_ArchiveXL_Netrunner_Variants.archive`](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/items-equipment/recolours-and-refits), then your Wolvenkit project could be named `_00_ArchiveXL_Netrunner_Variants`, or `_ArchiveXL_Netrunner_00_Recolour`.
+
 ## Building a mod project
 
 {% hint style="info" %}

@@ -2,10 +2,10 @@
 description: What are the Import/Export tools? What do they do?
 ---
 
-# Tools: Import/Export
+# Tools: Import/Export UI
 
 {% hint style="info" %}
-You can find more detailed information for different export formats on the sub-pages in the wiki's file tree, or by clicking the "Next" button at the bottom of this page.
+This page provides the UI documentation for the Import/Export tool. For a documentation of the functionality, see [import-export](../../usage/import-export/ "mention")
 {% endhint %}
 
 ## What are the Import Export tools?

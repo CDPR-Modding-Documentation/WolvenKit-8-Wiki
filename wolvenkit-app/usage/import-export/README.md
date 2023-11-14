@@ -6,37 +6,29 @@ description: Wolvenkit Import and Export explained
 
 ## Section Brief
 
-This section contains **general information** and **workflow documentation** about importing and exporting files with Wolvenkit.
-
 ## UI/Workflow documentation
 
-You can find the details on the different ways of export on the corresponding pages.&#x20;
+This section contains **general information** and **workflow documentation** about importing and exporting files with Wolvenkit.&#x20;
 
-{% hint style="info" %}
-JSON export will generate text files, which you can edit directly. If you don't want that, use the [Import/Export Tool](models.md).
-{% endhint %}
+* For a documentation of the UI, check [Import/Export Tool](models.md):
+  * [tools-import-export](../../tools/tools-import-export/ "mention") -> [#import-tool](../../tools/tools-import-export/#import-tool "mention")
+  * [tools-import-export](../../tools/tools-import-export/ "mention") -> [#export-tool](../../tools/tools-import-export/#export-tool "mention")
+* JSON export will generate **a text file**. If you don't know what that means, ignore this option, or read more about it under [import-export-as-json.md](import-export-as-json.md "mention")
+  * [import-export-as-json.md](import-export-as-json.md "mention") -> [#export-as-json](import-export-as-json.md#export-as-json "mention")
+  * [import-export-as-json.md](import-export-as-json.md "mention") ->[#import-as-json](import-export-as-json.md#import-as-json "mention")
+* For a detailed explanation of the different settings and their workflow, check the nested pages or use the "next" button at the bottom of the page.&#x20;
 
-### Export
-
-[tools-import-export](../../tools/tools-import-export/ "mention") -> [#export-tool](../../tools/tools-import-export/#export-tool "mention")
-
-[import-export-as-json.md](import-export-as-json.md "mention") -> [#export-as-json](import-export-as-json.md#export-as-json "mention")
-
-### Import
-
-[tools-import-export](../../tools/tools-import-export/ "mention") -> [#import-tool](../../tools/tools-import-export/#import-tool "mention")
-
-[import-export-as-json.md](import-export-as-json.md "mention") ->[#import-as-json](import-export-as-json.md#import-as-json "mention")
-
-
-
-## File Structure
+## File Structure: the `raw` folder
 
 {% hint style="info" %}
 Moving or renaming files usually breaks the import. Read on to find out why.
 {% endhint %}
 
-When exporting a resource, Wolvenkit puts the exported file into your project's `raw` folder. The relative paths (starting under `archive`/`raw`) are the same, as will the file name (without extensions).&#x20;
+When exporting a resource, Wolvenkit puts the exported file into your project's `raw` folder. In the UI, you can find it in your project explorer:
+
+
+
+The relative paths (starting under `archive`/`raw`) are the same, as will the file name (without extensions).&#x20;
 
 #### These files are connected:
 

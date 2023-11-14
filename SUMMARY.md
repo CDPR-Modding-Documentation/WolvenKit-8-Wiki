@@ -42,7 +42,7 @@
   * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)
 * [Tools](wolvenkit-app/tools/README.md)
   * [Script Manager](wolvenkit-app/tools/script-manager.md)
-  * [Tools: Import/Export](wolvenkit-app/tools/tools-import-export/README.md)
+  * [Tools: Import/Export UI](wolvenkit-app/tools/tools-import-export/README.md)
     * [Export settings](wolvenkit-app/tools/tools-import-export/export-settings.md)
     * [Import Settings](wolvenkit-app/usage/import-export/import-settings.md)
 * [File Validation](wolvenkit-app/file-validation.md)

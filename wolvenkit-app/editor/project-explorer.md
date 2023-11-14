@@ -4,12 +4,49 @@
 
 The Project Explorer is primarily a tool for organizing and navigating mod project files. The Project Explorer gives a constant tree view of all mod project files which streamlines the modding workflow significantly. There are four main **WolvenKit directories** inside the Project Explorer.&#x20;
 
-* The _**archive** directory_ contains REDengine [**CR2W**](../../help/glossary.md#cr-2-w) files. Files added to the mod project with the [**Asset Browser**](asset-browser.md) will automatically be organized here. Files within the archive directory are packed into the archive when building a mod project.
-* The _**raw** directory_ contains source assets such as models and textures. These files will not be included in the packed mod project, however they are extremely valuable to have nearby with the WolvenKit content pipeline.
-* The _**scripts** directory_ can be used to organize and pack redscript files.
-* The _**tweaks** directory_ can be used to organize and pack tweakdb files.
+### Project Explorer Tabs
 
-![](<../../.gitbook/assets/8.5.3 ProjectExplorer generic.png>)
+You can switch between different tabs at the top of the project explorer (see the red arrow on the screenshot below). Their function (and content) will be explained in the next sections.
+
+<figure><img src="../../.gitbook/assets/wkit_project_explorer.png" alt=""><figcaption><p>As of 8.11</p></figcaption></figure>
+
+###
+
+### Archive
+
+**Location:** `your_wolvenkit_project/source/archive`
+
+This directory contains game files in the REDengine [**CR2W**](../../help/glossary.md#cr-2-w) format, which you can add via [**Asset Browser**](asset-browser.md)**.**&#x20;
+
+Everything in this folder will be packed into your mod's .archive file.
+
+### Raw
+
+**Location:** `your_wolvenkit_project/source/raw`
+
+This is your working directory. Keep any files here that you don't want to end up on Nexus.
+
+When you [export files](../usage/import-export/) via Wolvenkit, the exports will be placed in a [mirrored folder structure](../usage/import-export/#file-structure-the-raw-folder).
+
+### Resources
+
+**Location:** `your_wolvenkit_project/source/resources`
+
+This folder contains other files for your mod. Any of its contents will be [packed](../menu/toolbar.md#pack-mod) so that they extract directly into the Cyberpunk directory. For that reason, you (or Wolvenkit) should create the following subdirectories:
+
+
+
+|                                                                                                                                     |                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| script (.reds, [RedScript](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/references-lists-and-overviews/scripting)) | r6/scripts                                             |
+| tweaks (.yaml, [TweakXL](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl))              | r6/tweaks                                              |
+| CET (.lua, [Cyber Engine Tweaks](https://wiki.redmodding.org/cyber-engine-tweaks/))                                                 | `bin/x64/plugins/cyber_engine/tweaks/mod/your_mod_dir` |
+
+### Source
+
+**Location:** `your_wolvenkit_project/source`
+
+Will show you everything. No context sorting.
 
 ## Using the Project Explorer
 

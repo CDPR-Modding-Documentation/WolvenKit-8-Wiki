@@ -2,9 +2,17 @@
 description: How to import and export textures
 ---
 
-# Textures
+# Import/Export: Textures
 
 WolvenKit is capable of exporting Cyberpunk XBM files to common formats like png. It will try and automatically determine the correct import settings based on the file name.&#x20;
+
+{% hint style="info" %}
+For the UI documentation, check [tools-import-export](../../tools/tools-import-export/ "mention")
+
+For general information such as the file structure and output directory, check [.](./ "mention")
+
+For a step-by-step workflow and troubleshooting, see [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") ->  [Textures: Importing, editing, exporting](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting "mention")
+{% endhint %}
 
 ## Exporting a texture from Wolvenkit
 

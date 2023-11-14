@@ -10,6 +10,12 @@ This section contains **general information** and **workflow documentation** abo
 
 ## UI/Workflow documentation
 
+You can find the details on the different ways of export on the corresponding pages.&#x20;
+
+{% hint style="info" %}
+JSON export will generate text files, which you can edit directly. If you don't want that, use the [Import/Export Tool](models.md).
+{% endhint %}
+
 ### Export
 
 [tools-import-export](../../tools/tools-import-export/ "mention") -> [#export-tool](../../tools/tools-import-export/#export-tool "mention")

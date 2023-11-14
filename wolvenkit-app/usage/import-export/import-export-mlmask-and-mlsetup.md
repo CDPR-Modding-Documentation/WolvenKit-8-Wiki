@@ -9,6 +9,10 @@ description: How to import and export multilayered assets
 You can export and import MultilayerMasks via Wolvenkit.
 
 {% hint style="info" %}
+For the UI documentation, check [tools-import-export](../../tools/tools-import-export/ "mention")
+
+For general information such as the file structure and output directory, check [.](./ "mention")
+
 [Learn more about the functionality of mlmask files on the REDengine 4 Wiki](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/materials/multilayered)
 {% endhint %}
 

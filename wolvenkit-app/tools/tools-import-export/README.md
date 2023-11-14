@@ -4,6 +4,10 @@ description: What are the Import/Export tools? What do they do?
 
 # Tools: Import/Export
 
+{% hint style="info" %}
+You can find more detailed information for different export formats on the sub-pages in the wiki's file tree, or by clicking the "Next" button at the bottom of this page.
+{% endhint %}
+
 ## What are the Import Export tools?
 
 To edit a REDengine file, it first needs to be converted to a more accessible format. This is where the Import/Export tools come in.

@@ -1,6 +1,10 @@
-# Import/Export: Models
+# Import/Export: 3d Models
 
 {% hint style="info" %}
+For the UI documentation, check [tools-import-export](../../tools/tools-import-export/ "mention")
+
+For general information such as the file structure and output directory, check [.](./ "mention")
+
 For a step-by-step workflow and troubleshooting, see \
 [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [Exporting and importing meshes](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/3d-modelling/exporting-and-importing-meshes "mention")&#x20;
 {% endhint %}

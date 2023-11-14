@@ -57,7 +57,7 @@
   * [Import/Export](wolvenkit-app/usage/import-export/README.md)
     * [Import/Export as JSON](wolvenkit-app/usage/import-export/import-export-as-json.md)
     * [I/O formats for export/import](wolvenkit-app/usage/import-export/i-o-formats-for-export-import.md)
-    * [Import/Export: Models](wolvenkit-app/usage/import-export/models.md)
+    * [Import/Export: 3d Models](wolvenkit-app/usage/import-export/models.md)
     * [Import/Export: Textures](wolvenkit-app/usage/import-export/textures.md)
     * [Import/Export: MLMask and MLSetup](wolvenkit-app/usage/import-export/import-export-mlmask-and-mlsetup.md)
 

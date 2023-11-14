@@ -6,9 +6,19 @@ description: Live archive explorer
 
 ## What is the Asset Browser?
 
-The Asset Browser is used to navigate, search and filter Cyberpunk 2077 game files so you can transfer these to the [**Project Explorer.**](project-explorer.md) The Asset Browser virtually eliminates the need for uncooking the entire game installation, as individual files can be pulled directly from archive files.
+The Asset Browser is used to navigate, search and filter Cyberpunk 2077 game files so you can transfer these to the [**Project Explorer.**](project-explorer.md) The Asset Browser eliminates the need for uncooking the entire game installation, as individual files can be pulled directly from archive files.
+
+## Where is it?
+
+In the default view (as of 8.11), you will find it pinned to the right side of the viewport.
+
+If it isn't there, check the **View** menu and make sure that it's enabled.
 
 ## Using the Asset Browser
+
+{% hint style="info" %}
+Wolvenkit Search has its own sub-page: [wolvenkit-search-finding-files.md](../usage/wolvenkit-search-finding-files.md "mention")
+{% endhint %}
 
 ### Navigation
 
@@ -21,10 +31,6 @@ The left-side breadcrumb navigator can be used to quickly navigate through game 
 You can switch the Asset Browser to Mod Browsing mode via button. The [search](asset-browser.md#search) will no longer consider base game files and search in your loaded .archives instead.
 
 <figure><img src="../../.gitbook/assets/asset_browser_mod_browser (1).png" alt=""><figcaption></figcaption></figure>
-
-### Search
-
-The Asset Browser offers powerful search and filter options. The left-side search bar can be used to search for any game file. WolvenKit will search through **all** available game files. For example, `judy kind:xbm` can be used to search for all XBM files containing the word judy. The right-side search bar is for advanced RegEx (regular expressions) style searches.
 
 ### Adding files to projects
 

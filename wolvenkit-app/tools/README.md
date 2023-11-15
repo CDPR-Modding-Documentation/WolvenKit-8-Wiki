@@ -18,11 +18,11 @@ See [script-manager.md](script-manager.md "mention") for details
 
 ## Import Tool
 
-See [#import-tool](tools-import-export/#import-tool "mention") for details
+See [#import-tool](tools-import-export.md#import-tool "mention") for details
 
 ## Export Tool
 
-see [#export-tool](tools-import-export/#export-tool "mention") for details
+see [#export-tool](tools-import-export.md#export-tool "mention") for details
 
 ## Hash Tool
 

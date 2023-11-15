@@ -5,7 +5,7 @@ description: How to import or export to/from JSON with Wolvenkit
 # Import/Export as JSON
 
 {% hint style="info" %}
-This is not the only means of export! See [tools-import-export](../../tools/tools-import-export/ "mention") for documentation of the other.
+This is not the only means of export! See [tools-import-export.md](../../tools/tools-import-export.md "mention") for documentation of the other.
 {% endhint %}
 
 Converting files **to** JSON will serialize[^1] their content to a .json file in your project's `raw` folder.&#x20;

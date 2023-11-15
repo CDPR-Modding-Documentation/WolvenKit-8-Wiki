@@ -9,7 +9,7 @@ description: How to import and export multilayered assets
 You can export and import MultilayerMasks via Wolvenkit.
 
 {% hint style="info" %}
-For the UI documentation, check [tools-import-export](../../tools/tools-import-export/ "mention")
+For the UI documentation, check [tools-import-export.md](../../tools/tools-import-export.md "mention")
 
 For general information such as the file structure and output directory, check [.](./ "mention")
 

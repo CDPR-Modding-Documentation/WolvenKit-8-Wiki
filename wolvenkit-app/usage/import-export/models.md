@@ -1,25 +1,27 @@
-# Import/Export: 3d Models
+# Import/Export: Mesh (3d Model)
 
 {% hint style="info" %}
-For the UI documentation, check [tools-import-export](../../tools/tools-import-export/ "mention")
+For the UI documentation, check [tools-import-export.md](../../tools/tools-import-export.md "mention")
 
 For general information such as the file structure and output directory, check [.](./ "mention")
 
 For a step-by-step workflow and troubleshooting, see \
-[Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [Exporting and importing meshes](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/3d-modelling/exporting-and-importing-meshes "mention")&#x20;
+[Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [WKit Blender Plugin: Import/Export](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") -> [Meshes](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#meshes "mention")
 {% endhint %}
 
-## Exporting mesh files
+WolvenKit is capable of exporting Cyberpunk mesh files (with their armatures and materials) _natively_ to glTF format, preserving Cyberpunk's separation into distinct submeshes with different materials.
 
-WolvenKit is capable of exporting Cyberpunk mesh files _natively_ to glTF format. We can export static, skinned, and fully rigged models. Mesh files are exported into distinct submeshes, each representing a different material.
+We can import those .glb files into the following game files:
+
+* .mesh
+* .morphtarget
+* anims
+
+## Exporting mesh file
 
 Morph targets are automatically included inside the glTF file. You can find the morphs as shapekeys within Blender or blendshapes with Maya.
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/ImportExportTool_default_settings.png" alt="">
-
-</div>
+<figure><img src="../../../.gitbook/assets/wolvenkit_export_panel.png" alt=""><figcaption><p>mesh export settings as of 8.1.11</p></figcaption></figure>
 
 ### Default Export Settings
 
@@ -31,9 +33,31 @@ If selected extra LOD models will be removed from the export
 
 If selected mesh exports will be in binary from as **GLB** rather than **glTF** format. (Recommended)
 
-Export Materials
+#### Export Materials
 
-If selected a helper Material.json file is generated to allow materials to be edited with exported models. After performing a WithMaterials export, a JSON helper file will be nested with the exported mesh within the _raw directory_. Material exports also allow for detailed mesh previews with the [**Cyberpunk add-on for Blender**](../blender-integration.md).
+create a `meshName.Material.json` file for the [Wolvenkit Blender IO Suite](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")
+
+* png
+* dds
+* tga
+* bmp
+* jpg
+* png
+* tiff
+
+{% hint style="info" %}
+Turn this off if the file export fails.
+{% endhint %}
+
+#### Export Garment Support (Experimental)
+
+Exports garment support to shapekeys for Blender.
+
+{% hint style="info" %}
+Turn this off if the file export fails.
+{% endhint %}
+
+
 
 ### Export types
 
@@ -95,6 +119,65 @@ WolvenKit is able to import custom mesh files. The Import/Export tool expects me
 * Using Blender? [**Check out our recommend settings below**](models.md#blender-gltf-settings)
 
 ### Import Settings
+
+<figure><img src="../../../.gitbook/assets/wolvenkit_glb_import.png" alt=""><figcaption></figcaption></figure>
+
+#### Import with Material.Json
+
+Will re-import the Material.json file that has been generated on export, overwriting any changes you have made in the meantime. \
+If you've exported from Blender via [plugin](../blender-integration.md#how-does-it-work), material changes may have been written back.
+
+#### Import Material.Json Only
+
+Will **only** import the Material.json, ignoring the .glb file. Handy for resetting material edits that you did by accident.
+
+#### GLTF Validation Checks
+
+* **Skip**: Will not validate
+* **TryFix**: Will attempt to fix issues with your file
+* **Strict**: Will not attempt to fix anything, but yell at you for anything that might cause issues.
+
+#### Target File Format
+
+* **Mesh**: Imports over a mesh
+* **Morphtarget**: Imports over a morphtarget (the file that deforms a mesh). Necessary for e.g. custom body morphs.
+* **Anims**: Imports over an animation file. Necessary for [custom animations](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-guides/animations).
+* **Rig**: Attempts to import the associated armature to a .rig
+* **MeshWithRig**: Combines the **Mesh** and the **Rig** option.
+
+#### Preserve Submesh Order&#x20;
+
+_(experimental as of 8.9.1)_\
+Will ignore submesh names, instead using the **order** inside the armature to generate numbered submeshes.
+
+#### Select base mesh
+
+_(experimental as of 8.9.1)_ \
+See [#use-selected-base-mesh](models.md#use-selected-base-mesh "mention")
+
+#### Use selected base mesh
+
+_(experimental as of 8.9.1)_\
+Instead of importing directly over the target file, this option will pull the `.mesh` file that you have picked in `Select base mesh`  (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral\_bone-not-present-in-export-rig-s-import-mesh)).
+
+#### Contains LOD8 named LOD0
+
+Will treat the submesh LOD0 as having the lowest level of detail rather than the highest
+
+#### Import Garment Support
+
+_(experimental as of 8.9.1)_\
+Will try importing Blender shapekeys as [garment support](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/garment-support-how-does-it-work).&#x20;
+
+#### Select Rig
+
+_(experimental as of 8.9.1)_ \
+See [#use-selected-rig](models.md#use-selected-rig "mention")
+
+#### Use selected rig
+
+_(experimental as of 8.9.1)_ \
+Instead of importing over the target file's associated rig, this option will pull the `.rig` file that you have picked in `Select base rig` (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral\_bone-not-present-in-export-rig-s-import-mesh)).
 
 #### Import Material.json Only
 

@@ -11,8 +11,8 @@ description: Wolvenkit Import and Export explained
 This section contains **general information** and **workflow documentation** about importing and exporting files with Wolvenkit.&#x20;
 
 * For a documentation of the UI, check [Import/Export Tool](models.md):
-  * [tools-import-export](../../tools/tools-import-export/ "mention") -> [#import-tool](../../tools/tools-import-export/#import-tool "mention")
-  * [tools-import-export](../../tools/tools-import-export/ "mention") -> [#export-tool](../../tools/tools-import-export/#export-tool "mention")
+  * [tools-import-export.md](../../tools/tools-import-export.md "mention") -> [#import-tool](../../tools/tools-import-export.md#import-tool "mention")
+  * [tools-import-export.md](../../tools/tools-import-export.md "mention") -> [#export-tool](../../tools/tools-import-export.md#export-tool "mention")
 * JSON export will generate **a text file**. If you don't know what that means, ignore this option, or read more about it under [import-export-as-json.md](import-export-as-json.md "mention")
   * [import-export-as-json.md](import-export-as-json.md "mention") -> [#export-as-json](import-export-as-json.md#export-as-json "mention")
   * [import-export-as-json.md](import-export-as-json.md "mention") ->[#import-as-json](import-export-as-json.md#import-as-json "mention")
@@ -50,7 +50,7 @@ You can **not** import `your_file_mesh_export.glb` via **Import Tool**, because 
 
 ## Exporting
 
-Wolvenkit knows to ways of exporting files: [to JSON](import-export-as-json.md#export-as-json), or via the [Export Tool](../../tools/tools-import-export/#export-tool).
+Wolvenkit knows to ways of exporting files: [to JSON](import-export-as-json.md#export-as-json), or via the [Export Tool](../../tools/tools-import-export.md#export-tool).
 
 Exported files will be created in your project's **raw** folder. The [relative path](#user-content-fn-1)[^1] will be the same.
 

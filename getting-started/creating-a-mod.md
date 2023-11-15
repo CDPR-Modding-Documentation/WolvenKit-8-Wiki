@@ -89,11 +89,11 @@ These are core directories for WolvenKit's file operations. These folders are ne
 
 ### Exporting REDengine Files
 
-WolvenKit features a bespoke tool for conversions between REDengine and non-REDengine formats. The (_creatively_ named) [Import/Export tools](../wolvenkit-app/tools/tools-import-export/) are extremely robust, featuring advanced options and batch functionality.
+WolvenKit features a bespoke tool for conversions between REDengine and non-REDengine formats. The (_creatively_ named) [Import/Export tools](../wolvenkit-app/tools/tools-import-export.md) are extremely robust, featuring advanced options and batch functionality.
 
 The **archive** and **raw** directories within the **Project Explorer** behave as a mirror to one another; REDengine files are always stored in the _archive directory_, and the analogous "generic" format file will be stored in the _raw directory_ with the same folder structure. Import and export destinations _never_ need to be specified enabling ultra-fast file I/O, with the added benefit of automatically-organized Raw files.
 
-1. Open the [#export-tool](../wolvenkit-app/tools/tools-import-export/#export-tool "mention")
+1. Open the [#export-tool](../wolvenkit-app/tools/tools-import-export.md#export-tool "mention")
 2. Double-click the `t2_084_pma_jacket__short_sleeves_decal_d01.xbm` file within the Export grid to view advanced options. Any asset within the Import/Export grid can be doubled clicked to adjust advanced I/O options for each file format.
 3. Inspect the **XBM Export Type** drop down menu, in this case we want to export the texture as a **PNG**
 4. Press the **Confirm** button to proceed. For batch exports, using the checkbox for **Apply to all files of the same extension** will ensure that any XBM _currently_ within the Import/Export grid will inherit the same advanced options.
@@ -118,7 +118,7 @@ Not feeling creative? Feel free to use the the WolvenKit icon replacer below.
 ### Importing REDengine Files
 
 1. Return to the WolvenKit Editor
-2. Open the [#import-tool](../wolvenkit-app/tools/tools-import-export/#import-tool "mention")
+2. Open the [#import-tool](../wolvenkit-app/tools/tools-import-export.md#import-tool "mention")
 3. Select the `t2_084_pma_jacket__short_sleeves_decal_d01.png` file within the Import grid. Click the `Load Settings` button towards the top of the Import/Export tool. This sets the compression type and other various options to match the original XBM.
 4. Press **Process Selected** to complete the Import operation
 5. Verify the updated texture by selecting the XBM within the Project Explorer. The new texture should be viewable with the Properties window.

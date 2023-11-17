@@ -31,17 +31,51 @@ Click **Finish.** WolvenKit will now open the new project and proceed to the [**
 
 ## File structure explained
 
-Your Wolvenkit project will have several folders inside of `source`.&#x20;
-
-As of 8.9.1, these are:
+Your project will contain the following folders:
 
 <table><thead><tr><th width="238">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>source</td><td><p>This is where your mod's <strong>unbundled</strong> files are. </p><ul><li>Game resources under <code>archive</code></li><li>control files in <code>resources</code></li><li>exported files that you're modifying in <code>raw</code> </li></ul></td></tr><tr><td>packed</td><td>Contains both the control files and the bundled archive files inside their folder hierarchy. You can copy this directly to your game directory (or have Wolvenkit do it for you via Install).<br><br>This folder will be deleted and re-created every time you install or pack your mod. </td></tr></tbody></table>
 
 ### Subdirectories in source
 
-The folder source contains the following subdirectories:
+Your Wolvenkit project will have several folders inside of `source`.&#x20;
 
-<table><thead><tr><th width="238">Folder name</th><th>Explanation</th></tr></thead><tbody><tr><td>archive</td><td>Part of your mod: Files in this folder will become part of your .archive file</td></tr><tr><td>customSounds</td><td>A directory for custom sound files</td></tr><tr><td>raw</td><td><p>Your (dirty?) work folder. </p><p></p><p>This is where Wolvenkit will create any files that you generate through <strong>exporting</strong>. Unless you import them again, they will not affect your mod's content.<br><br>You can keep .blend and texture files here.</p></td></tr><tr><td>resources</td><td>Part of your mod: Files in this folder will be mapped to Cyberpunk's folder structure. This is where you put script files and tweaks.</td></tr></tbody></table>
+As of 8.9.1, these are:
+
+#### Archive
+
+**Location:** `your_wolvenkit_project/source/archive`
+
+This directory contains game files in the REDengine [**CR2W**](../../help/glossary.md#cr-2-w) format, which you can add via [**Asset Browser**](../editor/asset-browser.md)**.**&#x20;
+
+Everything in this folder will be packed into your mod's .archive file.
+
+#### Raw
+
+**Location:** `your_wolvenkit_project/source/raw`
+
+This is your working directory. Keep any files here that you don't want to end up on Nexus.
+
+When you [export files](import-export/) via Wolvenkit, the exports will be placed in a [mirrored folder structure](import-export/#file-structure-the-raw-folder). Unless you import them again, they will not affect your mod's content.\
+\
+You can keep .blend and texture files here.
+
+#### customSounds
+
+A directory for custom sound files.
+
+#### Resources
+
+**Location:** `your_wolvenkit_project/source/resources`
+
+This folder contains other files for your mod.&#x20;
+
+Any of its contents will be [packed](../menu/toolbar.md#pack-mod) so that they extract directly into the Cyberpunk directory. For that reason, you (or Wolvenkit) should create the following subdirectories:
+
+|                                                                                                                                     |                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| script (.reds, [RedScript](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/references-lists-and-overviews/scripting)) | r6/scripts                                             |
+| tweaks (.yaml, [TweakXL](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl))              | r6/tweaks                                              |
+| CET (.lua, [Cyber Engine Tweaks](https://wiki.redmodding.org/cyber-engine-tweaks/))                                                 | `bin/x64/plugins/cyber_engine/tweaks/mod/your_mod_dir` |
 
 ## Project naming and mod load order
 

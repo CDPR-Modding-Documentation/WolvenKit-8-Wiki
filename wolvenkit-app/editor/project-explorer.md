@@ -14,39 +14,27 @@ You can switch between different tabs at the top of the project explorer (see th
 
 ### Archive
 
-**Location:** `your_wolvenkit_project/source/archive`
+Only shows you files under `your_wolvenkit_project/source/archive`.&#x20;
 
-This directory contains game files in the REDengine [**CR2W**](../../help/glossary.md#cr-2-w) format, which you can add via [**Asset Browser**](asset-browser.md)**.**&#x20;
-
-Everything in this folder will be packed into your mod's .archive file.
+Contains files that will be bundled into your mod's .archive file. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#archive](../usage/wolvenkit-projects.md#archive "mention")
 
 ### Raw
 
-**Location:** `your_wolvenkit_project/source/raw`
+**Location:** `your_wolvenkit_project/source/raw`.&#x20;
 
-This is your working directory. Keep any files here that you don't want to end up on Nexus.
-
-When you [export files](../usage/import-export/) via Wolvenkit, the exports will be placed in a [mirrored folder structure](../usage/import-export/#file-structure-the-raw-folder).
+Your (dirty?) working directory. Contains files that will not be part of your mod, as well as exported files. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#raw](project-explorer.md#raw "mention")
 
 ### Resources
 
 **Location:** `your_wolvenkit_project/source/resources`
 
-This folder contains other files for your mod. Any of its contents will be [packed](../menu/toolbar.md#pack-mod) so that they extract directly into the Cyberpunk directory. For that reason, you (or Wolvenkit) should create the following subdirectories:
-
-
-
-|                                                                                                                                     |                                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| script (.reds, [RedScript](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/references-lists-and-overviews/scripting)) | r6/scripts                                             |
-| tweaks (.yaml, [TweakXL](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl))              | r6/tweaks                                              |
-| CET (.lua, [Cyber Engine Tweaks](https://wiki.redmodding.org/cyber-engine-tweaks/))                                                 | `bin/x64/plugins/cyber_engine/tweaks/mod/your_mod_dir` |
+Contains control files for your mod. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#resources](project-explorer.md#resources "mention")
 
 ### Source
 
 **Location:** `your_wolvenkit_project/source`
 
-Will show you everything. No context sorting.
+Will show you everything under your project's source folder. No context sorting.
 
 ## Using the Project Explorer
 

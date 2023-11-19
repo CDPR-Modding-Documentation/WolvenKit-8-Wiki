@@ -29,7 +29,8 @@
 
 ## WolvenKit App
 
-* [Home](wolvenkit-app/home.md)
+* [Home](wolvenkit-app/home/README.md)
+  * [Home: Plugins](wolvenkit-app/home/home-plugins.md)
 * [Menu](wolvenkit-app/menu/README.md)
   * [Toolbar](wolvenkit-app/menu/toolbar.md)
 * [Editor](wolvenkit-app/editor/README.md)

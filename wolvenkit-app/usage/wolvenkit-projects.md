@@ -13,7 +13,7 @@ To access most WolvenKit features, it's necessary to create a Project first. Pro
 You have two means of creating one:&#x20;
 
 * From the [menu](../menu/ "mention"): [#file](../menu/#file "mention") -> [#new-project](../menu/#new-project "mention")
-* From Wolvenkit's [Home](../home.md) view via the Create New Project button
+* From Wolvenkit's [Home](../home/) view via the Create New Project button
 
 You will see something like this:
 
@@ -25,7 +25,7 @@ Click **Finish.** WolvenKit will now open the new project and proceed to the [**
 
 ## Opening an existing WolvenKit mod project
 
-1. From the [**Menu**](../menu/#new-project) or the [**Home**](../home.md) page, click the "Open Project" button
+1. From the [**Menu**](../menu/#new-project) or the [**Home**](../home/) page, click the "Open Project" button
 2. Select a .modproj file to open with WolvenKit
 3. WolvenKit will now open the project and proceed to the [**Editor**](../editor/)
 

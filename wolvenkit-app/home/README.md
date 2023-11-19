@@ -6,7 +6,7 @@ description: It's cozy!
 
 ## What's a Home good for?
 
-![](<../.gitbook/assets/WK 8.7 Home Generic.png>)
+![](<../../.gitbook/assets/WK 8.7 Home Generic.png>)
 
 ## Welcome
 
@@ -22,11 +22,11 @@ Manage REDmod installations and deployment
 
 ## Plugins
 
-Download and update various plugins and extensions for Cyberpunk 2077 modding
+Download and update various [home-plugins.md](home-plugins.md "mention") and extensions for Cyberpunk 2077 modding
 
 ## Settings
 
-Settings can be accessed from the Home sidebar. Learn more about [**WolvenKit Settings here.**](home.md#settings)
+Settings can be accessed from the Home sidebar. Learn more about [**WolvenKit Settings here.**](./#settings)
 
 ## Web Content
 

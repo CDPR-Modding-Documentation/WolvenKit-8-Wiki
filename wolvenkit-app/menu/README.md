@@ -14,7 +14,7 @@ Additionally, the Toolbar contains the **Launch Profiles** button.
 
 ## HOME
 
-Shows the WolvenKit [**Home**](../home.md) view
+Shows the WolvenKit [**Home**](../home/) view
 
 ## File
 

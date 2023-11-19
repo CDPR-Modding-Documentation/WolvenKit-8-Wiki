@@ -20,8 +20,8 @@ Otherwise, please od that now or use the [settings page](../../wolvenkit-app/set
 
 ## Installing Plugins
 
-1. In Wolvenkit, click on [HOME](../../wolvenkit-app/home.md)
-2. Click on [Plugins](../../wolvenkit-app/home.md#plugins)
+1. In Wolvenkit, click on [HOME](../../wolvenkit-app/home/)
+2. Click on [Plugins](../../wolvenkit-app/home/#plugins)
 3. REDMod should already be installed. If it isn't, please follow the instructions [here](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
 4. For every other plugin, click `Install` or `Update`.
 

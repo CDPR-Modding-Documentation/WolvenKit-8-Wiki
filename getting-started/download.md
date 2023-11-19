@@ -191,7 +191,7 @@ If you want to launch Wolvenkit without browsing to the folder every time, you c
 {% hint style="info" %}
 For full instructions on how to configure Wolvenkit, please see the [detailed guide](eli5-getting-started/configure-modding-tools.md).
 
-For a more detailed explanation of the options below, please see the [corresponding wiki page](../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../wolvenkit-app/home.md) and opening the [settings page](../wolvenkit-app/settings.md).&#x20;
+For a more detailed explanation of the options below, please see the [corresponding wiki page](../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../wolvenkit-app/home/) and opening the [settings page](../wolvenkit-app/settings.md).&#x20;
 {% endhint %}
 
 When launching WolvenKit for the first time you will be greeted with a welcome form asking to set your preferences. We recommend setting the path to your game files immediately.&#x20;

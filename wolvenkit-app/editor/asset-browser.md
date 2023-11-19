@@ -41,5 +41,38 @@ You can switch the Asset Browser to Mod Browsing mode via button. The [search](a
 Files added to the Project Explorer with the Asset Browser will not include external buffer files. Buffers are stored within the main file.
 {% endhint %}
 
+### Context Menu
 
+As of 8.11.1, the context menu has the following entries:
 
+#### Add selected items to project
+
+See [#adding-files-to-projects](asset-browser.md#adding-files-to-projects "mention") above
+
+#### Open without adding to project
+
+What it says — you can browse a file in the [file-editor.md](file-editor.md "mention") without adding it to your project. Saving (Hotkey: `Ctrl+S`) lets you save it to disk, though.
+
+#### Find used files
+
+{% hint style="info" %}
+Requires the [#wolvenkit-resources](../home/home-plugins.md#wolvenkit-resources "mention") plugin to be installed.
+{% endhint %}
+
+Will make the Asset Browser display a list of everything your current file is linking to.
+
+#### Find files using this
+
+{% hint style="info" %}
+Requires the [#wolvenkit-resources](../home/home-plugins.md#wolvenkit-resources "mention") plugin to be installed.
+{% endhint %}
+
+Like [#find-used-files](asset-browser.md#find-used-files "mention"), but the opposite: will make the Asset Browser display a list of everything that links to your current file.
+
+#### Browse to asset folder
+
+Will navigate the asset browser to the current selection's path in the game files (if it is a game file).
+
+#### Copy Relative Path
+
+Copies the selection's relative path to clipboard.&#x20;

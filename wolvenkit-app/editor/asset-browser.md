@@ -30,6 +30,8 @@ The left-side breadcrumb navigator can be used to quickly navigate through game 
 
 You can switch the Asset Browser to Mod Browsing mode via button. The [search](asset-browser.md#search) will no longer consider base game files and search in your loaded .archives instead.
 
+Wolvenkit will search any installed mods and anything under the [#additional-mod-directory](../settings.md#additional-mod-directory "mention"). There is no way to browse an `.archive` file in a different folder — if you insist on doing that, check [Legacy: Analysing other mods with Wolvenkit Console](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/analysing-other-mods/legacy-analysing-other-mods-with-wolvenkit-console "mention").
+
 <figure><img src="../../.gitbook/assets/asset_browser_mod_browser (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Adding files to projects

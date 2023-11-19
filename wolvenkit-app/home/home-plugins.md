@@ -6,6 +6,8 @@ description: Which Wolvenkit plugins exist, what do they do?
 
 As of version 8.11.1, Wolvenkit offers the following plugins:
 
+<figure><img src="../../.gitbook/assets/wolvenkit_plugins_8.11.1.png" alt=""><figcaption></figcaption></figure>
+
 ## Cyber Engine Tweaks
 
 One of Cyberpunk's core mods ([wiki](https://wiki.redmodding.org/cyber-engine-tweaks/) | [Nexus page](https://www.nexusmods.com/cyberpunk2077/mods/107)). Will install the latest version for you.

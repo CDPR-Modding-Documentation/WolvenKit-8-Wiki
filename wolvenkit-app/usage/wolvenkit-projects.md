@@ -79,9 +79,13 @@ Any of its contents will be [packed](../menu/toolbar.md#pack-mod) so that they e
 
 ## Project naming and mod load order
 
+{% hint style="info" %}
+For more details on [Load Order](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/load-order "mention"), see the yellow wiki
+{% endhint %}
+
 If your mod contains an `.archive` file, then it will have the same name as your Wolvenkit project. Since `.archive` files will be loaded in alphabetical order (ASCII):
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>mod "aaa_mymod.archive" will load before the mod "AAA_mymod.archive"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Source: <a href="https://www.academia.edu/19644191">https://www.academia.edu/19644191</a></p></figcaption></figure>
 
 If you are creating a **compatibility mod** (something that modifies the files of another installed mod), then yours needs to load **first**.
 

@@ -6,11 +6,25 @@ description: a brief introduction to scripting within Wolvenkit.
 
 Wolvenkit is scriptable using javascript and its internal API. With it you can automate tasks such as exporting, as well as make changes to files programmatically.
 
-Scripts are accessed via the **Script Manager** in the **Tools** menu.&#x20;
+{% hint style="info" %}
+For documentation of the [script-manager.md](../tools/script-manager.md "mention"), check the corresponding sub-page.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/script_manager.png" alt=""><figcaption></figcaption></figure>
+## Adding Scripts
 
-To add a script simply type a filename such as MyScript.wscript and hit add. The file will now be in the list and you can double click to edit it in the Wolvenkit interface.&#x20;
+See [script-manager.md](../tools/script-manager.md "mention") -> [#adding-scripts](../tools/script-manager.md#adding-scripts "mention")
+
+## Script file path
+
+Any .wscript files you have created or edited will be stored in the following location:
+
+```
+%APPDATA%\REDModding\WolvenKit\WScript
+```
+
+You can delete or edit them via [script-manager.md](../tools/script-manager.md "mention").
+
+## Editing Scripts
 
 The editor shows your source code with code formatting and includes code suggestion for the Wolvenkit api.&#x20;
 

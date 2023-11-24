@@ -5,7 +5,7 @@ description: 'Display help for a specific command: e.g. unbundle -h'
 # Wolvenkit.CLI: Command List
 
 {% hint style="info" %}
-For a way to configure Wolvenkit CLI, see  the [settings.md](usage/settings.md "mention") page.
+For a way to configure Wolvenkit CLI, see  the [settings.md](settings.md "mention") page.
 {% endhint %}
 
 ## Unbundle

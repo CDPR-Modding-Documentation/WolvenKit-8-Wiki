@@ -8,9 +8,8 @@ description: The command-line modding tool
 
 WolvenKit Console is the core "Modkit" that drives the WolvenKit application. The Console supersedes the original CP77 Tools application created by rfuzzo. The same core functionalities of WolvenKit are available from command line for simplicity and extendibility for power users.
 
-For a documentation of the individual commands, see [command-list.md](command-list.md "mention")
-
-For further instructions on using it, see [usage](usage/ "mention")
+* For a documentation of the individual commands, see [command-list.md](usage/command-list.md "mention")
+* For further instructions on using it, see [usage](usage/ "mention")
 
 ## Installing Wolvenkit Console
 

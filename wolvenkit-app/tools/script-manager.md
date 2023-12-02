@@ -26,7 +26,7 @@ Enter a name in the box at the bottom of the panel and click the "Add" button. T
 
 Contains a selection of runnable scripts for various workflows, e.g.
 
-* Export\_Vehicle\_Ent when [exporting-vehicles.md](../../modding-community/exporting-to-blender/exporting-vehicles.md "mention")
+* Export\_Vehicle\_Ent when [exporting-vehicles.md](../../modding-community/exporting-vehicles.md "mention")
 * Export\_Ent for characters (see [exporting-to-blender.md](../../guides/modding-community/exporting-to-blender.md "mention"))
 * export\_streamingsectors for [World Editing](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/world-editing "mention")
 

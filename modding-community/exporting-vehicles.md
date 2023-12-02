@@ -11,6 +11,8 @@ description: Step-by-step guide for exporting vehicles to Blender
 
 This guide aims to walk you through finding and exporting a vehicle to blender.&#x20;
 
+If you'd rather watch a video Boe6 goes through a basic example in the second of his vehicle modding videos [here](https://youtu.be/nrJKP5rr6Uc?si=fyDl99t4EQ6htcYp\&t=118). You still have to read below if you want an non default appearance.
+
 ### Requirements
 
 * [**Wolvenkit 8.9.1**](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases) **or newer**
@@ -331,7 +333,7 @@ If no .anims file is exported (as for example with thee Arch), you need to find 
 You can either&#x20;
 
 * browse through the folder  `\base\animations\vehicle`
-* or put `\base\animations\vehicle > .anims` into Wolvenkit's [search bar](../../wolvenkit-app/usage/wolvenkit-search-finding-files.md).
+* or put `\base\animations\vehicle > .anims` into Wolvenkit's [search bar](../wolvenkit-app/usage/wolvenkit-search-finding-files.md).
 
 Once you have found the .anims file, add it to your project and export it to .glb with the export tool. (The script should now pick it up, but – better safe than sorry!
 
@@ -343,7 +345,7 @@ If you're fine with the default appearance, you can go to the [next section](exp
 
 Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
 ## Your entity in Blender
 
@@ -380,4 +382,4 @@ I've built shaders for most of the materials that I've encountered in my testing
 
 Importing multiple entities at once might be screwy. If you want several vehicles in a scene, import each into a separate blend file, then use File -> Append to merge them.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

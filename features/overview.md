@@ -40,4 +40,4 @@ WolvenKit supports Blender for one-click imports of fully shaded Cyberpunk meshe
 
 &#x20;[exporting-rigs-and-anims.md](../guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md "mention")
 
-&#x20;[exporting-vehicles.md](../modding-community/exporting-to-blender/exporting-vehicles.md "mention")
+&#x20;[exporting-vehicles.md](../modding-community/exporting-vehicles.md "mention")

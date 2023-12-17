@@ -150,7 +150,7 @@ This will warn you if any entries will overwrite each other due to shared key da
 
 #### checkEmptyFemaleVariant
 
-By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl#dynamic-variants).
+By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl#dynamic-variants).
 
 ### Mesh: 3d object
 
@@ -158,11 +158,11 @@ Will check your mesh's internal material assignment. Will warn you about missing
 
 #### validateMaterialsRecursively
 
-Will also check .mi files and their material setup, if you are using any.
+Will also check .mi files and their material setup. As the .mi chains can be quite long, this can cause performance issues.
 
-#### checkDuplicateMlSetupFilePaths
+#### checkDuplicateMaterialDefinitions
 
-Will warn you if two different multilayered materials are using the same .mlsetup file.
+Will warn you if two of your materials appear to be identical
 
 ### Mi: Material Template
 
@@ -174,7 +174,7 @@ Will check nested .mi files and their material setup, if you are using any.
 
 ### Workspot: loading .anim files
 
-Mostly for use with [this tutorial](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/animations/amm-collab-anims-poses). Will check if the workspot pulls in existing .anim files, warning you about duplicate definitions.
+Mostly for use with [this tutorial](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/animations/amm-collab-anims-poses). Will check if the workspot pulls in existing .anim files, warning you about duplicate definitions.
 
 #### fixIndexOrder
 

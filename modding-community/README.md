@@ -6,7 +6,7 @@ coverY: 0
 # Modding with WolvenKit
 
 {% hint style="info" %}
-Modding guides and documentation are in [the yellow wiki](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides).&#x20;
+Modding guides and documentation are in [the yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides).&#x20;
 {% endhint %}
 
 {% content-ref url="../getting-started/eli5-getting-started/" %}
@@ -15,6 +15,10 @@ Modding guides and documentation are in [the yellow wiki](http://127.0.0.1:5000/
 
 {% content-ref url="../guides/modding-community/exporting-to-blender.md" %}
 [exporting-to-blender.md](../guides/modding-community/exporting-to-blender.md)
+{% endcontent-ref %}
+
+{% content-ref url="https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/npcs/altering-appearances-within-wolvenkit-full-workflow" %}
+[Altering Appearances within Wolvenkit - Full Workflow](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/npcs/altering-appearances-within-wolvenkit-full-workflow)
 {% endcontent-ref %}
 
 {% hint style="info" %}

@@ -14,12 +14,12 @@ description: Downloading the WolvenKit application
 This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
 
 {% hint style="info" %}
-There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](download.md#perquisites). :)&#x20;
+There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](download.md#prerequisites). :)&#x20;
 {% endhint %}
 
 ### TL;DR
 
-1. Install REDMod and .NET from the [Prerequisites](download.md#perquisites) section below
+1. Install REDMod and .NET from the [Prerequisites](download.md#prerequisites) section below
 2. Download Wolvenkit-X.X.X.zip from github ([stable](https://github.com/WolvenKit/Wolvenkit/releases) | [nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/))
 3. Extract it to a folder of your choice
 4. Run it and do the [initial configuration](download.md#first-launch-tl-dr)
@@ -30,7 +30,7 @@ There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you c
 For detailed instructions on installing other software that you might need for mod development, see the section&#x20;
 
 * Windows 10/11 (64-bit) or a Linux build of your choice
-* [REDMod](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation) (Cyberpunk's modding framework)
+* [REDMod](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation) (Cyberpunk's modding framework)
 * [Microsoft .NET 6](https://dotnet.microsoft.com/en-us/download) (<= 8.7.1)
 * [Microsoft .NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) (>= 8.8)
 

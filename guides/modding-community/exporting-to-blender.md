@@ -8,42 +8,71 @@ description: >-
 
 ## Summary
 
-**Created by** [Simarilius](http://127.0.0.1:5000/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](http://127.0.0.1:5000/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
-**Published September 03 2022 (last updated Oct 2023)**
+**Created by** [Simarilius](https://app.gitbook.com/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](https://app.gitbook.com/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
+**Published: September 03 2022**\
+**Last documented update: December 29 2023**
 
 This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.6.
 
 #### This guide uses the following versions:
 
-* Cyberpunk 2077 game version 2.01&#x20;
-* Blender 3.6 stable
-* Cyberpunk add-on for Blender 1.4.0
+* Cyberpunk 2077 game version 2.1&#x20;
+* Blender >= [3.6 (stable)](https://www.blender.org/download/lts/3-6/) or [4.0](https://www.blender.org/download/releases/4-0/)
+* Wolvenkit >= 8.11.1 ([stable](https://github.com/WolvenKit/Wolvenkit/releases) | [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases))
+* [Wolvenkit IO suite for Blender >= 1.5.1](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
 
-### Requirements
+## Prerequisites
 
-* [**WolvenKit latest nightly release version**](https://github.com/WolvenKit/WolvenKit-nightly-releases)
-* [**Blender 3.6**](https://www.blender.org/) **or newer**
-* [**Cyberpunk add-on for Blender 1.4.0**](https://github.com/WolvenKit/Cyberpunk-Blender-add-on/releases) **or newer**
+* [ ] You have [created a new Wolvenkit project](../../wolvenkit-app/usage/wolvenkit-projects.md#create-a-new-wolvenkit-mod-project)
 
-## Exporting to Blender
+{% hint style="warning" %}
+This guide works just the same for guns — add the .ent to your project, run the script, import, profit. Vehicles are more complex and have their own guide: please see [exporting-vehicles.md](../../modding-community/exporting-vehicles.md "mention") for these.
 
-First step is to locate the ent file for the character you want, I'm gonna use Jackie for the example. To start I've created a new project for him,&#x20;
+If you want to add a character's animations, you can check the follow-up guide [exporting-rigs-and-anims.md](exporting-to-blender/exporting-rigs-and-anims.md "mention").
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## The character's .ent file
 
-A search for jackie in the asset browser returns plenty of files, if you sort by type and find the ent files in the list jackie\_welles.ent looks like a pretty good starting place. Right click then Open without adding to project and you can preview to confirm its him.
+### Finding the file
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+Before we can export anything, we need to find the `.ent` file for the character we want to export. This tutorial will use Jackie, but it works just the same for everyone else.
 
 {% hint style="info" %}
 You can find a list of the entity files for a lot of the main characters over on the Cyberpunk 2077 Modding wiki [Here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/people)
 {% endhint %}
 
-Add the ent file to the project, then do Tools>Scripts and Run the Export\_Ent script. That will add all the files used by the entity to the project, export the meshes to glb and json the ent and app files.
+With our project open in Wolvenkit, we switch to the [Asset Browser](../../wolvenkit-app/editor/asset-browser.md) and search for the right file:
+
+```
+jackie
+```
+
+{% hint style="info" %}
+You can refine your search, checking only .ent files, by using the following search query:&#x20;
+
+```
+jackie > .ent
+```
+{% endhint %}
+
+This will give us plenty of files — we'll sort them by file extension and scroll to the `ent` section of the list. `jackie_welles.ent` looks promising, so we'll double-check if it's the right file:&#x20;
+
+* Right-click it and select `Open without adding to project`
+* Use the `entity preview` tab to confirm that it's him
+
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+
+Now, [add the file to your project](../../wolvenkit-app/editor/asset-browser.md#adding-files-to-projects).
+
+## Exporting to Blender
+
+With the .ent file in your project, you can run the script that will handle the actual export, adding all the necessary files to your project and exporting them in a way that Blender can process.
+
+Open the [script-manager.md](../../wolvenkit-app/tools/script-manager.md "mention"), find `Export_Ent.wscript` and run it.
 
 <details>
 
-<summary>If you want to know what the script is doing, the manual way of doing it is shown here, but you shouldnt need to know this.</summary>
+<summary>What does the script do/how to do it by hand? (You don't need to know this)</summary>
 
 If you open the Entity file then expand the appearances bit of the entity template, he has 15 appearances which all appear to be defined in jackie\_welles.app. For this next step you need to have the Wolvenkit resources plugin installed (View Options > plugins to install). The app should also be in the search results for jackie, simply right click it, then do find used files. Sort by type again and find the cookedapp files. Theres several which cover the different appearances, for each one you want to include in your export do the following:&#x20;
 
@@ -63,26 +92,36 @@ Now select Export All (or Export Selected) on the menu bar and a bunch of glb an
 
 </details>
 
-### Get a specific appearance
+## Importing into Blender
 
-If you're fine with the default appearance, you can go to the next section and import your project into Blender.
+Switch to Blender and use the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")'s [Entity Import](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#importing-into-blender-2) from the File -> Import menu.&#x20;
 
-Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
+{% hint style="warning" %}
+Before clicking the import button, please read the next section about [#importing-a-specific-appearance](exporting-to-blender.md#importing-a-specific-appearance "mention").
+{% endhint %}
+
+{% hint style="info" %}
+Find the full documentation on the yellow wiki under  [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention") -> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") ->  [Entities](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#entities "mention")
+{% endhint %}
+
+Point it to the exported `.ent.json` in your project's files.  For Jackie, the relative path is `source\raw\base\characters\entities\main_npc\jackie_welles.ent.json`.
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4gzcGtLrr90pVjAWVdTc%2Fuploads%2FlkiC2IKH8JGip9AqSc9c%2Fblender_plugin_import_entity_2.png?alt=media&#x26;token=e34fa8dc-916e-44c9-a294-94af9771e1e0" alt=""><figcaption></figcaption></figure>
+
+### Importing a specific appearance
+
+Unless you specify otherwise, the `default` appearance will be chosen. If you want another, open the `.ent` file in your project and enter the exact **appearanceName** into the Blender open dialog.&#x20;
+
+You can find the appearance name in your `.ent` file inside the `appearances` list:
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
-### Importing to Blender
-
-Open blender, go file>import then select Cyberpunk Entity (.json)
-
-Navigate to the json of the character that the script created, will be in the source\raw folders inside your project, for Jackie its source\raw\base\characters\entities\main\_npc\jackie\_welles.ent.json
+Now, click the `Import Ent from JSON` button and wait while the Blender plugin does its thing.&#x20;
 
 {% hint style="info" %}
-Phantom Liberty files are in ep1 not base, and some of the main npcs have files in both, be careful not to get confused!
+Blender might need a few minutes to load the materials and bake the shaders. If you aren't getting any errors, just assume that it's still at it.&#x20;
+
+To double-check, you can select Window -> Toggle System Console to watch Blender work.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
-
-If you get any stuff thats Solid black in cycles is probably getting SVM errors, which you can solve by cutting off some of the normals in the multilayer. (we're working on a proper fix) Eevee works fairly well these days, shaders just take a while to compile.
-
-Process is basically the same for guns etc, track down the ent files, add to project, run the script and import. For vehicles its a bit more involved, theres a guide for that [here](https://wiki.redmodding.org/wolvenkit/modding-community/exporting-to-blender/exporting-vehicles).

@@ -11,6 +11,10 @@ WolvenKit Console is the core "Modkit" that drives the WolvenKit application. Th
 * For a documentation of the individual commands, see [command-list.md](usage/command-list.md "mention")
 * For further instructions on using it, see [usage](usage/ "mention")
 
+{% hint style="warning" %}
+As of January 2024, Wolvenkit.CLI does not work under Linux. You can run it though qemu and virtofs.
+{% endhint %}
+
 ## Installing Wolvenkit Console
 
 ### As a dotnet tool

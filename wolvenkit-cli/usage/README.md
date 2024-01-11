@@ -9,6 +9,10 @@ This page contains information on the general use of Wolvenkit's command line in
 * &#x20;[textures-cli.md](textures-cli.md "mention")
 * [video-and-audio-files-cli.md](video-and-audio-files-cli.md "mention")
 
+{% hint style="warning" %}
+As of January 2024, Wolvenkit.CLI does not work under Linux. You can run it though qemu and virtofs.
+{% endhint %}
+
 ## Help
 
 * Display general help/list all commands: `--help`

@@ -7,9 +7,9 @@ description: What to do when your Wolvenkit install acts up
 {% hint style="info" %}
 This is the troubleshooting page for your **Wolvenkit install**.&#x20;
 
-For game issues, check [Troubleshooting](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/user-guide-troubleshooting "mention")on [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention").
+For game issues, check [Troubleshooting](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/user-guide-troubleshooting "mention")on [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention").
 
-For issues with **modding workflows**, refer to the corresponding section of the guides or use the search function of [Cyberpunk 2077 Modding](http://127.0.0.1:5000/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention").
+For issues with **modding workflows**, refer to the corresponding section of the guides or use the search function of [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention").
 {% endhint %}
 
 {% hint style="success" %}

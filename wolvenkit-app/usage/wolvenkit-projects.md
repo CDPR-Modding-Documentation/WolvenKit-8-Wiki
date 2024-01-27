@@ -71,16 +71,16 @@ This folder contains other files for your mod.&#x20;
 
 Any of its contents will be [packed](../menu/toolbar.md#pack-mod) so that they extract directly into the Cyberpunk directory. For that reason, you (or Wolvenkit) should create the following subdirectories:
 
-|                                                                                                                                     |                                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| script (.reds, [RedScript](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/references-lists-and-overviews/scripting)) | r6/scripts                                             |
-| tweaks (.yaml, [TweakXL](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl))              | r6/tweaks                                              |
-| CET (.lua, [Cyber Engine Tweaks](https://wiki.redmodding.org/cyber-engine-tweaks/))                                                 | `bin/x64/plugins/cyber_engine/tweaks/mod/your_mod_dir` |
+|                                                                                                                                       |                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| script (.reds, [RedScript](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/references-lists-and-overviews/scripting)) | r6/scripts                                             |
+| tweaks (.yaml, [TweakXL](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl))              | r6/tweaks                                              |
+| CET (.lua, [Cyber Engine Tweaks](https://wiki.redmodding.org/cyber-engine-tweaks/))                                                   | `bin/x64/plugins/cyber_engine/tweaks/mod/your_mod_dir` |
 
 ## Project naming and mod load order
 
 {% hint style="info" %}
-For more details on [Load Order](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/load-order "mention"), see the yellow wiki
+For more details on [Load Order](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/load-order "mention"), see the yellow wiki
 {% endhint %}
 
 If your mod contains an `.archive` file, then it will have the same name as your Wolvenkit project. Since `.archive` files will be loaded in alphabetical order (ASCII):
@@ -89,7 +89,7 @@ If your mod contains an `.archive` file, then it will have the same name as your
 
 If you are creating a **compatibility mod** (something that modifies the files of another installed mod), then yours needs to load **first**.
 
-For example, if you want to do a custom recolour of the mod [`_ArchiveXL_Netrunner_Variants.archive`](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/items-equipment/recolours-and-refits), then your Wolvenkit project could be named `_00_ArchiveXL_Netrunner_Variants`, or `_ArchiveXL_Netrunner_00_Recolour`.
+For example, if you want to do a custom recolour of the mod [`_ArchiveXL_Netrunner_Variants.archive`](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/items-equipment/recolours-and-refits), then your Wolvenkit project could be named `_00_ArchiveXL_Netrunner_Variants`, or `_ArchiveXL_Netrunner_00_Recolour`.
 
 ## Building a mod project
 

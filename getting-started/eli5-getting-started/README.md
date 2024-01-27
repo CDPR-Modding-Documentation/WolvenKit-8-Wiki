@@ -11,7 +11,7 @@ description: >-
 **Created by @JJTurtle**\
 **Published October 22 2022**
 
-**Updated Jul 30 2023 by** [manavortex](http://127.0.0.1:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
+**Updated Jul 30 2023 by** [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
 This guide is intended for the beginning modder, who is still learning, and wants step-by-step instructions on how to fully install and configure their modding tools and asset depot.&#x20;
 
@@ -27,7 +27,7 @@ If any of the steps in this guide fail, then STOP immediately and either fix the
 Some of the recommendations in this guide may be outdated or obsolete by the time you read it. In that case, use your best judgement and play around!
 {% endhint %}
 
-### Prerequisites <a href="#_toc116953931" id="_toc116953931"></a>
+### Prerequisites <a href="#toc116953931" id="toc116953931"></a>
 
 1. Hard disk space for the Depot:&#x20;
    * For **regular operations**, <5GB storage will be enough

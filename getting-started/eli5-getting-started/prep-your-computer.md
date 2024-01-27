@@ -9,7 +9,7 @@ description: 'Perquisites: All the stuff you could possibly need, with download 
 **Created by @JJTurtle**\
 **Published October 22 2022**
 
-**Updated Jul 30 2023 by** [manavortex](http://127.0.0.1:5000/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
+**Updated Jul 30 2023 by** [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
 {% hint style="info" %}
 This section is optional, as most guides will tell you what programs you need anyway. If you are not computer-savy or feel very insecure about all this, then you want to read this. Otherwise, you can probably skip straight to the [configuration section](configure-modding-tools.md).
@@ -116,7 +116,7 @@ You should have done that as part of [Wolvenkit's install instructions](../downl
 
 ## Enable REDMod
 
-Redmod is CDPR's entry point for mods. For full instructions on how to enable it, see [here](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
+Redmod is CDPR's entry point for mods. For full instructions on how to enable it, see [here](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
 
 ## Utilities
 

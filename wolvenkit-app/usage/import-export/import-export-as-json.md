@@ -12,7 +12,7 @@ Converting files **to** JSON will serialize[^1] their content to a .json file in
 
 Importing them back will re-create the corresponding file under `archive`.
 
-This is easiest way to [quickly change paths in projects](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/everything-else/moving-and-renaming-in-existing-projects) and a perquisite for several modding workflows.
+This is easiest way to [quickly change paths in projects](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/everything-else/moving-and-renaming-in-existing-projects) and a perquisite for several modding workflows.
 
 ### Export as JSON
 

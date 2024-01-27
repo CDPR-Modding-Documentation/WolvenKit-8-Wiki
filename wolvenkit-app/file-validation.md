@@ -16,6 +16,16 @@ This feature has an **impact on performance** — every time you save, there wil
 
 ## I don't want it, how do I get rid of it?
 
+In the [Script Manager](tools/script-manager.md), switch to the `Hooks` tab and uncheck the box behind `hook_global`:
+
+<figure><img src="../.gitbook/assets/disabling_file_validation.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Did you know? You can still run file validation via the menu under Scripts -> Validate!
+{% endhint %}
+
+### Alternatively: via settings file
+
 You just need to open `hook_settings.wscript` and change line 4 from `Enabled: true` to `Enabled: false`.&#x20;
 
 For details, see [Configuring File Validation](file-validation.md#configuring-file-validation) below.

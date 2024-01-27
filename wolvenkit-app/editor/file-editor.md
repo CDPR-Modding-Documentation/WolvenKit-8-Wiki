@@ -30,11 +30,11 @@ Does not make sense under all circumstances, but will attempt to create a TweakX
 
 #### TweakXL: Copy to clipboard
 
-Attempts to copy the [Tweak](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/tweaks) identifier to clipboard. If something without a tweak identifier is selected, you'll get the RedType instead.
+Attempts to copy the [Tweak](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/tweaks) identifier to clipboard. If something without a tweak identifier is selected, you'll get the RedType instead.
 
 #### Duplicate item in Array/Buffer
 
-Creates an exact copy of the currently selected item, which will be inserted directly after it (this is important for e.g. [material instances](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/3d-objects-.mesh-files#step-3-material-definition) in mesh files.
+Creates an exact copy of the currently selected item, which will be inserted directly after it (this is important for e.g. [material instances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/3d-objects-.mesh-files#step-3-material-definition) in mesh files.
 
 #### Copy Handle
 

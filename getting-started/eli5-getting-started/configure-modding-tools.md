@@ -22,12 +22,12 @@ Otherwise, please od that now or use the [settings page](../../wolvenkit-app/set
 
 1. In Wolvenkit, click on [HOME](../../wolvenkit-app/home/)
 2. Click on [Plugins](../../wolvenkit-app/home/#plugins)
-3. REDMod should already be installed. If it isn't, please follow the instructions [here](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
+3. REDMod should already be installed. If it isn't, please follow the instructions [here](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation).
 4. For every other plugin, click `Install` or `Update`.
 
 <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
 
-5. Now that all plugins are installed, configure [MLSetupBuilder](http://127.0.0.1:5000/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder) (but read the blue box first).
+5. Now that all plugins are installed, configure [MLSetupBuilder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder) (but read the blue box first).
 
 {% hint style="info" %}
 If you have been following the setup instructions, then the paths you need are:&#x20;

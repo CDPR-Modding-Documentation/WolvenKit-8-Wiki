@@ -139,5 +139,9 @@ This requires the texture width and height to be potencies of 2!
 
 #### PremultiplyAlpha
 
-???
+Should the image consider **transparency**?&#x20;
+
+{% hint style="info" %}
+Transparency must be read from a png's alpha channel. If you don't know how to create one, see the guide about texture editing on [the yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting).
+{% endhint %}
 

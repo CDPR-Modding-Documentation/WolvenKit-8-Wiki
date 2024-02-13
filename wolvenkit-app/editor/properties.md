@@ -40,11 +40,15 @@ Audio files can be previewed by selecting them within the Asset Browser or Proje
 
 ## Video Preview
 
-Double click BK2 files in the Project Explorer or right-click them in the Asset Browser
+{% hint style="danger" %}
+Important: Due to licensing issues, Wolvenkit no longer features a video preview. You can find [bk2 viewer](https://fileproinfo.com/tools/viewer/bk2=1379)s on Google.
+{% endhint %}
 
-**Space** to play / pause\
-**Esc** = End video\
-Use the bottom bar to scrub through the video.
+~~Double click BK2 files in the Project Explorer or right-click them in the Asset Browser~~
+
+~~**Space** to play / pause~~\
+~~**Esc** = End video~~\
+~~Use the bottom bar to scrub through the video.~~
 
 ![Video Preview showcase](../../.gitbook/assets/8.2\_video\_preview\_gamestart.png)
 

@@ -30,10 +30,12 @@ Otherwise, please od that now or use the [settings page](../../wolvenkit-app/set
 5. Now that all plugins are installed, configure [MLSetupBuilder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder) (but read the blue box first).
 
 {% hint style="info" %}
-If you have been following the setup instructions, then the paths you need are:&#x20;
+If you have been following the setup instructions exactly, then the paths you need to enter here are:&#x20;
 
 * uncook folder: `C:\Cyberpunk2077Mod\Depot`&#x20;
 * WolvenKit-CLI executable: `C:\Cyberpunk2077Mod\WolvenKit.CLI\WolvenKit.CLI.exe`&#x20;
+
+If you have not, then your paths will be different and you need to adjust them accordingly.
 {% endhint %}
 
 ## Testing

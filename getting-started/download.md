@@ -9,7 +9,7 @@ description: Downloading the WolvenKit application
 **Published: October 22 20**\
 **Created by @JJTurtle**\
 \
-**Updated by @manavortex, July 2023**
+**Last documented update: @manavortex, February 25 2023**
 
 This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
 
@@ -31,8 +31,8 @@ For detailed instructions on installing other software that you might need for m
 
 * Windows 10/11 (64-bit) or a Linux build of your choice
 * [REDMod](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation) (Cyberpunk's modding framework)
-* [Microsoft .NET 6](https://dotnet.microsoft.com/en-us/download) (<= 8.7.1)
-* [Microsoft .NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) (>= 8.8)
+* For older WKit versions: [Microsoft .NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (versions <= 8.7.1)
+* For current WKit: The most recent [Microsoft .NET](https://dotnet.microsoft.com/en-us/download) (confirmed working with [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) and Wolvenkit 8.13)
 
 {% hint style="success" %}
 Wolvenkit is mostly developed and used on Windows — if you're on Linux, you probably know what you're doing.

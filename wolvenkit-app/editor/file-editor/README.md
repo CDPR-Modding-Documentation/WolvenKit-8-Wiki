@@ -9,24 +9,24 @@ What is the **File Editor**?
 The **File Editor** is a document viewer and manipulator for modifying any REDengine file. \
 WolvenKit is the only RTTI-based editor for RED4.
 
-![](<../../.gitbook/assets/8.5 file editor.png>)
+![](<../../../.gitbook/assets/8.5 file editor.png>)
 
 ## Adding files via File Editor
 
-To edit a REDEngine file, you have to add it to your [your project's archive folder](project-explorer.md#archive) first. There are two ways to do this from the [**Asset Browser**](asset-browser.md):
+To edit a REDEngine file, you have to add it to your [your project's archive folder](../project-explorer.md#archive) first. There are two ways to do this from the [**Asset Browser**](../asset-browser.md):
 
 * double-click on a file in the Asset Browser's navigation window
-* select several at once, then use the [**Add Selected Items to Project**](asset-browser.md#add-selected-items-to-project) option from the context menu
+* select several at once, then use the [**Add Selected Items to Project**](../asset-browser.md#add-selected-items-to-project) option from the context menu
 
 You can also open files without adding them to your project:
 
-* Right-click a file in the Asset Browser and use [**Open Without Adding to Project**](asset-browser.md#open-without-adding-to-project)
+* Right-click a file in the Asset Browser and use [**Open Without Adding to Project**](../asset-browser.md#open-without-adding-to-project)
 
 {% hint style="info" %}
 This version of the file is _read-only_; you can edit it, but you can't save it.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview2-Alt.png" alt=""><figcaption><p>An annotated screenshot demonstrating how to add a file from the Asset Browser to Project Explorer</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview2-Alt.png" alt=""><figcaption><p>An annotated screenshot demonstrating how to add a file from the Asset Browser to Project Explorer</p></figcaption></figure>
 
 {% hint style="info" %}
 Files in your Wolvenkit Project are accessible via Windows Explorer. It also works the other way around; however, not everything has to be compatible.
@@ -34,7 +34,7 @@ Files in your Wolvenkit Project are accessible via Windows Explorer. It also wor
 
 ## Saving Edited Files
 
-See the next section about [#editing-files](file-editor.md#editing-files "mention")
+See the next section about [#editing-files](./#editing-files "mention")
 
 {% hint style="danger" %}
 TL;DR: Wolvenkit does not auto-save for you. Do it yourself, you lazy gonk!
@@ -49,7 +49,7 @@ Unless you have opened a file as read-only, you can save your changes in the fol
 Unsaved files will have an asterisk next to their name in the editor tab.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview3-Alt.png" alt=""><figcaption><p>Bear in mind that files added with the <strong>Open Without Adding to Project</strong> option behave identically even though they can't be saved; this is so you know that a file you may be using for reference has been edited by you - possibly seven or eight hours ago, when you foolishly thought "I can figure out how to make this mod in five minutes" - and is no longer the same as the original file.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview3-Alt.png" alt=""><figcaption><p>Bear in mind that files added with the <strong>Open Without Adding to Project</strong> option behave identically even though they can't be saved; this is so you know that a file you may be using for reference has been edited by you - possibly seven or eight hours ago, when you foolishly thought "I can figure out how to make this mod in five minutes" - and is no longer the same as the original file.</p></figcaption></figure>
 
 ## Opening files
 
@@ -64,9 +64,9 @@ Once a project is part of your Wolvenkit Project and shows up in the Project Exp
 You can clear up some extra space for the **File Editor** by un-pinning other parts of the view with pin icon at the top right, reducing them to easily-accessible tabs.
 {% endhint %}
 
-The file editor features two resizable panels, the [tree view](file-editor.md#navigating-files-the-tree-view) and the [editor panel](file-editor.md#editing-files-the-editor-panel).
+The file editor features two resizable panels, the [tree view](./#navigating-files-the-tree-view) and the [editor panel](./#editing-files-the-editor-panel).
 
-<figure><img src="../../.gitbook/assets/FileEditorOverviewAlt (5).png" alt=""><figcaption><p>An annotated screenshot explaining the File Editor's interface</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverviewAlt (5).png" alt=""><figcaption><p>An annotated screenshot explaining the File Editor's interface</p></figcaption></figure>
 
 ## Navigating files: The tree view
 
@@ -80,11 +80,11 @@ The **File Editor Context Menu** appears when you right-click on something in th
 
 ### Array items (Handles)
 
-<figure><img src="../../.gitbook/assets/wkit_file_editor_contextmenu_array_items.png" alt=""><figcaption><p>The context menu options available for items/handles</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wkit_file_editor_contextmenu_array_items.png" alt=""><figcaption><p>The context menu options available for items/handles</p></figcaption></figure>
 
 #### TweakXL: Override Value
 
-Does not make sense under all circumstances, but will valiantly attempt to create a **TweakXL** override for the current selection (as if you had selected it in the [tweak-browser.md](tweak-browser.md "mention")). This override will be saved as a **.yaml** file and, depending on the handle you tried to use it on, its contents may be useless. You must have **TweakXL** installed via the **Plugins** menu to get this option to appear in the context menu.
+Does not make sense under all circumstances, but will valiantly attempt to create a **TweakXL** override for the current selection (as if you had selected it in the [tweak-browser.md](../tweak-browser.md "mention")). This override will be saved as a **.yaml** file and, depending on the handle you tried to use it on, its contents may be useless. You must have **TweakXL** installed via the **Plugins** menu to get this option to appear in the context menu.
 
 #### TweakXL: Copy to clipboard
 
@@ -117,12 +117,12 @@ Copies the currently selected items/handles for pasting inside of Wolvenkit. You
 {% hint style="warning" %}
 The clipboard will not be cleared once you paste. However, if you paste multiple times, all those pasted items **will be identical** - so if you change the file path in one of them, it will change all across your file.&#x20;
 
-You can [#duplicate-item-in-array-buffer](file-editor.md#duplicate-item-in-array-buffer "mention") to fix this, or you can abuse it to save copy-pasting. Word of warning: if you choose the latter, you will ruin somebody's day, and it's probably going to be future you.
+You can [#duplicate-item-in-array-buffer](./#duplicate-item-in-array-buffer "mention") to fix this, or you can abuse it to save copy-pasting. Word of warning: if you choose the latter, you will ruin somebody's day, and it's probably going to be future you.
 {% endhint %}
 
 #### Export to JSON
 
-See [#export-as-json](../usage/import-export/import-export-as-json.md#export-as-json "mention") Particularly useful for searching large files with CTRL+F in your word editor of choice. However, JSON conversion can get confused by some complex graph files. For instance, **humanoid.animgraph** is converted into a 300-megabyte JSON (300 times the original file's size) with over half a million lines. But hey, you can still CTRL+F it, so there's that.
+See [#export-as-json](../../usage/import-export/import-export-as-json.md#export-as-json "mention") Particularly useful for searching large files with CTRL+F in your word editor of choice. However, JSON conversion can get confused by some complex graph files. For instance, **humanoid.animgraph** is converted into a 300-megabyte JSON (300 times the original file's size) with over half a million lines. But hey, you can still CTRL+F it, so there's that.
 
 #### Delete Item in Array/Buffer
 
@@ -142,13 +142,13 @@ Will reset the selected handle and all its values to their default greyed-out st
 
 ## Editing files: The editor panel
 
-The **Editor View** on the right side lets you edit the selected properties ([arrays, handles and variables](file-editor.md#array-items-handles)). &#x20;
+The **Editor View** on the right side lets you edit the selected properties ([arrays, handles and variables](./#array-items-handles)). &#x20;
 
 [Each editable property has a small icon next to it that displays at a glance what awaits you when you select it. ](#user-content-fn-1)[^1]
 
 You will observe different kinds of values (dropdowns, numbers, booleans, texts, enums...). Many of those appear in grey:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview10 (1).png" alt=""><figcaption><p>Source file: base\physics\physicsmaterials.physmatlib</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview10 (1).png" alt=""><figcaption><p>Source file: base\physics\physicsmaterials.physmatlib</p></figcaption></figure>
 
 Those properties have not been changed by the person who touched this file, still holding their [default value](#user-content-fn-2)[^2].
 
@@ -162,9 +162,9 @@ The editor panel will show you the following kinds of controls:
 
 #### Text fields
 
-The icon that says "abc" on it is the one you shall learn to fear, for it heralds the coming of a string variable. Whenever you see it next to a property you need to edit and you don't know what strings you can type in it, get ready to spend the next several hours of your life getting very well-acquainted with WolvenKit's [search feature](../usage/wolvenkit-search-finding-files.md).
+The icon that says "abc" on it is the one you shall learn to fear, for it heralds the coming of a string variable. Whenever you see it next to a property you need to edit and you don't know what strings you can type in it, get ready to spend the next several hours of your life getting very well-acquainted with WolvenKit's [search feature](../../usage/wolvenkit-search-finding-files.md).
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview6.png" alt=""><figcaption><p>The "abc" icon, rendered in lowercase presumably in an attempt to minimize the dread it inspires deep in one's soul</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview6.png" alt=""><figcaption><p>The "abc" icon, rendered in lowercase presumably in an attempt to minimize the dread it inspires deep in one's soul</p></figcaption></figure>
 
 
 
@@ -172,17 +172,17 @@ The icon that says "abc" on it is the one you shall learn to fear, for it herald
 
 Some file formats offer more specific editing tools. For instance, curve properties often give you a **Curve Editor**, especially useful in **.curveset** files:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview9 (3).png" alt=""><figcaption><p>The curve editor in all its chaotic artistic glory</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview9 (3).png" alt=""><figcaption><p>The curve editor in all its chaotic artistic glory</p></figcaption></figure>
 
 #### Node view
 
 And some node-based files, such as **.questphase** files, offer a **Graph View** for viewing nodes and their connections:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview8.png" alt=""><figcaption><p>The Graph View. Obviously. We have to write something under these images otherwise the spacing between the image and the next paragraph becomes weirdly unnerving.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview8.png" alt=""><figcaption><p>The Graph View. Obviously. We have to write something under these images otherwise the spacing between the image and the next paragraph becomes weirdly unnerving.</p></figcaption></figure>
 
 Some node-based file formats, such as **.animgraph** and **.behavior** files, are not yet blessed with the **Graph View**, which as of February 13th 2024 is still under development. These files can be extremely complex and their properties un-collapse into so many sub-properties that it literally breaks WolvenKit's indentation:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview7.png" alt=""><figcaption><p>This is the humanoid.animgraph file, which has over 4000 nodes currently browsable only in list form. You can think of it as what would happen if M. C. Escher took some ketamine and decided to design a maze. Converting this file to .json format results in a 300-megabyte file with over half a million lines. It holds naught but pain and suffering.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview7.png" alt=""><figcaption><p>This is the humanoid.animgraph file, which has over 4000 nodes currently browsable only in list form. You can think of it as what would happen if M. C. Escher took some ketamine and decided to design a maze. Converting this file to .json format results in a 300-megabyte file with over half a million lines. It holds naught but pain and suffering.</p></figcaption></figure>
 
 Until the **Graph View** is made available for these file formats, they are to be feared.
 
@@ -194,7 +194,7 @@ Other than browsing and editing properties, you can also delete them, replace th
 The possibilities are endless, but most of them make the game crash. Wolvenkit will already prevent you from doing a lot of dumb things, but you can still get creative.
 {% endhint %}
 
-To edit the property structure, you'll mostly use the project tree and its [context menu](file-editor.md#the-file-editor-context-menu), whereas you edit the property's contents in the [editor panel](file-editor.md#editing-files-the-editor-panel).
+To edit the property structure, you'll mostly use the project tree and its [context menu](./#the-file-editor-context-menu), whereas you edit the property's contents in the [editor panel](./#editing-files-the-editor-panel).
 
 This section will give you an overview about the existing types of properties and what they are commonly used for.
 
@@ -202,11 +202,11 @@ This section will give you an overview about the existing types of properties an
 
 Arrays are lists of items. They look like this:
 
-<figure><img src="../../.gitbook/assets/FileEditorArray" alt=""><figcaption><p>The "boneNames" array in a mesh</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorArray" alt=""><figcaption><p>The "boneNames" array in a mesh</p></figcaption></figure>
 
 You can duplicate, add and remove array items and change their order via drag\&drop.&#x20;
 
-Arrays can contain any of the other types of data. They do not contain other arrays directly; but [#handles](file-editor.md#handles "mention") often include other arrays.
+Arrays can contain any of the other types of data. They do not contain other arrays directly; but [#handles](./#handles "mention") often include other arrays.
 
 {% hint style="info" %}
 The "Paste" operations will be disabled if the items you copied aren't compatible with your currently-selected array.
@@ -243,13 +243,13 @@ In case you don't know, **player\_ray** refers to the concept of a gun's raycast
 
 You can also replace existing handles or add new ones from a list of handles compatible with the array:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview4 (2).png" alt=""><figcaption><p>A demonstration of handle creation/replacement functionality in the weapon_shoot_effect.es file</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview4 (2).png" alt=""><figcaption><p>A demonstration of handle creation/replacement functionality in the weapon_shoot_effect.es file</p></figcaption></figure>
 
 When you select an array on the left-side window of the **File Editor**, you will find two types of yellow buttons on the right-side window: **Create Item in Array**, which sits alone at the top, and **Create Handle**, which appears next to every handle in the array. Clicking either of them will bring up the **Type Selector**: a search menu that lets you pick from a list of handles compatible with the array. The difference is that **Create Item in Array** _adds_ the selected handle to the array whereas **Create Handle** _replaces_ the handle it was next to, deleting it in favor of the one you picked.
 
 In either case, the **Type Selector** will give you the full list of handles you can choose for the array in question, and you can narrow down the list by typing search terms such as, say, "Grenade", or "Effector", or "ofwifagbaygfaergergqhqjqtjfy" if you fall asleep on your keyboard:
 
-<figure><img src="../../.gitbook/assets/FileEditorOverview5.png" alt=""><figcaption><p>The new and extremely improved Type Selector, which as of February 13th 2024 is available only on the nightly branch of WolvenKit</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FileEditorOverview5.png" alt=""><figcaption><p>The new and extremely improved Type Selector, which as of February 13th 2024 is available only on the nightly branch of WolvenKit</p></figcaption></figure>
 
 {% hint style="info" %}
 As of February 13th 2024, the main branch of WolvenKit is still using the old Type Selector, which is slow and limited in its search capabilities. It works like autocomplete, so you can't just type "Effector" and get every item that has "Effector" in the name. The new Type Selector can do that and is much faster. If you don't want to wait for it to be released on the main branch (probably in 8.13.0), you can already use it in WolvenKit's [nightly branch](https://github.com/WolvenKit/WolvenKit-nightly-releases).

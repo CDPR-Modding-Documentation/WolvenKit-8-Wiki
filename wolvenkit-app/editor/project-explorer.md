@@ -38,7 +38,7 @@ Will show you everything under your project's source folder. No context sorting.
 
 ## Using the Project Explorer
 
-WolvenKit features a bespoke [**File Editor**](file-editor.md) which is capable of opening and modifying any REDengine file. Double-click any file within the archive directory of the Project Explorer to open the document viewer.\
+WolvenKit features a bespoke [**File Editor**](file-editor/) which is capable of opening and modifying any REDengine file. Double-click any file within the archive directory of the Project Explorer to open the document viewer.\
 \
 Non-REDengine files which are typically stored in the _raw directory_ can be accessed with the Project Explorer as well. Files such as blend, psd, png, and many more can be opened with the preferred system application. For example, double-clicking a .tga file will open the file with the users system preferred image application.
 

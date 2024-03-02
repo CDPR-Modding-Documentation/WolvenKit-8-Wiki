@@ -53,7 +53,7 @@ See [#adding-files-to-projects](asset-browser.md#adding-files-to-projects "menti
 
 #### Open without adding to project
 
-What it says — you can browse a file in the [file-editor.md](file-editor.md "mention") without adding it to your project. Saving (Hotkey: `Ctrl+S`) lets you save it to disk, though.
+What it says — you can browse a file in the [file-editor](file-editor/ "mention") without adding it to your project. Saving (Hotkey: `Ctrl+S`) lets you save it to disk, though.
 
 #### Find used files
 

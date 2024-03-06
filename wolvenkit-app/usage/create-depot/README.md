@@ -58,15 +58,14 @@ Some of the unbundle files are already accessible in the WolvenKit Asset Browser
 2.  Click into the field next to Depot Path and select the folder C:\Cyberpunk2077Mod\Depot
 
     <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S02.png" alt=""><figcaption></figcaption></figure>
-3.  For masks, select DDS and then click the Generate Materials button. While the program is running, the button will deactivate and once the program is complete File Explorer will automatically open at the location of your Depot.
+3. Select PNG and then click the Generate Materials button. While the program is running, the button will deactivate and once the program is complete File Explorer will automatically open at the location of your Depot.
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S03.png" alt=""><figcaption></figcaption></figure>
-4.  For normal maps, select PNG and then click the Generate Materials button. While the program is running, the button will deactivate and once the program is complete File Explorer will automatically open at the location of your Depot.
+<figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S04.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S04.png" alt=""><figcaption></figcaption></figure>
-5.  For the following list of files, click on the Unbundle Game button: radient, w2mi, matlib, remt, sp, hp, fp, mi, mt, mlsetup, mltemplate, and texarray.
+6. You do not need to unbundle anything else, since the Wolvenkit exports will do that for you. If you want, you can stop reading now.
+7. To unbundle the following list of extensions click on the **Unbundle Game** button: `gradient`, `w2mi`, `matlib`, `emt`, `sp`, `hp`, `fp`, `mi`, `mt`, `mlsetup`, `mltemplate`, and `texarray`.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ELI5_GetStart_Depot_Partial_S05.png" alt=""><figcaption></figcaption></figure>
 
 ## Steps: Full Depot
 

@@ -19,6 +19,10 @@ We can import those .glb files into the following game files:
 
 ## Exporting mesh file
 
+{% hint style="info" %}
+After exporting, your files can be found in your project's [raw](../../editor/project-explorer.md#raw) section.
+{% endhint %}
+
 Morph targets are automatically included inside the glTF file. You can find the morphs as shapekeys within Blender or blendshapes with Maya.
 
 <figure><img src="../../../.gitbook/assets/wolvenkit_export_panel.png" alt=""><figcaption><p>mesh export settings as of 8.1.11</p></figcaption></figure>
@@ -108,6 +112,10 @@ Navigate to the `MultiMesh Settings` and configure the export options for additi
 ## Importing mesh files
 
 WolvenKit is able to import custom mesh files. The Import/Export tool expects meshes to be in the glTF format, stored as a .glb file (binary format). The tool supports skinned (animated) or rigid (static) models.
+
+{% hint style="danger" %}
+You have to import your `.glb` into an existing `.mesh` file!
+{% endhint %}
 
 ### Guidelines for successful imports
 

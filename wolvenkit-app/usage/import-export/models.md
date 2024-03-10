@@ -29,31 +29,23 @@ Morph targets are automatically included inside the glTF file. You can find the 
 
 ### Default Export Settings
 
-#### LOD Filter
+#### LOD Filter (default)
 
-If selected extra LOD models will be removed from the export
+If selected, models for LOD > 0 will not be included with the export.
 
-#### Is Binary
+#### Is Binary (default, recommended)
 
-If selected mesh exports will be in binary from as **GLB** rather than **glTF** format. (Recommended)
+Select to export in binary from as **GLB** rather than **glTF** format. (Recommended)
 
-#### Export Materials
+#### Export Materials (default)
 
 create a `meshName.Material.json` file for the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")
-
-* png
-* dds
-* tga
-* bmp
-* jpg
-* png
-* tiff
 
 {% hint style="info" %}
 Turn this off if the file export fails.
 {% endhint %}
 
-#### Export Garment Support (Experimental)
+#### Export Garment Support (default)
 
 Exports garment support to shapekeys for Blender.
 
@@ -119,16 +111,17 @@ You have to import your `.glb` into an existing `.mesh` file!
 
 ### Guidelines for successful imports
 
+{% hint style="success" %}
+We **strongly** recommend the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention"), which will automate the following checks for you:
+{% endhint %}
+
 * Be sure your mesh is **triangulated** and does not contain loose geometry
-* Submeshes are ordered by name, adding or removing submeshes will be detrimental\
-  e.g. submesh01, submesh\_02, submesh\_03, etc.
-* Include **tangent space** on export
-* Submeshes should not exceed more than **65535** triangles
-* Using Blender? [**Check out our recommend settings below**](models.md#blender-gltf-settings)
+* Submeshes are ordered by name and are called submesh01, submesh\_02, submesh\_03, etc.
+* Individual meshes have < **65535** triangles
 
 ### Import Settings
 
-<figure><img src="../../../.gitbook/assets/wolvenkit_glb_import.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wolvenkit_glb_import.png" alt=""><figcaption><p>Import settings as of ~2.12</p></figcaption></figure>
 
 #### Import with Material.Json
 

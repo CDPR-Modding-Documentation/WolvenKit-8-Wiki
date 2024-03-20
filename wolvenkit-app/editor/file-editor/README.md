@@ -88,7 +88,7 @@ Does not make sense under all circumstances, but will valiantly attempt to creat
 
 #### TweakXL: Copy to clipboard
 
-Attempts to copy the [Tweak](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/tweaks) identifier to clipboard. If something without a tweak identifier is selected, you'll get the RedType instead. This option, like the previous one, will not appear without the installation of **TweakXL** via the **Plugins** menu.
+Attempts to copy the [Tweak](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/tweaks/tweaks) identifier to clipboard. If something without a tweak identifier is selected, you'll get the RedType instead. This option, like the previous one, will not appear without the installation of **TweakXL** via the **Plugins** menu.
 
 #### Duplicate item in Array/Buffer
 

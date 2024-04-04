@@ -16,7 +16,7 @@ If you do not use the folder structure I recommended in [Prep your computer](pre
 
 If your Wolvenkit is already configured (because you have followed the [installation guide](../download.md#first-launch-tl-dr)), then you don't need to do anything here.
 
-Otherwise, please od that now or use the [settings page](../../wolvenkit-app/settings.md) to configure `Game Executable Path` and (optionally) `Depot Path`.
+Otherwise, please do that now or use the [settings page](../../wolvenkit-app/settings.md) to configure `Game Executable Path` and (optionally) `Depot Path`.
 
 ## Installing Plugins
 

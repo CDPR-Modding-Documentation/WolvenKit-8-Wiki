@@ -89,7 +89,8 @@
 * [Bug Reports](help/bug-reports.md)
 * [Contributing](help/contributing.md)
 * [Community](help/community.md)
-* [FAQ](help/faq.md)
+* [FAQ](help/faq/README.md)
+  * [Long file path support](help/faq/long-file-path-support.md)
 * [Glossary](help/glossary.md)
 
 ***

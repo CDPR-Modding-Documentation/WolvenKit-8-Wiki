@@ -47,7 +47,7 @@ WolvenKit is a tool for mod developers to interact with REDengine file formats. 
 In the guide below we'll cover these steps in detail to replace an image in Cyberpunk.
 
 {% hint style="info" %}
-What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq.md)
+What can WolvenKit do? Check out the [**Overview**](../features/overview.md) page to learn more about WolvenKit's features. Have some more questions before getting started? Try the [**FAQ!**](../help/faq/)
 {% endhint %}
 
 ## Getting Started with WolvenKit

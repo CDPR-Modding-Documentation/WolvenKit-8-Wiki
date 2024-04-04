@@ -136,6 +136,39 @@ This guide assumes that you install Wolvenkit and Wolvenkit Console to the follo
 If you use other paths, please change them accordingly.
 {% endhint %}
 
+
+
+<details>
+
+<summary>Making your Cyberpunk2077Mod folder &#x26; Extracting your WolvenKit.zip file</summary>
+
+You can manually make your `Cyberpunk2077Mod` folder in the root of your C: drive by:
+
+1.  Right-clicking your C: drive, Click 'New Folder'\
+    \- On Windows 11 you'll have to click 'Show More Options' at the bottom of the list 🙄\
+
+
+    <figure><img src="../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
+
+<!---->
+
+2.  Type or Paste in Cyberpunk2077Mod & press Enter\
+    \- You may see the Folder populate within another Directory Folder, this should self-resolve after pressing Enter
+
+    <figure><img src="../.gitbook/assets/02.png" alt=""><figcaption></figcaption></figure>
+3.  From, presumably, your Downloads Folder, drag & drop your wolvenkit.zip file into C:\Cyberpunk2077Mod\
+
+
+    <figure><img src="../.gitbook/assets/06 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+4.  With WolvenKit.zip selected, either right click to Extract All or Click the Extract All Button in File Explorer to begin Extracting\
+
+
+    <figure><img src="../.gitbook/assets/05.png" alt=""><figcaption><p>All Done!</p></figcaption></figure>
+
+</details>
+
 ### TLDR;
 
 1. Download the new release, extract the files (over your old install if you have one) and run it.&#x20;

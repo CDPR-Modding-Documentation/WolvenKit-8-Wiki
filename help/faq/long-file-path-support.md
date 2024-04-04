@@ -29,4 +29,4 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 
 ### Linux
 
-You do not need to enable this under Windows.
+This feature is supported out-of-the-box. Just try to stay under 4000 characters.

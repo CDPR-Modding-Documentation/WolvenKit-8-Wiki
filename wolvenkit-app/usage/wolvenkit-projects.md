@@ -8,6 +8,10 @@ description: What's a project, how do I get one, and what does it do?
 
 To access most WolvenKit features, it's necessary to create a Project first. Projects are primarily used to separate and organize source and game files into distinct directories. Each project can be thought of as the source code for any given mod.
 
+{% hint style="info" %}
+Check [asset-browser.md](../editor/asset-browser.md "mention") -> [#adding-files-to-projects](../editor/asset-browser.md#adding-files-to-projects "mention") to learn about adding files.
+{% endhint %}
+
 ## Create a new WolvenKit mod project
 
 You have two means of creating one:&#x20;
@@ -22,6 +26,14 @@ You will see something like this:
 <table><thead><tr><th width="180">Field</th><th>explanation</th></tr></thead><tbody><tr><td>Project name</td><td>The name of your mod. This should be unique, as this will be used to generate your mod's structure, and it would be awkward to overwrite someone else's mod. <br><br>Although special characters are supported, it's a good habit to avoid them.</td></tr><tr><td>Creation location</td><td>The location where you keep your Wolvenkit projects. A subfolder with the project name will be created automatically. <br><br>Do <strong>not</strong> put this in your game directory!</td></tr><tr><td>Author name</td><td>Optional — What it looks like - who made this?</td></tr><tr><td>Email</td><td>Optional — can people send you mails about your mod? </td></tr><tr><td>Version</td><td>Optional — if you want to maintain versioning yourself</td></tr></tbody></table>
 
 Click **Finish.** WolvenKit will now open the new project and proceed to the [**Editor**](../editor/)**.**
+
+### How it looks like:
+
+{% hint style="info" %}
+To learn more about the [**Editor**](../editor/), please check the corresponding wiki page.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/wolvenkit_ui.png" alt=""><figcaption></figcaption></figure>
 
 ## Opening an existing WolvenKit mod project
 

@@ -19,9 +19,9 @@ If you have any questions or want to chat with developers, please reach out on o
 
 ## Building WolvenKit with Visual Studio
 
-### **Install .NET 7**
+### **Install .NET 8**
 
-[https://dotnet.microsoft.com/en-us/download/dotnet/7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+[https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ### **Install the latest Visual Studio release**
 

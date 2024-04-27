@@ -26,10 +26,10 @@ Enables interactive Quick Previews within the Properties panel. Toggle off for i
 
 ### **Game Executable (.exe) Path**
 
-The **Game Executable (.exe) Path** is the location of the Cyberpunk2077.exe file. The .exe can be located by finding the Cyberpunk installation and navigating to the `Cyberpunk 2077\bin\x64\` folder. The path can be set by manually entering a file path, or using the folder icon to browse system files for the preferred Cyberpunk directory.&#x20;
+The **Game Executable (.exe) Path** is the location of the `Cyberpunk2077.exe` , which can be found in your `Cyberpunk 2077\bin\x64\` folder. You can paste the absolute path to the file, or use the folder icon to browse inside  [The Cyberpunk 2077 Game Directory](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/the-cyberpunk-2077-game-directory "mention").
 
 {% hint style="info" %}
-If Cyberpunk is installed within Program Files we recommend running WolvenKit as administrator.
+If Cyberpunk is installed within Program Files, we recommend running WolvenKit as administrator.
 {% endhint %}
 
 ### Depot Path

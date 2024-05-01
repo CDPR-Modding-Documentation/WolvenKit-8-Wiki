@@ -18,7 +18,8 @@
 
 ## Getting Started
 
-* [Download, Install and Setup](getting-started/download.md)
+* [Download, Install and Setup](getting-started/download/README.md)
+  * [The Wolvenkit Nightly](getting-started/download/the-wolvenkit-nightly.md)
 * [Uninstall](getting-started/uninstall.md)
 * [Full install walkthrough (ELI5)](getting-started/eli5-getting-started/README.md)
   * [ELI5: Full Prep for Mod Development](getting-started/eli5-getting-started/prep-your-computer.md)
@@ -61,6 +62,7 @@
     * [Import/Export: Mesh (3d Model)](wolvenkit-app/usage/import-export/models.md)
     * [Import/Export: Textures](wolvenkit-app/usage/import-export/textures.md)
     * [Import/Export: MLMask and MLSetup](wolvenkit-app/usage/import-export/import-export-mlmask-and-mlsetup.md)
+* [Error Codes](wolvenkit-app/error-codes.md)
 
 ## WolvenKit CLI
 

@@ -10,7 +10,7 @@ The [**Overview**](../../features/overview.md) page provides a broad look at wha
 
 ## How do I download WolvenKit?
 
-Follow the instructions on the [**Download page**](../../getting-started/download.md).
+Follow the instructions on the [**Download page**](../../getting-started/download/).
 
 ## Where can I get help with WolvenKit?
 

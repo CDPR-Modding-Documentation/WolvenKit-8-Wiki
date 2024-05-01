@@ -19,7 +19,7 @@ To keep things simple, the recommendations in this guide will centralize many of
 
 ### Requirements
 
-* [Download Wolvenkit](../download.md)
+* [Download Wolvenkit](../download/)
 
 {% hint style="danger" %}
 If any of the steps in this guide fail, then STOP immediately and either fix them or ask for help on [Discord](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP\_ozZVx2gRZUPXkd4r/\~/changes/319/wolvenkit-app/eli5-getting-started).&#x20;
@@ -48,8 +48,8 @@ Remember, if you don't know how to do something, you can always throw the questi
 
 First, install Wolvenkit:
 
-{% content-ref url="../download.md" %}
-[download.md](../download.md)
+{% content-ref url="../download/" %}
+[download](../download/)
 {% endcontent-ref %}
 
 Then, we'll start with [general prep work](prep-your-computer.md):

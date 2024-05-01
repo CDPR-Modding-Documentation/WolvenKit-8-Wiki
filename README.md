@@ -38,8 +38,8 @@ After [installing Wolvenkit](https://github.com/WolvenKit/Wolvenkit/releases), y
 [release-notes](features/release-notes/)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started/download.md" %}
-[download.md](getting-started/download.md)
+{% content-ref url="getting-started/download/" %}
+[download](getting-started/download/)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

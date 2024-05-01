@@ -43,7 +43,7 @@ I recommend pinning CyberPunk2077Mod folder to File Explorer’s Quick Links. I 
 
 ## Install Wolvenkit
 
-If you haven't done that, go and [install Wolvenkit](../download.md) now.
+If you haven't done that, go and [install Wolvenkit](../download/) now.
 
 ### Optional: Create a shortcut
 
@@ -112,7 +112,7 @@ This will prevent you from running into problems because your path names are too
 
 ## Install Microsoft .NET&#x20;
 
-You should have done that as part of [Wolvenkit's install instructions](../download.md#perquisites). If you haven't, please do it now, because you need it.
+You should have done that as part of [Wolvenkit's install instructions](../download/#perquisites). If you haven't, please do it now, because you need it.
 
 ## Enable REDMod
 

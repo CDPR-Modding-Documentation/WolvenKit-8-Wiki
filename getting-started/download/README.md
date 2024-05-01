@@ -14,16 +14,16 @@ description: Downloading the WolvenKit application
 This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
 
 {% hint style="info" %}
-There is a [Full Install Walkthrough (ELI5)](eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](download.md#prerequisites). :)&#x20;
+There is a [Full Install Walkthrough (ELI5)](../eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](./#prerequisites). :)&#x20;
 {% endhint %}
 
 ### TL;DR
 
-1. Install REDMod and .NET from the [Prerequisites](download.md#prerequisites) section below
+1. Install REDMod and .NET from the [Prerequisites](./#prerequisites) section below
 2. Download Wolvenkit-X.X.X.zip from github ([stable](https://github.com/WolvenKit/Wolvenkit/releases) | [nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/))
 3. Extract it to a folder of your choice
-4. Run it and do the [initial configuration](download.md#first-launch-tl-dr)
-5. Optional: Proceed to the guide how to [set up the modding tools](eli5-getting-started/configure-modding-tools.md)
+4. Run it and do the [initial configuration](./#first-launch-tl-dr)
+5. Optional: Proceed to the guide how to [set up the modding tools](../eli5-getting-started/configure-modding-tools.md)
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ Open either of these pages:&#x20;
 
 Download and install the **runtime**. (The SDK is for .NET developers…. unless you are a NET developer, and in which case do whatever you want :smile:)
 
-<img src="../.gitbook/assets/ELI5_GetStart_Prep_S02.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/ELI5_GetStart_Prep_S02.png" alt="" data-size="original">
 
 </details>
 
@@ -57,10 +57,10 @@ Download and install the **runtime**. (The SDK is for .NET developers…. unless
 
 You can download Wolvenkit from any of the following links (click on the cards). If you are uncertain, go to [Nexus](https://www.nexusmods.com/cyberpunk2077/mods/2201).
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/Wolvenkit/releases">https://github.com/WolvenKit/Wolvenkit/releases</a></td><td><a href="../.gitbook/assets/wkit_stable.png">wkit_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.nexusmods.com/cyberpunk2077/mods/2201">https://www.nexusmods.com/cyberpunk2077/mods/2201</a></td><td><a href="../.gitbook/assets/wkit_nexus_stable.png">wkit_nexus_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/WolvenKit-nightly-releases/releases">https://github.com/WolvenKit/WolvenKit-nightly-releases/releases</a></td><td><a href="../.gitbook/assets/wkit_nightly.png">wkit_nightly.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/Wolvenkit/releases">https://github.com/WolvenKit/Wolvenkit/releases</a></td><td><a href="../../.gitbook/assets/wkit_stable.png">wkit_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.nexusmods.com/cyberpunk2077/mods/2201">https://www.nexusmods.com/cyberpunk2077/mods/2201</a></td><td><a href="../../.gitbook/assets/wkit_nexus_stable.png">wkit_nexus_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/WolvenKit-nightly-releases/releases">https://github.com/WolvenKit/WolvenKit-nightly-releases/releases</a></td><td><a href="../../.gitbook/assets/wkit_nightly.png">wkit_nightly.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-If you don't care about the differences, go to the next section: [Which version do I want?](download.md#which-version-do-i-want)
+If you don't care about the differences, go to the next section: [Which version do I want?](./#which-version-do-i-want)
 {% endhint %}
 
 {% hint style="info" %}
@@ -114,10 +114,10 @@ Download **either** Stable or Nightly release.
 
 *   [Stable Release](https://github.com/WolvenKit/WolvenKit/releases/latest)
 
-    <figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S03-01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S03-01.png" alt=""><figcaption></figcaption></figure>
 *   [Nightly Release](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest)
 
-    <figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S03-02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S03-02.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -148,31 +148,31 @@ You can manually make your `Cyberpunk2077Mod` folder in the root of your C: driv
     \- On Windows 11 you'll have to click 'Show More Options' at the bottom of the list 🙄\
 
 
-    <figure><img src="../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
 
 <!---->
 
 2.  Type or Paste in Cyberpunk2077Mod & press Enter\
     \- You may see the Folder populate within another Directory Folder, this should self-resolve after pressing Enter
 
-    <figure><img src="../.gitbook/assets/02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/02.png" alt=""><figcaption></figcaption></figure>
 3.  From, presumably, your Downloads Folder, drag & drop your wolvenkit.zip file into C:\Cyberpunk2077Mod\
 
 
-    <figure><img src="../.gitbook/assets/06 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/06 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 4.  With WolvenKit.zip selected, either right click to Extract All or Click the Extract All Button in File Explorer to begin Extracting\
 
 
-    <figure><img src="../.gitbook/assets/05.png" alt=""><figcaption><p>All Done!</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/05.png" alt=""><figcaption><p>All Done!</p></figcaption></figure>
 
 </details>
 
 ### TLDR;
 
 1. Download the new release, extract the files (over your old install if you have one) and run it.&#x20;
-2. Optional: Proceed to the [full configuration instructions](eli5-getting-started/configure-modding-tools.md).
+2. Optional: Proceed to the [full configuration instructions](../eli5-getting-started/configure-modding-tools.md).
 3. Troubleshooting: Delete everything in the install folder, then re-extract the downloaded files again.&#x20;
 4. More troubleshooting: Find us on [Discord](https://discord.com/channels/717692382849663036/808086068023918603) in the [#wolvenkit-help-me](https://discord.com/channels/717692382849663036/808086068023918603) channel.
 
@@ -182,24 +182,24 @@ If you don't have any old versions installed, you can proceed to the next sectio
 
 1.  Delete all the files in `C:\Cyberpunk2077Mod\WolvenKit` from the previous release so that any cached and orphaned files do not corrupt the updated release.
 
-    <figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S01.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S01.png" alt=""><figcaption></figcaption></figure>
 2.  Delete all the files in `C:\Cyberpunk2077Mod\WolvenKit.CLI` from the previous release so that any cached and orphaned files do not corrupt the updated release.
 
-    <figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S02.png" alt=""><figcaption></figcaption></figure>
 
 ### Extracting the downloaded files
 
 #### Regular Wolvenkit
 
-Extract the zip file [Wolvenkit-X.X.X.zip](download.md#detailed-download-instructions-with-screenshots) to `C:\Cyberpunk2077Mod\WolvenKit.`
+Extract the zip file [Wolvenkit-X.X.X.zip](./#detailed-download-instructions-with-screenshots) to `C:\Cyberpunk2077Mod\WolvenKit.`
 
-<figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S04.png" alt=""><figcaption></figcaption></figure>
 
 #### Optional: Wolvenkit Console
 
-Unpack the zip file [Wolvenkit.Console-X.X.X.zip ](download.md#detailed-download-instructions-with-screenshots)to`C:\Cyberpunk2077Mod\WolvenKit.CLI`.
+Unpack the zip file [Wolvenkit.Console-X.X.X.zip ](./#detailed-download-instructions-with-screenshots)to`C:\Cyberpunk2077Mod\WolvenKit.CLI`.
 
-<figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S05.png" alt=""><figcaption></figcaption></figure>
 
 ### Optional: Creating a shortcut
 
@@ -210,7 +210,7 @@ If you want to launch Wolvenkit without browsing to the folder every time, you c
 3. Select "Create Shortcut"
 4.  You should now see something like this:
 
-    <figure><img src="../.gitbook/assets/ELI5_GetStart_Download_S06.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S06.png" alt=""><figcaption></figcaption></figure>
 
 
 5. Click "OK"
@@ -220,14 +220,14 @@ If you want to launch Wolvenkit without browsing to the folder every time, you c
 ## First Launch - TL;DR
 
 {% hint style="info" %}
-For full instructions on how to configure Wolvenkit, please see the [detailed guide](eli5-getting-started/configure-modding-tools.md).
+For full instructions on how to configure Wolvenkit, please see the [detailed guide](../eli5-getting-started/configure-modding-tools.md).
 
-For a more detailed explanation of the options below, please see the [corresponding wiki page](../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../wolvenkit-app/home/) and opening the [settings page](../wolvenkit-app/settings.md).&#x20;
+For a more detailed explanation of the options below, please see the [corresponding wiki page](../../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../../wolvenkit-app/home/) and opening the [settings page](../../wolvenkit-app/settings.md).&#x20;
 {% endhint %}
 
 When launching WolvenKit for the first time you will be greeted with a welcome form asking to set your preferences. We recommend setting the path to your game files immediately.&#x20;
 
-![](<../.gitbook/assets/8.5.3 FirstSetup generic.png>)
+![](<../../.gitbook/assets/8.5.3 FirstSetup generic.png>)
 
 The **Game Executable Path** **(.exe)** is the file path or location of the Cyberpunk2077.exe file. This can be set by manually entering a file path, or using the folder icon to open Windows Explorer.&#x20;
 

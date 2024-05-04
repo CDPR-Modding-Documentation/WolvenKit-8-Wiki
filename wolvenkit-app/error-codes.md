@@ -68,5 +68,9 @@ C:\Users\<yourusername>\AppData\Roaming\RedModding\Wolvenkit\config.json
 
 ### 0x5001: Invalid Game File Executable
 
-Check your [settings.md](settings.md "mention") ->[#game-executable-.exe-path](settings.md#game-executable-.exe-path "mention") and make sure that it's valid. If it is, you may have to reset your `config.json` — check [#id-0x5000-invalid-settings](error-codes.md#id-0x5000-invalid-settings "mention") for more details.
+Check your [settings.md](settings.md "mention") ->[#game-executable-.exe-path](settings.md#game-executable-.exe-path "mention") and make sure that it points at your `Cyberpunk2077.exe`. For more information, check the wiki link.
+
+### 0x5002: Failed to launch game executable
+
+Check [#id-0x5001-invalid-game-file-executable](error-codes.md#id-0x5001-invalid-game-file-executable "mention") and make sure that all your settings are valid. If that doesn't fix your problem, you may have to reset your settings, see [#id-0x5000-invalid-settings](error-codes.md#id-0x5000-invalid-settings "mention") for detes.
 

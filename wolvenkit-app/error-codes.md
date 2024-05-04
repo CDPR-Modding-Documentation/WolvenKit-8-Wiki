@@ -54,4 +54,19 @@ WolvenKit ran into a problem during internal conversion. Here's what you can do:
    2. A depot file: Delete the file from the depot and/or [re-create the depot](usage/create-depot/#steps-partial-depot)
    3. A raw file: re-create the file with the latest version of whatever tool you used (Wolvenkit, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")...)
 
-If that doesn't work, please get in touch via Discord or&#x20;
+If that doesn't work, please get in touch via [Discord](https://discord.com/invite/redmodding) or browse the troubleshooting section.
+
+### 0x5000: Invalid settings
+
+You have an unspecified issue with your settings. Double-check them and make sure that everything is configured correctly.&#x20;
+
+If that doesn't help, remove or re-name your settings file and restart WolvenKit:
+
+```
+C:\Users\<yourusername>\AppData\Roaming\RedModding\Wolvenkit\config.json
+```
+
+### 0x5001: Invalid Game File Executable
+
+Check your [settings.md](settings.md "mention") ->[#game-executable-.exe-path](settings.md#game-executable-.exe-path "mention") and make sure that it's valid. If it is, you may have to reset your `config.json` — check [#id-0x5000-invalid-settings](error-codes.md#id-0x5000-invalid-settings "mention") for more details.
+

@@ -62,6 +62,10 @@ Toggles limited collections for improved performance within the File Editor when
 
 Adjusts the amount of elements of in a limited collection within the File Editor.
 
+### Default to Simple Mode
+
+Starting with 1.14, Wolvenkit offers multiple editor modes. You can find details under [#switching-editor-modes](editor/file-editor/#switching-editor-modes "mention").
+
 ## General
 
 ### **Show Guided Tour**

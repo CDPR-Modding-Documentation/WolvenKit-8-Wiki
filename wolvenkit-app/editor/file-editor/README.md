@@ -9,7 +9,35 @@ What is the **File Editor**?
 The **File Editor** is a document viewer and manipulator for modifying any REDengine file. \
 WolvenKit is the only RTTI-based editor for RED4.
 
+
+
+{% hint style="info" %}
+Starting with 1.14, Wolvenkit offers multiple editor modes. See [#switching-editor-modes](./#switching-editor-modes "mention") for details.
+{% endhint %}
+
+
+
 ![](<../../../.gitbook/assets/8.5 file editor.png>)
+
+## Switching Editor Modes
+
+Starting with 1.14, Wolvenkit lets you switch editor modes by double-clicking the first button in the toolbar:
+
+<figure><img src="../../../.gitbook/assets/wolvenkit_editor_simple_mode.png" alt=""><figcaption></figcaption></figure>
+
+#### Simple Mode
+
+Properties that you don't normally have to edit will be hidden.&#x20;
+
+_Recommended for beginners and people who don't like to scroll._
+
+#### Regular Mode
+
+The file editor you know and love.
+
+#### Expert Mode
+
+Coming soon™️
 
 ## Adding files via File Editor
 

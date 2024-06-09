@@ -86,7 +86,7 @@ The mesh files should now be visible in the project explorer, occasionally I fin
 
 Open the Export Tool, and verify your meshes are listed. Double click one then the export options opens, and verify WithMaterials as the export type and LOD Filter is on. Set the texture type to png if it is not. Select Apply to all files of the same extension then confirm.&#x20;
 
-<img src="../../.gitbook/assets/image (7) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" data-size="original">
 
 Now select Export All (or Export Selected) on the menu bar and a bunch of glb and json files should be exported. After its done a files have been exported notification should pop up to notify you of the success.&#x20;
 
@@ -114,7 +114,7 @@ Unless you specify otherwise, the `default` appearance will be chosen. If you wa
 
 You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
 Now, click the `Import Ent from JSON` button and wait while the Blender plugin does its thing.&#x20;
 

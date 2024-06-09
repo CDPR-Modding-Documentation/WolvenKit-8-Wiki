@@ -97,7 +97,7 @@ For more details on [Load Order](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/
 
 If your mod contains an `.archive` file, then it will have the same name as your Wolvenkit project. Since `.archive` files will be loaded in alphabetical order (ASCII):
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Source: <a href="https://www.academia.edu/19644191">https://www.academia.edu/19644191</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Source: <a href="https://www.academia.edu/19644191">https://www.academia.edu/19644191</a></p></figcaption></figure>
 
 If you are creating a **compatibility mod** (something that modifies the files of another installed mod), then yours needs to load **first**.
 

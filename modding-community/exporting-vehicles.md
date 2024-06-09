@@ -345,7 +345,7 @@ If you're fine with the default appearance, you can go to the [next section](exp
 
 Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
 ## Your entity in Blender
 
@@ -382,4 +382,4 @@ I've built shaders for most of the materials that I've encountered in my testing
 
 Importing multiple entities at once might be screwy. If you want several vehicles in a scene, import each into a separate blend file, then use File -> Append to merge them.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>

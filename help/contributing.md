@@ -31,7 +31,7 @@ If you have any questions or want to chat with developers, please reach out on o
 
 [https://github.com/WolvenKit/WolvenKit](https://github.com/WolvenKit/WolvenKit)
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (2).png>)
 
 ### **Build and Run**
 

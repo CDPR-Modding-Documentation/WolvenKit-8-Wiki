@@ -62,6 +62,7 @@
     * [Import/Export: Mesh (3d Model)](wolvenkit-app/usage/import-export/models.md)
     * [Import/Export: Textures](wolvenkit-app/usage/import-export/textures.md)
     * [Import/Export: MLMask and MLSetup](wolvenkit-app/usage/import-export/import-export-mlmask-and-mlsetup.md)
+    * [Import/Export: Sound effects](wolvenkit-app/usage/import-export/import-export-sound-effects.md)
 * [Error Codes](wolvenkit-app/error-codes.md)
 
 ## WolvenKit CLI

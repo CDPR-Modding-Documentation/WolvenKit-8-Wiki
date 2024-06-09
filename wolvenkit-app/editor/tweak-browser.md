@@ -14,13 +14,13 @@ The location of the browser in Wolvenkit depends on your design view. In most ca
 
 <div align="center" data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="176"><figcaption><p>Right click on the element to 'Add TweakXL Override'</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="176"><figcaption><p>Right click on the element to 'Add TweakXL Override'</p></figcaption></figure>
 
 </div>
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="299"><figcaption><p>After that action you'll have a .yaml file inside a 'resources' folder on the root directory of the project</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="299"><figcaption><p>After that action you'll have a .yaml file inside a 'resources' folder on the root directory of the project</p></figcaption></figure>
 
 </div>
 

@@ -10,7 +10,7 @@ The LocKey browser allows to search for a specific localized text and reveals th
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>a capture of the LocKey Browser </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>a capture of the LocKey Browser </p></figcaption></figure>
 
 
 
@@ -18,4 +18,4 @@ The LocKey browser allows to search for a specific localized text and reveals th
 The location of the browser in Wolvenkit depends on your design view. In most cases, you can find it within the right-side navigation. However, if you're unable to locate it, you can easily enable it by navigating to 'View' and selecting 'LocKey Browser'
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

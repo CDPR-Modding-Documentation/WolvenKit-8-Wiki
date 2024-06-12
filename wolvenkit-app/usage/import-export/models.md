@@ -204,7 +204,7 @@ Having trouble modifying a mesh file? Keep in mind WolvenKit always uses an exis
 
 ### Import
 
-Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../blender-integration.md) The Cyberpunk add-on is not required for modifying meshes.
+Meshes can be imported with the pre-installed Blender glTF add-on with the default glTF import options. To learn about importing models with the Cyberpunk Blender add-on for shader previews, visit the [**Blender Integration page.**](../blender-integration.md)&#x20;
 
 ### **Export**
 

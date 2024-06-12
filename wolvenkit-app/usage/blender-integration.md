@@ -5,7 +5,7 @@ description: The Wolvenkit Blender plugin
 # Blender Integration
 
 {% hint style="info" %}
-For a documentation of the Blender Plugin's features, see the [yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite).
+For a documentation of the Blender Plugin's features and step-by-step usage instructions, see the [yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite).
 {% endhint %}
 
 {% embed url="https://user-images.githubusercontent.com/65016231/130711162-301926fa-c7a0-4e08-b7c7-414bfa558205.png" %}

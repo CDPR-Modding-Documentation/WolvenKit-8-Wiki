@@ -160,7 +160,7 @@ This will warn you if any entries will overwrite each other due to shared key da
 
 #### checkEmptyFemaleVariant
 
-By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/files-and-what-they-do/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/archivexl#dynamic-variants).
+By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl#dynamic-variants).
 
 ### Mesh: 3d object
 
@@ -184,7 +184,7 @@ Will check nested .mi files and their material setup, if you are using any.
 
 ### Workspot: loading .anim files
 
-Mostly for use with [this tutorial](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/animations/amm-collab-anims-poses). Will check if the workspot pulls in existing .anim files, warning you about duplicate definitions.
+Mostly for use with [this tutorial](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/animations/animations/amm-collab-anims-poses). Will check if the workspot pulls in existing .anim files, warning you about duplicate definitions.
 
 #### fixIndexOrder
 

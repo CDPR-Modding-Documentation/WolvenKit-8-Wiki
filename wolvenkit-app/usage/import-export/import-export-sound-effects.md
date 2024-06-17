@@ -35,7 +35,7 @@ Once you've selected what you want, press Finish to confirm the selection and ba
 ## Importing sound effects
 
 {% hint style="danger" %}
-Note that importing sounds this way is **incompatible** with any other mod modifying the sounds this way. You should prefer using [the REDmod method](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/redmod/audio-modding)!
+Note that importing sounds this way is **incompatible** with any other mod modifying the sounds this way. You should prefer using [the REDmod method](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/redmod/audio-modding)!
 {% endhint %}
 
 To import back a sound effect, all you need is the sound file in `.wav` format with the exact same filename it had when you exported it. It should also be in the same folder (base).

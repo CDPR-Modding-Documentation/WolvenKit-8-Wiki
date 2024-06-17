@@ -6,7 +6,7 @@ description: Documentation of the "Tool" menu in Wolvenkit's taskbar
 
 ## Depot Generator
 
-Tool for building a `depot`, a collection of extracted game assets to use them in other tools such as [MLSetupBuilder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder).
+Tool for building a `depot`, a collection of extracted game assets to use them in other tools such as [MLSetupBuilder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder).
 
 ## Sound Modding Tool
 

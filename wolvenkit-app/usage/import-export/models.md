@@ -6,7 +6,7 @@ For the UI documentation, check [tools-import-export.md](../../tools/tools-impor
 For general information such as the file structure and output directory, check [.](./ "mention")
 
 For a step-by-step workflow and troubleshooting, see \
-[Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") -> [Meshes](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#meshes "mention")
+[Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") -> [Meshes](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#meshes "mention")
 {% endhint %}
 
 WolvenKit is capable of exporting Cyberpunk mesh files (with their armatures and materials) _natively_ to glTF format, preserving Cyberpunk's separation into distinct submeshes with different materials.
@@ -39,7 +39,7 @@ Select to export in binary from as **GLB** rather than **glTF** format. (Recomme
 
 #### Export Materials (default)
 
-create a `meshName.Material.json` file for the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")
+create a `meshName.Material.json` file for the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")
 
 {% hint style="info" %}
 Turn this off if the file export fails.
@@ -112,7 +112,7 @@ You have to import your `.glb` into an existing `.mesh` file!
 ### Guidelines for successful imports
 
 {% hint style="success" %}
-We **strongly** recommend the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention"), which will automate the following checks for you:
+We **strongly** recommend the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention"), which will automate the following checks for you:
 {% endhint %}
 
 * Be sure your mesh is **triangulated** and does not contain loose geometry

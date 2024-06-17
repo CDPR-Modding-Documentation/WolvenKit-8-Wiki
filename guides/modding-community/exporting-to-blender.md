@@ -94,14 +94,14 @@ Now select Export All (or Export Selected) on the menu bar and a bunch of glb an
 
 ## Importing into Blender
 
-Switch to Blender and use the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")'s [Entity Import](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#importing-into-blender-2) from the File -> Import menu.&#x20;
+Switch to Blender and use the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")'s [Entity Import](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#importing-into-blender-2) from the File -> Import menu.&#x20;
 
 {% hint style="warning" %}
 Before clicking the import button, please read the next section about [#importing-a-specific-appearance](exporting-to-blender.md#importing-a-specific-appearance "mention").
 {% endhint %}
 
 {% hint style="info" %}
-Find the full documentation on the yellow wiki under  [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention") -> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") ->  [Entities](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#entities "mention")
+Find the full documentation on the yellow wiki under  [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention") -> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") ->  [Entities](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#entities "mention")
 {% endhint %}
 
 Point it to the exported `.ent.json` in your project's files.  For Jackie, the relative path is `source\raw\base\characters\entities\main_npc\jackie_welles.ent.json`.

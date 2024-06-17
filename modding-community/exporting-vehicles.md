@@ -378,7 +378,7 @@ for obj in objs:
 
 </details>
 
-I've built shaders for most of the materials that I've encountered in my testing. Exception is the dashboards, which are controlled by [inkwidgets](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/custom-icons-and-ui/inkwidgets-a-custom-interface) rather than normal materials. If you want the texture, open the corresponding inkwidget in Wolvenkit, switch to the Preview tab and use the `Export to Images` button. You can now use this texture for the dashboard material's `BaseColor` attribute.
+I've built shaders for most of the materials that I've encountered in my testing. Exception is the dashboards, which are controlled by [inkwidgets](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/custom-icons-and-ui/inkwidgets-a-custom-interface) rather than normal materials. If you want the texture, open the corresponding inkwidget in Wolvenkit, switch to the Preview tab and use the `Export to Images` button. You can now use this texture for the dashboard material's `BaseColor` attribute.
 
 Importing multiple entities at once might be screwy. If you want several vehicles in a scene, import each into a separate blend file, then use File -> Append to merge them.
 

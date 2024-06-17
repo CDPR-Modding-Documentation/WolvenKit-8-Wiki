@@ -11,7 +11,7 @@ For the UI documentation, check [tools-import-export.md](../../tools/tools-impor
 
 For general information such as the file structure and output directory, check [.](./ "mention")
 
-For a step-by-step workflow and troubleshooting, see [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") ->  [Textures: Importing, editing, exporting](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting "mention")
+For a step-by-step workflow and troubleshooting, see [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") ->  [Textures: Importing, editing, exporting](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/images-importing-editing-exporting "mention")
 {% endhint %}
 
 ## Exporting a texture from Wolvenkit
@@ -142,6 +142,6 @@ This requires the texture width and height to be potencies of 2!
 Should the image consider **transparency**?&#x20;
 
 {% hint style="info" %}
-Transparency must be read from a png's alpha channel. If you don't know how to create one, see the guide about texture editing on [the yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting).
+Transparency must be read from a png's alpha channel. If you don't know how to create one, see the guide about texture editing on [the yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/images-importing-editing-exporting).
 {% endhint %}
 

@@ -12,7 +12,7 @@ As of version 8.11.1, Wolvenkit offers the following plugins:
 
 One of Cyberpunk's core mods ([wiki](https://wiki.redmodding.org/cyber-engine-tweaks/) | [Nexus page](https://www.nexusmods.com/cyberpunk2077/mods/107)). Will install the latest version for you.
 
-Documentation about using and developing with CET can be found in the [Cyber Engine Tweaks (EN - English)](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP5jWcLZLbbbzO-\_ua1-887967055/ "mention") wiki.
+Documentation about using and developing with CET can be found in the [Cyber Engine Tweaks](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP5jWcLZLbbbzO-\_ua1-887967055/ "mention") wiki.
 
 ## Redscript
 
@@ -24,7 +24,7 @@ Documentation about development with redscript can be found in the [Redscript](h
 
 Written and developed by Neurolinked ([github](https://github.com/Neurolinked/MlsetupBuilder/releases/)): A tool for Cyberpunk-specific "texture" editing.&#x20;
 
-Documentation can be found on [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") under [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder "mention")
+Documentation can be found on [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") under [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder "mention")
 
 ## Wolvenkit Resources
 
@@ -46,10 +46,10 @@ It is necessary as a requirement for e.g. ArchiveXL and TweakXL.
 
 One of Cyberpunk's core mods ([Nexus page](https://www.nexusmods.com/cyberpunk2077/mods/4197)). This will install the latest version for you.
 
-For documentation, check [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [TweakXL](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/core-mods-explained/tweakxl "mention")
+For documentation, check [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [TweakXL](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/tweakxl "mention")
 
 ## RedHotTools
 
 Will install the Wolvenkit plugin of [psiberx's modding utility](https://github.com/psiberx/cp2077-red-hot-tools/) for you.&#x20;
 
-For install and usage documentation, check [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [RedHotTools](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/redhottools "mention")
+For install and usage documentation, check [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [RedHotTools](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/redhottools "mention")

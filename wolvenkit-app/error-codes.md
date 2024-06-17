@@ -28,7 +28,7 @@ If you are on the stable release, you should try [the-wolvenkit-nightly.md](../g
 
 ### Update all tools involved
 
-Make sure that you are on the most recent version of whatever tool's you're using. This includes, but is not limited to, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention") and [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder "mention").
+Make sure that you are on the most recent version of whatever tool's you're using. This includes, but is not limited to, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention") and [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder "mention").
 
 ### Find support on Discord
 
@@ -52,7 +52,7 @@ WolvenKit ran into a problem during internal conversion. Here's what you can do:
 2. Re-create whatever file you were trying to work on at that time:
    1. A game file from an earlier patch: Add it to your project again
    2. A depot file: Delete the file from the depot and/or [re-create the depot](usage/create-depot/#steps-partial-depot)
-   3. A raw file: re-create the file with the latest version of whatever tool you used (Wolvenkit, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/wolvenkit-blender-io-suite "mention")...)
+   3. A raw file: re-create the file with the latest version of whatever tool you used (Wolvenkit, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")...)
 
 If that doesn't work, please get in touch via [Discord](https://discord.com/invite/redmodding) or browse the troubleshooting section.
 

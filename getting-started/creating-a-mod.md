@@ -101,7 +101,7 @@ The **archive** and **raw** directories within the **Project Explorer** behave a
 
 ### Editing Textures
 
-While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. For that reason, you can find more information on editing texture files on [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [Importing and exporting textures](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-guides/textures-and-luts/images-importing-editing-exporting).
+While this guide is step-by-step, it's counter-productive for the WolvenKit team to guide users on using other software. For that reason, you can find more information on editing texture files on [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention")-> [Importing and exporting textures](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/images-importing-editing-exporting).
 
 We recommend free tools such as [Krita](https://krita.org), [Paint.net](https://getpaint.net/), or [Gimp](https://gimp.org/) for editing PNG format textures. If you don't know how to use that, hit up Google or check Youtube, as it would completely blow up this guide!
 

@@ -27,7 +27,7 @@ Otherwise, please do that now or use the [settings page](../../wolvenkit-app/set
 
 <figure><img src="../../.gitbook/assets/ELI5_GetStart_Config_S03.png" alt=""><figcaption></figcaption></figure>
 
-5. Now that all plugins are installed, you can configure [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder "mention") (but read the blue box first). This step is optional; you don't need to do it at this time, but you won't be able to make full use of the plugin if it is not configured.
+5. Now that all plugins are installed, you can configure [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder "mention") (but read the blue box first). This step is optional; you don't need to do it at this time, but you won't be able to make full use of the plugin if it is not configured.
 
 {% hint style="info" %}
 If you have been following the setup instructions exactly, then the paths you need to enter here are:&#x20;
@@ -38,7 +38,7 @@ If you have been following the setup instructions exactly, then the paths you ne
 If you have not, then your paths will be different and you need to adjust them accordingly.
 {% endhint %}
 
-For detailed configuration instructions, head to [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder "mention") -> [Configuration](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators/modding-tools/mlsetup-builder#configuration "mention")
+For detailed configuration instructions, head to [Cyberpunk 2077 Modding](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/ "mention") -> [MLSETUP Builder](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder "mention") -> [Configuration](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/mlsetup-builder#configuration "mention")
 
 ## Testing
 

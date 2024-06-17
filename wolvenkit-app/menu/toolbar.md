@@ -30,7 +30,7 @@ Same as the menu entry [#file](./#file "mention")-> [#save-as](./#save-as "menti
 
 Same as the menu entry [#file](./#file "mention")-> [#save-all](./#save-all "mention") (saves all currently open file)
 
-### Pack Mod
+### Create Zip
 
 Same as the menu entry [#build](./#build "mention") -> [#pack-project](./#pack-project "mention")
 

@@ -178,3 +178,7 @@ You can disable this feature to save performance, or simply hide the panel.
 
 Enables interactive Quick Previews within the Properties panel when navigating the Asset Browser and Project Explorer.
 
+### Append default launch profiles
+
+Will append the [#default-profiles](menu/launch-profiles.md#default-profiles "mention") to the list of launch profiles if they are not defined (this will not overwrite your custom profiles)
+

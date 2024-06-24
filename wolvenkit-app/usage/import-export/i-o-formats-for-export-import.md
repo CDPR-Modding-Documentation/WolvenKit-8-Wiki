@@ -26,9 +26,6 @@ The following formats are supported by WolvenKit for imports and exports
 * [x] **wem ↔ wav, mp3**\
   Audio files can be converted to and from REDengine. Use the Sound Modding Tool to import new audio.\
 
-* [x] **bk2 ↔ avi**\
-  Video files can be converted to and from REDengine. (Currently implemented with Project Explorer instead of the Import/Export tool)\
-
 * [x] **morphtarget ↔ glb/glTF (experimental)**\
   REDengine morphtargets can be exported to glTF format. The morphs can be viewed as shapekeys/blendshapes with a 3d package. glTF files can be used to recreate morphtarget files, however only one morph is preserved.\
 

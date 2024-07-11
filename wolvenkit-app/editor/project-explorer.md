@@ -78,6 +78,10 @@ Pastes copied project file.
 
 Copies the selected file path to OS/system clipboard, trimming off all folders outside the game directory. Extremely useful for modifying paths while using the File Editor.&#x20;
 
+{% hint style="info" %}
+By pressing Shift and/or Ctrl, you can display alternative copy options
+{% endhint %}
+
 #### Replace with original
 
 Replaces the selected file with the original unmodified version from the game archives. (archive directory only)
@@ -93,8 +97,7 @@ The Project Explorer can be filtered by directory.
 **SOURCE** |  All project directories (default)\
 &#x20;   **archive**  |  Archive directory\
 &#x20;   **raw** |  Raw directory\
-&#x20;  **scripts** |  Script directory\
-&#x20;   **tweaks**  |  Tweaks directory\
-**PACKED**  |  Internal WolvenKit folder for mod deployment. Can be used to install extra files.\
+&#x20;   **resources** |  Mirrors the game directory, use it to place additional files\
+**PACKED**  |  Internal WolvenKit folder for mod deployment. Will be wiped before packing the project!\
 \
 Additionally the rightmost hamburger-style button can be used to toggle a flat file list without folders.

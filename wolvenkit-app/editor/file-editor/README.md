@@ -25,7 +25,7 @@ Starting with 1.14, Wolvenkit lets you switch editor modes by double-clicking th
 
 <figure><img src="../../../.gitbook/assets/wolvenkit_editor_simple_mode.png" alt=""><figcaption><p>1.14 interface</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>1.15 interface</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor_mode_switching.png" alt=""><figcaption><p>1.15 interface</p></figcaption></figure>
 
 #### Simple Mode
 

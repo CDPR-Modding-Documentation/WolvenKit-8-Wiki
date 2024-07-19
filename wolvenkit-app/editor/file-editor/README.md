@@ -23,7 +23,9 @@ Starting with 1.14, Wolvenkit offers multiple editor modes. See [#switching-edit
 
 Starting with 1.14, Wolvenkit lets you switch editor modes by double-clicking the first button in the toolbar:
 
-<figure><img src="../../../.gitbook/assets/wolvenkit_editor_simple_mode.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wolvenkit_editor_simple_mode.png" alt=""><figcaption><p>1.14 interface</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>1.15 interface</p></figcaption></figure>
 
 #### Simple Mode
 
@@ -185,6 +187,12 @@ You can deduce quite a few things about a property's functionality by examining 
 {% endhint %}
 
 ### Editing properties
+
+Starting with 8.15, the editor has become smarter. By enabling "use validating editor" in the settings, you can turn on contextual hints:
+
+<figure><img src="../../../.gitbook/assets/file_editor_validating_editor.png" alt=""><figcaption></figcaption></figure>
+
+
 
 The editor panel will show you the following kinds of controls:
 

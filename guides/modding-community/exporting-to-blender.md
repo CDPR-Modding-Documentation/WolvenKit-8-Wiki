@@ -92,6 +92,10 @@ Now select Export All (or Export Selected) on the menu bar and a bunch of glb an
 
 </details>
 
+{% hint style="success" %}
+After the script has successfully run, you will find an `.ent.json` file in your project's [raw folder.](../../wolvenkit-app/editor/project-explorer.md#raw)
+{% endhint %}
+
 ## Importing into Blender
 
 Switch to Blender and use the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")'s [Entity Import](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#importing-into-blender-2) from the File -> Import menu.&#x20;

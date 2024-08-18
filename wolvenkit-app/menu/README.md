@@ -71,23 +71,20 @@ The generated zip file is ready for Nexus upload!
 Generates the install-ready structure (REDmod format) in your project's `packed` folder, then creates a zip file.&#x20;
 
 {% hint style="info" %}
-As a rule of thumb, you **generally don't want this**. Vortex can auto-convert to REDMod on install. Packing your mod in the legacy format will save work for those people who don't want to use REDMod.&#x20;
+This option is hidden by default and can be turned on in the [#settings](./#settings "mention"). Read [here](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod/usage#why-would-i-want-this) why.&#x20;
 {% endhint %}
 
 ### Install
 
-Runs [#pack-project](./#pack-project "mention"), then copies the contents of `packed` to your game directory.
-
-{% hint style="info" %}
-Tegacy mods will load before REDmods. Within a category, load order is determined by file name.
-{% endhint %}
+Runs [#pack-project](./#pack-project "mention"), then copies the contents of `packed` to your game directory.\
+You can learn about [Archive files Load Order](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/load-order "mention") on the yellow wiki.
 
 ### Install as REDmod
 
 Runs [#pack-as-redmod](./#pack-as-redmod "mention"), then copies the contents of `packed` to your game directory.
 
 {% hint style="info" %}
-Legacy mods will load before REDmods. Within a category, load order is determined by file name.
+This option is hidden by default and can be turned on in the [#settings](./#settings "mention"). Read [here](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod/usage#why-would-i-want-this) why.&#x20;
 {% endhint %}
 
 ### Install & Launch Game
@@ -98,13 +95,17 @@ Runs [#install](./#install "mention"), then launches the game for you
 
 Runs [#install-as-redmod](./#install-as-redmod "mention"), then launches the game for you
 
+{% hint style="info" %}
+This option is hidden by default and can be turned on in the [#settings](./#settings "mention"). Read [here](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod/usage#why-would-i-want-this) why.&#x20;
+{% endhint %}
+
 ### Clean All
 
 Deletes the contents of your Wolvenkit project's `packed` directory.
 
 ### Hot Reload
 
-Pack archives and instantly install to game directory while Cyberpunk 2077 is running for testing (Requires [Red Hot Tools plugin](https://github.com/psiberx/cp2077-red-hot-tools) by @psiberx).
+Pack archives and instantly install to game directory while Cyberpunk 2077 is running for testing (Requires [RedHotTools](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/redhottools "mention")).
 
 ### Launch Profiles
 
@@ -138,7 +139,7 @@ Toggles the LocKey browser on or off. This panel will let you browse translation
 
 ### Show File Preview
 
-Same as [**Settings**](../settings.md#show-file-preview) option. Enables interactive Quick Previews within the Properties panel.&#x20;
+Same as [**Settings**](../settings.md#show-file-preview) option - enables/disables interactive Quick Previews within the Properties panel.&#x20;
 
 {% hint style="info" %}
 This feature impacts performance. Navigating the Asset Browser or Project Explorer will be **faster** if the preview is **toggled off** or **inactive**.

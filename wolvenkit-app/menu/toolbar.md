@@ -50,7 +50,7 @@ Like Install, but launches the game afterwards.&#x20;
 
 ### Hot Reload
 
-Same as the menu entry [#build](./#build "mention") -> [#hot-reload](./#hot-reload "mention")
+Same as the menu entry [#build](./#build "mention") -> [#hot-reload](./#hot-reload "mention"). Requires [RedHotTools](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/redhottools "mention").
 
 ## Additional toolbar options
 

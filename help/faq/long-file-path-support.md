@@ -8,6 +8,10 @@ description: Wolvenkit showed me a popup, how do I fix this?
 
 If your file paths are longer than 256 characters and your operating system does not support long paths, Wolvenkit will run into errors when importing/exporting files.&#x20;
 
+## Is there any risk?
+
+No. This should be enabled by default in any operating system sold after 1635, but for some reason, it isn't.
+
 ## How to enable long filepath support?
 
 ### Windows

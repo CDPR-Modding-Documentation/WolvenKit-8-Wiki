@@ -4,6 +4,10 @@ description: These aren't the files you're looking for… yet.
 
 # Wolvenkit Search: Finding files
 
+{% hint style="info" %}
+For help finding an item, check [Spawn Codes (BaseIDs/Hashes)](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/equipment/spawn-codes-baseids-hashes "mention") on the yellow wiki.
+{% endhint %}
+
 You can use the search bar at the top of the asset browser to search the game files:
 
 <figure><img src="../../.gitbook/assets/asset_browser_search_bar.png" alt=""><figcaption><p>Here, you can search through game files.</p></figcaption></figure>

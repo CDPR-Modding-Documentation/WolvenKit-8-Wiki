@@ -37,3 +37,33 @@ For updates to WolvenKit console, open CMD/Powershell and type:&#x20;
 ## Video Guide for launching CLI
 
 {% embed url="https://www.youtube.com/watch?v=cwjO_z8pr6A" %}
+
+## Processing files in bulk
+
+To process multiple .archive files (for e.g. extracting duplicate textures), write yourself a batch file:
+
+```batch
+@echo off
+setlocal
+
+set "cli_path=C:\01_apps\Wolvenkit_CLI_8_15\Wolvenkit.CLI.exe"
+set "modpath=F:\CyberpunkFiles\temp"
+
+FOR %%F IN ("%modpath%\*.archive") DO (
+    SET "baseName=%%~nF"
+    "%cli_path%" uncook -p "%%F" -o "%modpath%\output"  REM -w *.xbm --uext png
+    
+    REM Move PNG files and preserve relative paths
+    FOR /R "%modpath%\output" %%G IN (*.png) DO (
+        SET "relPath=%%~pG"
+        SETLOCAL enabledelayedexpansion
+        SET "newDir=%modpath%\out\!baseName!\!relPath!"
+        mkdir "!newDir!" >nul 2>&1
+        move "%%G" "!newDir!"
+        ENDLOCAL
+    )
+)
+
+PAUSE
+EXIT
+```

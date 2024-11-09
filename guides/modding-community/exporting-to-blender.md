@@ -33,6 +33,8 @@ If you want to add a character's animations, you can check the follow-up guide [
 
 ## The character's .ent file
 
+This section will tell you how to find and add an NPC's file to your project. If you already have one (because you're exporting an NPV), you can skip it and go straight to [#exporting-to-blender](exporting-to-blender.md#exporting-to-blender "mention").
+
 ### Finding the file
 
 Before we can export anything, we need to find the `.ent` file for the character we want to export. This tutorial will use Jackie, but it works just the same for everyone else.
@@ -66,9 +68,9 @@ Now, [add the file to your project](../../wolvenkit-app/editor/asset-browser.md#
 
 ## Exporting to Blender
 
-With the .ent file in your project, you can run the script that will handle the actual export, adding all the necessary files to your project and exporting them in a way that Blender can process.
+With the `.ent` file in your project, you can run the script that will handle the actual export, adding all the necessary files to your project and exporting them in a way that Blender can process.
 
-Open the [script-manager.md](../../wolvenkit-app/tools/script-manager.md "mention"), find `Export_Ent.wscript` and run it.
+Open the [script-manager.md](../../wolvenkit-app/tools/script-manager.md "mention") (Tools -> Script Manager as of Wolvenkit 8.15), find `Export_Ent.wscript` and run it.
 
 <details>
 
@@ -98,6 +100,10 @@ After the script has successfully run, you will find an `.ent.json` file in your
 
 ## Importing into Blender
 
+{% hint style="info" %}
+If you right-click the `.ent` file in the project browser and press `Shift` and `Ctrl`, the context menu will let you copy the path to the file!
+{% endhint %}
+
 Switch to Blender and use the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")'s [Entity Import](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#importing-into-blender-2) from the File -> Import menu.&#x20;
 
 {% hint style="warning" %}
@@ -107,6 +113,8 @@ Before clicking the import button, please read the next section about [#importin
 {% hint style="info" %}
 Find the full documentation on the yellow wiki under  [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention") -> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") ->  [Entities](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#entities "mention")
 {% endhint %}
+
+
 
 Point it to the exported `.ent.json` in your project's files.  For Jackie, the relative path is `source\raw\base\characters\entities\main_npc\jackie_welles.ent.json`.
 

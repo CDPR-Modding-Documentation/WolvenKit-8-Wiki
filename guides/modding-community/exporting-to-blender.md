@@ -72,6 +72,12 @@ With the `.ent` file in your project, you can run the script that will handle th
 
 Open the [script-manager.md](../../wolvenkit-app/tools/script-manager.md "mention") (Tools -> Script Manager as of Wolvenkit 8.15), find `Export_Ent.wscript` and run it.
 
+{% hint style="info" %}
+Wscript cant export files from other mods currently, if your exporting an NPV which uses other mods you will need to add any used files/materials to the project manually if you want them in Blender.
+{% endhint %}
+
+
+
 <details>
 
 <summary>What does the script do/how to do it by hand? (You don't need to know this)</summary>

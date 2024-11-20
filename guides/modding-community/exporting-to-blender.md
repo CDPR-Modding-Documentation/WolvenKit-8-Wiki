@@ -10,7 +10,7 @@ description: >-
 
 **Created by** [Simarilius](https://app.gitbook.com/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](https://app.gitbook.com/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
 **Published: September 03 2022**\
-**Last documented update: December 29 2023**
+**Last documented update: November 2024**
 
 This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.6.
 
@@ -43,7 +43,11 @@ Before we can export anything, we need to find the `.ent` file for the character
 You can find a list of the entity files for a lot of the main characters over on the Cyberpunk 2077 Modding wiki [Here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/people)
 {% endhint %}
 
-With our project open in Wolvenkit, we switch to the [Asset Browser](../../wolvenkit-app/editor/asset-browser.md) and search for the right file:
+The easiest way to find a characters ent if their not already in the list on the wiki is to use Red Hot Tools. Once its installed you can simply walk up to an NPC in game and the inspect tab will show you the ent and appearance info you need. With that info you need to find them in wolvenkit.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-20 191847.png" alt=""><figcaption></figcaption></figure>
+
+With our project open in Wolvenkit, we switch to the [Asset Browser](../../wolvenkit-app/editor/asset-browser.md) and search for the right file
 
 ```
 jackie

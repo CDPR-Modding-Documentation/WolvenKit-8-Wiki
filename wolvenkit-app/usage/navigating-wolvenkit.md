@@ -59,6 +59,26 @@ Holding the `Shift` key while pasting into an array will let you overwrite the c
 
 Holding down the `Ctrl` key as well will let you overwrite the entire array with your clipboard.
 
+### Shift: Recursively fold/unfold
+
+By holding `Shift` while  expanding a node, you can fold/unfold all of its children (and their children) according to specified rules for the most common node types:
+
+<figure><img src="../../.gitbook/assets/ux_ui_recursive_fold.png" alt=""><figcaption><p>Shift-unfolding </p></figcaption></figure>
+
+### Double-Click: Fold/unfold all siblings
+
+Double-clicking a node in an array will toggle the expansion state of all siblings to the expansion state of the node.
+
+<figure><img src="../../.gitbook/assets/ux_ui_double_clicking.png" alt=""><figcaption><p>This will collapse all other appearances in the list</p></figcaption></figure>
+
+### f2: Search and replace in selection
+
+You can search and replace in selection by using the context menu or pressing the f2 key.&#x20;
+
+{% hint style="info" %}
+This can take a long time if your file is big, so you should use the search box first!
+{% endhint %}
+
 ### Clean up
 
 Especially in mesh files, the Clean Up menu is your friend.&#x20;

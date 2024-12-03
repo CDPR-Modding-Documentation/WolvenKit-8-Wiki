@@ -99,7 +99,7 @@ Where the dangle rig is used in addition to the base rig to animate Judy's belt.
 
 Navigate to the `MultiMesh Settings` and configure the export options for additional meshes and rigs. The functionality is identical to [**WithRig**](models.md#withrig-usage), so the same instructions should be followed.
 
-![](../../../.gitbook/assets/8.2\_multimesh\_megatut.png)
+![](../../../.gitbook/assets/8.2_multimesh_megatut.png)
 
 ## Importing mesh files
 
@@ -159,7 +159,7 @@ See [#use-selected-base-mesh](models.md#use-selected-base-mesh "mention")
 #### Use selected base mesh
 
 _(experimental as of 8.9.1)_\
-Instead of importing directly over the target file, this option will pull the `.mesh` file that you have picked in `Select base mesh`  (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral\_bone-not-present-in-export-rig-s-import-mesh)).
+Instead of importing directly over the target file, this option will pull the `.mesh` file that you have picked in `Select base mesh`  (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral_bone-not-present-in-export-rig-s-import-mesh)).
 
 #### Contains LOD8 named LOD0
 
@@ -178,7 +178,7 @@ See [#use-selected-rig](models.md#use-selected-rig "mention")
 #### Use selected rig
 
 _(experimental as of 8.9.1)_ \
-Instead of importing over the target file's associated rig, this option will pull the `.rig` file that you have picked in `Select base rig` (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral\_bone-not-present-in-export-rig-s-import-mesh)).
+Instead of importing over the target file's associated rig, this option will pull the `.rig` file that you have picked in `Select base rig` (e.g. if you run into [bone problems](https://wiki.redmodding.org/cyberpunk-2077-modding/modding-know-how/3d-modelling/troubleshooting-your-mesh-edits#bone-neutral_bone-not-present-in-export-rig-s-import-mesh)).
 
 #### Import Material.json Only
 
@@ -215,7 +215,7 @@ The following settings are _recommended_ for using Blender with WolvenKit. Unlis
     * [x] Apply Modifiers
     * [x] Tangents
 
-    &#x20;** Materials:** No Export
+    &#x20;**&#x20;Materials:** No Export
 * Shape Keys
   * [x] Shape Key Tangents
 
@@ -233,7 +233,7 @@ It's important to remember the submesh name is determined by the **Data Block** 
 
 It's possible to reference the material structure of the original mesh file using WolvenKit to see how each submesh is mapped to a distinct material.
 
-![Example of material list inside a mesh file](../../../.gitbook/assets/ImportExportTool\_materials\_example.png)
+![Example of material list inside a mesh file](../../../.gitbook/assets/ImportExportTool_materials_example.png)
 
 In the example above, you can see the material list which repeats after reaching `glass1` meaning this is the final submesh. We now know this mesh has 12 distinct submeshes (0-11). It also contains four LOD's because each material list is repeated for a total of four lists.
 
@@ -271,4 +271,4 @@ Morphtarget I/O is highly experimental, some assets are not handled correctly
 
 WolvenKit can export **morphtarget** files from the game to glTF format, these morphtargets files are used to morph a base mesh that exists in the game. For example, the character that you create in the game with different types of nose, eyes, and mouth is formed using the shape keys that exists in the morphtarget files. **You can use Import/Export Tool to export them to glb/glTF,** any morph texture(s) existing in file will also export along in dds format.
 
-![](../../../.gitbook/assets/Blender\_morph\_target\_comparison.png)
+![](../../../.gitbook/assets/Blender_morph_target_comparison.png)

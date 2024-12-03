@@ -40,7 +40,7 @@ Being lazy people, we naturally recommend the second option.
 
 <summary>Script documentation</summary>
 
-The most recent version of this script is shipped with Wolvenkit (find it in Tools -> Script Manager -> `Export_Vehicle_Ent`). The code below is here for the purpose of documentation and will not be kept up-to-date, so **do not run it**. If you want to get the script's most recent version, find it in the [Wolvenkit-Resources Repository](https://github.com/WolvenKit/Wolvenkit-Resources/blob/main/Scripts/Export\_Vehicle\_Ent.wscript).&#x20;
+The most recent version of this script is shipped with Wolvenkit (find it in Tools -> Script Manager -> `Export_Vehicle_Ent`). The code below is here for the purpose of documentation and will not be kept up-to-date, so **do not run it**. If you want to get the script's most recent version, find it in the [Wolvenkit-Resources Repository](https://github.com/WolvenKit/Wolvenkit-Resources/blob/main/Scripts/Export_Vehicle_Ent.wscript).&#x20;
 
 By default, it will  ignore shadows, proxy and FX meshes. To include them anyway, set the corresponding flags to `true` – find `include_proxys`, `include_shadows`, `include_fx`. (If you don't know why you'd want them, you won't!)
 
@@ -378,7 +378,7 @@ for obj in objs:
 
 </details>
 
-I've built shaders for most of the materials that I've encountered in my testing. Exception is the dashboards, which are controlled by [inkwidgets](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/custom-icons-and-ui/inkwidgets-a-custom-interface) rather than normal materials. If you want the texture, open the corresponding inkwidget in Wolvenkit, switch to the Preview tab and use the `Export to Images` button. You can now use this texture for the dashboard material's `BaseColor` attribute.
+I've built shaders for most of the materials that I've encountered in my testing. Exception is the dashboards, which are controlled by [inkwidgets](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/inkwidgets-a-custom-interface) rather than normal materials. If you want the texture, open the corresponding inkwidget in Wolvenkit, switch to the Preview tab and use the `Export to Images` button. You can now use this texture for the dashboard material's `BaseColor` attribute.
 
 Importing multiple entities at once might be screwy. If you want several vehicles in a scene, import each into a separate blend file, then use File -> Append to merge them.
 

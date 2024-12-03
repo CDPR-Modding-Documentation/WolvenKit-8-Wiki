@@ -56,7 +56,7 @@ The easiest way to go about it is this:
 2. [Export](textures.md#exporting-a-texture-from-wolvenkit) the xbm file: this adds a png file with the same name to your project's raw folder.
 3. Overwrite the png with your edited texture.
 4. Open the Import tool, and select your png file. \
-   _The correct settings should be applied automatically._&#x20;
+   &#xNAN;_&#x54;he correct settings should be applied automatically._&#x20;
 5. Click "Import Selected".
 
 <figure><img src="../../../.gitbook/assets/images_import_selected.png" alt=""><figcaption></figcaption></figure>

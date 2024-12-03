@@ -109,7 +109,7 @@ For example, if you want to do a custom recolour of the mod [`_ArchiveXL_Netrunn
 For full documentation of the [toolbar.md](../menu/toolbar.md "mention")and the [menu](../menu/ "mention"), see the corresponding wiki pages.
 {% endhint %}
 
-From the [**Menu**](../menu/#new-project) click on the [**Pack Project**](../menu/#pack-project) button**.** The [**Log**](../editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](../editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
+From the [**Menu**](../menu/#new-project) click on the [**Pack Project**](../menu/#pack-project) butto&#x6E;**.** The [**Log**](../editor/log.md) will display a result to indicate packing was successful. All files within the **archive directory** of the [**Project Explorer**](../editor/project-explorer.md) will now be packed into archive format. The packed files can be found in the **packed** (`.../modname/packed`) directory of the mod project.
 
 ## See also
 

@@ -40,6 +40,7 @@
   * [Asset Browser](wolvenkit-app/editor/asset-browser.md)
   * [Properties](wolvenkit-app/editor/properties.md)
   * [File Editor](wolvenkit-app/editor/file-editor/README.md)
+    * [Editor Difficulty Mode](wolvenkit-app/editor/file-editor/editor-difficulty-mode.md)
     * [Preview](wolvenkit-app/editor/file-editor/preview.md)
   * [Log](wolvenkit-app/editor/log.md)
   * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
@@ -64,6 +65,7 @@
     * [Import/Export: Textures](wolvenkit-app/usage/import-export/textures.md)
     * [Import/Export: MLMask and MLSetup](wolvenkit-app/usage/import-export/import-export-mlmask-and-mlsetup.md)
     * [Import/Export: Sound effects](wolvenkit-app/usage/import-export/import-export-sound-effects.md)
+  * [Navigating Wolvenkit](wolvenkit-app/usage/navigating-wolvenkit.md)
 * [Error Codes](wolvenkit-app/error-codes.md)
 
 ## WolvenKit CLI

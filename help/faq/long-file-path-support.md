@@ -21,7 +21,7 @@ Find the full guide at [microsoft.com](https://learn.microsoft.com/en-us/windows
 #### TL;DR
 
 1. Open a Powershell window as administrator \
-   _(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter)`_
+   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter)`_
 2. Paste the following command:
 
 ```powershell

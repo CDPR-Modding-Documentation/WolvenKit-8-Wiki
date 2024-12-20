@@ -22,7 +22,7 @@ Use the Depot Generator from Wolvenkit's Tools tab:
 
 You can export materials, or unbundle the whole game:
 
-<figure><img src="../../.gitbook/assets/depot_generator.png" alt=""><figcaption></figcaption></figure>
+{% include "../../.gitbook/includes/wolvenkit-depot-generator.md" %}
 
 ### Generate Materials
 

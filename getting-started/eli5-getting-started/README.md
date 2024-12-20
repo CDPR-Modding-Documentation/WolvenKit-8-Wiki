@@ -34,7 +34,7 @@ Some of the recommendations in this guide may be outdated or obsolete by the tim
    * If you want to **extract materials and meshes**, you should have at least 15GB storage
    * Optional: If you want to **create a full asset depot**, then you want at least 75GB storage. \
      If you are reading this guide, then you won't need that.
-2. Optional, but recommended: a basic level of computer knowledge. The guide contains detailed instructions, but you'll have an easier time if you already know things like like:
+2. **Optional, but recommended**: a basic level of computer knowledge. The guide contains detailed instructions, but you'll have an easier time if you already know things like like:
    * Open a command prompt and run a command,
    * Locate your download folder and extract a zipped file,
    * Install an application,

@@ -51,7 +51,7 @@ WolvenKit ran into a problem during internal conversion. Here's what you can do:
 1. Install [the-wolvenkit-nightly.md](../getting-started/download/the-wolvenkit-nightly.md "mention")
 2. Re-create whatever file you were trying to work on at that time:
    1. A game file from an earlier patch: Add it to your project again
-   2. A depot file: Delete the file from the depot and/or [re-create the depot](usage/create-depot/#steps-partial-depot)
+   2. A depot file: Delete the file from the depot and/or [re-create the depot](usage/create-depot.md#steps-partial-depot)
    3. A raw file: re-create the file with the latest version of whatever tool you used (Wolvenkit, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")...)
 
 If that doesn't work, please get in touch via [Discord](https://discord.com/invite/redmodding) or browse the troubleshooting section.

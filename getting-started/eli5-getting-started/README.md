@@ -22,7 +22,7 @@ To keep things simple, the recommendations in this guide will centralize many of
 * [Download Wolvenkit](../download/)
 
 {% hint style="danger" %}
-If any of the steps in this guide fail, then STOP immediately and either fix them or ask for help on [Discord](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP\_ozZVx2gRZUPXkd4r/\~/changes/319/wolvenkit-app/eli5-getting-started).&#x20;
+If any of the steps in this guide fail, then STOP immediately and either fix them or ask for help on [Discord](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/-MP_ozZVx2gRZUPXkd4r/~/changes/319/wolvenkit-app/eli5-getting-started).&#x20;
 
 Some of the recommendations in this guide may be outdated or obsolete by the time you read it. In that case, use your best judgement and play around!
 {% endhint %}
@@ -66,8 +66,8 @@ Let's configure and set up Wolvenkit and all its plugins:
 
 Then, we unbundle those game assets that we need…
 
-{% content-ref url="../../wolvenkit-app/usage/create-depot/" %}
-[create-depot](../../wolvenkit-app/usage/create-depot/)
+{% content-ref url="../../wolvenkit-app/usage/create-depot.md" %}
+[create-depot.md](../../wolvenkit-app/usage/create-depot.md)
 {% endcontent-ref %}
 
 ### Now we're goin' in.&#x20;

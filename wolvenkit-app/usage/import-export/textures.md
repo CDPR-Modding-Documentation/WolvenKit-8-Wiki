@@ -65,7 +65,7 @@ The easiest way to go about it is this:
 
 <figure><img src="../../../.gitbook/assets/wolvenkit_import_png.png" alt=""><figcaption></figcaption></figure>
 
-####
+
 
 #### Advanced Options
 
@@ -94,7 +94,7 @@ Possible values are:
 * TexG\_Multilayer\_Grayscale
 * TexG\_Multilayer\_Microblend
 
-#### isGamma
+#### SRGB (isGamma)
 
 Sets isGamma boolean upon import. Color textures (such as diffuse) must be set as true, or they will appear blown-out or too bright in-game.
 
@@ -137,7 +137,7 @@ This requires the texture width and height to be potencies of 2!
 
 ???
 
-#### PremultiplyAlpha
+#### Transparency from Alpha Channel (formerly PremultiplyAlpha)
 
 Should the image consider **transparency**?&#x20;
 

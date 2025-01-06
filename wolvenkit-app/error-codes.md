@@ -7,14 +7,14 @@ description: A list of Wolvenkit error codes, and what they mean
 ## Summary
 
 **Published**: May 1 2024 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
-**Last documented update**: May 1 2024 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
+**Last documented update**: Jan 6 2025 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
 This page contains an overview about Wolvenkit's internal error codes and what they mean.
 
 {% hint style="warning" %}
 For **developers**:&#x20;
 
-When editing this page (especially section headers), please update the internal mapping:\
+When **editing** this page (especially section headers), please update the internal mapping:\
 `WolvenKit/Helpers/LogCodeHelper.cs`
 {% endhint %}
 
@@ -32,7 +32,7 @@ Make sure that you are on the most recent version of whatever tool's you're usin
 
 ### Find support on Discord
 
-Find our [discord server](http://discord.gg/redmodding) and hit up the **`#wolvenkit-support`** channel. (Don't bother if you aren't on the Nightly yet, it's the first thing anyone there will tell you.)
+Find our [discord server](http://discord.gg/redmodding) and hit up the **`#wolvenkit-support`** channel. (If you aren't on the Nightly yet, you should really do that now, because it's the first thing everyone will tell you).
 
 ### Create a ticket
 
@@ -40,9 +40,15 @@ If your error still happens in the Nightly, you need to **tell us about it**. It
 
 Head to Wolvenkit's github page and [create a ticket](https://github.com/WolvenKit/Wolvenkit/issues) (you need a github or Google account, but they won't send you spam).&#x20;
 
-To fix the bug, we need to **watch it in action**. Please include everything we need to make it happen!
+To fix the bug, we need to **watch it in action**. Please include everything we need to make it happen — at the very least, we need the **most recent log file**:
+
+<figure><img src="../.gitbook/assets/wkit_open_log_folder.png" alt=""><figcaption></figcaption></figure>
 
 ## Error code list
+
+{% hint style="info" %}
+If the steps below don't help, please get in touch via [Discord](https://discord.com/invite/redmodding),  [create a ticket](https://github.com/WolvenKit/Wolvenkit/issues), or browse the [troubleshooting.md](../getting-started/troubleshooting.md "mention") page. Keep your most recent log file ready!
+{% endhint %}
 
 ### 0x2000: Type not supported (8192)
 
@@ -54,7 +60,9 @@ WolvenKit ran into a problem during internal conversion. Here's what you can do:
    2. A depot file: Delete the file from the depot and/or [re-create the depot](usage/create-depot.md#steps-partial-depot)
    3. A raw file: re-create the file with the latest version of whatever tool you used (Wolvenkit, the [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention")...)
 
-If that doesn't work, please get in touch via [Discord](https://discord.com/invite/redmodding) or browse the troubleshooting section.
+### 0x3002: Resources plugin
+
+The [Wolvenkit Resources plugin](home/home-plugins.md#wolvenkit-resources) may have become corrupted. Open Home -> Plugins and remove it, then restart Wolvenkit, reinstall the plugin, and try again.
 
 ### 0x5000: Invalid settings
 

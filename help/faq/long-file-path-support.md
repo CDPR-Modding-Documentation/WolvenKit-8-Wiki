@@ -27,7 +27,13 @@ If you don't trust something you read on a random modding wiki, find the full gu
 {% endhint %}
 
 1. Open a Powershell window as administrator \
-   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter)`_
+   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter`)_\
+   \
+   Correct Powershell (shows Administrator in the title bar):\
+   ![](<../../.gitbook/assets/image (15).png>)\
+   \
+   Incorrect Powershell (doesn't show Administrator in the title bar ⇒ runs as user):\
+   ![](<../../.gitbook/assets/image (16).png>)
 2. Paste the following command:
 
 ```powershell

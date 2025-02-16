@@ -14,21 +14,35 @@ This feature has an **impact on performance** — every time you save, there wil
 
 <figure><img src="../.gitbook/assets/file_validation_in_mesh.png" alt=""><figcaption><p>The log will yell at you if your files have issues now</p></figcaption></figure>
 
-## I don't want it, how do I get rid of it?
+##
+
+The automatic hook
+
+By default, File Validation will trigger every time you save. Since this can impact performance for larger files, you might want to disable it.
+
+### I don't want it, how do I get rid of it?
 
 In the [Script Manager](tools/script-manager.md), switch to the `Hooks` tab and uncheck the box behind `hook_global`:
 
 <figure><img src="../.gitbook/assets/disabling_file_validation.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Did you know? You can still run file validation via the menu under Scripts -> Validate!
-{% endhint %}
-
-### Alternatively: via settings file
-
-You just need to open `hook_settings.wscript` and change line 4 from `Enabled: true` to `Enabled: false`.&#x20;
-
 For details, see [Configuring File Validation](file-validation.md#configuring-file-validation) below.
+
+## Running File Validation
+
+### In the editor
+
+Inside the [editor](editor/), you can run File Validation from the menu bar:&#x20;
+
+<figure><img src="../.gitbook/assets/file_validation_menu_bar.png" alt=""><figcaption></figcaption></figure>
+
+### On the entire project
+
+From the Project Menu in the main bar, you can run File Validation on the entire project.
+
+Since this can take a long time, Wolvenkit will show you a warning first.
+
+<figure><img src="../.gitbook/assets/file_validation_on_project.png" alt=""><figcaption></figcaption></figure>
 
 ## There was an error
 

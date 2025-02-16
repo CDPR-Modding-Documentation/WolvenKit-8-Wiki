@@ -34,6 +34,8 @@ Save the currently selected document from the File Viewer as a new file
 
 Save all currently open documents from the File Viewer
 
+## Project
+
 ### New Project
 
 Create a new WolvenKit mod project
@@ -42,19 +44,34 @@ Create a new WolvenKit mod project
 
 Open an existing WolvenKit mod project
 
-## Edit
-
-### Settings
-
-Open the WolvenKit [**Settings**](../settings.md) page
-
 ### Project Configuration
 
 Configure various project settings
 
-### Open Logs Folder
+### Scan project for broken references
 
-Finds the WolvenKit logs with the System File Explorer
+This will go through every file in your project, checking if **referenced resources** are **in your project** or **part of the base game**.&#x20;
+
+If you are using a texture library, you will obviously get false positives here.
+
+### Scan for unused files
+
+The opposite of "Scan project for broken references" — this will check every file in your project and check if it's used by something.&#x20;
+
+Will give you a list that you can copy to clipboard, or options to move/delete the files.
+
+{% hint style="danger" %}
+This feature is experimental, so handle with care!
+{% endhint %}
+
+### Delete empty folders
+
+Will yeet folders without files in them. Works recursively (will also delete empty folder trees).
+
+### Run File Validation on entire project
+
+Will run the [Wolvenkit File Validation](../file-validation.md) on every file in your project, and open the log file afterwards. \
+This will generate a lot of duplicate text, but is the best way to find mistakes.
 
 ## Build
 
@@ -145,13 +162,15 @@ Same as [**Settings**](../settings.md#show-file-preview) option - enables/disabl
 This feature impacts performance. Navigating the Asset Browser or Project Explorer will be **faster** if the preview is **toggled off** or **inactive**.
 {% endhint %}
 
-### Save Layout to Project
+### Layout
+
+#### Save Layout to Project
 
 Saves the [**Editor**](../editor/) UI layout to the current WolvenKit project, making it persistent across sessions.
 
 If you do this without an open Wolvenkit project, the view will be saved to the default file `%USERPROFILE%\AppData\Roaming\REDModding\WolvenKit\DockStates.xml`
 
-### Reset Layout
+#### Reset Layout
 
 Resets the UI layout to the default from one of the following files (by priority):
 
@@ -178,11 +197,15 @@ Toggles the [#script-manager](./#script-manager "mention")
 
 ### Import Tool
 
-Toggles the [#import-tool](../usage/import-export/#import-tool "mention")
+Toggles the [#import-tool](../tools/tools-import-export.md#import-tool "mention")
 
 ### Export Tool
 
-Toggles the [#export-tool](../usage/import-export/#export-tool "mention")
+Toggles the [#export-tool](../tools/tools-import-export.md#export-tool "mention")
+
+### Settings
+
+Open the WolvenKit [**Settings**](../settings.md) page
 
 ## Game
 
@@ -215,19 +238,22 @@ Opens external-link to the Cyberpunk Blender Add-on GitHub page\
 
 ## Help
 
-#### Setting Up WolvenKit
+### Setting Up WolvenKit
 
 Opens an external-link to the [**Setup**](broken-reference) page
 
-#### Creating a Mod
+### Creating a Mod
 
 Opens an external-link to the [**Creating a Mod**](../../getting-started/creating-a-mod.md) page
 
 #### Discord Invitation
 
-Opens an external-link to a [Discord](https://discord.gg/Epkq79kd96) invitation
+### Opens an external-link to a [Discord](https://discord.gg/Epkq79kd96) invitation
 
-#### About WolvenKit
+### About WolvenKit
 
 Opens an external-link to the [**About**](../../about.md) page
 
+### Open Log Folder
+
+Opens the folder with the Wolvenkit Logs

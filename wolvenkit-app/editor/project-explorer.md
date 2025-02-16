@@ -66,6 +66,16 @@ Moves any project file to the OS/system Recycle Bin.
 
 Opens a dialogue box which allows any project file to be renamed.
 
+<figure><img src="../../.gitbook/assets/rename_update_in_project_files.png" alt=""><figcaption></figcaption></figure>
+
+The **Update in project files** option will make WolvenKit update all references in your `source` and `resources` folder.
+
+{% hint style="warning" %}
+If you're renaming a folder, WKit will replace all occurrences of the folder's path! It might be better to rename individual files.
+
+If you learned this the hard way, [File Validation](../file-validation.md) can help.
+{% endhint %}
+
 #### Copy
 
 Select any project file to be copied.

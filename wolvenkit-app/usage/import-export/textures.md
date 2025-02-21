@@ -69,7 +69,11 @@ The easiest way to go about it is this:
 
 #### Advanced Options
 
-By default advanced XBM options are hidden. This can be changed by modifying WolvenKit [**Settings**](../../settings.md). (Is this still the case? Double-check)
+By default advanced XBM options are hidden. This can be changed by modifying WolvenKit [**Settings**](../../settings.md).&#x20;
+
+{% hint style="warning" %}
+TODO: Is this still the case? Double-check!
+{% endhint %}
 
 #### Texture Group
 
@@ -79,20 +83,9 @@ Select a preset for import. **This will preselect the options below**, so pick  
 Wolvenkit will try to guess the right preset from your file name, so you'll want to stick to the game's naming conventions.
 {% endhint %}
 
-Possible values are:
 
-* TexG\_Generic\_Color
-* TexG\_Generic\_Grayscale
-* TexG\_Generic\_Normal
-* TexG\_Generic\_Data
-* TexG\_Generic\_UI
-* TexG\_Generic\_Font
-* TexG\_Generic\_LUT
-* TexG\_Generic\_MorphBlend
-* TexG\_Multilayer\_Color
-* TexG\_Multilayer\_Normal
-* TexG\_Multilayer\_Grayscale
-* TexG\_Multilayer\_Microblend
+
+<table><thead><tr><th width="268">Name</th><th></th><th></th></tr></thead><tbody><tr><td>TexG_Generic_Color</td><td>Used for colour textures inside the world (for use as <a data-mention href="https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/materials/textures#diffuse-albedo">Diffuse/Albedo</a>)</td><td>Transparency: from texture's alpha channel<br>SRGB: true</td></tr><tr><td>TexG_Generic_Grayscale</td><td>Used for greyscale textures (for use as <a data-mention href="https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/materials/textures#roughness">Roughness</a> or metalness)</td><td></td></tr><tr><td>TexG_Generic_Normal</td><td>used for normal maps (for use as <a data-mention href="https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/materials/textures#normal">Normal</a>)</td><td>No transparency<br>Will be <strong>swizzled</strong> on import (green channel dropped), which will turn blue maps yellow</td></tr><tr><td>TexG_Generic_Data</td><td>???</td><td></td></tr><tr><td>TexG_Generic_UI</td><td>Used for UI textures that do not consider in-world lighting</td><td>like generic_color, but without isSRGB</td></tr><tr><td>TexG_Generic_Font</td><td>for fonts</td><td>???</td></tr><tr><td>TexG_Generic_LUT</td><td>for LUTs</td><td>???</td></tr><tr><td>TexG_Generic_MorphBlend</td><td>???</td><td></td></tr><tr><td><em>TexG_Multilayer_Color</em></td><td>not used for any workflows,use <code>Generic_Color</code> instead</td><td></td></tr><tr><td><em>TexG_Multilayer_Normal</em></td><td>not used for any workflows,use <code>Generic_Normal</code> instead</td><td></td></tr><tr><td><em>TexG_Multilayer_Grayscale</em></td><td>not used for any workflows,use <code>Generic_Grayscale</code> instead</td><td></td></tr><tr><td>TexG_Multilayer_Microblend</td><td>used for microblends</td><td>tileable normal maps with transparency for use in microblends</td></tr></tbody></table>
 
 #### SRGB (isGamma)
 

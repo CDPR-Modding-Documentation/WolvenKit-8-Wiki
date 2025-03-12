@@ -4,29 +4,23 @@ description: What is Wolvenkit File Validation? How do I use it?
 
 # File Validation
 
-## What is it?
+## Summary
 
-File validation was added in Wolvenkit 8.9.1. When you save a file, it will try to validate the internal structure and — based on your settings — dependent files.
+**Last documented update**: March 12 2025 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
-{% hint style="danger" %}
-This feature has an **impact on performance** — every time you save, there will be a short lag while the file validation does its thing. If you can't live with that, find below how to [turn it off](file-validation.md#configuring-file-validation).
+This page will tell you how to use and configure the File Validation feature (added in 8.9.1)
+
+{% hint style="success" %}
+This feature has an **impact on performance** — every time you save, there will be a short lag while the file validation does its thing. You can turn this off (check [#the-automatic-hook](file-validation.md#the-automatic-hook "mention")).
 {% endhint %}
 
+## What is it?
+
+This feature will try to validate the internal structure and — based on your settings — dependent files.
+
+By default, it will trigger every time you save a file. You can turn this off (check [#the-automatic-hook](file-validation.md#the-automatic-hook "mention")) and trigger it by hand (see below).
+
 <figure><img src="../.gitbook/assets/file_validation_in_mesh.png" alt=""><figcaption><p>The log will yell at you if your files have issues now</p></figcaption></figure>
-
-##
-
-The automatic hook
-
-By default, File Validation will trigger every time you save. Since this can impact performance for larger files, you might want to disable it.
-
-### I don't want it, how do I get rid of it?
-
-In the [Script Manager](tools/script-manager.md), switch to the `Hooks` tab and uncheck the box behind `hook_global`:
-
-<figure><img src="../.gitbook/assets/disabling_file_validation.png" alt=""><figcaption></figcaption></figure>
-
-For details, see [Configuring File Validation](file-validation.md#configuring-file-validation) below.
 
 ## Running File Validation
 
@@ -43,6 +37,18 @@ From the Project Menu in the main bar, you can run File Validation on the entire
 Since this can take a long time, Wolvenkit will show you a warning first.
 
 <figure><img src="../.gitbook/assets/file_validation_on_project.png" alt=""><figcaption></figcaption></figure>
+
+## The automatic hook
+
+By default, File Validation will trigger every time you save. Since this can impact performance for larger files, you might want to disable it.
+
+### I don't want it, how do I get rid of it?
+
+In the [Script Manager](tools/script-manager.md), switch to the `Hooks` tab and uncheck the box behind `hook_global`:
+
+<figure><img src="../.gitbook/assets/disabling_file_validation.png" alt=""><figcaption></figcaption></figure>
+
+For details, see [Configuring File Validation](file-validation.md#configuring-file-validation) below.
 
 ## There was an error
 
@@ -174,7 +180,7 @@ This will warn you if any entries will overwrite each other due to shared key da
 
 #### checkEmptyFemaleVariant
 
-By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl#dynamic-variants).
+By default, the game uses `femaleVariant` - `maleVariant` will only be considered if you use either the [gender suffix](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/file-formats/entity-.ent-files#what-are-suffixes) or [dynamic ArchiveXL appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl#dynamic-variants).
 
 ### Mesh: 3d object
 

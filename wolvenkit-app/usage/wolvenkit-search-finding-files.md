@@ -4,9 +4,15 @@ description: These aren't the files you're looking for… yet.
 
 # Wolvenkit Search: Finding files
 
-{% hint style="info" %}
-For help finding an item, check [Spawn Codes (BaseIDs/Hashes)](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/equipment/spawn-codes-baseids-hashes "mention") on the yellow wiki.
-{% endhint %}
+## Summary
+
+This page will show you how to use the Wolvenkit search to find files inside the [asset-browser.md](../editor/asset-browser.md "mention")/[#mod-browser](../editor/asset-browser.md#mod-browser "mention").&#x20;
+
+### Wait, this is not what I want!
+
+* To find the game files from an item's code (e.g. `Items.Q005_Johnny_Pants`), please check [Spawn Codes (BaseIDs/Hashes)](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/equipment/spawn-codes-baseids-hashes "mention") on the yellow wiki.
+
+## Wolvenkit's search bar
 
 You can use the search bar at the top of the asset browser to search the game files:
 

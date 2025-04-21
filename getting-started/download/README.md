@@ -6,10 +6,10 @@ description: Downloading the WolvenKit application
 
 ## Summary
 
-**Published: October 22 20**\
+**Published: October 22 2020**\
 **Created by @JJTurtle**\
 \
-**Last documented update: @manavortex, February 25 2023**
+**Last documented update: @reihera, April 20 2025**
 
 This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
 

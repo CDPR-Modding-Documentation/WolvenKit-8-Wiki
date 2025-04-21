@@ -169,6 +169,32 @@ You can manually make your `Cyberpunk2077Mod` folder in the root of your C: driv
 
 </details>
 
+
+
+
+
+### For Linux Users
+{% hint style="warning" %}    
+Linux compatability works off of a combination of throwing things at the wall and dark magic. As such, we cannot guarantee stability when using Linux.
+{% endhint %} 
+#### Installation
+1) Download the `WolvenKit-x.x.x.zip` or `WolvenKit-x.x.x-nightly.yyyy.mm.dd.zip` files (NOT THE LINUX VERSION) from [Stable](https://github.com/WolvenKit/WolvenKit/releases/latest) or [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest) releases, depending on how much you want to gamble.
+2) Extract them literally wherever you want it doesn't really matter, just remember where you put it.
+3) Find the `WolvenKit.exe` file in the extracted zip file, copy the path.
+4) Now here's where it gets weird, open Steam and go to your libary. Find the "Games" tab on the menu bar, and click on "Add a Non-Steam Game to My Library"
+5) In the window that just opened, press "browse", and paste the link, then select `WolvenKit.exe` if it's not selected already, and press "Add Selected Program".
+6) Find WolvenKit in your library, right click on it in the sidebar, press properties. Go into the compatability tab, select "Force the use of a specific Steam Play compatability tool" and then select "Proton Hotfix".
+7) When you first launch, it will ask for path to Cyberpunk2077.exe. It will be located in `~/.steam/steam/steamapps/common/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe`
+8) All done!
+
+
+#### Known Linux Issues (see [bug reports](https://wiki.redmodding.org/wolvenkit/help/bug-reports) for reporting):
+- Mesh Preview does not work.
+- Font is not loaded correctly.
+- The launch splash is not transparent on Stable.
+
+
+
 ### TLDR;
 
 1. Download the new release, extract the files (over your old install if you have one) and run it.&#x20;

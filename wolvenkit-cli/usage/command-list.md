@@ -17,7 +17,7 @@ For a way to configure Wolvenkit CLI, see  the [settings.md](settings.md "mentio
 * Extracts all files from archive
 * `-w` Use optional search pattern (e.g. \*.ink), if both regex and pattern is defined, pattern will be prioritized.
 * `-r` Use optional regex pattern
-* \-`-hash`: Extract single file with a given hash. If a path is supplied, all hashes will be extracted
+* -`-hash`: Extract single file with a given hash. If a path is supplied, all hashes will be extracted
 
 The `unbundle` command also takes folder paths as input (will recursively extract all .archives in a folder), or a list of paths (e.g. `unbundle -p "C:\MODDING\archives\basegame_4_gamedata.archive" "C:\MODDING\archives\basegame_1_engine.archive"`
 
@@ -61,9 +61,9 @@ Only files with the XBM extension will be uncooked.
 `import -p "INPUT PATH" -o "OUTPUT PATH" --keep`
 
 * Convert raw files to REDengine files
-* \-p can be a folder or file
-* \-o (optional) is the output path where the REDengine files are created
-* \-k (optional) use this parameter if you have already existing REDengine files in your output folder
+* -p can be a folder or file
+* -o (optional) is the output path where the REDengine files are created
+* -k (optional) use this parameter if you have already existing REDengine files in your output folder
 
 {% hint style="info" %}
 When using -k you need both .dds/.buffer and .xbm/.mesh files
@@ -101,10 +101,15 @@ You can specify multiple folders to pack: `pack -p "FOLDER 1" "FOLDER 2"`
 Do not replace existing vanilla archives
 {% endhint %}
 
-## CR2W/W2RC
+## \~\~CR2W/W2RC\~\~ (Deprecated)
 
 * Convert a REDengine file into human readable form: `cr2w -s "<PATH TO FILE>"`
 * Convert a json file into a REDengine file: `cr2w -d "<PATH TO JSON>"`
+
+## Convert
+
+* Convert a REDengine file into human readable form: `convert -s "<PATH TO FILE>"`
+* Convert a json file into a REDengine file: `convert -d "<PATH TO JSON>"`
 
 ## Tweak
 

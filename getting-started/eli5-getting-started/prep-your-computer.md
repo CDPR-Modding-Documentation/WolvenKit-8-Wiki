@@ -25,7 +25,7 @@ This is a **suggestio**n. We're not your real mom, so you can put stuff where yo
 
 The folder structure below will be the centralized location for modding tools, assets, project folders, guides, shortcuts, and the depot.
 
-* [ ] Asset Depot -- `C:\Cyberpunk2077Mod\Depot\`
+* [ ] Asset Depot -- `C:\Cyberpunk2077Mod\WolvenkitDepot\`
 * [ ] Guides and misc notes -- `C:\Cyberpunk2077Mod\Guides\`
 * [ ] Modding projects -- `C:\Cyberpunk2077Mod\Projects\`
 * [ ] WolvenKit application -- `C:\Cyberpunk2077Mod\WolvenKit\`
@@ -35,11 +35,7 @@ The folder structure below will be the centralized location for modding tools, a
 
 I recommend pinning CyberPunk2077Mod folder to File Explorer’s Quick Links. I keep going back to this parent folder to access my guides, shortcuts, to get into the asset depot, etc...
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S12.png" alt=""><figcaption><p>File Explorer view showing recommended quick link</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S12.png" alt=""><figcaption><p>File Explorer view showing recommended quick link</p></figcaption></figure></div>
 
 ## Install Wolvenkit
 
@@ -102,11 +98,7 @@ This will prevent you from running into problems because your path names are too
   8. Close Windows Group Policy Editor
   9.  Reboot your computer
 
-      <div align="left">
-
-      <figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S01-03-09.png" alt=""><figcaption><p>Meme</p></figcaption></figure>
-
-      </div>
+      <div align="left"><figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S01-03-09.png" alt=""><figcaption><p>Meme</p></figcaption></figure></div>
 
 </details>
 
@@ -122,16 +114,9 @@ Redmod is CDPR's entry point for mods. For full instructions on how to enable it
 
 Other programs you might need, and what you might need them for
 
+#### Text editing: [Notepad++](https://notepad-plus-plus.org/downloads/)
 
-
-| Program                                                                                                             | What you need it for                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Blender ](https://www.blender.org/download/)([3.6](https://www.blender.org/download/releases/3-6/) as of Aug.2023) | 3d modelling - refitting, printing your V, you name it. The software is free and open source.                                                                                                                                                                                                     |
-| The [Blender Plugin](https://github.com/WolvenKit/Cyberpunk-Blender-add-on) for Wolvenkit                           | Importing and exporting meshes with ease from and for Wolvenkit                                                                                                                                                                                                                                   |
-| [GIMP](https://www.gimp.org/downloads/)                                                                             | Image editing. You can also use Photoshop or Paint.net.                                                                                                                                                                                                                                           |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)                                                               | <p>Text editing. Using this rather than whatever Windows wants you to use will save you a lot of pain later-on.<br><br>If you don't know how to enable it after installation, check out the <a href="prep-your-computer.md#enabling-the-notepad++-json-viewer-plugin">instructions below</a>.</p> |
-
-
+Using [Notepad++](https://notepad-plus-plus.org/downloads/) rather than whatever Windows wants you to use will save you a lot of pain later-on. Especially its JSON viewer plugin is extremely useful (expand the box below for how to enable it).
 
 <details>
 
@@ -147,15 +132,27 @@ Notepad++ JSON Viewer is used to correctly format JSON syntax, such as when a fi
 
 </details>
 
+#### Blender and the Wolvenkit Blender IO Suite
+
+If you want to edit 3d models, you're going to need this. Don't worry, we have plenty of tutorials for beginners!
+
+{% include "https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/~/reusable/HVBvlv6fppmsiPIhgdDr/" %}
+
+#### Image editing program
+
+If you want to edit images, you're gonna need one of those. As long as you're comfortable, pick whatever works; here are a few recommendations:
+
+[Paint.net](https://www.getpaint.net/download.html): Free image editing software, perfect for beginners
+
+[photopea.com](https://www.photopea.com): Photoshop, but it's free and it runs in your browser
+
+[GIMP](https://www.gimp.org/downloads/): Free open-source image editing software
+
 ### Optional: Pin them to the start menu
 
-I recommend that you pin Blender, GIMP, and Notepad++ to your Start Menu because you’ll need to access them as you’re creating mods.
+I recommend that you pin Blender, GIMP, and Notepad++ to your Start Menu — you’ll need them as you’re creating mods.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S11.png" alt=""><figcaption><p>Windows Start Menu showing recommended pins</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/ELI5_GetStart_Prep_S11.png" alt=""><figcaption><p>Windows Start Menu showing recommended pins</p></figcaption></figure></div>
 
 
 

@@ -15,7 +15,7 @@ WolvenKit Console is the core "Modkit" that drives the WolvenKit application. Th
 As of January 2024, Wolvenkit.CLI does not work under Linux. You can run it though qemu and virtofs.
 {% endhint %}
 
-## Installing Wolvenkit Console
+## Installing WolvenKit Console
 
 ### As a dotnet tool
 
@@ -41,14 +41,14 @@ If starting WolvenKit CLI fails with an error regarding .NET version, it means y
 
 ### By downloading it from the repository
 
-You can download Wolvenkit Console from the Releases page on the github repository ([Release](https://github.com/WolvenKit/WolvenKit/releases) | [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases)). Select the download starting with `Wolvenkit.Console`.
+You can download WolvenKit Console from the Releases page on the GitHub repository ([Release](https://github.com/WolvenKit/WolvenKit/releases) | [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases)). Select the download starting with `WolvenKit.Console`.
 
-Extract it to a directory of your choice (for example `C:\Cyberpunk_Modding\Wolvenkit.Console`).&#x20;
+Extract it to a directory of your choice (for example `C:\Cyberpunk_Modding\WolvenKit.Console`).&#x20;
 
-You can run Wolvenkit console from that directory, for example:&#x20;
+You can run WolvenKit Console from that directory, for example:&#x20;
 
 ```
-C:\Cyberpunk_Modding\Wolvenkit.Console\Wolvenkit.CLI.exe -help
+C:\Cyberpunk_Modding\WolvenKit.Console\Wolvenkit.CLI.exe -help
 ```
 
 To make the command globally available, add the directory to your [Windows Path](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/).

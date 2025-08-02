@@ -28,8 +28,16 @@ dotnet tool install -g wolvenkit.cli
 Verify if the installation was successful:
 
 ```
-wolvenkit.cli -help
+cp77tools -help
 ```
+
+{% hint style="info" %}
+You can also use `dotnet tool list -g` to see if WolvenKit CLI is present. You'll see in the last column the command to run it.
+{% endhint %}
+
+{% hint style="warning" %}
+If starting WolvenKit CLI fails with an error regarding .NET version, it means you need to install or update the SDK. You can check your setup with `dotnet sdk check`. You can install the latest version required for this tool by following this [link](https://aka.ms/dotnet-core-download). As of writing this note, you need to keep **.NET v8** up-to-date.
+{% endhint %}
 
 ### By downloading it from the repository
 

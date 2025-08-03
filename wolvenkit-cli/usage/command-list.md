@@ -89,16 +89,40 @@ The in-game textures have .dds fileformat, but WolvenKit Console supports conver
 
 ## Pack
 
-#### Creating new archive files
+#### Usage
 
-`pack -p "MODDED FOLDER PATH"`
+`pack -p <path> [-o output]` (backward compatibility)
 
-* **Pack** a folder of REDengine files: this will create a new .archive file.
+`pack [-o output] <path1> <pathN>`
 
-You can specify multiple folders to pack: `pack -p "FOLDER 1" "FOLDER 2"`
+
+
+* `-p` is an alias for `--path`
+* `-o` is an alias for `--outpath`
+
+#### Description
+
+This command **pack** a folder of REDengine files. It will create a new **.archive** file. You can provide multiple paths to create multiple archives at once.
+
+It will output archive(s) in the current working directory by default. Use the option `-o output` to change the directory path where to output archive(s).
+
+{% hint style="info" %}
+This command is not behaving exactly like the button `Build Project` of the WolvenKit application. It will only generate **.archive** file(s) and ignore any extra files (such as **.xl**).
+{% endhint %}
 
 {% hint style="danger" %}
 Do not replace existing vanilla archives
+{% endhint %}
+
+#### Example
+
+* you have a WolvenKit project in `C:\Documents\Modding\Cyberpunk2077\Awesome`
+* you are currently in `C:\Documents\Modding\Cyberpunk2077\` with your terminal
+* run the command `pack -p "Awesome"`
+* output of the archive will be  `C:\Documents\Modding\Cyberpunk2077\Awesome.archive`.
+
+{% hint style="warning" %}
+You can provide multiple paths (WKit projects), but only one output path. This is a limitation due to the .NET framework.
 {% endhint %}
 
 ## \~\~CR2W/W2RC\~\~ (Deprecated)

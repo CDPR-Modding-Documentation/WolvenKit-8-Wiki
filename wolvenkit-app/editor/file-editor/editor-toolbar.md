@@ -116,7 +116,7 @@ Will un-do the effect of [ArchiveXL: dynamic materials](https://app.gitbook.com/
 
 ### Clear chunk materials
 
-Deletes the chunk materials for multiple selected appearances (quickly convert something to [Mesh appearance auto expansion](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl/mesh-appearance-auto-expansion "mention"))
+Deletes the chunk materials for multiple selected appearances (quickly convert something to [Mesh Appearance: Auto Expansion](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/archivexl-dynamic-materials#mesh-appearance-auto-expansion "mention"))
 
 ### Convert hair to CCXL material
 

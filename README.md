@@ -4,7 +4,7 @@ description: WolvenKit - The ultimate mod editor for REDengine games
 
 # Home
 
-![](<.gitbook/assets/wkit\_sammy\_text\_doublestack (1600x400).png>)
+![](<.gitbook/assets/wkit_sammy_text_doublestack (1600x400).png>)
 
 ## What is WolvenKit?
 
@@ -40,10 +40,6 @@ After [installing Wolvenkit](https://github.com/WolvenKit/Wolvenkit/releases), y
 
 {% content-ref url="getting-started/download/" %}
 [download](getting-started/download/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="getting-started/creating-a-mod.md" %}

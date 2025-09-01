@@ -122,7 +122,7 @@ Attempts to copy the [Tweak](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-
 
 #### Duplicate item in Array/Buffer
 
-Creates an exact copy of the currently selected item/handle, which will be inserted directly after it (this is important for e.g. [material instances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/3d-objects-.mesh-files#step-3-material-definition) in mesh files). This copy can be edited without affecting the original, unlike the next option in the context menu:
+Creates an exact copy of the currently selected item/handle, which will be inserted directly after it (this is important for e.g. [material instances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/files-and-what-they-do/file-formats/3d-objects-.mesh-files#step-3-material-definition) in mesh files). This copy can be edited without affecting the original, unlike the next option in the context menu:
 
 #### Copy Handle
 

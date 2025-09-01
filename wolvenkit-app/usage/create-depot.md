@@ -22,8 +22,6 @@ Use the Depot Generator from Wolvenkit's Tools tab:
 
 You can export materials, or unbundle the whole game:
 
-{% include "../../.gitbook/includes/wolvenkit-depot-generator.md" %}
-
 ### Generate Materials
 
 Exports the game's **materials** (textures, gradients, mlmasks...). This used to be required by MLSetupBuilder, but is no longer necessary.

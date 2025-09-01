@@ -4,7 +4,15 @@ description: Scene Editor 101
 
 # Scene Editor
 
+The Scene Editor is designed to work .scene files. It enables a node-based workflow: you select a node on the graph editor to edit and inspect its properties.
+
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Wolvenkit's Scene Editor</p></figcaption></figure>
+
+{% hint style="danger" %}
+Undo and redo actions are currently **not supported** but are planned.&#x20;
+
+Be careful with your edits and it wouldn't hurt to make periodical backups anyways!
+{% endhint %}
 
 ## What do the tabs mean?
 

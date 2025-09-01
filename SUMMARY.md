@@ -45,6 +45,7 @@
   * [Log](wolvenkit-app/editor/log.md)
   * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
   * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)
+  * [Quest Editor](wolvenkit-app/editor/quest-editor.md)
   * [Scene Editor](wolvenkit-app/editor/scene-editor.md)
 * [Tools](wolvenkit-app/tools/README.md)
   * [Script Manager](wolvenkit-app/tools/script-manager.md)

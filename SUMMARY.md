@@ -40,6 +40,7 @@
   * [Asset Browser](wolvenkit-app/editor/asset-browser.md)
   * [Properties](wolvenkit-app/editor/properties.md)
   * [File Editor](wolvenkit-app/editor/file-editor/README.md)
+    * [Editor Toolbar](wolvenkit-app/editor/file-editor/editor-toolbar.md)
     * [Editor Difficulty Mode](wolvenkit-app/editor/file-editor/editor-difficulty-mode.md)
     * [Preview](wolvenkit-app/editor/file-editor/preview.md)
   * [Log](wolvenkit-app/editor/log.md)

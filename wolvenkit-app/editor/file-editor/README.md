@@ -13,6 +13,8 @@ WolvenKit is the only RTTI-based editor for RED4.
 
 {% hint style="info" %}
 Starting with 1.14, Wolvenkit offers multiple editor modes. See [#switching-editor-modes](./#switching-editor-modes "mention") for details.
+
+To learn more about the [editor-toolbar.md](editor-toolbar.md "mention"), please see the corresponding page.
 {% endhint %}
 
 

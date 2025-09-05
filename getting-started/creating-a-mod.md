@@ -127,6 +127,10 @@ Not feeling creative? Feel free to use the the WolvenKit icon replacer below.
 
 WolvenKit features a one-click mod building solution. The build process packs any **archive directory** files into archive format and installs to the game automatically.
 
+{% hint style="info" %}
+&#x20;After you have pressed **instal**l, the archive file goes to the (Steam\steamapps\common\Cyberpunk 2077\archive\pc\mod) folder.
+{% endhint %}
+
 WolvenKit only supports **unbundled** files. Files that have been decompressed using WolvenKit CLI _will not_ be packed correctly. Buffers must be compressed within the main REDengine file. Files added with the built-in Asset Browser will **always** be the correct format.
 
 1. From within the **Menu**, select the [#install](../wolvenkit-app/menu/toolbar.md#install "mention") button
@@ -135,20 +139,24 @@ WolvenKit only supports **unbundled** files. Files that have been decompressed u
 
 ### Testing In Game
 
-To verify this texture mod in game, equip the outer torso item `Replica of Johnny's Samurai jacket`. The jacket can be obtained through normal gameplay during the main questline. Alternatively, the jacket can be added to the player inventory by using the [**Cyber Engine Tweaks**](https://wiki.redmodding.org/cyber-engine-tweaks/console/how-do-i#give-myself-money-or-items) console.
+To verify this texture mod in game, equip the outer torso item `Replica of Johnny's Samurai jacket`.&#x20;
 
-{% hint style="info" %}
-The following command can be used to obtain Johnny's Jacket:\
+<details>
+
+<summary>Spawn code for Johnny's jacket</summary>
+
+The following command will give you Johnny's Jacket:\
 \
 `Game.AddToInventory("Items.SQ031_Samurai_Jacket",1)`\
 \
-Copy and paste the command into the Cyber Engine Tweaks console using CTRL+C to copy, then CTRL+V to paste.
-{% endhint %}
+Copy and paste the command into the [**Cyber Engine Tweaks**](https://wiki.redmodding.org/cyber-engine-tweaks/console/how-do-i#give-myself-money-or-items) console (`CTRL+C` to copy, then `CTRL+V` to paste).
+
+</details>
 
 ![](<../.gitbook/assets/Example Mod Sammy Jacket Inventory.png>)
 
 ## Final Thoughts
 
-While not all encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the [Discord server!](https://discord.com/invite/Epkq79kd96)
+While not all-encompassing, this guide teaches the core philosophy behind our modding pipeline. If you've followed along so far, you're ready to start getting the most out of WolvenKit. We recommend familiarizing yourself with the Wiki to understand how our Editors work. Please keep in mind that everything in our community from software such as WolvenKit or this Wiki is developed, written, and created by passionate volunteers. If you encounter issues with software or documentation, consider getting involved with us on the [Discord server!](https://discord.com/invite/Epkq79kd96)
 
 Enjoy your RED Modding journey!

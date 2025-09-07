@@ -22,13 +22,13 @@ Contains files that will be bundled into your mod's .archive file. For more info
 
 **Location:** `your_wolvenkit_project/source/raw`.&#x20;
 
-Your (dirty?) working directory. Contains files that will not be part of your mod, as well as exported files. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#raw](project-explorer.md#raw "mention")
+Your (dirty?) working directory. Contains files that will not be part of your mod, as well as exported files. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#raw](../usage/wolvenkit-projects.md#raw "mention")
 
 ### Resources
 
 **Location:** `your_wolvenkit_project/source/resources`
 
-Contains control files for your mod. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#resources](project-explorer.md#resources "mention")
+Contains control files for your mod. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#resources](../usage/wolvenkit-projects.md#resources "mention")
 
 ### Source
 

@@ -17,6 +17,16 @@ This page documents the editor menu bar.
 
 Here you can toggle the [editor-difficulty-mode.md](editor-difficulty-mode.md "mention"). Please see the corresponding wiki page for details.
 
+## Search Bar
+
+There's a search bar on the right side of the editor, which will search through all nodes in the tree:
+
+<figure><img src="../../../.gitbook/assets/editor_search_bar.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Since the search is performance-heavy, you need to trigger an update with the Enter key.
+{% endhint %}
+
 ## Materials
 
 Only visible in `.mesh` and `.mi` files.

@@ -69,6 +69,7 @@
     * [Import/Export: Sound effects](wolvenkit-app/usage/import-export/import-export-sound-effects.md)
   * [Navigating Wolvenkit](wolvenkit-app/usage/navigating-wolvenkit.md)
 * [Error Codes](wolvenkit-app/error-codes.md)
+* [Wait, it can do that?](wolvenkit-app/wait-it-can-do-that.md)
 
 ## WolvenKit CLI
 

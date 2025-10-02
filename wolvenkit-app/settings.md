@@ -6,7 +6,7 @@ description: Wolvenkit's settings and what they mean
 
 ## Summary
 
-Last documented update: Jun 17 2024 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention") (Wolvenkit 8.14 Nightly)
+Last documented update: Jun 17 2024 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention") (Wolvenkit 8.14 Nightly)
 
 This page documents Wolvenkit's settings menu, and what the individual entries mean.&#x20;
 
@@ -140,7 +140,7 @@ The update channel determines which type WolvenKit updates are received.
 
 ### Your name
 
-Will be used when creating new projects.
+Will be used for automatically generated subfolders / item names. If you configure this, it'll be auto-filled for new projects.
 
 ### Your e-Mail
 

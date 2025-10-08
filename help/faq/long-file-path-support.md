@@ -26,6 +26,19 @@ We decided to show you a warning at every startup, because
 If you don't trust something you read on a random modding wiki, find the full guide at [microsoft.com](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#enable-long-paths-in-windows-10-version-1607-and-later).&#x20;
 {% endhint %}
 
+1. Open the registry editor as administrator\
+   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `regedit`, press`Ctrl+Shift+Enter)`_
+2. In the search bar at the top, enter the following:\
+   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
+3. In the window on the right, find `LongPathsEnabled`
+4. Double-click on it and set the numeric value to 1
+5. Reboot\
+
+
+<details>
+
+<summary>Outdated guide (may not work)</summary>
+
 1. Open a Powershell window as administrator \
    &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter`)_\
    \
@@ -42,6 +55,8 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 ```
 
 3. Press `Enter`
+
+</details>
 
 That's it! You now have long path support enabled.
 

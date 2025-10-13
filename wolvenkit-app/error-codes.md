@@ -6,8 +6,8 @@ description: A list of Wolvenkit error codes, and what they mean
 
 ## Summary
 
-**Published**: May 1 2024 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
-**Last documented update**: Jan 6 2025 by [manavortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
+**Published**: May 1 2024 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
+**Last documented update**: Jan 6 2025 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
 This page contains an overview about Wolvenkit's internal error codes and what they mean.
 
@@ -82,3 +82,8 @@ Check your [settings.md](settings.md "mention") ->[#game-executable-.exe-path](s
 
 Check [#id-0x5001-invalid-game-file-executable](error-codes.md#id-0x5001-invalid-game-file-executable "mention") and make sure that all your settings are valid. If that doesn't fix your problem, you may have to reset your settings, see [#id-0x5000-invalid-settings](error-codes.md#id-0x5000-invalid-settings "mention") for detes.
 
+
+
+## MTO requirement
+
+If you are here because a popup told you to install MTO: You can [get it on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/5266).

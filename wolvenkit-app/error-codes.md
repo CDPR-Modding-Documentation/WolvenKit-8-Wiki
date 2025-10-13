@@ -90,6 +90,10 @@ You are here because a popup in Wolvenkit told you to install Material and Textu
 
 This is necessary because Cyberpunk caches all of the base game's `.mlsetup` files, so your changes won't be visible without it.&#x20;
 
+{% hint style="info" %}
+MTO can under certain circumstances cause crashes in Japantown. You may want to remove it again after you're custompathed your mlsetup:
+{% endhint %}
+
 To get rid of the requirement, you can [custompath](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/custompathing-assets) your files:
 
 1. Find your .mlsetup in the [asset-browser.md](editor/asset-browser.md "mention")

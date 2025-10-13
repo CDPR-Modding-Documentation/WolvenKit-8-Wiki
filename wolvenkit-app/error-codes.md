@@ -86,4 +86,17 @@ Check [#id-0x5001-invalid-game-file-executable](error-codes.md#id-0x5001-invalid
 
 ## MTO requirement
 
-If you are here because a popup told you to install MTO: You can [get it on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/5266).
+You are here because a popup in Wolvenkit told you to install Material and Texture Override. You can [get it on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/5266).
+
+This is necessary because Cyberpunk caches all of the base game's `.mlsetup` files, so your changes won't be visible without it.&#x20;
+
+To get rid of the requirement, you can [custompath](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/custompathing-assets) your files:
+
+1. Find your .mlsetup in the [asset-browser.md](editor/asset-browser.md "mention")
+2. Right-Click and select [#find-files-using-this](editor/asset-browser.md#find-files-using-this "mention")
+3. Temporarily add these files to your mod
+
+{% hint style="info" %}
+If you intend to publish your mod on Nexus, **don't do this**, since it will break refits for body mods. In this case, you have no choice but to add a dependency to MTO.
+{% endhint %}
+

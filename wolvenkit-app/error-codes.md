@@ -94,13 +94,5 @@ This is necessary because Cyberpunk caches all of the base game's `.mlsetup` fil
 MTO can under certain circumstances cause crashes in Japantown. You may want to remove it again after you're custompathed your mlsetup:
 {% endhint %}
 
-To get rid of the requirement, you can [custompath](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/custompathing-assets) your files:
-
-1. Find your .mlsetup in the [asset-browser.md](editor/asset-browser.md "mention")
-2. Right-Click and select [#find-files-using-this](editor/asset-browser.md#find-files-using-this "mention")
-3. Temporarily add these files to your mod
-
-{% hint style="info" %}
-If you intend to publish your mod on Nexus, **don't do this**, since it will break refits for body mods. In this case, you have no choice but to add a dependency to MTO.
-{% endhint %}
+:construction: \[We are missing a guide here] Alternatively to modifying the base game files, you should consider patching files that _reference them_ with archiveXL or by changing the references directly in WolvenKit.
 

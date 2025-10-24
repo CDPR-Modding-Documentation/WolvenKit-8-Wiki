@@ -86,8 +86,12 @@ Check [#id-0x5001-invalid-game-file-executable](error-codes.md#id-0x5001-invalid
 
 ## MTO requirement
 
-You are here because a popup in Wolvenkit told you to install Material and Texture Override. You can [get it on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/25246).
+You are here because a popup in Wolvenkit told you about **Material and Texture Override**.&#x20;
 
-This is necessary because Cyberpunk caches all of the base game's `.mlsetup` files, so your changes won't be visible without it.&#x20;
+The mod is necessary because Cyberpunk caches all of the base game's `.mlsetup` files, so your changes won't be visible without it. You can [get it on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/25246).
+
+{% hint style="info" %}
+The original MTO can crash the game under certain circumstances, so you should remove it and install the new version instead.
+{% endhint %}
 
 To **avoid the dependency**, you can use [ArchiveXL: Patching appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/editing-existing-items/archivexl-patching-appearances "mention") .

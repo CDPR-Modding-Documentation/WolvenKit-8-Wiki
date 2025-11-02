@@ -1,12 +1,12 @@
 ---
-description: The main mod-editor interface of WolvenKit
+description: The main interface of WolvenKit
 ---
 
-# Editor
+# Wolvenkit's Interface
 
-## What is the Editor?
+## Summary
 
-The Editor is the main mod-editing workspace within WolvenKit, holding the docking window for the individual [#editor-panels](./#editor-panels "mention").
+This page explains the main workspace within WolvenKit, the one holding the docking windows for the individual [#editor-panels](./#editor-panels "mention").
 
 <figure><img src="../../.gitbook/assets/wolvenkit_ui.png" alt=""><figcaption><p>The Wolvenkit UI as of 8.13</p></figcaption></figure>
 
@@ -24,7 +24,7 @@ For an explanation to the editor panels, please see the corresponding sub-pages:
 
 ## Docking
 
-The docking in WolvenKit is similar to other IDE's such as Visual Studio. All panels can be rearranged by docking to specific areas, or used as a standalone floating window.
+The docking in WolvenKit is similar to other IDEs such as Visual Studio. All panels can be rearranged by docking to specific areas, or used as a standalone floating window.
 
 ![](<../../.gitbook/assets/8.5 docking.png>)
 
@@ -34,4 +34,4 @@ Try double-clicking an Editor title bar to create a floating window!&#x20;
 
 ## Status Bar
 
-The Status Bar along the bottom of the application window contains useful information such as your **WolvenKit version number** and the current mod project, and provide the ability to install new updates if available.
+The Status Bar along the bottom of the application window contains useful information, such as your **WolvenKit version number** and the current mod project, and provide the ability to install new updates if available.

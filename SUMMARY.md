@@ -35,7 +35,7 @@
 * [Menu](wolvenkit-app/menu/README.md)
   * [Toolbar](wolvenkit-app/menu/toolbar.md)
   * [Launch Profiles](wolvenkit-app/menu/launch-profiles.md)
-* [Editor](wolvenkit-app/editor/README.md)
+* [Wolvenkit's Interface](wolvenkit-app/editor/README.md)
   * [Project Explorer](wolvenkit-app/editor/project-explorer.md)
   * [Asset Browser](wolvenkit-app/editor/asset-browser.md)
   * [Properties](wolvenkit-app/editor/properties.md)

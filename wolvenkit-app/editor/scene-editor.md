@@ -38,7 +38,13 @@ Here is a breakdown of the other tabs:
 
 **Common actions:**
 
-* Duplicate Node: Creates an exact copy of the selected node, including all its properties, but with a new unique ID and no connections.
+* Duplicate Node: Creates an exact copy of the selected node in the same file, including all its properties, but with a new unique ID and no connections.
+* Copy Node: Copies the selected node to the clipboard. The copied node can then be pasted in the same file or a different scene or questphase file by right clicking -> Paste Node in the target file.&#x20;
+
+{% hint style="info" %}
+FYI: When a node from a scene is copied from a .scene file and pasted into a questphase file, the resulting questphase node gets automatically unwrapped from its `scnQuestNode` &#x20;
+{% endhint %}
+
 * Detach Node: Removes all incoming and outgoing connections from the selected node.
 * Delete Node (Soft Delete): Replaces the selected node with a special '[Deletion Marker](https://nativedb.red4ext.com/c/5548111434222821)' node.  This is the default deletion for any signal-stopping node such as a PauseCondition, Choice, etc. This is the recommended way to remove such nodes from quests that have already been published, as it prevents users with existing saves from getting stuck in a signal-stopping node.&#x20;
 * Destroy Node (Hard Delete): Permanently removes the selected node from the graph. This is safe to use when creating a new scene, but should be used with caution on signal-stopping scene nodes that are already in use, as it can cause user to be stuck in your quest.
@@ -63,4 +69,6 @@ Here is a breakdown of the other tabs:
 | `Ctrl` + `G`                                                 | Opens the "Go to Node" dialog to jump to a specific node by its ID.                                                                                                                                                                                                                                                                                                                  |
 | `↑` `↓` `←` `→` (Arrow Keys)                                 | Navigates between nodes. The editor uses a "smart walk" system that considers both spatial position and connection history to determine the next node to select.                                                                                                                                                                                                                     |
 | `Alt` + `Click` on a socket or `Right-click` on a connection | Deletes connection                                                                                                                                                                                                                                                                                                                                                                   |
+| `Ctrl` + `C`                                                 | Copies the currently selected node                                                                                                                                                                                                                                                                                                                                                   |
+| `Ctrl` + `V`                                                 | Pastes the copied node                                                                                                                                                                                                                                                                                                                                                               |
 

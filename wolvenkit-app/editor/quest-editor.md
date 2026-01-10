@@ -18,7 +18,13 @@ Be careful with your edits and it wouldn't hurt to make periodical backups anywa
 
 **Common actions:**
 
-* Duplicate Node: Creates an exact copy of the selected node, including all its properties, but with a new unique ID and no connections.
+* Duplicate Node: Creates an exact copy of the selected node in the same file, including all its properties, but with a new unique ID and no connections.
+* Copy Node: Copies the selected node to the clipboard. The copied node can then be pasted in the same file or a different questphase or scene file by right clicking -> Paste Node in the target file.
+
+{% hint style="info" %}
+FYI: When a node from a questphase is copied from a questphase file and pasted into a scene file, the resulting scene node is automatically wrapped in a `scnQuestNode` &#x20;
+{% endhint %}
+
 * Detach Node: Removes all incoming and outgoing connections from the selected node.
 * Delete Node (Soft Delete): Replaces the selected node with a special '[Deletion Marker](https://nativedb.red4ext.com/c/5548111434222821)' node.  This is the default deletion for any signal-stopping node such as a PauseCondition, Choice, etc. This is the recommended way to remove such nodes from quests that have already been published, as it prevents users with existing saves from getting stuck in a signal-stopping node.&#x20;
 * Destroy Node (Hard Delete): Permanently removes the selected node from the graph. This is safe to use when creating a new scene, but should be used with caution on signal-stopping scene nodes that are already in use, as it can cause user to be stuck in your quest.
@@ -30,8 +36,7 @@ Be careful with your edits and it wouldn't hurt to make periodical backups anywa
 
 * Recalculate Sockets for Phase and Scene nodes: syncs new in/out sockets created inside a Phase or Scene.
 * Add Output for Randomizer node: creates a new output node on the Randomizer node
-* Add Case for Switch node: creates a new switch case output + condition pair\
-
+* Add Case for Switch node: creates a new switch case output + condition pair<br>
 
 ## Shortcuts
 
@@ -44,4 +49,6 @@ Be careful with your edits and it wouldn't hurt to make periodical backups anywa
 | `Ctrl` + `G`                                                 | Opens the "Go to Node" dialog to jump to a specific node by its ID.                                                                                                                                                                                                                                                                                                                  |
 | `↑` `↓` `←` `→` (Arrow Keys)                                 | Navigates between nodes. The editor uses a "smart walk" system that considers both spatial position and connection history to determine the next node to select.                                                                                                                                                                                                                     |
 | `Alt` + `Click` on a socket or `Right-click` on a connection | Deletes connection                                                                                                                                                                                                                                                                                                                                                                   |
+| `Ctrl` + `C`                                                 | Copies the currently selected node                                                                                                                                                                                                                                                                                                                                                   |
+| `Ctrl` + `P`                                                 | Pastes the copied node                                                                                                                                                                                                                                                                                                                                                               |
 

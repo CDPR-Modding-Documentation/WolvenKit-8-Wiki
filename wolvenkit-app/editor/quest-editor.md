@@ -22,9 +22,10 @@ Be careful with your edits and it wouldn't hurt to make periodical backups anywa
 * Copy Node: Copies the selected node to the clipboard. The copied node can then be pasted in the same file or a different questphase or scene file by right clicking -> Paste Node in the target file.
 
 {% hint style="info" %}
-FYI: When a node from a questphase is copied from a questphase file and pasted into a scene file, the resulting scene node is automatically wrapped in a `scnQuestNode` &#x20;
+FYI: When a node from a scene is copied from a scene file and pasted into a questphase file, the resulting quest node is automatically unwrapped from its `scnQuestNode` &#x20;
 {% endhint %}
 
+* Goto Node: Navigates the graph editor view and selects the specified node ID &#x20;
 * Detach Node: Removes all incoming and outgoing connections from the selected node.
 * Delete Node (Soft Delete): Replaces the selected node with a special '[Deletion Marker](https://nativedb.red4ext.com/c/5548111434222821)' node.  This is the default deletion for any signal-stopping node such as a PauseCondition, Choice, etc. This is the recommended way to remove such nodes from quests that have already been published, as it prevents users with existing saves from getting stuck in a signal-stopping node.&#x20;
 * Destroy Node (Hard Delete): Permanently removes the selected node from the graph. This is safe to use when creating a new scene, but should be used with caution on signal-stopping scene nodes that are already in use, as it can cause user to be stuck in your quest.

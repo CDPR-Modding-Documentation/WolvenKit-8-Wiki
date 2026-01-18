@@ -32,8 +32,7 @@ If you don't trust something you read on a random modding wiki, find the full gu
    `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
 3. In the window on the right, find `LongPathsEnabled`
 4. Double-click on it and set the numeric value to 1
-5. Reboot\
-
+5. Reboot<br>
 
 <details>
 

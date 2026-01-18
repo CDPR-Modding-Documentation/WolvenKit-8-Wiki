@@ -94,4 +94,4 @@ The mod is necessary because Cyberpunk caches all of the base game's `.mlsetup` 
 The original MTO can crash the game under certain circumstances, so you should remove it and install the new version instead.
 {% endhint %}
 
-To **avoid the dependency**, you can use [ArchiveXL: Patching appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/editing-existing-items/archivexl-patching-appearances "mention") .
+To **avoid the dependency**, you can use [Resource Patching: Mesh Appearances](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl/archivexl-resource-patching/archivexl-patching-appearances "mention") .

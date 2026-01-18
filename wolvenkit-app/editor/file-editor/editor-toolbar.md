@@ -53,7 +53,7 @@ You have the following options:
 If you have chunk materials that do not yet have material entries, you can use this button to generate `localMaterialInstances` for them.&#x20;
 
 {% hint style="info" %}
-Consider using [ArchiveXL: dynamic materials](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/archivexl-dynamic-materials "mention")instead!
+Consider using [ArchiveXL: dynamic materials](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl/archivexl-dynamic-materials "mention")instead!
 {% endhint %}
 
 ### Toggle "EnableMask"
@@ -122,11 +122,11 @@ Only visible in `.mesh` files.
 
 ### Un-dynamify appearances
 
-Will un-do the effect of [ArchiveXL: dynamic materials](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/archivexl-dynamic-materials "mention"). This is useful for NPVs and personal ports.
+Will un-do the effect of [ArchiveXL: dynamic materials](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl/archivexl-dynamic-materials "mention"). This is useful for NPVs and personal ports.
 
 ### Clear chunk materials
 
-Deletes the chunk materials for multiple selected appearances (quickly convert something to [Mesh Appearance: Auto Expansion](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/textures-and-luts/archivexl-dynamic-materials#mesh-appearance-auto-expansion "mention"))
+Deletes the chunk materials for multiple selected appearances (quickly convert something to [ArchiveXL: dynamic materials #Mesh Appearance: Auto Expansion](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/core-mods-explained/archivexl/archivexl-dynamic-materials#mesh-appearance-auto-expansion "mention"))
 
 ### Convert hair to CCXL material
 

@@ -297,8 +297,7 @@ If you select a handle instead of an array on the left-side window, you will sti
 
 The red trashcan icons can also delete handles, as you've surely guessed, but there's a way to do it directly on the left-side window using the **File Editor context menu**. So for our next section, we proudly present... _\*insert drumroll here\*_
 
-[^1]: _Sometimes, you will be blessed with all compatible entries in a dropdown menu, but often you will be met with nothing but text fields that requires Arcane Knowledge to be correctly filled._ \
-
+[^1]: _Sometimes, you will be blessed with all compatible entries in a dropdown menu, but often you will be met with nothing but text fields that requires Arcane Knowledge to be correctly filled._ <br>
 
     _For instance, in the image above, the selected property is given as **character\_flesh.physmat** by default. There are \~80 other materials that you can only learn about in the file that contains them (in this case, **physicsmaterials.physmatlib**). This will make you very thankful for the existence of the **Open Without Adding to Project** option._&#x20;
 

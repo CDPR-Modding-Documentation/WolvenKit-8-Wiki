@@ -6,7 +6,7 @@ description: Scene Editor 101
 
 The Scene Editor is designed to work .scene files. It enables a node-based workflow: you select a node on the graph editor to edit and inspect its properties.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Wolvenkit's Scene Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="Wolvenkit&#x27;s Scene Editor"><figcaption><p>Wolvenkit's Scene Editor</p></figcaption></figure>
 
 {% hint style="danger" %}
 Undo and redo actions are currently **not supported** but are planned.&#x20;
@@ -20,17 +20,59 @@ The Scene Editor is designed for a node-based workflow: you select a node on the
 
 <figure><img src="../../.gitbook/assets/ScreenRecording2025-07-03160650-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption></figcaption></figure>
 
-The first tab is the Node Properties tab where properties are dynamically shown and edits are synced with the Graph Editor
+The first tab is the Node Properties tab where properties are dynamically shown and edits are synced with the Graph Editor.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+Special nodes like a Section node (which are probably the most used node in scenes, used to orchestrate dialogue, animations, workspots, vfx etc) will also show up with a timeline where you can drag, rearrange, and extend events.
+
+
 
 Here is a breakdown of the other tabs:
 
-* Actors & Props: This tab displays the definitions for actors, props, and other entities that are physically represented in the game world. Use this tab to add new actors or check existing actors in a scene.
-* Logic & Flow: This tab provides a global view of the logic and flow-control elements for the entire scene. This includes collections of data such as EntryPoints, ExitPoints, and other structures that define how the scene starts, ends, and progresses.
-* Dialogue: This tab contains the scene's entire dialogue repository. It provides access to the scene's embedded LocStore (localization strings) and actual localised ScreenplayStore (screenplay data), which include all dialogue lines, player choices, and associated metadata for the whole scene.
-* Asset Library: This tab serves as a central library for all external assets referenced within the scene file. This includes animations, effects, workspots.
-* Markers & Metadata: This tab displays a collection of scene-wide markers and other metadata. This includes NotablePoints, TriggerAreas, and other spatial or gameplay-related tags.
+### Actors & Props
 
+This tab displays the definitions for actors, props, and other entities that are physically represented in the game world. Use this tab to add new actors or check existing actors in a scene.&#x20;
 
+Use the 'Add Actor' and 'Add Prop' buttons to add new actors and props to your scene. These buttons automatically create corresponding entries in the actors/props arrays as well as debugSymbols > performerDebugSymbols. After creation, you can rename the actors and define them (for instance you will need to specify how the actor is going to be spawned) &#x20;
+
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+### Logic & Flow
+
+This tab provides a global view of the logic and flow-control elements for the entire scene. This includes collections of data such as EntryPoints, ExitPoints, NotablePoints and other structures that define how the scene starts, ends, and progresses.
+
+When looking at big scenes, it can be useful to look through the entries here to identify the major points in the scene.
+
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Use Ctr + G (Goto Node) to go to a specific node ID
+{% endhint %}
+
+### Dialogue
+
+This tab contains the scene's entire dialogue repository. It provides access to the scene's embedded LocStore (localization strings) and actual localised ScreenplayStore (screenplay data), which include all dialogue lines, player choices, and associated metadata for the whole scene.
+
+Use the 'Add Dialogue' button to add a new dialogue entry that can be used in Section nodes to play dialogue. You will need to provide a Locstring ID and optionally, an embedded text to display within the editor. Once created and before you try to use it, you will need to fill out more details such as the lipsync animation names, speaker, addresee, etc. Similary the 'Add Option' button adds a new option entry that can be used in a Choice node.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Use SoundDB to grab locstringIDs of existing voicelines: [https://sounddb.redmodding.org/subtitles](https://sounddb.redmodding.org/subtitles)
+{% endhint %}
+
+### Asset Library
+
+This tab serves as a central library for all external assets referenced within the scene file. This includes animations, effects, workspots. Each of these resource also have buttons to add new entries to.
+
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+### Markers & Metadata
+
+This tab displays misc metadata associated with the scene, including scene category, localMarkers, version, etc
+
+***
 
 ## **Right-click context menu**
 

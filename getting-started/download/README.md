@@ -11,10 +11,10 @@ description: Downloading the WolvenKit application
 \
 **Last documented update: @reihera, April 20 2025**
 
-This section will walk you through the process of downloading and installing Wolvenkit.&#x20;
+This section will walk you through the process of downloading and installing Wolvenkit.
 
 {% hint style="info" %}
-There is a [Full Install Walkthrough (ELI5)](../eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](./#prerequisites). :)&#x20;
+There is a [Full Install Walkthrough (ELI5)](../eli5-getting-started/), which you can follow if you are not very computer-savy or feel insecure about modding. If you've been sent here by the same guide, ignore this box and start with the [prerequisites](./#prerequisites). :)
 {% endhint %}
 
 ### TL;DR
@@ -27,7 +27,7 @@ There is a [Full Install Walkthrough (ELI5)](../eli5-getting-started/), which yo
 
 ## Prerequisites
 
-For detailed instructions on installing other software that you might need for mod development, see the section&#x20;
+For detailed instructions on installing other software that you might need for mod development, see the section
 
 * Windows 10/11 (64-bit) or a Linux build of your choice
 * [REDMod](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-users/users-modding-cyberpunk-2077/redmod#installation) (Cyberpunk's modding framework)
@@ -44,7 +44,7 @@ Wolvenkit is mostly developed and used on Windows — if you're on Linux, you sh
 
 <summary>Downloading .NET</summary>
 
-Open either of these pages:&#x20;
+Open either of these pages:
 
 * [6.0](https://dotnet.microsoft.com/en-us/download)
 * [7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
@@ -66,7 +66,7 @@ You can download Wolvenkit from any of the following links (click on the cards).
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/Wolvenkit/releases">https://github.com/WolvenKit/Wolvenkit/releases</a></td><td><a href="../../.gitbook/assets/wkit_stable.png">wkit_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.nexusmods.com/cyberpunk2077/mods/2201">https://www.nexusmods.com/cyberpunk2077/mods/2201</a></td><td><a href="../../.gitbook/assets/wkit_nexus_stable.png">wkit_nexus_stable.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://github.com/WolvenKit/WolvenKit-nightly-releases/releases">https://github.com/WolvenKit/WolvenKit-nightly-releases/releases</a></td><td><a href="../../.gitbook/assets/wkit_nightly.png">wkit_nightly.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-GitHub (the links with the Wolvenkit icon) is the best way to stay up-to-date with WolvenKit, as this is where development happens. You can download the latest [stable release](https://github.com/WolvenKit/Wolvenkit/releases) or Nightly [tester and developer builds](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/tag/8.9.1-nightly.2023-07-28) fresh from the pipeline.&#x20;
+GitHub (the links with the Wolvenkit icon) is the best way to stay up-to-date with WolvenKit, as this is where development happens. You can download the latest [stable release](https://github.com/WolvenKit/Wolvenkit/releases) or Nightly [tester and developer builds](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/tag/8.9.1-nightly.2023-07-28) fresh from the pipeline.
 
 One of the Wolvenkit developers will download the stable version from github to put it on [Nexus](https://www.nexusmods.com/cyberpunk2077/mods/2201), so you can get it from there as well.
 {% endhint %}
@@ -96,21 +96,17 @@ If you don't know which one to use, use the default (portable) one, it's usually
 You don't need to download Wolvenkti Console, unless a (not-outdated) guide tells you so.
 {% endhint %}
 
-| Download option                                              | What is it?                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Wolvenkit-X.X.X.zip<br><strong>You want this</strong></p> | **Default** — the portable version: download and extract this, then start it via Wolvenkit.exe                                                                                                                                                                                                                                                             |
-| Wolvenkit.Console-X.X.X.zip                                  | <p>Command Line Interface (CLI): Not the same as regular Wolvenkit. Formerly known as CP2077tools, and becoming increasingly obsolete.</p><p></p><p>Used by other applications to "talk" to Wolvenkit, for example <a href="https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/modding-tools/mlsetup-builder">MLSetupBuilder</a>.<br></p> |
-| Wolvenkit.ConsoleLinux-X.X.X.zip                             | As above, but on Linux. You usually don't need this.                                                                                                                                                                                                                                                                                                       |
-| WolvenkitSetup-X.X.X.zip                                     | <p>The Wolvenkit <strong>installer</strong>. This will run a setup and let you pick a folder.<br>Currently (December 2024), the installer has issues.</p>                                                                                                                                                                                                  |
-| <p>Source code (zip)<br>Source code (tar.gz)</p>             | A snapshot of the source code that was compiled into this specific release. If you're not a programmer, then you don't want this.                                                                                                                                                                                                                          |
-
-
+| Download option                                              | What is it?                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Wolvenkit-X.X.X.zip<br><strong>You want this</strong></p> | **Default** — the portable version: download and extract this, then start it via Wolvenkit.exe                                                                                                                                                                                                                                                      |
+| Wolvenkit.Console-X.X.X.zip                                  | <p>Command Line Interface (CLI): Not the same as regular Wolvenkit. Formerly known as CP2077tools, and becoming increasingly obsolete.</p><p>Used by other applications to "talk" to Wolvenkit, for example <a href="https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/modding-tools/mlsetup-builder">MLSetupBuilder</a>.<br></p> |
+| Wolvenkit.ConsoleLinux-X.X.X.zip                             | As above, but on Linux. You usually don't need this.                                                                                                                                                                                                                                                                                                |
+| WolvenkitSetup-X.X.X.zip                                     | <p>The Wolvenkit <strong>installer</strong>. This will run a setup and let you pick a folder.<br>Currently (December 2024), the installer has issues.</p>                                                                                                                                                                                           |
+| <p>Source code (zip)<br>Source code (tar.gz)</p>             | A snapshot of the source code that was compiled into this specific release. If you're not a programmer, then you don't want this.                                                                                                                                                                                                                   |
 
 <details>
 
 <summary>Detailed download instructions (with screenshots!)</summary>
-
-
 
 Download **either** Stable or Nightly release.
 
@@ -125,7 +121,7 @@ Download **either** Stable or Nightly release.
 
 ## Installing
 
-WolvenKit is not technically installed, you extract the downloaded file into a folder and it runs as a [portable application](https://en.wikipedia.org/wiki/Portable_application). When you update the application, you'll overwrite the existing files with those that you've newly downloaded — you don't need to delete the old files, unless you run into weird problems.&#x20;
+WolvenKit is not technically installed, you extract the downloaded file into a folder and it runs as a [portable application](https://en.wikipedia.org/wiki/Portable_application). When you update the application, you'll overwrite the existing files with those that you've newly downloaded — you don't need to delete the old files, unless you run into weird problems.
 
 Your settings are saved in `C:\Users\yourUserName\AppData\Roaming\REDModding\WolvenKit.`
 
@@ -138,8 +134,6 @@ This guide assumes that you install Wolvenkit and Wolvenkit Console to the follo
 You can use other paths, the guide just assumes that you don't.
 {% endhint %}
 
-
-
 <details>
 
 <summary>Making your Cyberpunk2077Mod folder &#x26; Extracting your WolvenKit.zip file</summary>
@@ -147,59 +141,50 @@ You can use other paths, the guide just assumes that you don't.
 You can manually make your `Cyberpunk2077Mod` folder in the root of your C: drive by:
 
 1.  Right-clicking your C: drive, Click 'New Folder'\
-    \- On Windows 11 you'll have to click 'Show More Options' at the bottom of the list 🙄\
-
+    \- On Windows 11 you'll have to click 'Show More Options' at the bottom of the list 🙄\\
 
     <figure><img src="../../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
-
-2)  Type or Paste in Cyberpunk2077Mod & press Enter\
+2.  Type or Paste in Cyberpunk2077Mod & press Enter\
     \- You may see the Folder populate within another Directory Folder, this should self-resolve after pressing Enter
 
     <figure><img src="../../.gitbook/assets/02.png" alt=""><figcaption></figcaption></figure>
-3)  From, presumably, your Downloads Folder, drag & drop your wolvenkit.zip file into C:\Cyberpunk2077Mod\
-
+3.  From, presumably, your Downloads Folder, drag & drop your wolvenkit.zip file into C:\Cyberpunk2077Mod\\
 
     <figure><img src="../../.gitbook/assets/06 (1).png" alt=""><figcaption></figcaption></figure>
-
-
-4)  With WolvenKit.zip selected, either right click to Extract All or Click the Extract All Button in File Explorer to begin Extracting\
-
+4.  With WolvenKit.zip selected, either right click to Extract All or Click the Extract All Button in File Explorer to begin Extracting\\
 
     <figure><img src="../../.gitbook/assets/05.png" alt=""><figcaption><p>All Done!</p></figcaption></figure>
 
 </details>
 
-
-
-
-
 ### For Linux Users
-{% hint style="warning" %}    
-Linux compatability works off of a combination of throwing things at the wall and dark magic. As such, we cannot guarantee stability when using Linux.
-{% endhint %} 
-#### Installation
-1) Download the `WolvenKit-x.x.x.zip` or `WolvenKit-x.x.x-nightly.yyyy.mm.dd.zip` files (NOT THE LINUX VERSION) from [Stable](https://github.com/WolvenKit/WolvenKit/releases/latest) or [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest) releases, depending on how much you want to gamble.
-2) Extract them literally wherever you want it doesn't really matter, just remember where you put it.
-3) Find the `WolvenKit.exe` file in the extracted zip file, copy the path.
-4) Now here's where it gets weird, open Steam and go to your libary. Find the "Games" tab on the menu bar, and click on "Add a Non-Steam Game to My Library"
-5) In the window that just opened, press "browse", and paste the link, then select `WolvenKit.exe` if it's not selected already, and press "Add Selected Program".
-6) Find WolvenKit in your library, right click on it in the sidebar, press properties. Go into the compatability tab, select "Force the use of a specific Steam Play compatability tool" and then select "Proton Hotfix".
-7) When you first launch, it will ask for path to Cyberpunk2077.exe. It will be located in `~/.steam/steam/steamapps/common/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe`
-8) All done!
 
+{% hint style="warning" %}
+Linux compatability works off of a combination of throwing things at the wall and dark magic. As such, we cannot guarantee stability when using Linux.
+{% endhint %}
+
+#### Installation
+
+1. Download the `WolvenKit-x.x.x.zip` or `WolvenKit-x.x.x-nightly.yyyy.mm.dd.zip` files (NOT THE LINUX VERSION) from [Stable](https://github.com/WolvenKit/WolvenKit/releases/latest) or [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest) releases, depending on how much you want to gamble.
+2. Extract them literally wherever you want it doesn't really matter, just remember where you put it.
+3. Find the `WolvenKit.exe` file in the extracted zip file, copy the path.
+4. Now here's where it gets weird, open Steam and go to your libary. Find the "Games" tab on the menu bar, and click on "Add a Non-Steam Game to My Library"
+5. In the window that just opened, press "browse", and paste the link, then select `WolvenKit.exe` if it's not selected already, and press "Add Selected Program".
+6. Find WolvenKit in your library, right click on it in the sidebar, press properties. Go into the compatability tab, select "Force the use of a specific Steam Play compatability tool" and then select "Proton Hotfix".
+7. When you first launch, it will ask for path to Cyberpunk2077.exe. It will be located in `~/.steam/steam/steamapps/common/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe`
+8. All done!
 
 #### Known Linux Issues (see [bug reports](https://wiki.redmodding.org/wolvenkit/help/bug-reports) for reporting):
-- Mesh Preview does not work.
-- Font is not loaded correctly.
-- The launch splash is not transparent on Stable.
 
-
+* Mesh Preview does not work.
+* Font is not loaded correctly.
+* The launch splash is not transparent on Stable.
 
 ### TLDR;
 
-1. Download the new release, extract the files (over your old install if you have one) and run it.&#x20;
+1. Download the new release, extract the files (over your old install if you have one) and run it.
 2. Optional: Proceed to the [full configuration instructions](../eli5-getting-started/configure-modding-tools.md).
-3. Troubleshooting: Delete everything in the install folder, then re-extract the downloaded files again.&#x20;
+3. Troubleshooting: Delete everything in the install folder, then re-extract the downloaded files again.
 4. More troubleshooting: Find us on [Discord](https://discord.com/channels/717692382849663036/808086068023918603) in the [#wolvenkit-help-me](https://discord.com/channels/717692382849663036/808086068023918603) channel.
 
 ### Optional: Removing old versions
@@ -237,8 +222,6 @@ If you want to launch Wolvenkit without browsing to the folder every time, you c
 4.  You should now see something like this:
 
     <figure><img src="../../.gitbook/assets/ELI5_GetStart_Download_S06.png" alt=""><figcaption></figcaption></figure>
-
-
 5. Click "OK"
 6. Right-click on your shortcut again and select "Pin to Start Menu"
 7. That's it! You can launch now!
@@ -248,15 +231,15 @@ If you want to launch Wolvenkit without browsing to the folder every time, you c
 {% hint style="info" %}
 For full instructions on how to configure Wolvenkit, please see the [detailed guide](../eli5-getting-started/configure-modding-tools.md).
 
-For a more detailed explanation of the options below, please see the [corresponding wiki page](../../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../../wolvenkit-app/home/) and opening the [settings page](../../wolvenkit-app/settings.md).&#x20;
+For a more detailed explanation of the options below, please see the [corresponding wiki page](../../wolvenkit-app/settings.md#settings-explained). You can change them at any time by going to [Wolvenkit Home](../../wolvenkit-app/home/) and opening the [settings page](../../wolvenkit-app/settings.md).
 {% endhint %}
 
 When launching WolvenKit for the first time you will be greeted with a welcome form asking to set your preferences.
 
-We recommend setting the path to your game files immediately.&#x20;
+We recommend setting the path to your game files immediately.
 
 ![](<../../.gitbook/assets/8.5.3 FirstSetup generic.png>)
 
-The **Game Executable Path** **(.exe)** is the file path or location of the Cyberpunk2077.exe file. This can be set by manually entering a file path, or using the folder icon to open Windows Explorer.&#x20;
+The **Game Executable Path** **(.exe)** is the file path or location of the Cyberpunk2077.exe file. This can be set by manually entering a file path, or using the folder icon to open Windows Explorer.
 
 The **Depot Path** is where WolvenKit will keep extracted Cyberpunk assets and files that are required for regular operation.

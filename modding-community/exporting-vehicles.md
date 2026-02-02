@@ -345,7 +345,7 @@ If you're fine with the default appearance, you can go to the [next section](exp
 
 Otherwise, you need to enter the exact **appearanceName** into the Blender open dialog. You can find the appearance name in your `.ent` file inside the `appearances` list:
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
 
 ## Your entity in Blender
 

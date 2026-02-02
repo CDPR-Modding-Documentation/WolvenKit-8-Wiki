@@ -11,7 +11,7 @@ description: The CR2W Editor's toolbar, and what you can do there
 
 This page documents the editor menu bar.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>The editor toolbar as seen in a .mesh file as of Wolvenkit 8.16.2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt="" width="563"><figcaption><p>The editor toolbar as seen in a .mesh file as of Wolvenkit 8.16.2</p></figcaption></figure>
 
 ## Editor Mode
 

@@ -16,15 +16,15 @@ For general information such as the file structure and output directory, check [
 
 In order to export sound effects, you need to have the `sfx_container.opusinfo` file in your project. Find it in the [Asset Browser](../../editor/asset-browser.md) and [add it to your project](../../editor/asset-browser.md#adding-files-to-projects).
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>You should now see the file in the project explorer.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>You should now see the file in the project explorer.</p></figcaption></figure>
 
-With the opusinfo selected in the Export tool (if you don't see the file, press Refresh), you should now see the export options on the right.&#x20;
+With the opusinfo selected in the Export tool (if you don't see the file, press Refresh), you should now see the export options on the right.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>The Export Tool looks something like this.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>The Export Tool looks something like this.</p></figcaption></figure>
 
 The important field for us here is "Selected for Export". Click the three dots on the right to open a selection window where you can choose which hashes to export. Click the hash you want and press the arrow button pointing right to add it to selection.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Hash selection window</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Hash selection window</p></figcaption></figure>
 
 {% hint style="info" %}
 _Hash_ is basically an ID of a sound. To find the hashes you need, you can use the [SoundDB web tool](https://sounddb.redmodding.org/sfx).
@@ -40,7 +40,7 @@ Note that importing sounds this way is **incompatible** with any other mod modif
 
 To import back a sound effect, all you need is the sound file in `.wav` format with the exact same filename it had when you exported it. It should also be in the same folder (raw).
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>The import tool with a sound effect selected.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>The import tool with a sound effect selected.</p></figcaption></figure>
 
 You can usually leave the default settings as they are. After pressing "Import selected", your project's archive folder should now contain a new modified `sfx_container.opusinfo` and one or more `sfx_container_XXX.opuspak` (XXX being a number). The opuspak contains your new sound (and other sounds too).
 

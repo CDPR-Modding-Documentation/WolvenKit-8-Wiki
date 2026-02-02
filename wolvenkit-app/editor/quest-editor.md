@@ -6,7 +6,7 @@ description: Quest Editor 101
 
 The Quest Editor is designed to work .questphase files. It enables a node-based workflow: you select a node on the graph editor to edit and inspect its properties.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Wolvenkit's Quest Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Wolvenkit's Quest Editor</p></figcaption></figure>
 
 {% hint style="danger" %}
 Undo and redo actions are currently **not supported** but are planned.&#x20;

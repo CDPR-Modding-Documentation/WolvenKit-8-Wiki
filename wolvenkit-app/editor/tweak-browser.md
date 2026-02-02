@@ -12,17 +12,9 @@ The Tweak Browser lets you to search for various elements. For instance, you can
 The location of the browser in Wolvenkit depends on your design view. In most cases, you can find it within the right-side navigation. However, if you're unable to locate it, you can easily enable it by navigating to 'View' and selecting 'Tweak Browser'
 {% endhint %}
 
-<div align="center" data-full-width="true">
+<div align="center" data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="176"><figcaption><p>Right click on the element to 'Add TweakXL Override'</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="176"><figcaption><p>Right click on the element to 'Add TweakXL Override'</p></figcaption></figure>
-
-</div>
-
-<div align="center" data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="299"><figcaption><p>After that action you'll have a .yaml file inside a 'resources' folder on the root directory of the project</p></figcaption></figure>
-
-</div>
+<div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="299"><figcaption><p>After that action you'll have a .yaml file inside a 'resources' folder on the root directory of the project</p></figcaption></figure></div>
 
 {% hint style="info" %}
 For furter info about TweakDB  modding you can check the [CET Wiki ⇗](https://wiki.redmodding.org/cyber-engine-tweaks/) and the [Cyberpunk 2077 Modding wiki ⇗](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/modding-tools/redmod/tweakdb-modding)

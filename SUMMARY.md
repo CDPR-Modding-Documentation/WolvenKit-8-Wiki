@@ -59,6 +59,7 @@
   * [Wolvenkit Search: Finding files](wolvenkit-app/usage/wolvenkit-search-finding-files.md)
   * [Blender Integration](wolvenkit-app/usage/blender-integration.md)
   * [Scripting with wscript](wolvenkit-app/usage/scripting-with-wscript.md)
+  * [WScript API Documentation](wolvenkit-app/usage/wscript-api-docs.md)
   * [Video and Audio](wolvenkit-app/usage/video-and-audio.md)
   * [Import/Export](wolvenkit-app/usage/import-export/README.md)
     * [Import/Export as JSON](wolvenkit-app/usage/import-export/import-export-as-json.md)

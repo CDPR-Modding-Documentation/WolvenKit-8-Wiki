@@ -35,8 +35,8 @@ For questions or suggestions about the scripting interface please visit the #wol
 ## API Commands
 
 Documentation of the API can be found at
-{% content-ref url="wolvenkit-app/usage/wscript-api-docs.md" %}
-[wscript-api-docs.md](wolvenkit-app/usage/wscript-api-docs.md)
+{% content-ref url="wscript-api-docs.md" %}
+[wscript-api-docs.md](wscript-api-docs.md)
 {% endcontent-ref %}
 
 ## Utility Functions

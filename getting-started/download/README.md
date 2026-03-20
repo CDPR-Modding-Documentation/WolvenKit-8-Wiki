@@ -174,6 +174,24 @@ Linux compatability works off of a combination of throwing things at the wall an
 7. When you first launch, it will ask for path to Cyberpunk2077.exe. It will be located in `~/.steam/steam/steamapps/common/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe`
 8. All done!
 
+{% hint style="info" %}
+The steps above are to setup running WolvenKit with Proton by adding it to Steam, which is easiest for most users. You can skip this hint if you're fine with that.
+
+Experienced Linux users can alternatively run with Proton directly by installing Proton-GE system-wide and registering it as the default program to open Windows executables with (instead of Wine). This is done with `binfmt`, which is a modular system to tell Linux how to execute binary files.
+
+Note that is a system-wide change and will affect how all Windows programs are opened, effectively replacing Wine with Proton. Steps may vary between distros, make sure to check your distro's binfmt manual page (`man binfm.d` or find it online, for example [the Arch Linux one](https://man.archlinux.org/man/binfmt.d.5.en)), but the general idea is:
+
+* Install Proton-GE system-wide (for example on Arch Linux use `yay -S proton-ge-custom-bin`), you should end up with `proton-ge` as a runnable terminal command
+* If Wine is installed, disable the default Wine binfmt handlers
+  * They are usually located at `/usr/lib/binfmt.d/`, usually both `wine.conf` and `mono.conf`
+  * Disable them by making a symbolic link to `/dev/null` in `/etc/binfmt.d` with the same name, for example `sudo ln -s /dev/null /etc/binfmt.d/wine.conf` and `sudo ln -s /dev/null /etc/binfmt.d/mono.conf`
+* Make a new custom binfmt handler at `/etc/binfmt.d/proton-ge.conf` based on `/usr/lib/binfmt.d/wine.conf`, for example with this content:
+  * `:DOSWin:M::MZ::/usr/bin/proton-ge:`&#x20;
+* Reload the binfmt configuration with `sudo systemctl restart systemd-binfmt`
+
+After this, double-clicking any Windows program should open it with Proton, including WolvenKit. This means you can just download the latest `WolvenKit-x.x.x.zip`, extract it, and double-click `WolvenKit.exe`. In some cases you might also need to `chmod +x WolvenKit.exe`.
+{% endhint %}
+
 #### Known Linux Issues (see [bug reports](https://wiki.redmodding.org/wolvenkit/help/bug-reports) for reporting):
 
 * Mesh Preview does not work.

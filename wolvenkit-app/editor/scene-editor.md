@@ -99,6 +99,11 @@ FYI: When a node from a questphase is copied from a questphase file and pasted i
 * Detach Node: Removes all incoming and outgoing connections from the selected node.
 * Delete Node (Soft Delete): Replaces the selected node with a special '[Deletion Marker](https://nativedb.red4ext.com/c/5548111434222821)' node.  This is the default deletion for any signal-stopping node such as a PauseCondition, Choice, etc. This is the recommended way to remove such nodes from quests that have already been published, as it prevents users with existing saves from getting stuck in a signal-stopping node.&#x20;
 * Destroy Node (Hard Delete): Permanently removes the selected node from the graph. This is safe to use when creating a new scene, but should be used with caution on signal-stopping scene nodes that are already in use, as it can cause user to be stuck in your quest.
+* Search: Use the search bar at the top right to search for arbitrary text in the nodes (and inline subgraphs/Phase nodes). Use Enter to cycle between results.&#x20;
+
+{% hint style="info" %}
+Search currently only searches within nodes. It does not search inside other metadata fields or tabs like actors or props. If you need to search widely, convert the scene to .json by right-clicking on it and search it externally with Notepad++ or an IDE like VS Code.&#x20;
+{% endhint %}
 
 **Unique actions:**
 
@@ -122,4 +127,6 @@ FYI: When a node from a questphase is copied from a questphase file and pasted i
 | `Alt` + `Click` on a socket or `Right-click` on a connection | Deletes connection                                                                                                                                                                                                                                                                                                                                                                   |
 | `Ctrl` + `C`                                                 | Copies the currently selected node                                                                                                                                                                                                                                                                                                                                                   |
 | `Ctrl` + `V`                                                 | Pastes the copied node                                                                                                                                                                                                                                                                                                                                                               |
+| `Enter`                                                      | **Applies only when search bar is in focus**. When searching, pressing Enter will navigate and select the node containing the next search result (if present)                                                                                                                                                                                                                        |
+| `Ctr` + `Shift` + `G`                                        | **Applies only when search bar is populated with an entry**. Navigates you to the current search entry. Useful when you're browsing through results, navigate away, and then want to return back to the result you were on                                                                                                                                                           |
 

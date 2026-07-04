@@ -43,6 +43,8 @@
     * [Editor Toolbar](wolvenkit-app/editor/file-editor/editor-toolbar.md)
     * [Editor Difficulty Mode](wolvenkit-app/editor/file-editor/editor-difficulty-mode.md)
     * [Preview](wolvenkit-app/editor/file-editor/preview.md)
+  * [Generators](wolvenkit-app/editor/generators/README.md)
+    * [Prop generator](wolvenkit-app/editor/generators/prop-generator.md)
   * [Log](wolvenkit-app/editor/log.md)
   * [Tweak Browser](wolvenkit-app/editor/tweak-browser.md)
   * [LocKey Browser](wolvenkit-app/editor/lockey-browser.md)

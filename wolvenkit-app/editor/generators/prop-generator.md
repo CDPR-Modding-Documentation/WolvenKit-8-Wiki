@@ -7,9 +7,17 @@ description: The Wolvenkit prop generator and its fields
 **Created:** Jul 4 2026 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")\
 **Last documented update:** Jul 4 2026 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
-This page describes the Wolvenkit prop generator (menu entry: `File` -> `Generate files` -> `Prop (decoration)` )
+This page describes the Wolvenkit prop generator (menu entry: `File` -> `Generate files` -> `Prop (decoration)` ).&#x20;
 
-<figure><img src="../../../.gitbook/assets/wkit-generators-add-prop.png" alt="" width="375"><figcaption></figcaption></figure>
+### Wait, this is not what I want!
+
+For a guide on creating props, see the [yellow wiki](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/everything-else/custom-props).&#x20;
+
+## Screenshot
+
+
+
+<figure><img src="../../../.gitbook/assets/wkit-generators-add-prop.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

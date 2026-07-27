@@ -13,7 +13,7 @@ Runnning `Wolvenkit.CLI settings` will open that for you.
 As a rule of thumb, the settings correspond to their names in the Wolvenkit UI in CamelCase.&#x20;
 
 {% hint style="danger" %}
-TODO: Need _much_ better documentation here. How do I set the depot path again?
+TODO: Need _much_ better documentation here.
 {% endhint %}
 
 ### Example settings file
@@ -31,11 +31,11 @@ An example file (as of PL) can look like this:
   },
   "XbmExportArgs": {
     "Flip" : false,
-    "UncookExtension": "dds"
+    "UncookExtension": "png"
   },
   "MeshExportArgs": {
-    "UncookExtension": "glb",
-    "WithMaterials": false
+    "MaterialRepo": "C:\\depot\\goes\\here",
+    "UncookExtension": "glb"
   }
 }
 

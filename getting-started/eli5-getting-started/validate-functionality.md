@@ -86,11 +86,11 @@ These steps get confusing. Just remember that we’re using the entity file **ts
 
     <figure><img src="../../.gitbook/assets/ELI5_GetStart_Validate_S09.png" alt=""><figcaption></figcaption></figure>
 10. Right click the `t1_tshirt_08.ent` file and open the file without adding it to your project. \
-    &#xNAN;_&#x4E;otice that the file opens in the File Editor and is not listed in the Project Explorer._
+    _&#x4E;otice that the file opens in the File Editor and is not listed in the Project Explorer._
 
     <figure><img src="../../.gitbook/assets/ELI5_GetStart_Validate_S10.png" alt=""><figcaption></figcaption></figure>
 11. In the File Editor, expand appearance and locate the full asset name we found on the Fandom website. \
-    &#xNAN;_&#x4E;otice that in the appearances array, the name ends in “w” which stands for woman (aka “wa” which stands for woman average). Cyberpunk uses postfixes m, ma, mb, mf, w, wa, wb, and wf to describe the gender of the asset and the body type it goes to. A is average, and b and f are synonymous for big/fat. There are other postfixes, but that’s the general concept._
+    _&#x4E;otice that in the appearances array, the name ends in “w” which stands for woman (aka “wa” which stands for woman average). Cyberpunk uses postfixes m, ma, mb, mf, w, wa, wb, and wf to describe the gender of the asset and the body type it goes to. A is average, and b and f are synonymous for big/fat. There are other postfixes, but that’s the general concept._
 
     <figure><img src="../../.gitbook/assets/ELI5_GetStart_Validate_S11.png" alt=""><figcaption></figcaption></figure>
 12. In the File Editor, expand appearance 7 for `tshirt_08_old_02_w`. Click on the blue button for `apperanceResource` to open the APP file without adding it to the project.
@@ -137,7 +137,7 @@ You can now click into your Windows Explorer's task bar, select or delete everyt
 17. On the left side, you will see a panel with the MLSetup preview. Click the "Import" button — important, do not skip this step:\
     ![](<../../.gitbook/assets/image (7).png>)
 18. Notice that the material layers loaded but not the model. Click on **Library** to bring up the frame with the available models.\
-    &#xNAN;_&#x4F;n newer versions of MLSB, you will find the Models Library button at the top._
+    _&#x4F;n newer versions of MLSB, you will find the Models Library button at the top._
 
 <figure><img src="../../.gitbook/assets/ELI5_GetStart_Validate_S18.png" alt=""><figcaption><p>If all of your layers say "(null null) unused", then you haven't imported the mlsetup correctly</p></figcaption></figure>
 

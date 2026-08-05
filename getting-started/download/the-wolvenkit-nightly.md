@@ -41,7 +41,7 @@ If it's broken in both places: congratulations, you've found a new bug!
 ### Reporting a bug
 
 1. Head to the "Issues" section of [Wolvenkit's github](https://github.com/WolvenKit/WolvenKit/issues) \
-   &#xNAN;_(you need a github or Google account; they will not send you spam)_
+   _(you need a github or Google account; they will not send you spam)_
 2. Click the "New issue" button
 3. Select the **type** of issue you are reporting (probably "bug report")
 4. Give a description of the bug, including the following information:

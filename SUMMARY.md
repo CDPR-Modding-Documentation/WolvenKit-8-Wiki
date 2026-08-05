@@ -71,6 +71,7 @@
     * [Import/Export: MLMask and MLSetup](wolvenkit-app/usage/import-export/import-export-mlmask-and-mlsetup.md)
     * [Import/Export: Sound effects](wolvenkit-app/usage/import-export/import-export-sound-effects.md)
   * [Navigating Wolvenkit](wolvenkit-app/usage/navigating-wolvenkit.md)
+  * [Template System](wolvenkit-app/usage/template-system.md)
 * [Error Codes](wolvenkit-app/error-codes.md)
 * [Wait, it can do that?](wolvenkit-app/wait-it-can-do-that.md)
 

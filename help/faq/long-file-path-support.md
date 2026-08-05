@@ -27,7 +27,7 @@ If you don't trust something you read on a random modding wiki, find the full gu
 {% endhint %}
 
 1. Open the registry editor as administrator\
-   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `regedit`, press`Ctrl+Shift+Enter)`_
+   _(Keyboard shortcuts: `Windows+R`, type `regedit`, press`Ctrl+Shift+Enter)`_
 2. In the search bar at the top, enter the following:\
    `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
 3. In the window on the right, find `LongPathsEnabled`
@@ -39,7 +39,7 @@ If you don't trust something you read on a random modding wiki, find the full gu
 <summary>Outdated guide (may not work)</summary>
 
 1. Open a Powershell window as administrator \
-   &#xNAN;_(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter`)_\
+   _(Keyboard shortcuts: `Windows+R`, type `powershell`, press`Ctrl+Shift+Enter`)_\
    \
    Correct Powershell (shows Administrator in the title bar):\
    ![](<../../.gitbook/assets/image (15).png>)\

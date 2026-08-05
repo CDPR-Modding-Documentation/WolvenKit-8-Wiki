@@ -2,7 +2,7 @@
 
 ## What is the Project Explorer?
 
-The Project Explorer is primarily a tool for organizing and navigating mod project files. The Project Explorer gives a constant tree view of all mod project files which streamlines the modding workflow significantly. There are four main **WolvenKit directories** inside the Project Explorer.&#x20;
+The Project Explorer is primarily a tool for organizing and navigating mod project files. The Project Explorer gives a constant tree view of all mod project files which streamlines the modding workflow significantly. There are four main **WolvenKit directories** inside the Project Explorer.
 
 ### Project Explorer Tabs
 
@@ -14,13 +14,13 @@ You can switch between different tabs at the top of the project explorer (see th
 
 ### Archive
 
-Only shows you files under `your_wolvenkit_project/source/archive`.&#x20;
+Only shows you files under `your_wolvenkit_project/source/archive`.
 
 Contains files that will be bundled into your mod's .archive file. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#archive](../usage/wolvenkit-projects.md#archive "mention")
 
 ### Raw
 
-**Location:** `your_wolvenkit_project/source/raw`.&#x20;
+**Location:** `your_wolvenkit_project/source/raw`.
 
 Your (dirty?) working directory. Contains files that will not be part of your mod, as well as exported files. For more information, check the documentation under [wolvenkit-projects.md](../usage/wolvenkit-projects.md "mention") -> [#raw](../usage/wolvenkit-projects.md#raw "mention")
 
@@ -52,7 +52,7 @@ Right-click any file within the Project Explorer to explore the Context Menu.
 
 #### Open in MLSetupBuilder
 
-Requires MLSetupBuilder plugin for WolvenKit. Install by navigating to the [**View Options**](broken-reference) Toolbar panel.
+Requires MLSetupBuilder plugin for WolvenKit. Install by navigating to the [**View Options**](https://github.com/CDPR-Modding-Documentation/WolvenKit-8-Wiki/blob/main/wolvenkit-app/editor/broken-reference/README.md) Toolbar panel.
 
 #### Export to JSON/Import to JSON
 
@@ -86,7 +86,7 @@ Pastes copied project file.
 
 #### Copy relative path
 
-Copies the selected file path to OS/system clipboard, trimming off all folders outside the game directory. Extremely useful for modifying paths while using the File Editor.&#x20;
+Copies the selected file path to OS/system clipboard, trimming off all folders outside the game directory. Extremely useful for modifying paths while using the File Editor.
 
 {% hint style="info" %}
 By pressing Shift and/or Ctrl, you can display alternative copy options
@@ -104,10 +104,10 @@ Find the selected file with the OS/system file explorer.
 
 The Project Explorer can be filtered by directory.
 
-**SOURCE** |  All project directories (default)\
-&#x20;   **archive**  |  Archive directory\
-&#x20;   **raw** |  Raw directory\
-&#x20;   **resources** |  Mirrors the game directory, use it to place additional files\
-**PACKED**  |  Internal WolvenKit folder for mod deployment. Will be wiped before packing the project!\
+**SOURCE** | All project directories (default)\
+**archive** | Archive directory\
+**raw** | Raw directory\
+**resources** | Mirrors the game directory, use it to place additional files\
+**PACKED** | Internal WolvenKit folder for mod deployment. Will be wiped before packing the project!\
 \
 Additionally the rightmost hamburger-style button can be used to toggle a flat file list without folders.

@@ -172,7 +172,8 @@ Linux compatability works off of a combination of throwing things at the wall an
 5. In the window that just opened, press "browse", and paste the link, then select `WolvenKit.exe` if it's not selected already, and press "Add Selected Program".
 6. Find WolvenKit in your library, right click on it in the sidebar, press properties. Go into the compatability tab, select "Force the use of a specific Steam Play compatability tool" and then select "Proton Hotfix".
 7. When you first launch, it will ask for path to Cyberpunk2077.exe. It will be located in `~/.steam/steam/steamapps/common/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe`
-8. All done!
+8. When Wolvenkit starts properly the next time, go into Settings (on the left) and add \`Z:\` in front of Cyberpunk's fie path to ensure that the mod browser works as expected and shows the mod directories proper.
+9. All done!
 
 {% hint style="info" %}
 The steps above are to setup running WolvenKit with Proton by adding it to Steam, which is easiest for most users. You can skip this hint if you're fine with that.

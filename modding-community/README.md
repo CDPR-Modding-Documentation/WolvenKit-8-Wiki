@@ -9,7 +9,7 @@ This wiki focuses on workflows that are central to WolvenKit. You can find much 
 
 * [Altering Appearances within Wolvenkit - Full Workflow](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/npcs/appearances-change-the-looks/altering-appearances-within-wolvenkit-full-workflow "mention")
 * [Recolours and Refits](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/recolours-and-refits "mention")
-* [NPV - V as custom NPC](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/npcs/npv-v-as-custom-npc "mention")
+* [NPV - from scratch with WolvenKit](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/npcs/npv-v-as-custom-npc/npv-v-as-custom-npc "mention")
 * [Adding new items](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/modding-guides/items-equipment/adding-new-items "mention")
 
 … or our knowledge base, where you can find documentation like

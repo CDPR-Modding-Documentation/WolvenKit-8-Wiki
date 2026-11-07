@@ -4,15 +4,14 @@ description: >-
   print, etc.)
 ---
 
-# Exporting Game Entnties to Blender
+# Exporting Game Entities to Blender
 
 ## Summary
 
-**Created by** [Simarilius](https://app.gitbook.com/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](https://app.gitbook.com/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
-**Published: September 03 2022**\
-**Last documented update: November 2026**
+**Created:** September 03 2022 by [Simarilius](https://app.gitbook.com/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](https://app.gitbook.com/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
+**Last documented update:** November 2026 by [mana vortex](https://app.gitbook.com/u/NfZBoxGegfUqB33J9HXuCs6PVaC3 "mention")
 
-This guide aims to walk you through finding and exporting something from the game to Blender so that its usable for cosplay, 3d printing, or whatever.&#x20;
+This guide walks you through finding and exporting something from the game to Blender so that it's usable for cosplay, 3d printing, or whatever.&#x20;
 
 #### This guide uses the following versions:
 
@@ -41,7 +40,7 @@ The .ent file is the game's top level definition of anything - a character, a ve
 
 ### Finding the file
 
-Before we can export anything, we need to find the `.ent` file for the thing we want to export. This tutorial will use Jackie, but it works just the same for everyone else.
+Before we can export anything, we need to find the `.ent` file for the thing we want to export. This tutorial will use Jackie, but it works just the same for everyone and everything else.
 
 {% hint style="info" %}
 You can find lists of the most common files on the yellow wiki:
@@ -51,7 +50,7 @@ You can find lists of the most common files on the yellow wiki:
 * [Weapons](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/cheat-sheet-tweak-ids/weapons "mention")
 {% endhint %}
 
-The easiest way to find a characters ent if their not already in the list on the wiki is to use Red Hot Tools. Once its installed you can simply walk up to an NPC in game and the inspect tab will show you the ent and appearance info you need. With that info you need to find them in wolvenkit.
+If the person or thing you want isn't on the list, you can use the [search](../../wolvenkit-app/usage/wolvenkit-search-finding-files.md) to find it (more on that below), or use [RedHotTools](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/redhottools): once it's installed, you can simply walk up to an NPC, and the inspect tab will show you everything you need.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-11-20 191847.png" alt=""><figcaption></figcaption></figure>
 

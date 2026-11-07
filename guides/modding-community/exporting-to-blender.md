@@ -4,62 +4,62 @@ description: >-
   print, etc.)
 ---
 
-# Exporting Characters to Blender
+# Exporting Game Entnties to Blender
 
 ## Summary
 
 **Created by** [Simarilius](https://app.gitbook.com/u/G2MqNkfgTlQ1R3G4B5s6WefLjdy2 "mention") **&** [dragonzkiller](https://app.gitbook.com/u/dpriBUirXwWYeCIhyywmqhKrMMV2 "mention")\
 **Published: September 03 2022**\
-**Last documented update: November 2024**
+**Last documented update: November 2026**
 
-This guide aims to walk you through finding and exporting a character to blender so that its usable for cosplay or 3d printing or whatever. Guide is using nightly WolvenKit, Cyberpunk add-on for Blender, and Blender 3.6.
+This guide aims to walk you through finding and exporting something from the game to Blender so that its usable for cosplay, 3d printing, or whatever.&#x20;
 
 #### This guide uses the following versions:
 
-* Cyberpunk 2077 game version 2.1&#x20;
-* Blender >= [3.6 (stable)](https://www.blender.org/download/lts/3-6/) or [4.0](https://www.blender.org/download/releases/4-0/)
-* Wolvenkit >= 8.11.1 ([stable](https://github.com/WolvenKit/Wolvenkit/releases) | [Nightly](https://github.com/WolvenKit/WolvenKit-nightly-releases))
-* [Wolvenkit IO suite for Blender >= 1.5.1](https://github.com/WolvenKit/Cyberpunk-Blender-add-on)
+Cyberpunk 2077: 2.5
+
+{% include "https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/~/reusable/HVBvlv6fppmsiPIhgdDr/" %}
 
 ## Prerequisites
 
 * [ ] You have [created a new Wolvenkit project](../../wolvenkit-app/usage/wolvenkit-projects.md#create-a-new-wolvenkit-mod-project)
 
 {% hint style="warning" %}
-This guide works just the same for guns — add the .ent to your project, run the script, import, profit. Vehicles are more complex and have their own guide: please see [exporting-vehicles.md](../../modding-community/exporting-vehicles.md "mention") for these.
+This guide works just the same for guns or vehicles — add the .ent to your project, run the script, import, profit.&#x20;
 
 If you want to add a character's animations, you can check the follow-up guide [exporting-rigs-and-anims.md](exporting-to-blender/exporting-rigs-and-anims.md "mention").
 {% endhint %}
 
-## The character's .ent file
+## The .ent file
 
-This section will tell you how to find and add an NPC's file to your project. If you already have one (because you're exporting an NPV), you can skip it and go straight to [#exporting-to-blender](exporting-to-blender.md#exporting-to-blender "mention").
+This section will tell you how to find and add an .ent file to your project. \
+If you already have one (because you're exporting an NPV), you can skip it and go straight to [#exporting-to-blender](exporting-to-blender.md#exporting-to-blender "mention").
+
+### What's this for?
+
+The .ent file is the game's top level definition of anything - a character, a vehicle, a weapon.&#x20;
 
 ### Finding the file
 
-Before we can export anything, we need to find the `.ent` file for the character we want to export. This tutorial will use Jackie, but it works just the same for everyone else.
+Before we can export anything, we need to find the `.ent` file for the thing we want to export. This tutorial will use Jackie, but it works just the same for everyone else.
 
 {% hint style="info" %}
-You can find a list of the entity files for a lot of the main characters over on the Cyberpunk 2077 Modding wiki [Here](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators/references-lists-and-overviews/people)
+You can find lists of the most common files on the yellow wiki:
+
+* [NPCs and their files](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/people "mention")
+* [Cheat Sheet: Vehicles](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/vehicles/vehicles "mention")
+* [Weapons](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/references-lists-and-overviews/cheat-sheet-tweak-ids/weapons "mention")
 {% endhint %}
 
 The easiest way to find a characters ent if their not already in the list on the wiki is to use Red Hot Tools. Once its installed you can simply walk up to an NPC in game and the inspect tab will show you the ent and appearance info you need. With that info you need to find them in wolvenkit.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-11-20 191847.png" alt=""><figcaption></figcaption></figure>
 
-With our project open in Wolvenkit, we switch to the [Asset Browser](../../wolvenkit-app/editor/asset-browser.md) and search for the right file
-
-```
-jackie
-```
-
-{% hint style="info" %}
-You can refine your search, checking only .ent files, by using the following search query:&#x20;
+With our project open in Wolvenkit, we switch to the [Asset Browser](../../wolvenkit-app/editor/asset-browser.md) and use the [search](../../wolvenkit-app/usage/wolvenkit-search-finding-files.md) to find the right file:
 
 ```
 jackie > .ent
 ```
-{% endhint %}
 
 This will give us plenty of files — we'll sort them by file extension and scroll to the `ent` section of the list. `jackie_welles.ent` looks promising, so we'll double-check if it's the right file:&#x20;
 
@@ -72,13 +72,11 @@ Now, [add the file to your project](../../wolvenkit-app/editor/asset-browser.md#
 
 ## Exporting to Blender
 
-With the `.ent` file in your project, you can run the script that will handle the actual export, adding all the necessary files to your project and exporting them in a way that Blender can process.
+With the `.ent` file in your project, you can run the script that will handle the actual export, adding all the necessary files to your project and exporting them in a way that Blender can process:
 
-Open the [script-manager.md](../../wolvenkit-app/tools/script-manager.md "mention") (Tools -> Script Manager as of Wolvenkit 8.15), find `Export_Ent.wscript` and run it.
+<figure><img src="../../.gitbook/assets/export_ent_script_UI.png" alt=""><figcaption><p>You can also run this from the  <a data-mention href="../../wolvenkit-app/tools/script-manager.md">script-manager.md</a>  </p></figcaption></figure>
 
-{% hint style="info" %}
-Wscript cant export files from other mods currently, if your exporting an NPV which uses other mods you will need to add any used files/materials to the project manually if you want them in Blender.
-{% endhint %}
+Afterwards, click the play button.
 
 
 
@@ -124,26 +122,16 @@ Before clicking the import button, please read the next section about [#importin
 Find the full documentation on the yellow wiki under  [Wolvenkit Blender IO Suite](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite "mention") -> [WKit Blender Plugin: Import/Export](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export "mention") ->  [WKit Blender Plugin: Import/Export #Entities](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/for-mod-creators-theory/modding-tools/wolvenkit-blender-io-suite/wkit-blender-plugin-import-export#entities "mention")
 {% endhint %}
 
+Point it to the exported `.ent.json` in your project's files (if you right-click the .ent in your project and hold `ctrl`+`shift`, then the context menu will let you copy the absolute path to the raw folder):<br>
 
-
-Point it to the exported `.ent.json` in your project's files.  For Jackie, the relative path is `source\raw\base\characters\entities\main_npc\jackie_welles.ent.json`.
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4gzcGtLrr90pVjAWVdTc%2Fuploads%2FlkiC2IKH8JGip9AqSc9c%2Fblender_plugin_import_entity_2.png?alt=media&#x26;token=e34fa8dc-916e-44c9-a294-94af9771e1e0" alt=""><figcaption></figcaption></figure>
-
-### Importing a specific appearance
-
-Unless you specify otherwise, the `default` appearance will be chosen. If you want another, open the `.ent` file in your project and enter the exact **appearanceName** into the Blender open dialog.&#x20;
-
-You can find the appearance name in your `.ent` file inside the `appearances` list:
-
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>The same file that you picked in Step 1</p></figcaption></figure>
-
-Now, click the `Import Ent from JSON` button and wait while the Blender plugin does its thing.&#x20;
+<figure><img src="../../.gitbook/assets/import_character_ent.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Blender might need a few minutes to load the materials and bake the shaders. If you aren't getting any errors, just assume that it's still at it.&#x20;
 
-To double-check, you can select Window -> Toggle System Console to watch Blender work.
+To double-check, you can select Window -> Toggle System Console to watch Blender work, but you have to do that BEFORE you click the button.
 {% endhint %}
+
+Now, click the `Import Ent from JSON` button and wait while the Blender plugin does its thing.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>

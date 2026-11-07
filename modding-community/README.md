@@ -27,8 +27,8 @@ That's just a small selection, hit up [Cyberpunk 2077 Modding](https://app.gitbo
 [exporting-to-blender.md](../guides/modding-community/exporting-to-blender.md)
 {% endcontent-ref %}
 
-{% content-ref url="exporting-vehicles.md" %}
-[exporting-vehicles.md](exporting-vehicles.md)
+{% content-ref url="/broken/pages/xyxzYztR8eVEwCto4EKV" %}
+[Broken link](/broken/pages/xyxzYztR8eVEwCto4EKV)
 {% endcontent-ref %}
 
 {% hint style="info" %}

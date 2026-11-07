@@ -94,9 +94,8 @@
 ***
 
 * [Modding with WolvenKit](modding-community/README.md)
-  * [Exporting Characters to Blender](guides/modding-community/exporting-to-blender.md)
+  * [Exporting Game Entnties to Blender](guides/modding-community/exporting-to-blender.md)
     * [Exporting Rigs & Anims](guides/modding-community/exporting-to-blender/exporting-rigs-and-anims.md)
-  * [Exporting Vehicles](modding-community/exporting-vehicles.md)
 
 ## Help
 
